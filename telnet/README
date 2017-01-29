@@ -1,0 +1,49 @@
+The controller, drone, and camera have open telnet servers running on ports 2345, 5678, and 20, respectively. Both the controller and the drone are unauthenticated and only allow for one session at a time; any attempts to connect as a second user at the same time returns an error message that the ap server is busy. The camera's telnet server is authenticated and based on the root user password (same as ssh).
+
+The mobile app uses the servers on the controller and drone to receive telemetry data and update its state information. This information allows the app to leverage the DJI SDK and issue commands back to the controller, for purposes such as autonomous control and correction.
+
+By leveraging this, one can find a vulnerability on two fronts: propping up a false telnet server under the controllers SSID/MAC and feeding incorrect information to the app, or pretending to be the mobile device and connecting to the controller and drone for the purpose of issuing false commands. The latter vulerability may allow for hijacking of the drone itself.
+
+Following is a description of the grammar used by the controller (the drone follows a similar system, but there was not time to fully decode the message set):
+
+All messages consist of a header followed by a 2-byte incrementing counter, that allows the receiver to verify the order of incoming commands. This counter follows the pattern:
+
+0x0101
+0x0201
+0x0301
+...
+0xfe01
+0x
+0x02
+0x0102
+
+Note that 0x00 and 0xff are not issued over telnet and that when the first byte is to rollover, first the entire counter is omitted, then the first byte is omitted, then the format continues as normal. Message types with the header 0x5512... and 0x551a... share counters, while the rest also share a different counter.
+
+HEADERS:
+0x550d04331b02
+Example:
+550d04331b02 f303    400e     5047
+header       counter constant ancillary (likely a checksum)
+
+0x550e04661b02 
+Example:
+550e04661b02 ea03    0712     de06
+header       counter constant ancillary ("")
+
+0x551204c70e02
+Example:
+1204c70e02 2c12    061e     890e451de5
+header     counter constant
+
+0x551904e41b02
+Example:
+551904e41b02 029d    0407     01011f3ba19ab9e0410c eaad
+header       counter constant
+
+0x551a04b10e02 - control messages
+Example:
+
+551a04b10e02 e215    0605     6c01        0404        6c01         0404         6c01   20         5e02
+header       counter constant leftstick-x leftstick-y rightstick-x rightstick-y scroll right-clip ancillary (likely checksum)
+Note that when not being acted upon, the scroll and right-clip field will be missing, making this message variable-length
+Relevant packing code can be found in telnet.py
