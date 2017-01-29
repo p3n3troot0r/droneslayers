@@ -29,18 +29,34 @@ can connect, having authenticated with the drone's wifi network using the passwo
 and WiFi configuration data.
 
 3. pwcracking
-This was an effort to brute force the root Linux password using a parallelized version of John the Ripper on the supercluster maya: 
-http://hpcf.umbc.edu/
+This was an effort to brute force the root Linux password using a parallelized version of John the Ripper on the supercluster 
+maya: http://hpcf.umbc.edu/
 
 The pwcracking directory contains all sorts of wordlists we found and attempted to combine, including pinyin-based and 
 amalgamations of industry breach dumps, using clever john.conf configurations - unfortunately after ten days of running 
 in parallel on two user accounts, the password still had not been cracked and we discontinued this effort. 
 
 4. SDR/Wireshark
+There is a lot of traffic to eavesdrop on between the controller, the drone, and the phone running the DJIGO app. 
+We used a HackRF One with the GNU Radio suite, including gqrx and grc, to listen to the RF communications in the
+2.4GHz band (WiFi centered at 2.437GHz) and 5.8GHz band (authentication and possibly NTSC video feed). 
+Unfortunately all these capture files violated Github's size limit (50mb). 
 
-5. Hardware
+Using wireshark it is possible to listen to the ARC4-encrypted telnet packets (as 802.11 packets), and realize that
+the transmission pattern is identical to the drone/controller telnet communication pattern. This led us to investigate
+further and realize that the drone/ctrl was using OpenWRT's ARC4 module. 
+
+5. Hardware/logic
 - CANBUS
+Operational commands are translated onboard from telnet packets to CAN messages, which can be decoded by attaching a 
+logic analyzer (we used Saelae logic). The baud rate is around 258064, and using this the logic analysis software produced
+data such as that found in logic/. Messages can then be correlated to functions and replayed via physical attachment to the 
+CAN network, using the pins shown in logic/pin19.jpeg. 
+An extension of this finding would be determining how to wirelessly inject CAN traffic. 
+
 - I2C
+A hidden I2C bus was identified onboard responsible for communications between the GPS and compass modules. An extension of
+this would be determining how to wirelessly inject GPS data into this for GPS spoofing.
 
 6. Apk (Geofencing)
 Using apktool (rating 2/5) we decompiled the DJIGO Android application and located the geofencing data, found in
