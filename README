@@ -1,0 +1,43 @@
+This repository contains the project files of the droneslayers team for the SOCOM OpenWERX Drone Challenge in January 2017. The challenge was to identify vulnerabilities and write exploits for the Phantom III Standard model. 
+
+Our video submission: https://youtu.be/2-U3K9XrCDs
+
+A summary of what we've done:
+
+1. telnet
+There is an open telnet server on the controller, 192.168.1.1 over which telemetry data is relayed to the drone. We developed a full grammar for the operational control data, which is contained in Phantom3.py. Files with telnet captures and parsing scripts are contained in the telnet/ directory. We found that telnet data was not encrypted at the endpoints, but the stream was encrypted using the drone's OpenWRT installation's arc4 module: https://wiki.openwrt.org/doc/devel/packages/kmod-crypto-arc4
+
+Therefore it is difficult to inject into the stream, however using an approach like http://thehackernews.com/2015/07/crack-rc4-encryption.html OR by spending more time identifying the location of the keys on the drone/controller's filesystem it is possible to inject arbitrary commands within the derived grammar. 
+
+2. FTP
+By decompiling the DJIGO apk file, we located the root password to an FTP server hosted on the controller, 192.168.1.1 with the password "Big~9China". This provides root FTP access to the filesystem, allowing the ability to modify things like:
+-  /etc/shadow and /etc/passwd to modify the root Linux password
+- the /proc folder, which stores information needed by all running processes
+- WiFi SSID/password
+- DNS server to upload location/video data to
+
+Additionally there is a completely unprotected FTP server on the camera at ftp://192.168.1.3 where absolutely anyone can connect, having authenticated with the drone's wifi network using the password "12341234", and read/write video feed and WiFi configuration data.
+
+3. pwcracking
+This was an effort to brute force the root Linux password using a parallelized version of John the Ripper on the supercluster maya: http://hpcf.umbc.edu/
+
+The pwcracking directory contains all sorts of wordlists we found and attempted to combine, including pinyin-based and amalgamations of industry breach dumps, using clever john.conf configurations - unfortunately after ten days of running in parallel on two user accounts, the password still had not been cracked and we discontinued this effort. 
+
+4. SDR/Wireshark
+
+5. Hardware
+- CANBUS
+- I2C
+
+6. Apk (Geofencing)
+Using apktool (rating 2/5) we decompiled the DJIGO Android application and located the geofencing data, found in
+- res/raw/flyforbid.json
+- assets/flyforbid_airmap/*
+
+The file assets/flyforbid_airmap/flyforbid_airmap27.json contains the entry for BWI/Thurgood Marshall airport, the airport located a few miles from our research facility. We increased the radius by an order of magnitude and when recompiled this disables the drone's ability to fly. Using a similar approach, all geofencing zones can be modified, deleted, or expanded upon.
+
+
+
+
+
+
