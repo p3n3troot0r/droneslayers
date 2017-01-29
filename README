@@ -6,8 +6,8 @@ Our video submission: https://youtu.be/2-U3K9XrCDs
 A summary of what we've done:
 
 1. telnet
-There is an open telnet server on the controller, 192.168.1.1 over which telemetry data is relayed to the drone. 
-We developed a full grammar for the operational control data, which is contained in Phantom3.py. Files with telnet 
+There is an open telnet server on the controller, 192.168.1.1 over which telemetry data is relayed to the app/drone. 
+We developed a full grammar for the operational control data, which is contained in telnet/telnet.py. Files with telnet 
 captures and parsing scripts are contained in the telnet/ directory. We found that telnet data was not encrypted at 
 the endpoints, but the stream was encrypted using the drone's OpenWRT installation's arc4 module: 
 https://wiki.openwrt.org/doc/devel/packages/kmod-crypto-arc4
