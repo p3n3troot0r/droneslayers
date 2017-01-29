@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateStatementView android:id="@id/el" style="@style/activate_rlayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:id="@id/em" android:text="@string/activate_statement_title" phantom:djiTextFace="a4" style="@style/activate_des_title" />
+    <TextView android:id="@id/en" android:text="@string/activate_statement_content" android:layout_below="@id/em" style="@style/activate_des_content" />
+    <TextView android:textColor="@color/at" android:id="@id/eo" android:visibility="gone" android:layout_marginTop="@dimen/u_" android:text="@string/v2_active_kumquat_desc" android:layout_below="@id/en" android:layout_centerHorizontal="true" style="@style/activate_des_content_pad" />
+    <ImageView android:id="@id/ep" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gh" android:src="@drawable/n3_app_v4_no_led" android:scaleType="centerInside" android:layout_below="@id/en" android:layout_centerHorizontal="true" />
+    <Button android:gravity="center" android:id="@id/eq" android:text="@string/next" android:singleLine="true" android:layout_alignParentBottom="true" style="@style/activate_button_style" />
+</dji.pilot2.usercenter.activate.ActivateStatementView>

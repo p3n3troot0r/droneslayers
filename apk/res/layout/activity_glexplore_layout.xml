@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/gq" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_marginBottom="@dimen/ga" android:src="@drawable/gl_back_selector" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fj" android:layout_marginBottom="@dimen/ga" android:src="@drawable/gl_share_selector" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g8" android:layout_marginBottom="@dimen/ga" android:src="@drawable/gl_collect_selector" android:scaleType="centerInside" android:layout_toLeftOf="@id/gs" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g8" android:src="@drawable/gl_like_selector" android:scaleType="centerInside" android:layout_toLeftOf="@id/gt" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View android:background="@color/ic" android:layout_width="fill_parent" android:layout_height="1.0px" />
+  <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+        <ScrollView android:id="@id/gv" android:visibility="invisible" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.pilot2.nativeexplore.view.ExploreGLView android:id="@id/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </RelativeLayout>
+</LinearLayout>

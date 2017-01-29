@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.leftmenu.DJIGimbalMenuGrape2 android:orientation="horizontal" android:background="@android:color/transparent" android:paddingRight="@dimen/pn" android:layout_width="wrap_content" android:layout_height="@dimen/pr" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/a4e" android:src="@drawable/leftmenu_gimbal_notfollow" style="@style/LeftMenuSecondFirstImg" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4f" android:visibility="visible" android:layout_marginLeft="@dimen/pp" android:src="@drawable/leftmenu_gimbal_follow" style="@style/LeftMenuSecondOtherImg" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4h" android:visibility="visible" android:layout_marginLeft="@dimen/pp" android:src="@drawable/leftmenu_gimbal_notfollow" style="@style/LeftMenuSecondOtherImg" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/dc" android:visibility="visible" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/pn" android:layout_marginRight="@dimen/pn" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4j" android:visibility="visible" android:layout_marginRight="@dimen/pn" android:src="@drawable/leftmenu_gimbal_fpv" style="@style/LeftMenuSecondOtherImg" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4k" android:visibility="visible" android:layout_marginRight="@dimen/pn" android:src="@drawable/leftmenu_gimbal_below" style="@style/LeftMenuSecondOtherImg" />
+</dji.pilot.fpv.leftmenu.DJIGimbalMenuGrape2>

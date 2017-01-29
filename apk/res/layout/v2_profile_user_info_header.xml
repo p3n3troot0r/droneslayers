@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cyr" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/v2_profile_header_bg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/cys" android:layout_width="fill_parent" android:layout_height="0.0dip" />
+        <include layout="@layout/v2_profile_user_info" />
+    </LinearLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cyt" android:background="@color/om" android:paddingLeft="@dimen/yb" android:paddingTop="@dimen/fj" android:paddingRight="@dimen/yb" android:paddingBottom="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:id="@id/cyu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="所有作品(0)" android:drawableLeft="@drawable/v2_mine_product_pic" android:drawablePadding="@dimen/gw" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/cyv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fj" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cyw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_artwork_list_enable" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cyx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:src="@drawable/v2_artwork_grid_disable" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</LinearLayout>

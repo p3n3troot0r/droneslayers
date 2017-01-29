@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.LonganGimbalAngleSetView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/b3e" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft" android:text="@string/longan_gimbal_set_angle_pitch" />
+            <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/b3f" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fj" android:text="0" android:layout_toRightOf="@id/b3e" android:alpha="0.8" />
+            <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/b3g" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/ft" android:text="0" android:layout_alignParentRight="true" android:alpha="0.8" />
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/b3h" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="@dimen/fj" android:text="@string/longan_gimbal_set_angle_yaw" android:layout_toLeftOf="@id/b3g" />
+        </RelativeLayout>
+        <View android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <TextView android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/b3i" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft" android:text="@string/longan_gimbal_set_angle_pitch_aim" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/rp" android:textColor="@color/ot" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gj" android:text="[-90,30]" android:layout_toRightOf="@id/b3i" />
+            <EditText android:id="@id/b3j" android:layout_width="@dimen/gt" android:layout_height="fill_parent" android:layout_margin="@dimen/fj" android:hint="@string/longan_gimbal_set_input_hint" android:layout_alignParentRight="true" style="@style/longan_edittext" />
+        </RelativeLayout>
+        <View android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <TextView android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/b3k" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft" android:text="@string/longan_gimbal_set_angle_yaw_aim" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/rp" android:textColor="@color/ot" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gj" android:text="[-320,320]" android:layout_toRightOf="@id/b3k" />
+            <EditText android:id="@id/b3l" android:layout_width="@dimen/gt" android:layout_height="fill_parent" android:layout_margin="@dimen/fj" android:hint="@string/longan_gimbal_set_input_hint" android:layout_alignParentRight="true" style="@style/longan_edittext" />
+        </RelativeLayout>
+        <View android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gx">
+            <dji.device.common.view.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/b3m" android:background="@drawable/white_line_btn_bg" android:layout_width="@dimen/fi" android:layout_height="@dimen/gh" android:text="@string/timelapse_confirm_btn_text" android:layout_centerInParent="true" />
+        </RelativeLayout>
+        <View android:background="@color/oq" android:layout_width="fill_parent" android:layout_height="0.39999998dip" />
+    </LinearLayout>
+</dji.device.common.view.set.view.LonganGimbalAngleSetView>

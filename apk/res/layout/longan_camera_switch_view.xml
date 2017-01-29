@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/j5" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/a1t"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b2u" android:clickable="false" android:layout_height="fill_parent" android:src="@drawable/longan_switch_bg_circle" style="@style/longan_preview_camera_control_item" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b2v" android:paddingTop="@dimen/a2v" android:clickable="false" android:layout_width="@dimen/a2w" android:layout_height="@dimen/a2w" android:src="@drawable/longan_switch_thumb" android:scaleType="center" android:layout_alignTop="@id/b2u" android:layout_centerInParent="true" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b2w" android:paddingBottom="@dimen/a2v" android:visibility="invisible" android:clickable="false" android:layout_width="@dimen/a2w" android:layout_height="@dimen/a2w" android:src="@drawable/longan_switch_thumb" android:scaleType="center" android:layout_alignBottom="@id/b2u" android:layout_centerHorizontal="true" />
+    <dji.device.common.view.DJIAutoRotateImageView android:id="@id/b2x" android:paddingTop="@dimen/a2v" android:clickable="false" android:layout_width="@dimen/a2w" android:layout_height="@dimen/a2w" android:src="@drawable/longan_photo_mini_on" android:scaleType="center" android:layout_alignTop="@id/b2u" android:layout_centerInParent="true" />
+    <dji.device.common.view.DJIAutoRotateImageView android:id="@id/b2y" android:paddingBottom="@dimen/a2v" android:clickable="false" android:layout_width="@dimen/a2w" android:layout_height="@dimen/a2w" android:src="@drawable/longan_video_mini_off" android:scaleType="center" android:layout_alignBottom="@id/b2u" android:layout_centerHorizontal="true" />
+</RelativeLayout>

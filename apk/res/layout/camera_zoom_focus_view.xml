@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.focus.DJIZoomFocusView android:orientation="vertical" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:baselineAligned="false" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/qi" android:background="@color/d7" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/camera_zoom_focus_t" />
+    <dji.publics.DJIUI.DJIImageView style="@style/HorizontalDivider" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/qj" android:background="@color/d7" android:layout_width="fill_parent" android:layout_height="@dimen/g8" android:text="1x" />
+    <dji.publics.DJIUI.DJIImageView style="@style/HorizontalDivider" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/qk" android:background="@color/d7" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/camera_zoom_focus_w" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/ql" android:background="@color/d7" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:layout_marginTop="@dimen/fj" android:text="@string/camera_zoom_focus_reset" />
+</dji.pilot.fpv.camera.focus.DJIZoomFocusView>

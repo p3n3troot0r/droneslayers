@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.usercenter.profile.DJIEditRegionView android:orientation="vertical" android:padding="@dimen/rp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIEditText android:id="@id/bj_" android:visibility="gone" android:hint="@string/account_info_city" style="@style/ProfileEditNewEt" />
+    <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/n4" android:layout_marginBottom="@dimen/n4" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIEditText android:id="@id/bja" android:visibility="gone" android:hint="@string/account_info_state" style="@style/ProfileEditNewEt" />
+    <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/n4" android:layout_marginBottom="@dimen/n4" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/bjb" android:background="@drawable/selector_account_info_item" android:layout_width="fill_parent" android:layout_height="@dimen/qd">
+        <dji.publics.DJIUI.DJITextView android:id="@id/bjc" android:text="@string/account_info_country" android:layout_centerVertical="true" phantom:djiTextFace="a6" style="@style/ProfileInfoTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/bjd" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/ProfileInfoTxt" />
+        <dji.publics.DJIUI.DJIImageView android:background="@color/ga" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.usercenter.profile.DJIEditRegionView>

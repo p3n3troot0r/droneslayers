@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/amg" android:layout_width="fill_parent" android:layout_height="90.0dip">
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@drawable/pic_radius" />
+            <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_weight="1.0">
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_point_of_insterest_cur_radius_label" />
+                <dji.pilot.dji_groundstation.ui.views.POICurRadiusView android:textSize="18.0dip" android:textColor="@color/h_" android:layout_gravity="center_horizontal" android:id="@id/amh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/gsnew_gs_point_of_insterest_cur_radius" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:layout_width="18.0dip" android:layout_height="32.0dip" android:src="@drawable/pic_height" />
+            <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_point_of_insterest_cur_height_label" />
+                <dji.pilot.dji_groundstation.ui.views.CurHeightView android:textSize="18.0dip" android:textColor="@color/h_" android:layout_gravity="center_horizontal" android:id="@id/ami" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:background="#20ffffff" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <dji.pilot.dji_groundstation.ui.views.SpeedControlView android:id="@id/amt" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <dji.pilot.dji_groundstation.ui.views.TowardsPOIButton android:textSize="12.0dip" android:textColor="@color/p9" android:gravity="center" android:layout_gravity="center" android:id="@id/amu" android:background="@drawable/gs_poi_pause_btn_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/gsnew_gs_point_of_insterest_status_to_hot_point" />
+</dji.publics.DJIUI.DJILinearLayout>

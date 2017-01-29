@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="35.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@id/ahg" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="@dimen/a7y" android:layout_height="wrap_content" android:layout_marginRight="20.0dip">
+            <dji.pilot2.widget.DJINewStateTextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ahh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_hg_all" />
+            <View android:background="@drawable/v2_hgplayback_line" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_below="@id/ahh" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ahi" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="@dimen/a7y" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignRight="@id/ahg">
+            <dji.pilot2.widget.DJINewStateTextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ahj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_hg_Video" />
+            <View android:background="@drawable/v2_hgplayback_line" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/ahj" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ahk" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="@dimen/a7y" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignRight="@id/ahi">
+            <dji.pilot2.widget.DJINewStateTextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ahl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_hg_Photo" />
+            <View android:background="@drawable/v2_hgplayback_line" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/ahl" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/ahm" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="@dimen/a7y" android:layout_height="wrap_content" android:layout_alignRight="@id/ahk">
+            <dji.pilot2.widget.DJINewStateTextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ahn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gallery_albums" />
+            <View android:background="@drawable/v2_hgplayback_line" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="7.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/ahn" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

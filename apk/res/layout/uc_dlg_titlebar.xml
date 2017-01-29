@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c0q" android:background="@drawable/usercenter_dlg_title_bg" android:layout_width="fill_parent" android:layout_height="@dimen/iw"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/gc" android:id="@id/c0r" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_height="fill_parent" android:text="@string/app_cancel" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/gc" android:id="@id/c0s" android:text="@string/account_info_edit" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/gc" android:id="@id/c0t" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_height="fill_parent" android:text="@string/app_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+</dji.publics.DJIUI.DJIRelativeLayout>

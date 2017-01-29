@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/n7" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cgk" android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cgl" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_nfz_header_text" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/cgm" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cgk">
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/g1" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gh">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/e7" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_nfz_places_text" android:layout_centerInParent="true" />
+                <ImageView android:background="@color/e7" android:layout_width="1.0px" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gw" android:layout_marginBottom="@dimen/gw" android:layout_alignParentRight="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/e7" android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_status_text" android:layout_weight="1.0" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cgn" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/fs">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:gravity="center" android:autoLink="all" android:linksClickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/g2" android:text="@string/v2_nfz_list_empty_text" android:layout_centerInParent="true" />
+            <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <ListView android:id="@id/cgo" android:background="@color/om" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/cgp" android:background="@color/at" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:text="@string/v2_nfz_update_all_text" android:layout_alignParentBottom="true" android:onClick="onClickHandler" />
+</RelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_height="0.0dip" android:layout_weight="1.0" style="@style/setting_ui_items_scrollview">
+        <LinearLayout android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout">
+            <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+                <TextView android:id="@id/bu_" android:text="@string/setting_ui_guidance_desc" style="@style/setting_ui_item_title" />
+                <Switch android:id="@id/bua" style="@style/setting_ui_item_switch" />
+            </dji.setting.ui.widget.DividerLinearLayout>
+            <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" android:id="@id/bub" style="@style/setting_ui_item">
+                <TextView android:id="@id/buc" android:text="@string/setting_ui_guidance_ass" style="@style/setting_ui_item_title" />
+                <Switch android:id="@id/bud" style="@style/setting_ui_item_switch" />
+            </dji.setting.ui.widget.DividerLinearLayout>
+            <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" android:id="@id/bue" style="@style/setting_ui_item">
+                <TextView android:id="@id/buf" android:text="@string/setting_ui_guidance_show_tip" style="@style/setting_ui_item_title" />
+                <Switch android:id="@id/bug" style="@style/setting_ui_item_switch" />
+            </dji.setting.ui.widget.DividerLinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:textSize="@dimen/wm" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:layout_gravity="right" android:id="@id/buh" android:background="@drawable/setting_ui_common_bg" android:padding="@dimen/vh" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/uf" android:layout_marginBottom="@dimen/uf" android:text="@string/setting_ui_guidance_question_tip" android:drawableLeft="@drawable/setting_ui_warning" android:drawablePadding="@dimen/ts" />
+</LinearLayout>

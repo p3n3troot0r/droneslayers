@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/q6" android:text="设置项标题" style="@style/set_item_title" />
+        <TextView android:id="@id/b7d" android:text="10°" style="@style/set_item_value" />
+        <ImageView android:id="@id/blj" android:visibility="visible" android:layout_width="@dimen/a4o" android:layout_height="@dimen/a4m" android:src="@drawable/set_item_arrow" android:scaleType="center" />
+    </LinearLayout>
+    <View android:id="@id/q9" android:layout_below="@id/q6" style="@style/set_divider" />
+</LinearLayout>

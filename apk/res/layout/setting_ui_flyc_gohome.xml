@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_fs_gohome" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/br3" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_adv_fs_height" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/br4" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+        <TextView android:textSize="@dimen/wm" android:textColor="@android:color/white" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ur" android:text="@string/setting_ui_flyc_adv_metric" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/w8">
+        <ImageView android:background="@drawable/setting_ui_flyc_fs_height" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_marginLeft="@dimen/w8" android:text="@string/setting_ui_flyc_adv_fs_height_desc2" style="@style/setting_ui_item_desc" />
+    </LinearLayout>
+</LinearLayout>

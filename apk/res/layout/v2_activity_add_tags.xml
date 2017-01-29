@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:background="@color/n7" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c6r" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff494949" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_add_tags_bar_title" android:layout_centerInParent="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:background="@drawable/v2_text_btn_bg" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_add_tags_save" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <View android:background="@color/lv" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/c6s" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="20.0dip">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/c6t" android:background="#fff6f6f6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/gt">
+                <dji.publics.DJIUI.DJIEditText android:layout_gravity="center_vertical" android:id="@id/c6u" android:background="#fff6f6f6" android:focusable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginRight="@dimen/ft" android:maxHeight="@dimen/gc" android:hint="@string/v2_add_tags_input" android:cursorVisible="true" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/c6v" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="20.0dip">
+            <dji.publics.DJIUI.DJITextView android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/ft" android:text="@string/v2_add_tags_all_tags" />
+            <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/c6w" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/c6v" style="@style/mediumCustomProgressBar" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/c6x" android:background="#ff1088f2" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/c9" android:text="@string/v2_add_tags_save" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+</dji.publics.DJIUI.DJIOriLayout>

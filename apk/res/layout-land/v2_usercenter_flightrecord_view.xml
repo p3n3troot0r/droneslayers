@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/flight_record_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" phantom:djiDeviceType="a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <fragment android:name="dji.pilot2.usercenter.fragment.DJIFlightRecordOverviewFragment" android:id="@id/d4y" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0" />
+        <dji.publics.DJIUI.DJILinearLayout android:background="@color/db" android:layout_width="@dimen/fz" android:layout_height="fill_parent" />
+        <fragment android:name="dji.pilot2.usercenter.fragment.DJIFlightRecordDataFragment" android:id="@id/d55" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="7.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

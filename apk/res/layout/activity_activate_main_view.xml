@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:orientation="vertical" android:id="@id/fv" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/fw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/gh" layout="@layout/v2_active_view_top" />
+    <include android:id="@id/fx" android:visibility="gone" layout="@layout/activate_terms_layout" />
+    <FrameLayout android:id="@id/fy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gt" android:layout_below="@id/fw">
+        <include android:id="@id/fz" android:visibility="gone" layout="@layout/activate_statement" />
+        <include android:id="@id/g0" android:visibility="gone" layout="@layout/activate_name_aircraft" />
+        <include android:id="@id/e4" android:visibility="gone" layout="@layout/activate_control_mode" />
+        <include android:id="@id/g1" android:visibility="gone" layout="@layout/activate_set_c1c2" />
+        <include android:id="@id/g2" android:visibility="gone" layout="@layout/activate_set_unit_video" />
+        <include android:id="@id/g3" android:visibility="gone" layout="@layout/activate_beginner_mode" />
+        <include android:id="@id/g4" android:visibility="gone" layout="@layout/v2_active_view_wifi_setting" />
+    </FrameLayout>
+    <include android:id="@id/g5" android:visibility="gone" layout="@layout/activate_confirm_account" />
+    <include android:id="@id/g6" android:visibility="gone" layout="@layout/activate_finish_activate" />
+    <include android:id="@id/g7" android:visibility="gone" layout="@layout/activate_dji_care" />
+</dji.publics.DJIUI.DJIOriLayout>

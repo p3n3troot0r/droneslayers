@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/h7"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.widget.DJIMarqueeTextView android:textSize="@dimen/cv" android:textColor="@color/lz" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cwn" android:layout_width="@dimen/d7" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <Button android:textColor="@drawable/v2_main_tab_textviewbutton_selector" android:layout_gravity="center" android:id="@id/cwo" android:background="@drawable/v2_main_plantom_buttom_selector" android:layout_width="@dimen/d7" android:layout_height="0.0dip" android:text="@string/phantom_dji_how_to_connect" android:layout_weight="1.0" android:layout_centerHorizontal="true" />
+    <Button android:textSize="14.0sp" android:textColor="@color/lz" android:gravity="center" android:layout_gravity="center" android:id="@id/cwp" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="0.0dip" android:text="@string/v2_learn_more" android:layout_weight="1.0" android:layout_below="@id/cwo" />
+</LinearLayout>

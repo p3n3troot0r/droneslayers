@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector android:visible="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/v2_blue_under_line" />
+    <item android:state_selected="false" android:drawable="@color/j5" />
+</selector>

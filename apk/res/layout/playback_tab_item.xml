@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/bhx" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@drawable/selector_fpv_tab" android:gravity="center" android:id="@id/bhy" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.GroupAttitudeView android:gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a2p" android:layout_width="@dimen/im" android:layout_height="@dimen/im">
+        <View android:background="@drawable/new_attitude_bar_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/u3" android:clipChildren="false" android:layout_width="@dimen/fi" android:layout_height="@dimen/fi" android:layout_marginLeft="@dimen/gw" android:layout_marginBottom="@dimen/gw">
+        <include layout="@layout/fpv_attitude_ball_view" />
+        <include android:id="@id/u4" android:visibility="gone" layout="@layout/fpv_new_sport_ball_merge_view" />
+        <ImageView android:id="@id/a2q" android:background="@drawable/pic_attitued_north" android:layout_width="@dimen/is" android:layout_height="@dimen/is" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <include android:id="@id/a2r" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/a2p" android:layout_alignBottom="@id/a2p" layout="@layout/fpv_whole_attitude_view" />
+</dji.pilot.fpv.view.GroupAttitudeView>

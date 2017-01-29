@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/an" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/kb" android:layout_width="fill_parent" android:layout_height="@dimen/i3" android:baselineAligned="false" android:weightSum="3.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oy" android:gravity="center" android:id="@id/kc" android:layout_width="0.0dip" android:layout_height="@dimen/i3" android:singleLine="true" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oy" android:gravity="center" android:id="@id/kd" android:layout_width="0.0dip" android:layout_height="@dimen/i3" android:singleLine="true" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oy" android:gravity="center" android:id="@id/ke" android:layout_width="0.0dip" android:layout_height="@dimen/i3" android:singleLine="true" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

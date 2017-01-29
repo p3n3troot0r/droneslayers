@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.BluetoothSetterView android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center|right" android:clickable="true" android:layout_width="wrap_content" android:text="@string/bluetooth_name" android:layout_weight="0.0" style="@style/set_item_title" />
+        <EditText android:id="@id/bce" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:ems="10" android:imeOptions="actionDone" style="@style/set_item_title" />
+    </LinearLayout>
+    <View style="@style/set_divider" />
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/bcf" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a5l" style="@android:attr/progressBarStyleSmall" />
+    <Button android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/bcg" android:background="@drawable/set_btn_bg" android:layout_width="60.0dip" android:layout_height="30.0dip" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/wifi_apply" android:layout_weight="0.0" style="@style/set_item_title" />
+    <View style="@style/set_divider" />
+</dji.pilot.set.view.BluetoothSetterView>

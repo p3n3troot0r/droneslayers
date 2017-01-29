@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.bluetooth.DJILPBleDialogView android:background="@color/ag" android:layout_width="@dimen/g9" android:layout_height="@dimen/g9" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/b_s" android:layout_width="@dimen/g9" android:layout_height="@dimen/g9">
+        <LinearLayout android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <TextView android:layout_gravity="center" android:layout_width="0.0dip" android:text="@string/lp_ble_name" android:layout_weight="1.0" style="@style/GenCenterWrapTxt" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b_t" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ble_cancle" />
+        </LinearLayout>
+        <View android:layout_height="1.0dip" style="@style/hor_line" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/on" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <TextView android:layout_gravity="center_vertical" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:text="@string/lp_ble_device_list_name_txt" style="@style/GenCenterWrapTxt" />
+            <View android:layout_width="@dimen/fz" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b_u" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lp_refresh" android:scaleType="center" />
+        </LinearLayout>
+        <View android:layout_height="1.0dip" style="@style/hor_line" />
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/b_v" android:background="@color/on" android:paddingLeft="@dimen/ft" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/ft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/lp_ble_empty_tip" />
+        <ListView android:id="@id/b_w" android:background="@color/on" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/j5" android:divider="@color/b4" android:dividerHeight="1.0px" />
+    </LinearLayout>
+</dji.phone.bluetooth.DJILPBleDialogView>

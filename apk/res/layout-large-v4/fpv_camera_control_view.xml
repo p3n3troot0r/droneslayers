@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.control.DJICameraControlView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/gy" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gx">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/uo" android:paddingTop="@dimen/h1" android:paddingBottom="@dimen/h1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wm220_ic_switch_cam_nor" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/up" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/uq" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wm220_btn_cam_capture_nor" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/ur" android:padding="@dimen/fj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wm220_btn_cam_release" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerInParent="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/us" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ut" android:background="@drawable/wm220_btn_cam_capture_nor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/uu" android:background="@drawable/wm220_btn_cam_release" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/qs" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/uv" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:src="@drawable/wm220_btn_cam_video_play_nor" android:scaleType="center" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/uw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/ux" android:background="@drawable/wm220_ic_cam_video_redpoint" android:layout_width="@dimen/rj" android:layout_height="@dimen/rj" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:id="@id/uy" android:layout_marginLeft="@dimen/ga" android:text="22:00" android:layout_centerHorizontal="true" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/uz" android:paddingTop="@dimen/h1" android:paddingBottom="@dimen/h1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wm220_ic_cam_setting_nor" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/v0" android:paddingTop="@dimen/gr" android:paddingBottom="@dimen/gr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/wm220_ic_cam_replay_nor" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</dji.pilot.fpv.camera.control.DJICameraControlView>

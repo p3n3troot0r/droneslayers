@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/cxy" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.playback.previewActivity.widget.HackyViewPager android:id="@id/ah6" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/cxt" layout="@layout/v2_hgplayback_header" />
+    <RelativeLayout android:id="@id/gg" android:background="#75100d10" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+        <dji.playback.previewActivity.widget.DJISliderbar android:id="@id/aha" android:visibility="gone" android:layout_width="250.0dip" android:layout_height="fill_parent" android:layout_marginLeft="50.0dip" android:layout_marginRight="10.0dip" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ah7" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_centerHorizontal="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ah8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_playbackpreview_pre" android:scaleType="centerInside" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ah9" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginLeft="45.0dip" android:src="@drawable/v2_playbackpreview_playsmall" android:scaleType="centerInside" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ah_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="45.0dip" android:src="@drawable/v2_playbackpreview_next" android:scaleType="centerInside" />
+        </LinearLayout>
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ahb" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:src="@drawable/v2_playbackpreview_delete" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ahc" android:layout_width="30.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/v2_playbackpreview_info" android:scaleType="centerInside" />
+    </RelativeLayout>
+</RelativeLayout>

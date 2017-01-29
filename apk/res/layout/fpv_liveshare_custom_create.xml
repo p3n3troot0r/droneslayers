@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:id="@id/a6k" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/liveshare_custom_create_title" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/om" android:id="@id/a6l" android:background="@drawable/liveshare_facebook_start_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/g1" android:text="@string/liveshare_custom_next" android:layout_alignParentBottom="true" />
+    <dji.pilot.publics.widget.DJIEditText android:textSize="@dimen/rr" android:textColor="@color/om" android:gravity="start" android:layout_gravity="center_horizontal" android:id="@id/a6m" android:background="@null" android:padding="@dimen/ue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/g1" android:hint="@string/liveshare_custom_rtmp_hint" android:layout_above="@id/a6l" android:layout_below="@id/a6k" />
+</dji.publics.DJIUI.DJIRelativeLayout>

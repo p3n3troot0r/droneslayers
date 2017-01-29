@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJITerrainTrackingHint android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c09" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gs_terrain_tracking_up" android:layout_centerInParent="true" />
+    <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center" android:id="@id/c0_" android:background="@color/j4" android:paddingTop="@dimen/gw" android:layout_width="@dimen/fs" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:text="@string/gs_terrain_tracking_current_height_is_too_high" android:layout_below="@id/c09" android:layout_centerHorizontal="true" />
+</dji.pilot.fpv.view.DJITerrainTrackingHint>

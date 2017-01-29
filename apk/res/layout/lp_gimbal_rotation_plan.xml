@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.set.gimbalplan.DJILPGimbalRotationPlanView android:id="@id/bak" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:keepScreenOn="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="100.0dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <View android:id="@id/bal" android:layout_width="270.0dip" android:layout_height="50.0dip" />
+        <include android:id="@id/bam" android:background="@android:color/holo_blue_light" android:layout_width="270.0dip" android:layout_height="170.0dip" android:layout_below="@id/bal" android:layout_centerHorizontal="true" layout="@layout/lp_direction_view" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/bam" android:layout_centerHorizontal="true">
+            <TextView android:textSize="16.0sp" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/q6" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <Button android:textSize="18.0sp" android:textColor="@android:color/white" android:gravity="center" android:id="@id/q8" android:background="@drawable/lp_button_rectangle" android:layout_width="65.0dip" android:layout_height="25.0dip" android:layout_marginLeft="20.0dip" android:text="@string/gimbal_plan_exit" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/ban" android:visibility="invisible" android:layout_width="60.0dip" android:layout_height="@dimen/fy" android:layout_marginLeft="25.0dip">
+        <TextView android:textSize="16.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/bao" android:background="@color/j6" android:layout_width="60.0dip" android:layout_height="25.0dip" android:text="@string/gimbal_plan_angular_speed_min" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/bap" android:background="@color/j7" android:layout_width="60.0dip" android:layout_height="@dimen/fq" android:layout_centerVertical="true" android:alpha="100.0">
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@id/baq" android:layout_width="60.0dip" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <TextView android:textSize="16.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/bar" android:background="@color/j6" android:layout_width="60.0dip" android:layout_height="25.0dip" android:text="@string/gimbal_plan_angular_speed_max" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" android:alpha="128.0" />
+    </RelativeLayout>
+</dji.phone.set.gimbalplan.DJILPGimbalRotationPlanView>

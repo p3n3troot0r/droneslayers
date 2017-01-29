@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:id="@id/bqz" android:text="@string/setting_ui_gimbal_config" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/bsz" android:text="usa" style="@style/setting_ui_item_spinner_btn" />
+    </LinearLayout>
+    <LinearLayout style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_gimbal_pitch" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJINumberProgress android:id="@id/bt0" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_gimbal_yaw" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJINumberProgress android:id="@id/bt1" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_gimbal_yaw_follow" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/bt2" style="@style/setting_ui_item_switch" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/bt3" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_gimbal_pitch_time" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJINumberProgress android:id="@id/bt4" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/bt5" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_gimbal_yaw_time" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJINumberProgress android:id="@id/bt6" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" style="@style/setting_ui_item">
+        <Button android:id="@id/bt7" android:text="@string/setting_ui_flyc_resetall" style="@style/setting_ui_item_btn_big" />
+    </LinearLayout>
+</LinearLayout>

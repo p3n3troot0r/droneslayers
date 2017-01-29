@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/ahu" android:background="@color/ii" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/fj" />
+    <LinearLayout android:orientation="horizontal" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/fj" android:layout_below="@id/ahu">
+        <EditText android:layout_gravity="center_vertical" android:id="@id/ahv" android:background="@drawable/gl_comment_bg" android:layout_width="0.0dip" android:layout_height="@dimen/gh" android:layout_marginLeft="@dimen/fj" android:layout_marginRight="@dimen/fj" android:hint="@string/v2_guide_comment_tip" android:layout_weight="1.0" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/ahw" android:background="@drawable/gl_sendbutton_bg" android:layout_width="@dimen/h2" android:layout_height="@dimen/gh" android:layout_marginRight="@dimen/fj" android:text="@string/v2_guide_comment_send" />
+    </LinearLayout>
+</RelativeLayout>

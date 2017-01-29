@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.radar.DJIVisionRadarView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/s7" android:layout_marginTop="@dimen/s8" android:layout_marginRight="@dimen/s7" android:layout_marginBottom="@dimen/s6"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d6e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6f" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6g" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6h" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6i" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6j" android:background="@drawable/radar_arrow_up" android:layout_marginTop="@dimen/fv" android:layout_centerHorizontal="true" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/d6k" android:layout_marginTop="@dimen/ga" android:layout_below="@id/d6j" android:layout_centerHorizontal="true" style="@style/VisionDistanceTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d6l" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6m" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6n" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6o" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6p" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6q" android:background="@drawable/radar_arrow_up" android:layout_marginLeft="@dimen/gq" android:layout_centerVertical="true" android:rotation="270.0" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/d6r" android:layout_marginLeft="@dimen/ga" android:layout_toRightOf="@id/d6q" android:layout_centerVertical="true" style="@style/VisionDistanceTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d6s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+            <dji.publics.DJIUI.DJITextView android:id="@id/d6t" android:visibility="visible" android:layout_centerHorizontal="true" style="@style/VisionDistanceTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6u" android:background="@drawable/radar_arrow_up" android:layout_marginTop="@dimen/ga" android:layout_below="@id/d6t" android:layout_centerHorizontal="true" android:rotation="180.0" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6v" android:layout_marginTop="@dimen/h1" android:layout_below="@id/d6t" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6w" android:layout_marginTop="@dimen/h1" android:layout_below="@id/d6t" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6x" android:layout_marginTop="@dimen/h1" android:layout_below="@id/d6t" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d6y" android:layout_marginTop="@dimen/h1" android:layout_below="@id/d6t" style="@style/BaseImgView" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d6z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJITextView android:id="@id/d70" android:layout_centerVertical="true" style="@style/VisionDistanceTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d71" android:background="@drawable/radar_arrow_up" android:layout_marginLeft="@dimen/ga" android:layout_toRightOf="@id/d70" android:layout_centerVertical="true" android:rotation="90.0" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d72" android:layout_toRightOf="@id/d70" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d73" android:layout_toRightOf="@id/d70" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d74" android:layout_toRightOf="@id/d70" style="@style/BaseImgView" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d75" android:layout_toRightOf="@id/d70" style="@style/BaseImgView" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/d76" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d77" android:background="@drawable/radar_forward_0_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d78" android:background="@drawable/radar_arrow_up" android:layout_marginTop="-10.0dip" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d79" android:background="@drawable/radar_info" android:layout_marginTop="@dimen/ga" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/d7_" android:layout_marginTop="@dimen/h1" android:text="@string/visual_radar_dected_fail_diff" android:layout_below="@id/d79" style="@style/VisionInvalidTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d7a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerVertical="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7b" android:background="@drawable/radar_left_dangerous" android:layout_centerVertical="true" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7c" android:background="@drawable/radar_arrow_up" android:layout_marginLeft="-10.0dip" android:rotation="270.0" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7d" android:background="@drawable/radar_info" android:layout_marginLeft="@dimen/ga" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/d7e" android:layout_marginLeft="@dimen/h1" android:text="@string/visual_radar_dected_fail_diff" android:layout_toRightOf="@id/d7d" android:layout_centerVertical="true" style="@style/VisionInvalidTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/d7f" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJITextView android:id="@id/d7g" android:text="@string/visual_radar_dected_fail_diff" style="@style/VisionInvalidTxt" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7h" android:background="@drawable/radar_info" android:layout_marginBottom="@dimen/ga" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7i" android:background="@drawable/radar_arrow_up" android:layout_marginBottom="-12.0dip" android:rotation="180.0" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7j" android:background="@drawable/radar_backward_0_0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s5" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d7k" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <dji.publics.DJIUI.DJITextView android:id="@id/d7l" android:text="@string/visual_radar_dected_fail_diff" style="@style/VisionInvalidTxt" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7m" android:background="@drawable/radar_info" android:layout_marginRight="@dimen/ga" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7n" android:background="@drawable/radar_arrow_up" android:layout_marginRight="-10.0dip" android:rotation="90.0" style="@style/BaseImgView" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d7o" android:background="@drawable/radar_right_warning" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textStyle="bold" android:textColor="@color/om" android:id="@id/d7p" android:background="@drawable/radar_top" android:visibility="gone" android:layout_marginRight="@dimen/gq" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+</dji.pilot.visual.radar.DJIVisionRadarView>

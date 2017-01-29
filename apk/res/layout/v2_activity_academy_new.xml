@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v2_academy_header" />
+    <include layout="@layout/v2_type_spinner_bar" />
+    <dji.publics.DJIUI.DJIImageView style="@style/HorizontalGrayDivider" />
+    <RelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/c5z" android:background="@color/om" android:visibility="visible" android:layout_width="@dimen/c2" android:layout_height="@dimen/bs" android:layout_marginTop="@dimen/h7" android:layout_marginBottom="@dimen/h7" android:src="@drawable/logo_ins_pro" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <View android:id="@id/c60" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_below="@id/c5z" />
+        <LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/c60">
+            <RelativeLayout android:id="@id/c61" android:background="@color/om" android:paddingLeft="@dimen/bw" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:id="@id/c62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_simulator_text" android:drawableLeft="@drawable/newacademy_simulator" android:drawablePadding="@dimen/fj" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_new_academy_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:id="@id/c63" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+            <RelativeLayout android:id="@id/c64" android:background="@color/om" android:paddingLeft="@dimen/bw" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_video_text" android:drawableLeft="@drawable/newacademy_video" android:drawablePadding="@dimen/fj" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_new_academy_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+            <RelativeLayout android:id="@id/c65" android:background="@color/om" android:paddingLeft="@dimen/bw" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:id="@id/c66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_flight_text" android:drawableLeft="@drawable/newacademy_flight" android:drawablePadding="@dimen/fj" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_new_academy_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+            <RelativeLayout android:id="@id/c67" android:background="@color/om" android:paddingLeft="@dimen/bw" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_introduction_text" android:drawableLeft="@drawable/newacademy_introduction" android:drawablePadding="@dimen/fj" android:layout_centerVertical="true" />
+                <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_new_academy_right_arrow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

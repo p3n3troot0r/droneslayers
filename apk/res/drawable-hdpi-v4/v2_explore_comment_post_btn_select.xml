@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/v2_explore_comment_post_btn_shape_blue" />
+    <item android:state_pressed="true" android:drawable="@drawable/v2_explore_comment_post_btn_shape_blue" />
+    <item android:state_selected="true" android:drawable="@drawable/v2_explore_comment_post_btn_shape_blue" />
+    <item android:drawable="@drawable/v2_explore_comment_post_btn_shape_grey" />
+</selector>

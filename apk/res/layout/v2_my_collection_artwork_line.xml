@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/gw" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/gw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="3.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/cua" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gw" android:layout_weight="1.0" layout="@layout/v2_my_collection_artwork" />
+    <include android:id="@id/cub" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gw" android:layout_weight="1.0" layout="@layout/v2_my_collection_artwork" />
+    <include android:id="@id/cuc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gw" android:layout_weight="1.0" layout="@layout/v2_my_collection_artwork" />
+</LinearLayout>

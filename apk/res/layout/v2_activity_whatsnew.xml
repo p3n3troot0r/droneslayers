@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <android.support.v4.view.ViewPager android:id="@id/ch8" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ch9" android:background="#ffcfeefe" android:padding="@dimen/gw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</dji.publics.DJIUI.DJIOriLayout>

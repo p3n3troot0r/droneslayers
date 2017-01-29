@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.flyc.imu.ImuCalView android:orientation="vertical" android:id="@id/bvn" android:background="@color/hw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/y7">
+        <TextView android:id="@id/bvo" android:text="@string/setting_ui_imu_title" android:layout_centerInParent="true" style="@style/setting_ui_txt" />
+        <ImageButton android:id="@id/bvp" android:background="@drawable/setting_ui_common_bg" android:layout_width="@dimen/vg" android:layout_height="fill_parent" android:src="@drawable/setting_ui_root_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/setting_ui_divider_horization" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bvq" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <RelativeLayout android:id="@id/bvr" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_horizontal" android:orientation="horizontal" android:id="@id/bvs" android:layout_width="fill_parent" android:layout_height="@dimen/ux" android:baselineAligned="false" android:layout_alignParentBottom="true" />
+                <ImageView android:id="@id/bvt" android:background="@drawable/setting_ui_imu_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/setting_ui_imu_ready" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_above="@id/bvs" android:contentDescription="@string/app_name" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bvu" android:paddingLeft="@dimen/ts" android:paddingRight="@dimen/ts" android:layout_width="0.0dip" android:layout_height="fill_parent" android:baselineAligned="false" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/bvv" android:layout_width="fill_parent" android:layout_height="0.0dip" android:baselineAligned="false" android:layout_weight="1.0">
+                    <include android:id="@id/bvw" layout="@layout/setting_ui_imucal_desc_item" />
+                    <include android:id="@id/bvx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u4" layout="@layout/setting_ui_imucal_desc_item" />
+                    <include android:id="@id/bvy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u4" layout="@layout/setting_ui_imucal_desc_item" />
+                </LinearLayout>
+                <ProgressBar android:id="@id/bvz" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/v3" android:max="100" android:progress="50" android:indeterminate="false" android:progressDrawable="@drawable/setting_ui_progress" android:minHeight="@dimen/v3" style="?android:attr/progressBarStyleHorizontal" />
+                <TextView android:textSize="@dimen/wn" android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/bw0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vd" android:text="@string/setting_ui_imu_calibrating" />
+                <TextView android:textSize="@dimen/wm" android:textColor="@color/om" android:id="@id/bw1" android:paddingTop="@dimen/ts" android:paddingBottom="@dimen/ts" android:layout_width="fill_parent" android:layout_marginRight="@dimen/v4" android:text="@string/setting_ui_imu_start" style="@style/setting_ui_item_btn" />
+                <TextView android:textSize="@dimen/wn" android:textColor="@color/hz" android:gravity="center|right" android:id="@id/bw2" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/ux" android:text="@string/setting_ui_imu_calibrating" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/bw3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <ImageView android:id="@id/bw4" android:background="@drawable/setting_ui_success" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+            <TextView android:textSize="@dimen/wm" android:textColor="@color/om" android:gravity="center" android:id="@id/bw5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vm" android:layout_marginTop="@dimen/u1" android:layout_marginRight="@dimen/vm" android:text="@string/setting_ui_imu_success" android:lineSpacingExtra="@dimen/u1" />
+            <TextView android:textSize="@dimen/wm" android:textColor="@color/om" android:id="@id/bw6" android:paddingLeft="@dimen/y7" android:paddingTop="@dimen/ts" android:paddingRight="@dimen/y7" android:paddingBottom="@dimen/ts" android:layout_marginTop="@dimen/us" android:text="@string/setting_ui_imu_back" style="@style/setting_ui_item_btn" />
+        </LinearLayout>
+    </FrameLayout>
+</dji.setting.ui.flyc.imu.ImuCalView>

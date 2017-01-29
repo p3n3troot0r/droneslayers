@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/c4o" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.5" />
+        <ImageView android:id="@id/c4p" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="-200.0dip" android:src="@drawable/v2_p3a_icon" android:scaleType="centerCrop" android:layout_weight="6.5" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/a8o" android:textColor="@color/jk" android:gravity="center_vertical" android:id="@id/c4q" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/a8n" android:layout_marginRight="@dimen/a8n" android:text="@string/activate_statement_title" android:layout_weight="1.0" phantom:djiTextFace="a4" />
+        <TextView android:textSize="@dimen/wx" android:textColor="@color/jl" android:id="@id/en" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/a8n" android:layout_marginRight="@dimen/a8n" android:text="@string/activate_statement_content" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/dn" android:textColor="@color/om" android:gravity="center" android:id="@id/c4r" android:background="@drawable/v2_main_plantom_buttom_camera_blue_selector" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/a8n" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/a8n" android:layout_marginBottom="30.0dip" android:text="@string/continue_" android:singleLine="true" android:layout_weight="1.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</merge>

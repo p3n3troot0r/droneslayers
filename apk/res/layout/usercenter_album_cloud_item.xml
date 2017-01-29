@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/g4" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot.usercenter.widget.DJIShareProgressBar android:id="@id/c1v" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c1w" android:background="@color/ak" android:padding="@dimen/n4" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/c1x" android:background="@drawable/usercenter_album_video_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:gravity="center|right" android:id="@id/c1y" android:layout_width="fill_parent" phantom:djiTextFace="a5" style="@style/GenTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c1z" android:background="@drawable/usercenter_cloud_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c20" android:background="@color/j_" android:visibility="gone" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c21" android:background="@drawable/playback_select_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c22" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="@dimen/n4" android:src="@drawable/playback_raw" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c23" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="1.0dip" android:layout_marginRight="1.0dip" android:src="@drawable/fpv_playback_downloaded" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <dji.pilot.usercenter.widget.DJICircleProgressBar2 android:id="@id/c24" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:max="100" android:progress="0" android:layout_centerInParent="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

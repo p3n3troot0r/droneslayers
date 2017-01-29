@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="#fff5f5f5" android:layout_width="fill_parent" android:layout_height="@dimen/gw" android:layout_marginLeft="@dimen/ft" android:layout_marginRight="@dimen/ft" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/gw" android:text="@string/v2_nativeexplore_gl_comment" />
+    <dji.pilot2.nativeexplore.view.GLExploreList android:id="@id/ahp" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gw" android:divider="@null" />
+</LinearLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/om" android:gravity="center" android:background="@color/am" android:layout_width="fill_parent" android:layout_height="@dimen/a6c" android:text="@string/longan_timelapse_setting" android:alpha="0.8" />
+    <TextView android:id="@id/b9_" android:layout_marginLeft="@dimen/a6h" android:text="@string/longan_timelapse_mode_title" style="@style/longan_timelapse_set_title" />
+    <RelativeLayout android:id="@id/b9a" android:background="@color/am" android:layout_width="fill_parent" android:layout_height="@dimen/a6b">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/longan_timelapse_mode_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <TextView android:id="@id/b4n" android:clickable="false" android:layout_width="@dimen/a6i" android:layout_height="@dimen/a6a" android:text="@string/longan_timelapse_stationary" style="@style/longan_timelapse_mode" />
+            <TextView android:id="@id/b4o" android:clickable="false" android:layout_width="@dimen/a6i" android:layout_height="@dimen/a6a" android:text="@string/longan_timelapse_motion" style="@style/longan_timelapse_mode" />
+        </LinearLayout>
+    </RelativeLayout>
+    <TextView android:id="@id/b9b" android:layout_marginLeft="@dimen/a6h" android:text="@string/longan_timelapse_interval_title" style="@style/longan_timelapse_set_title" />
+    <RelativeLayout android:id="@id/b9c" android:background="@color/am" android:layout_width="fill_parent" android:layout_height="@dimen/a6b">
+        <ImageView android:background="@drawable/longan_whee_position_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <antistatic.spinnerwheel.WheelHorizontalView android:id="@id/b9d" android:layout_width="fill_parent" android:layout_height="@dimen/a7b" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_centerInParent="true" phantom:isAllVisible="true" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+    </RelativeLayout>
+    <TextView android:id="@id/b9e" android:layout_marginLeft="@dimen/a6h" android:text="@string/longan_timelapse_duration_title" style="@style/longan_timelapse_set_title" />
+    <RelativeLayout android:id="@id/b9f" android:background="@color/am" android:layout_width="fill_parent" android:layout_height="@dimen/a6b">
+        <RelativeLayout android:id="@id/b9g" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:background="@drawable/longan_whee_position_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <antistatic.spinnerwheel.WheelHorizontalView android:id="@id/b9h" android:layout_width="fill_parent" android:layout_height="@dimen/a7b" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_centerInParent="true" phantom:isAllVisible="true" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+        </RelativeLayout>
+        <ImageView android:id="@id/b9i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_timelapse_motion_pic" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/b9j" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/b9k" android:layout_marginLeft="@dimen/a6h" android:text="@string/longan_timelapse_generate_video" style="@style/longan_timelapse_set_title" />
+        <RelativeLayout android:id="@id/b9l" android:background="@color/am" android:layout_width="fill_parent" android:layout_height="@dimen/a6f">
+            <TextView android:textColor="@color/om" android:id="@id/b9m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/longan_timelapse_generate_video_continue" android:layout_centerInParent="true" android:alpha="0.8" />
+        </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/b9n" android:layout_width="fill_parent" android:layout_height="@dimen/a6c" android:layout_marginTop="@dimen/a6_">
+        <Button android:textSize="20.0sp" android:textColor="@color/fd" android:id="@id/b9o" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/longan_timelapse_start" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</LinearLayout>

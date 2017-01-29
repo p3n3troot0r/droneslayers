@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.focus.DJIFocusAreaView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/iq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ir" android:padding="@dimen/rp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/is" android:background="@drawable/camera_focus_auto_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/it" android:background="@drawable/camera_focus_auto_cross" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/iu" android:background="@drawable/camera_focus_manual_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:textColor="@color/om" android:id="@id/iv" android:text="@string/camera_area_auto_desc" android:layout_below="@id/iq" android:layout_centerHorizontal="true" style="@style/GenCenterWrapTxt" />
+</dji.pilot.fpv.camera.focus.DJIFocusAreaView>

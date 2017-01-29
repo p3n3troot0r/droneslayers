@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.pilot2.mine.view.FixRatioImageView android:id="@id/cy6" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:width_weight="4.0" app:height_weight="3.0" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rj" android:textColor="@color/om" android:id="@id/cy7" android:background="@color/ai" android:padding="@dimen/fz" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:layout_marginRight="@dimen/ga" android:text="00:00" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.pilot.publics.widget.DJIMarqueeTextView android:textSize="@dimen/rq" android:id="@id/cy8" android:layout_width="fill_parent" android:layout_height="wrap_content" android:singleLine="true" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</RelativeLayout>

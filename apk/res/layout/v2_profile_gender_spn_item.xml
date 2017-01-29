@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJITextView android:textColor="@color/a_" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:maxLines="3" android:singleLine="false" phantom:djiTextFace="a4"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto" />

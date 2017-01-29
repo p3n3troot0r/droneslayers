@@ -1,0 +1,33 @@
+{
+    "mode":"waypoint",
+    "view":"view_waypoint_newitem",
+    "title":"gsnew_gs_way_point_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://smartmode/back",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://smartmode/back"
+    },
+    "righttop":{
+             "img":"waypoint_setting",
+             "jumpto":"gs://smartmode/waypoint/setting"
+    },
+    "buttons":[
+        {
+            "title":"gsnew_gs_way_point_add_point_btn",
+            "color":"#ffffff",
+            "jumpto":"gs://smartmode/waypoint/addnewpoint"
+        },
+        {
+            "title":"gsnew_gs_way_point_add_point_done",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/waypoint/addnewpointfinish"
+        }
+    ]
+    
+}

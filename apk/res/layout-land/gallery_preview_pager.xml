@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center" android:id="@id/gf" android:background="@color/a_" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ge">
+        <SurfaceView android:id="@id/gh" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ahd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    <uk.co.senab.photoview.PhotoView android:id="@id/ahe" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/gi" android:visibility="gone" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/gallery_preview_play" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    <RelativeLayout android:id="@id/ahf" android:layout_width="fill_parent" android:layout_height="65.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/gj" android:background="#fff6f6f6" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="5.0dip" android:layout_above="@id/gk" android:layout_centerHorizontal="true">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/gl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <VideoView android:background="#ff9b9b9b" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" android:layout_marginTop="3.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="3.0dip" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/gm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </LinearLayout>
+        <dji.pilot.gallery.previewActivity.widget.GalleryHScrollView android:id="@id/gk" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_alignParentBottom="true">
+            <LinearLayout android:orientation="horizontal" android:id="@id/gn" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </dji.pilot.gallery.previewActivity.widget.GalleryHScrollView>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/go" android:background="@drawable/gallery_preview_line" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="40.0dip" android:layout_alignParentBottom="true" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzReportErrorView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:id="@id/bfg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/g8" android:layout_marginBottom="@dimen/ft" android:text="@string/nfz_error_title" style="@style/GeoTitleTv" />
+    <View android:layout_marginLeft="@dimen/g8" android:layout_marginRight="@dimen/g8" android:layout_below="@id/bfg" style="@style/HorizontalDivider" />
+    <CheckBox android:id="@id/bfh" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/g1" android:checked="false" android:text="@string/nfz_error_abandon" android:layout_below="@id/bfg" style="@style/GeoCheckboxSt" />
+    <CheckBox android:id="@id/bfi" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g1" android:checked="false" android:text="@string/nfz_error_over_coverage" android:layout_below="@id/bfh" style="@style/GeoCheckboxSt" />
+    <CheckBox android:id="@id/bfj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g1" android:checked="false" android:button="@null" android:text="@string/nfz_error_unlock_failed" android:drawableRight="?android:listChoiceIndicatorMultiple" android:layout_below="@id/bfi" style="@style/FlightForbidTv" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/bfk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g8" android:layout_below="@id/bfj">
+        <dji.pilot.publics.widget.DJIStateTextView android:id="@id/bfl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/nfz_error_other" android:drawableRight="@drawable/arrow_right" style="@style/FlightForbidTv" />
+        <dji.pilot.publics.widget.DJIEditText android:textColor="@color/om" android:id="@id/bfe" android:background="@drawable/nfz_et_bg" android:paddingLeft="@dimen/gw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gc" android:layout_marginLeft="@dimen/fj" android:layout_marginRight="@dimen/gc" phantom:djiTextFace="a4" style="@style/FlightForbidTv" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:layout_above="@id/bfm" style="@style/GeoDlgHorDivider" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bfm" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/GeoDlgBottomBtns">
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/bfn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_cancel" android:layout_weight="1.0" android:layout_alignParentLeft="true" style="@style/FlightForbidTv" />
+        <View android:id="@id/bey" android:layout_width="1.0dip" style="@style/FpvGenSettingDividerVertical" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/bfo" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/nfz_error_submit" android:layout_weight="1.0" android:layout_alignParentRight="true" style="@style/FlightForbidTv" />
+    </LinearLayout>
+</dji.pilot.flyunlimit.view.NfzReportErrorView>

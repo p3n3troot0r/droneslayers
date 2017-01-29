@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.LonganShotcutsStyleView android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a2o" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/a2o">
+            <RadioGroup android:orientation="horizontal" android:id="@id/b7e" android:background="@drawable/set_radiogroup_bg" android:layout_width="fill_parent" android:layout_height="@dimen/a2s" android:layout_centerHorizontal="true" style="@style/set_widget_radiogroup">
+                <RadioButton android:id="@id/b7f" android:background="@drawable/set_radio_left_bg" android:text="@string/shotcuts_style_standard_txt" style="@style/shotcuts_style_radio" />
+                <View style="@style/set_h_divider" />
+                <RadioButton android:id="@id/b7g" android:text="@string/shotcuts_style_scenery_txt" style="@style/shotcuts_style_radio" />
+                <View style="@style/set_h_divider" />
+                <RadioButton android:id="@id/b7h" android:text="@string/shotcuts_style_soft_txt" style="@style/shotcuts_style_radio" />
+                <View style="@style/set_h_divider" />
+                <RadioButton android:id="@id/b7i" android:background="@drawable/set_radio_right_bg" android:text="@string/shotcuts_style_custom_txt" style="@style/shotcuts_style_radio" />
+            </RadioGroup>
+        </RelativeLayout>
+        <LinearLayout style="@style/shotcuts_style_ly">
+            <ImageView android:src="@drawable/advanced_more_sharpness" style="@style/shotcuts_style_name_img" />
+            <TextView android:text="@string/shotcuts_style_sharpness" style="@style/shotcuts_style_name_txt" />
+            <View android:layout_weight="0.0" style="@style/shotcuts_style_ly_item" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7j" android:src="@drawable/fpv_camera_minus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+            <TextView android:id="@id/b7k" android:text="0" android:layout_weight="0.5" style="@style/shotcuts_style_ly_item_txt" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7l" android:src="@drawable/fpv_camera_plus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+        </LinearLayout>
+        <LinearLayout style="@style/shotcuts_style_ly">
+            <ImageView android:src="@drawable/advanced_more_saturation" style="@style/shotcuts_style_name_img" />
+            <TextView android:text="@string/shotcuts_style_saturation" style="@style/shotcuts_style_name_txt" />
+            <View android:layout_weight="0.0" style="@style/shotcuts_style_ly_item" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7m" android:src="@drawable/fpv_camera_minus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+            <TextView android:id="@id/b7n" android:text="0" android:layout_weight="0.5" style="@style/shotcuts_style_ly_item_txt" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7o" android:src="@drawable/fpv_camera_plus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+        </LinearLayout>
+        <LinearLayout style="@style/shotcuts_style_ly">
+            <ImageView android:src="@drawable/advanced_more_contrast" style="@style/shotcuts_style_name_img" />
+            <TextView android:text="@string/shotcuts_style_contrast" style="@style/shotcuts_style_name_txt" />
+            <View android:layout_weight="0.0" style="@style/shotcuts_style_ly_item" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7p" android:src="@drawable/fpv_camera_minus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+            <TextView android:id="@id/b7q" android:text="0" android:layout_weight="0.5" style="@style/shotcuts_style_ly_item_txt" />
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7r" android:src="@drawable/fpv_camera_plus" android:layout_weight="1.0" style="@style/shotcuts_style_ly_item_image" />
+        </LinearLayout>
+    </LinearLayout>
+</dji.device.common.view.set.view.LonganShotcutsStyleView>

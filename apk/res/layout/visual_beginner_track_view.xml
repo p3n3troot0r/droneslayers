@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.beginner.DJIBeginnerTrackDrawView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center|left" android:id="@id/d8n" android:paddingLeft="@dimen/n4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/n3" android:text="@string/visual_beginner_track_select" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d8o" android:background="@drawable/visual_beginner_human" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/d8n" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d8p" android:background="@drawable/visual_beginner_hand_select" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/d8n" android:contentDescription="@string/app_name" />
+</dji.pilot.visual.beginner.DJIBeginnerTrackDrawView>

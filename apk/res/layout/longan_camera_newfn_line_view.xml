@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.DJILCameraLineView android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/camera_other_divider" android:showDividers="end|middle" android:dividerPadding="0.0dip">
+        <include android:id="@id/lx" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/ly" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/lz" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/m0" layout="@layout/longan_shotcuts_itemlist_view" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/m1" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:paddingTop="@dimen/rl" android:paddingRight="@dimen/rp" android:paddingBottom="@dimen/rl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center|left" android:id="@id/m2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/camera_ref_line_custom" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/gn" android:gravity="center|left" android:id="@id/m3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/camera_ref_line_custom" />
+                <View android:layout_width="@dimen/fz" android:layout_height="1.0dip" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/b1r" android:background="@drawable/longan_item_selected_icon" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rp" android:baselineAligned="false">
+                <EditText android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/m4" android:background="@drawable/bg_edittext" android:padding="@dimen/n3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:inputType="numberDecimal" android:imeOptions="actionDone" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" android:text=":" />
+                <EditText android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/m5" android:background="@drawable/bg_edittext" android:padding="@dimen/n3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="1.0" android:inputType="numberDecimal" android:imeOptions="actionDone" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+        <include android:id="@id/ky" layout="@layout/longan_camera_custom_color_item" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.device.common.view.set.view.DJILCameraLineView>

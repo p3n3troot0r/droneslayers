@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+        <ImageView android:id="@id/bab" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_selector_gimbal_plan_left" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/e6" android:gravity="center" android:id="@id/bac" android:background="@drawable/lp_gimbalplan_textbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0°/s" android:layout_below="@id/bab" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/e6" android:gravity="center" android:id="@id/bad" android:background="@drawable/lp_gimbalplan_textbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0°/s" android:layout_below="@id/bae" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/bae" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_selector_gimbal_plan_right" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <ImageView android:id="@id/baf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_selector_gimbal_plan_up" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/e6" android:gravity="center" android:id="@id/bag" android:background="@drawable/lp_gimbalplan_textbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0°/s" android:layout_below="@id/baf" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <RelativeLayout android:orientation="vertical" android:id="@id/bah" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="16.0sp" android:textColor="@color/e6" android:gravity="center" android:id="@id/bai" android:background="@drawable/lp_gimbalplan_textbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0°/s" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <ImageView android:id="@id/baj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_selector_gimbal_plan_down" android:layout_above="@id/bai" />
+    </RelativeLayout>
+</RelativeLayout>

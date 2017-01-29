@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/ag3" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="10.0dip" android:text="@string/v2_hg_informations_dialog_title" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ag4" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_below="@id/ag3">
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/ag5" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_date" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/ag6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/ag5" />
+        </RelativeLayout>
+        <RelativeLayout android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/ag7" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_equipment" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/ag8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/ag7" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/ag9" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_Size" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/ag_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/ag9" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/aga" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_aperture" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/agb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/aga" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/agc" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_shutter" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/agd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/agc" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff9b9b9b" android:id="@id/age" android:layout_width="70.0dip" android:layout_height="wrap_content" android:text="@string/v2_hg_informations_dialog_iso" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/agf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_toRightOf="@id/age" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:id="@id/agg" android:background="#fff1f1f2" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/ag4" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="16.0sp" android:textColor="#ff1088f2" android:gravity="center" android:id="@id/agh" android:layout_width="fill_parent" android:layout_height="50.0dip" android:text="@string/cancel" android:layout_below="@id/agg" />
+</RelativeLayout>

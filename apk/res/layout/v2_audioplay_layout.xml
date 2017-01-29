@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ah" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/che" android:background="@color/a_" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/chf" android:padding="@dimen/g8" android:layout_width="@dimen/h2" android:layout_height="@dimen/h2" android:src="@drawable/v2_local_music_palyer_button_selector" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:id="@id/chg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+                        <TextView android:textSize="@dimen/rl" android:textStyle="bold" android:textColor="@color/om" android:ellipsize="end" android:id="@id/chh" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="--" android:singleLine="true" android:layout_weight="1.0" />
+                        <TextView android:textSize="@dimen/rl" android:textColor="@color/ku" android:id="@id/chi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:text="--:--" android:layout_alignParentRight="true" />
+                    </LinearLayout>
+                    <TextView android:textSize="@dimen/rl" android:textColor="@color/ku" android:ellipsize="end" android:id="@id/chj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="--" android:singleLine="true" android:layout_below="@id/chg" />
+                </RelativeLayout>
+            </LinearLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/a7q">
+                <RelativeLayout android:id="@id/chk" android:layout_width="fill_parent" android:layout_height="@dimen/a7r" android:layout_marginBottom="@dimen/gr" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+                    <ImageView android:layout_width="fill_parent" android:layout_height="@dimen/a7r" android:layout_marginLeft="@dimen/gl" android:layout_marginRight="@dimen/gl" android:src="@drawable/v2_local_music_view_grid_background" android:scaleType="centerCrop" />
+                </RelativeLayout>
+                <dji.pilot2.nativeaudio.view.AudioCursor android:id="@id/chl" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_local_music_cursor" android:scaleType="centerCrop" />
+                </dji.pilot2.nativeaudio.view.AudioCursor>
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/ku" android:gravity="center" android:paddingTop="@dimen/fr" android:paddingBottom="@dimen/fr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_local_music_tip" />
+        </LinearLayout>
+        <ListView android:id="@id/chm" android:background="@color/ai" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ff38444b" android:dividerHeight="1.0px" />
+    </LinearLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_horizontal" android:id="@id/chn" android:background="@color/ln" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:id="@id/c8_" android:background="@drawable/v2_cutmoment_save_background" android:layout_width="@dimen/a8" android:layout_height="@dimen/a7" android:layout_marginTop="@dimen/fw">
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <ImageView android:id="@id/rt" android:background="@anim/b9" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" />
+                <dji.publics.DJIUI.DJILinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw">
+                    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_create_moments_save_moments" />
+                    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:id="@id/c8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="0%" />
+                </dji.publics.DJIUI.DJILinearLayout>
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/md" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/aey" android:background="@drawable/v2_quick_fragmentthree_device" android:layout_width="320.0dip" android:layout_height="420.0dip" android:layout_marginLeft="107.5dip" android:layout_centerVertical="true" />
+    <View android:id="@id/aez" android:background="@drawable/v2_quick_fragmentthree_per" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="100.0dip" android:layout_marginRight="106.0dip" android:layout_alignTop="@id/aey" android:layout_alignRight="@id/aey" />
+    <View android:id="@id/af0" android:background="@drawable/v2_quick_fragmentthree_point" android:visibility="gone" android:layout_width="120.0dip" android:layout_height="120.0dip" android:layout_marginBottom="18.0dip" android:layout_alignRight="@id/aey" android:layout_alignBottom="@id/aey" />
+    <RelativeLayout android:id="@id/af1" android:layout_width="@dimen/si" android:layout_height="wrap_content" android:layout_marginTop="124.0dip" android:layout_marginRight="145.0dip" android:layout_alignParentRight="true">
+        <TextView android:textSize="31.0dip" android:textStyle="bold" android:textColor="@color/om" android:id="@id/af2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_fragment_three_title" />
+        <TextView android:textSize="17.0dip" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="50.0dip" android:text="@string/quick_fragment_three_content" android:layout_below="@id/af2" android:layout_alignLeft="@id/af2" />
+    </RelativeLayout>
+    <View android:id="@id/af3" android:background="@drawable/v2_quick_fragmentthree_five" android:visibility="gone" android:layout_width="220.0dip" android:layout_height="60.0dip" android:layout_marginTop="50.0dip" android:layout_below="@id/af1" android:layout_alignLeft="@id/af1" />
+</RelativeLayout>

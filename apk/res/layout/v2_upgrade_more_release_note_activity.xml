@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:paddingLeft="@dimen/sb" android:paddingTop="@dimen/x3" android:paddingRight="@dimen/sb" android:paddingBottom="@dimen/x3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="13.0sp" android:textColor="#ff00031b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_upgrade_p4_upgrade_note" android:layout_alignParentLeft="true" />
+    <dji.pilot.publics.widget.DJIScrollTextView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@drawable/anim_grid_thumb" android:scrollbarTrackVertical="@color/db" android:scrollbarAlwaysDrawVerticalTrack="false" android:scrollbarStyle="insideOverlay" android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:id="@id/d0z" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:maxHeight="@dimen/ml" android:text="" android:lineSpacingExtra="@dimen/n4" android:scrollbarFadeDuration="2000" android:scrollbarDefaultDelayBeforeFade="0" />
+</LinearLayout>

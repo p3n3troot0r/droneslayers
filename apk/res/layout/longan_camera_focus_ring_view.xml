@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.focus.DJIMFFocusRingViewCompat android:gravity="right" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:baselineAligned="false" android:splitMotionEvents="false" pilot:landscapeMargin_Left="@dimen/a17" xmlns:pilot="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.common.view.DJIRoundLinearLayoutCompat android:orientation="vertical" android:id="@id/j1" android:layout_width="@dimen/gl" android:layout_height="fill_parent" android:baselineAligned="false">
+        <dji.device.common.view.DJIStateImageViewCompat android:layout_gravity="center_horizontal" android:id="@id/b0n" android:background="@color/j5" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/flower" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.device.widget.DJIRulerView android:id="@id/j4" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:rotation="180.0" pilot:scaleColorLongan="@color/om" pilot:scalePaddingLongan="@dimen/nu" />
+        <dji.device.common.view.DJIStateImageViewCompat android:layout_gravity="center_horizontal" android:id="@id/b0o" android:background="@color/j5" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/longan_faraway" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.device.common.view.DJIRoundLinearLayoutCompat>
+</dji.device.camera.view.focus.DJIMFFocusRingViewCompat>

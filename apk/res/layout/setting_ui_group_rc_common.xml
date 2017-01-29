@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView setting_ui:titleText="@string/setting_ui_flyc" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/setting_ui_rc_common_layout" />
+</ScrollView>

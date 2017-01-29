@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/d9b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d9c" android:background="@drawable/visual_point_dir" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d9d" android:background="@drawable/visual_point_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:gravity="center" android:id="@id/d9e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visual_parallel_now" android:shadowColor="@color/a_" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+</dji.publics.DJIUI.DJILinearLayout>

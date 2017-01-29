@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:attr="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/cg9" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="18.0sp" android:textColor="#ff1088f2" android:gravity="center" android:id="@id/cg_" android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginRight="@dimen/fj" android:text="@string/v2_upgrade_activity_finish_btn" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="26.0sp" android:textColor="#ff4a4a4a" android:id="@id/cga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/v2_share_contest_share_suc_txt" android:layout_below="@id/cg9" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/cgb" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/v2_sharelater_txt1" android:layout_below="@id/cga" />
+    <RelativeLayout android:id="@id/cgc" android:layout_width="320.0dip" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/cgb" android:layout_centerHorizontal="true">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cgd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:background="#ffd8d8d8" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="0.8" />
+            <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:text="@string/v2_sharelater_txt2" android:layout_weight="1.0" />
+            <View android:background="#ffd8d8d8" android:layout_width="0.0dip" android:layout_height="0.5dip" android:layout_weight="0.8" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/cge" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="15.0dip" android:layout_below="@id/cgd" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/cgf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="4.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.0">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aes" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" android:src="@drawable/pic_quikstart_six_pic1" android:scaleType="fitCenter" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ael" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="10.0dip">
+                    <dji.publics.DJIUI.DJIImageView android:id="@id/aem" android:layout_width="0.0dip" android:layout_height="60.0dip" android:src="@drawable/pic_quikstart_six_pic2" android:scaleType="fitCenter" android:layout_weight="1.0" />
+                    <dji.publics.DJIUI.DJIImageView android:id="@id/aet" android:layout_width="0.0dip" android:layout_height="60.0dip" android:src="@drawable/pic_quikstart_six_pic3" android:scaleType="fitCenter" android:layout_weight="1.0" android:layout_toRightOf="@id/aem" />
+                </LinearLayout>
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_below="@id/ael">
+                    <dji.publics.DJIUI.DJITextView android:textSize="11.0sp" android:textColor="#ff323846" android:gravity="center|top" android:id="@id/aeu" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="@string/v2_quickstart_six_1" android:layout_weight="1.0" />
+                    <dji.publics.DJIUI.DJITextView android:textSize="11.0sp" android:textColor="#ff323846" android:gravity="center|top" android:id="@id/aev" android:layout_width="0.0dip" android:layout_height="60.0dip" android:text="@string/v2_quickstart_six_2" android:layout_weight="1.0" android:layout_toRightOf="@id/aem" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="100.0dip" android:layout_marginRight="20.0dip">
+                <dji.publics.DJIUI.DJITextView android:textSize="23.0sp" android:textColor="@color/a_" android:gravity="center|top" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_quickstart_six_3" />
+                <dji.publics.DJIUI.DJITextView android:textSize="23.0sp" android:textColor="@color/a_" android:gravity="center|top" android:id="@id/aew" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/v2_quickstart_six_4" />
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="#ff6a6e77" android:gravity="center|left|top" android:id="@id/aex" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/v2_quickstart_six_5" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

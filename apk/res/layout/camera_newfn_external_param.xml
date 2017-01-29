@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.sub.DJICameraExternalParamView android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/camera_other_divider" android:showDividers="end|middle" android:dividerPadding="0.0dip">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:padding="@dimen/rp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oz" android:gravity="center" android:id="@id/l3" android:background="@drawable/selector_usercenter_category_left" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tau_param_c1" android:layout_weight="1.0" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oz" android:gravity="center" android:id="@id/l4" android:background="@drawable/selector_usercenter_category_middle" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tau_param_c2" android:layout_weight="1.0" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/oz" android:gravity="center" android:id="@id/l5" android:background="@drawable/selector_usercenter_category_right" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tau_param_c3" android:layout_weight="1.0" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <include android:id="@id/l6" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/l7" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/l8" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/l9" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/l_" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/la" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/lb" layout="@layout/camera_newfn_external_param_item" />
+        <include android:id="@id/lc" layout="@layout/camera_newfn_external_param_item" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/ld" android:text="@string/tau_reset_to_default" style="@style/CameraFnClickTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.camera.newfn.sub.DJICameraExternalParamView>

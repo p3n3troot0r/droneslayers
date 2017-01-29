@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/cx8" android:background="@drawable/v2_plantom_selector_record" android:visibility="visible" android:layout_width="@dimen/d_" android:layout_height="@dimen/d_" android:layout_margin="@dimen/df" android:scaleType="centerInside" />
+    <ImageView android:id="@id/cx9" android:background="@drawable/v2_plantom_ji_icon" android:layout_width="@dimen/d_" android:layout_height="@dimen/d_" android:scaleType="centerInside" android:layout_centerInParent="true" />
+    <dji.pilot2.upgrade.rollback.LongPressTextView android:id="@id/cx_" android:background="@drawable/v2_phantom_selector_more" android:layout_width="@dimen/d_" android:layout_height="@dimen/d_" android:layout_margin="@dimen/df" android:scaleType="centerInside" android:layout_alignParentRight="true" />
+    <View android:id="@id/csj" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="5.0dip" android:layout_height="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="15.0dip" android:layout_alignRight="@id/cx8" />
+</RelativeLayout>

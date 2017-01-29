@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/longan_timelapse_interval_title" style="@style/lp_timelapse_des_text" />
+    <RelativeLayout android:background="@color/ad" android:layout_width="fill_parent" android:layout_height="@dimen/a65">
+        <ImageView android:id="@id/b8p" android:background="@drawable/longan_whee_position_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/rp" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/longan_timelapse2_time_second" android:layout_above="@id/b8p" android:layout_centerHorizontal="true" />
+        <antistatic.spinnerwheel.WheelHorizontalView android:id="@id/b8q" android:layout_width="fill_parent" android:layout_height="@dimen/a7b" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_centerInParent="true" phantom:isAllVisible="true" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+    </RelativeLayout>
+    <TextView android:text="@string/longan_timelapse_duration_title" style="@style/lp_timelapse_des_text" />
+    <RelativeLayout android:background="@color/ad" android:layout_width="fill_parent" android:layout_height="@dimen/a65">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <antistatic.spinnerwheel.WheelHorizontalView android:id="@id/b8r" android:layout_width="fill_parent" android:layout_height="@dimen/a7b" android:layout_marginLeft="0.0dip" android:layout_marginRight="0.0dip" android:layout_centerInParent="true" phantom:isAllVisible="true" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+            <ImageView android:id="@id/b8s" android:background="@drawable/longan_whee_position_land" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            <TextView android:textSize="@dimen/rp" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/longan_timelapse2_time_minite" android:layout_above="@id/b8s" android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/a65">
+        <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/b8t" android:layout_marginLeft="@dimen/fj" android:text="@string/longan_timelapse2_generate_txt" android:layout_centerVertical="true" android:alpha="0.8" style="@style/GenCenterWrapTxt" />
+        <TextView android:textSize="@dimen/rk" android:textColor="@color/om" android:id="@id/b8u" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fo" android:text="@string/longan_timelapse_generate_video_continue" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/op" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/b8v" android:layout_width="fill_parent" android:layout_height="@dimen/a65">
+        <ImageView android:id="@id/b8w" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:src="@drawable/timelapse_tripod" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/b8x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/longan_timelapse2_tripod_txt" android:layout_toRightOf="@id/b8w" android:layout_centerVertical="true" android:alpha="0.8" />
+        <dji.device.common.view.set.view.DJISwitchCompat android:id="@id/b8y" android:layout_marginRight="@dimen/fj" android:width="@dimen/a3d" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/lp_widget_switch" />
+        <View android:background="@color/op" android:layout_width="fill_parent" android:layout_height="0.39999998dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,34 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: djiGO.apk
+compressionType: false
+doNotCompress:
+- data
+- assets/build
+- txt
+- h264
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '17'
+sharedLibrary: false
+unknownFiles:
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-br.bin: '8'
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-layoutinfo.bin: '8'
+  com/android/databinding/library/baseAdapters/com.android.databinding.library.baseAdapters-setter_store.bin: '8'
+  com/fasterxml/jackson/core/json/VERSION.txt: '8'
+  com/google/api/client/googleapis/google.jks: '8'
+  com/sina/weibo/sdk/net/cacert_cn.cer: '8'
+  com/sina/weibo/sdk/net/cacert_com.cer: '8'
+  it/sauronsoftware/ftp4j/extrecognizers/textualexts: '8'
+  tae_sdk_plugins/man.properties: '8'
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.2
+versionInfo:
+  versionCode: '80'
+  versionName: 3.1.2

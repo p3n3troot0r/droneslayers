@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.gimbal.ronin.FollowParamsView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" setting_ui:titleText="@string/setting_ui_ronin_follow_setting"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/setting_ui_items_scrollview">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/ts" android:paddingBottom="@dimen/ts" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_ronin_remote_controller_setting_dead_zone" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vg">
+                <TextView android:textColor="@color/hj" android:gravity="center_horizontal" android:layout_width="@dimen/tt" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:layout_marginRight="@dimen/vd" android:text="@string/setting_ui_ronin_remote_controller_setting_trans" />
+                <TextView android:textColor="@color/hj" android:gravity="center_horizontal" android:layout_width="@dimen/tt" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:text="@string/setting_ui_ronin_remote_controller_setting_pitch" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vg">
+                <TextView android:id="@id/bu2" style="@style/setting_ui_ronin_edittext" />
+                <TextView android:id="@id/bu3" style="@style/setting_ui_ronin_edittext" />
+            </LinearLayout>
+            <TextView android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uf" android:text="@string/setting_ui_ronin_follow_setting_speed" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vg">
+                <TextView android:textColor="@color/hj" android:gravity="center_horizontal" android:layout_width="@dimen/tt" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:layout_marginRight="@dimen/vd" android:text="@string/setting_ui_ronin_remote_controller_setting_trans" />
+                <TextView android:textColor="@color/hj" android:gravity="center_horizontal" android:layout_width="@dimen/tt" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:text="@string/setting_ui_ronin_remote_controller_setting_pitch" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="@dimen/vg" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/bu4" style="@style/setting_ui_ronin_edittext" />
+                <TextView android:id="@id/bu5" style="@style/setting_ui_ronin_edittext" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.setting.ui.gimbal.ronin.FollowParamsView>

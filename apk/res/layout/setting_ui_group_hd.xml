@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.SettingUIStageView android:layout_width="fill_parent" android:layout_height="fill_parent" setting_ui:titleText="@string/setting_ui_hd"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.hd.HdCustomScrollView style="@style/setting_ui_items_scrollview">
+        <LinearLayout style="@style/setting_ui_items_linearlayout">
+            <dji.setting.ui.hd.ChannelView setting_ui:showDivider="false" style="@style/setting_ui_item_noPadding" />
+            <dji.setting.ui.hd.SdrTransAjustParamView setting_ui:titleText="@string/setting_ui_hd_assitant_desc" style="@style/setting_ui_item_noPadding" />
+            <dji.setting.ui.hd.LBTSwitchView setting_ui:titleText="@string/setting_ui_hd_lbt_desc" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.Fps720View setting_ui:titleText="@string/setting_ui_hd_fps" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.HdmiAppOutputView setting_ui:titleText="@string/setting_ui_hd_hdmi_app_output" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.HdmiOsdView setting_ui:titleText="@string/setting_ui_hd_hdmi_osd" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.HdmiMetricUnitView setting_ui:titleText="@string/setting_ui_hd_hdmi_metric" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2BandWidthView style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2TransmissionModeView setting_ui:titleText="@string/setting_ui_hd_transmission" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2HdmiAppOutputView setting_ui:titleText="@string/setting_ui_hd_output_switch" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2OpenEXTView setting_ui:titleText="@string/setting_ui_hd_lb2_open_ext_mode" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2AppOutputView setting_ui:titleText="@string/setting_ui_hd_app_output" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2OutputPortView setting_ui:titleText="@string/setting_ui_hd_output_device" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2OutputModeView setting_ui:titleText="@string/setting_ui_hd_output_mode" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2Dm368OutputModeView setting_ui:titleText="@string/setting_ui_hd_output_mode" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2OutputFormatView setting_ui:titleText="@string/setting_ui_hd_output_format" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2GroupView setting_ui:titleText="@string/setting_ui_hd_osd_desc" setting_ui:subLayout="@layout/setting_ui_group_hd_osdset" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2GroupView setting_ui:titleText="@string/setting_ui_hd_pip" setting_ui:subLayout="@layout/setting_ui_group_hd_pip" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.LB2GroupView setting_ui:titleText="@string/setting_ui_hd_signal_check" setting_ui:subLayout="@layout/setting_ui_group_hd_signal_check" setting_ui:showDivider="true" style="@style/setting_ui_item" />
+            <dji.setting.ui.hd.RevertImageView android:visibility="gone" setting_ui:titleText="@string/setting_ui_hd_revert_image" style="@style/setting_ui_item" />
+        </LinearLayout>
+    </dji.setting.ui.hd.HdCustomScrollView>
+</dji.setting.ui.SettingUIStageView>

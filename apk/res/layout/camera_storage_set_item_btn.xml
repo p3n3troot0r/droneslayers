@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="@dimen/a4q" android:layout_weight="1.0">
+            <TextView android:textSize="@dimen/a4v" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/q6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lp_camera_storage_title" />
+            <View android:layout_width="wrap_content" android:layout_height="2.0dip" />
+            <TextView android:textSize="@dimen/a4p" android:textColor="@android:color/darker_gray" android:id="@id/q7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lp_phone_camera_storage_external" />
+        </LinearLayout>
+        <Button android:id="@id/q8" android:layout_marginRight="@dimen/a4p" android:text="@string/app_setting" style="@style/set_widget_btn" />
+    </LinearLayout>
+    <View android:id="@id/q9" android:layout_below="@id/q6" style="@style/set_divider" />
+</LinearLayout>

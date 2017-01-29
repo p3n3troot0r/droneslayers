@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_centerVertical="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/csg" android:clickable="false" android:layout_width="@dimen/g3" android:layout_height="@dimen/g3" android:layout_marginLeft="@dimen/fj" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/ft" android:textColor="@color/ih" android:layout_gravity="center_vertical" android:id="@id/csh" android:clickable="false" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/g1" />
+        </LinearLayout>
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/csi" android:clickable="false" android:layout_width="@dimen/h7" android:layout_height="@dimen/h7" android:layout_marginRight="@dimen/fj" android:src="@drawable/v2_arrow_right_new" android:scaleType="centerCrop" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <RelativeLayout android:padding="@dimen/gw" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="@dimen/gc" android:layout_centerVertical="true">
+            <View android:id="@id/csj" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="@dimen/gw" android:layout_height="@dimen/gw" android:layout_marginTop="@dimen/fj" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <TextView android:textColor="@color/om" android:gravity="center" android:id="@id/csk" android:background="@drawable/v2_coupon_new_bg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="new" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:textAlignment="center" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/csl" android:background="@drawable/v2_round_corner_text_bg" android:paddingLeft="@dimen/gr" android:paddingRight="@dimen/gr" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

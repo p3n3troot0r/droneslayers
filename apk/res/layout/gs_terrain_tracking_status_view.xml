@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.groundStation.stage.DJITerrainTrackingStatusStageView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/aiu" android:background="@drawable/gs_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/oe">
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_terrain_tracking_title" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJIImageButton android:id="@id/anb" android:background="@android:color/transparent" android:padding="@dimen/h7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gs_terrain_tracking_help_btn" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/aiv" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:id="@id/anc" android:background="@drawable/gs_click_left_bottom_round_background" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_terrain_tracking_status_exit" android:layout_weight="1.0" />
+        <View android:background="@color/eo" android:layout_width="@dimen/fz" android:layout_height="@dimen/gl" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/er" android:gravity="center" android:id="@id/and" android:background="@drawable/gs_click_background" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_terrain_tracking_status_hide" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:id="@id/aiy" android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_above="@id/aiv" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:id="@id/ane" android:paddingLeft="@dimen/gh" android:paddingRight="@dimen/gh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gh" android:text="@string/gs_terrain_tracking_stage_desc" android:layout_above="@id/aiy" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/h8" android:layout_above="@id/ane" android:layout_below="@id/aiu">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/anf" android:paddingLeft="@dimen/fj" android:paddingTop="@dimen/g1" android:paddingRight="@dimen/fj" android:paddingBottom="@dimen/g1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/gs_terrain_tracking_illustrate" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.groundStation.stage.DJITerrainTrackingStatusStageView>

@@ -1,0 +1,24 @@
+{
+    "mode":"waypoint",
+    "view":"view_waypoint_download_mission_container",
+    "title":"gsnew_gs_way_point_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":1,
+    "backto":"gs://smartmode/exit",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://smartmode/exit"
+    },
+    "buttons":[
+        {
+           "title":"gsnew_gs_return_to_home_attitude_dialog_cancle",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/exit"
+         }
+    ]
+    
+}

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:paddingBottom="@dimen/gt" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/a5f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gx" android:layout_marginBottom="@dimen/n2" android:src="@drawable/live_facebook_login" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:id="@id/a5g" android:layout_marginTop="@dimen/n2" android:text="@string/liveshare_base_please_login" android:layout_below="@id/a5f" android:layout_centerHorizontal="true" style="@style/setting_ui_txt" />
+    <dji.pilot.liveshare.Facebook.widget.DJIFacebookLoginButton android:id="@id/a5h" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/om" android:gravity="center" android:id="@id/a5i" android:background="@drawable/liveshare_weibo_start_btn" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/g1" android:text="@string/liveshare_base_login" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a5j" android:background="@color/ai" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ProgressBar android:layout_width="@dimen/y7" android:layout_height="@dimen/y7" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

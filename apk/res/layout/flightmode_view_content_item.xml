@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/fp" android:layout_height="@dimen/fp" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/tf" android:padding="@dimen/n4" android:layout_width="@dimen/h4" android:layout_height="@dimen/gt" android:src="@drawable/selector_flightmode_point" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/oy" android:gravity="center" android:id="@id/tg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/fpv_flight_mode_point" />
+</LinearLayout>

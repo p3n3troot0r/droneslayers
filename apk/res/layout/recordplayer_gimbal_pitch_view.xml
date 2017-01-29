@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJIFpvGimbalPitchView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a1l" android:layout_width="@dimen/o1" android:layout_height="@dimen/o1" android:src="@drawable/gimbal_pitch_up" />
+    <dji.publics.widget.DJIVSeekBar android:layout_gravity="center_horizontal" android:id="@id/a1m" android:padding="0.0dip" android:layout_width="@dimen/fj" android:layout_height="@dimen/fq" android:thumbOffset="0.0dip" android:layout_below="@id/a1l" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:rotation="180.0" phantom:max="180" phantom:progress="70" phantom:progressDrawable="@drawable/fpv_gimbal_pitch_sdr_pgb" phantom:progressHeight="36.0px" phantom:thumb="@drawable/fpv_gimbal_pitch_middle_thumb" style="@style/DisableSeekBar" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a1n" android:layout_width="@dimen/o1" android:layout_height="@dimen/o1" android:src="@drawable/gimbal_pitch_up" android:layout_below="@id/a1m" android:rotation="180.0" />
+</dji.pilot.fpv.view.DJIFpvGimbalPitchView>

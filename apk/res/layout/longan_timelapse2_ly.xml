@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.timelapse.DJILPTimelapseSetView android:orientation="vertical" android:background="@color/af" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/fw" android:layout_height="@dimen/y5" android:layout_centerVertical="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/b8e" android:background="@color/af" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+        <TextView android:textSize="@dimen/rp" android:textColor="@color/ax" android:gravity="center" android:id="@id/b8f" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/longan_timelapse_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/rl" android:id="@id/b8g" android:text="@string/longan_timelapse2_title" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/b8h" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/b8i" android:layout_width="fill_parent" android:layout_height="@dimen/g6" layout="@layout/longan_timelapse2_motion_ly" />
+        <include android:id="@id/b8j" android:layout_width="fill_parent" android:layout_height="@dimen/g6" layout="@layout/longan_timelapse2_static_ly" />
+    </FrameLayout>
+    <Button android:enabled="false" android:textColor="@color/pm" android:id="@id/b8k" android:background="@drawable/selector_trans_black" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/longan_timelapse2_start_txt" style="@style/GenCenterWrapTxt" />
+</dji.phone.timelapse.DJILPTimelapseSetView>

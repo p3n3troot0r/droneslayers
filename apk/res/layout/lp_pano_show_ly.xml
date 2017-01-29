@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.pano.DJILPPanoDisplayer android:background="@color/a_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:longan="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/b4s" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/bbb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerInside" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/bbc" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/longan_pano_cancle" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/b4v" android:background="@color/a_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/bbd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <ImageView android:id="@id/b4x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_panoing" android:scaleType="center" android:layout_centerHorizontal="true" />
+            <dji.device.common.view.progressbar.LonganHorizontalProgressBar android:layout_gravity="center_horizontal" android:id="@id/b4y" android:background="@color/j5" android:padding="5.0dip" android:layout_width="@dimen/y5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fx" android:progress="0" android:layout_below="@id/b4x" longan:progress_unreached_color="@color/os" longan:progress_reached_color="@color/ax" longan:progress_reached_bar_height="4.0dip" longan:progress_unreached_bar_height="4.0dip" longan:progress_text_visibility="z" />
+        </RelativeLayout>
+        <TextView android:textSize="@dimen/rr" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gl" android:text="@string/lp_pano_stitching_txt" android:layout_below="@id/bbd" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</dji.phone.pano.DJILPPanoDisplayer>

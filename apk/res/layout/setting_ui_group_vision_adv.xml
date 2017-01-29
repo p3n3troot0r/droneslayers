@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView setting_ui:titleText="@string/setting_ui_vision_adv_desc" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout">
+        <TextView android:text="@string/setting_ui_vision_forward_title" style="@style/setting_ui_item_sub_title" />
+        <dji.setting.ui.vision.VisionFrontAssView style="@style/setting_ui_item_bottom" />
+        <TextView android:text="@string/setting_ui_vision_down_title" style="@style/setting_ui_item_sub_title" />
+        <dji.setting.ui.vision.VisionDownVPSView style="@style/setting_ui_item_bottom" />
+    </LinearLayout>
+</ScrollView>

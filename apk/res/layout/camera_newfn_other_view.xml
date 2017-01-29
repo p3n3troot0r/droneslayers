@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.DJICameraFnOtherView android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/camera_other_divider" android:showDividers="end|middle" android:dividerPadding="0.0dip">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/m7" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:text="@string/fpv_gensetting_histogram" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/m8" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/m9" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_lock_gimbal_shotting" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/m_" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ma" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_vertical_mode" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mb" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mc" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_backgroudn_fetch_media" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/md" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/me" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_video_caption" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mf" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mg" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_overexposure" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mh" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mi" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_focus_aid_desc" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mj" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mk" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_focus_aid_desc_a" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/ml" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mm" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_focus_aid_desc_m" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mn" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mo" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:text="@string/fpv_gensetting_quickpreview" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mp" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mq" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_noise_reduction" style="@style/CameraFnDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mr" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ms" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:text="@string/camera_forearm_led" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mt" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mu" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:text="@string/camera_aeunlock" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mv" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/mw" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:text="@string/camera_log_debug" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/mx" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/my" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_showgrid" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/mz" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n0" android:src="@drawable/advanced_more_none" android:layout_toLeftOf="@id/mz" style="@style/CameraFnValueImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/n1" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_ref_point" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n2" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n3" android:src="@drawable/advanced_more_none" android:layout_toLeftOf="@id/n2" style="@style/CameraFnValueImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/n4" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_ref_line" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n5" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/n6" android:text="@string/app_off_lower" android:layout_toLeftOf="@id/n5" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/n7" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_camera_antiblink" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n8" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/n9" android:src="@drawable/advanced_more_auto" android:layout_toLeftOf="@id/n8" style="@style/CameraFnValueImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/n_" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_quickpreview" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/na" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/nb" android:src="@drawable/advanced_more_off" android:layout_toLeftOf="@id/na" style="@style/CameraFnValueImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nc" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_gensetting_fileindex" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/nd" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/ne" android:text="@string/fpv_gensetting_fileindex_reset" android:layout_toLeftOf="@id/nd" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nf" android:visibility="visible" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_roi_desc" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/ng" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nh" android:text="@string/tau_roi_full" android:layout_toLeftOf="@id/ng" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ni" android:visibility="visible" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_palette_desc" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/nj" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nk" android:text="@string/tau_palette_whitehot" android:layout_toLeftOf="@id/nj" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nl" android:visibility="visible" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_scene_desc" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/nm" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nn" android:text="@string/tau_scene_default" android:layout_toLeftOf="@id/nm" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/no" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_camera_isotherm" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/np" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nq" android:text="@string/app_off" android:layout_toLeftOf="@id/np" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nr" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_gainmode_desc" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/ns" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nt" android:text="@string/tau_gainmode_auto" android:layout_toLeftOf="@id/ns" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nu" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_temp_alert" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/nv" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nw" android:text="@string/tau_gainmode_auto" android:layout_toLeftOf="@id/nv" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/nx" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_exter_params" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/ny" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/nz" android:text="@string/tau_param_c1" android:layout_toLeftOf="@id/ny" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/o0" android:visibility="gone" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/tau_ffc_desc" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/o1" style="@style/CameraFnArrowImg" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/o2" android:text="@string/tau_ffc_auto" android:layout_toLeftOf="@id/o1" style="@style/CameraFnValueTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/o3" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/camera_profile_title" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/o4" style="@style/CameraFnArrowImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/o5" style="@style/CameraFnLy">
+            <dji.publics.DJIUI.DJITextView android:text="@string/fpv_camera_info" style="@style/CameraFnDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/o6" style="@style/CameraFnArrowImg" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJITextView android:id="@id/o7" android:visibility="gone" android:text="@string/tau_ffc_trigger" style="@style/CameraFnClickTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/o8" android:text="@string/camera_mf_redemarcate" style="@style/CameraFnClickTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/o9" android:text="@string/fpv_gensetting_reset_camera_setting" style="@style/CameraFnClickTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/o_" android:text="@string/fpv_gensetting_format_sdcard" style="@style/CameraFnClickTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/oa" android:text="@string/fpv_gensetting_format_ssd" style="@style/CameraFnClickTxt" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:id="@id/ob" android:padding="@dimen/rj" android:visibility="gone" android:layout_height="wrap_content" style="@style/CameraFnClickTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.camera.newfn.DJICameraFnOtherView>

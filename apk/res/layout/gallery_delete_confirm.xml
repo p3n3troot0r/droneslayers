@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:paddingTop="20.0dip" android:layout_width="280.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/afy" android:paddingLeft="20.0dip" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text="" />
+    <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="#ff4a4a4a" android:id="@id/afz" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="20.0dip" android:text="@string/v2_hg_delete_dialog_content" android:layout_below="@id/afy" android:lineSpacingMultiplier="1.2" />
+    <View android:id="@id/ag0" android:background="#fff1f1f2" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_below="@id/afz" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/ag0">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="16.0sp" android:textColor="#fff84242" android:gravity="center" android:id="@id/ag1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/ok" android:layout_weight="1.0" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="16.0sp" android:textColor="#ff1088f2" android:gravity="center" android:id="@id/ag2" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/cancel" android:layout_weight="1.0" />
+    </LinearLayout>
+</RelativeLayout>

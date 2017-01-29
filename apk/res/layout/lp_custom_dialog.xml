@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/j5" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/ba3" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@drawable/lp_dialog_bg" android:layout_width="@dimen/g9" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:gravity="start|center" android:orientation="vertical" android:id="@id/ba4" android:paddingTop="@dimen/gw" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+                <TextView android:textSize="@dimen/ro" android:textColor="@color/ot" android:ellipsize="end" android:gravity="center" android:id="@id/ba5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/lp_ble_device_corrent" android:singleLine="true" />
+                <TextView android:textSize="@dimen/ro" android:textColor="@color/ot" android:ellipsize="end" android:gravity="center" android:id="@id/ba6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:singleLine="true" />
+            </LinearLayout>
+            <FrameLayout android:id="@id/ba7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/gq" android:layout_weight="1.0">
+                <ScrollView android:id="@id/ba8" android:paddingTop="@dimen/gw" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/ro" android:id="@id/ba9" android:layout_width="fill_parent" android:text="@string/lp_ble_device_disconnect_hint_txt" android:singleLine="false" style="@style/GenCenterWrapTxt" />
+                    </LinearLayout>
+                </ScrollView>
+            </FrameLayout>
+            <View android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/ga" android:layout_marginTop="@dimen/gw" android:alpha="0.1" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+                <Button android:textColor="@color/e6" android:gravity="center" android:id="@id/ba_" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_cancel" android:layout_weight="1.0" />
+                <View android:background="@color/om" android:layout_width="1.0dip" android:layout_height="fill_parent" android:alpha="0.05" />
+                <Button android:textColor="@color/ax" android:gravity="center" android:id="@id/baa" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/lp_ble_device_disconnect_button_txt" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

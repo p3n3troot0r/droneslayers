@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a1u" android:background="@android:color/black" android:layout_width="fill_parent" android:layout_height="fill_parent" android:keepScreenOn="true" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/a7s" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.phone.preview.DJILPPreviewTexture android:id="@id/a1w" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </FrameLayout>
+    <View android:id="@id/a7t" android:background="@color/a_" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/a7u" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <ImageView android:id="@id/a7v" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textColor="#ff00ff00" android:id="@id/a7w" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <View android:id="@id/a7x" android:background="@android:color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+    <dji.phone.DJILPTouchLogicView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" layout="@layout/lp_tk_target_ly" />
+    <include android:id="@id/a7y" layout="@layout/lp_meter_ly" />
+    <dji.phone.customui.DJIRotationRelativeLayout android:id="@id/a7z" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.device.common.view.DJIGridLineCompat android:id="@id/a1y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" phantom:horizontalLines_c="4" phantom:verticalLines_c="4" phantom:horizontalLineColor_c="@color/e8" phantom:verticalLineColor_c="@color/e8" phantom:diagonalLineColor_c="@color/e8" phantom:horizontalLineWidth_c="1.0px" phantom:verticalLineWidth_c="1.0px" phantom:diagonalLineWidth_c="1.0px" />
+        <include android:id="@id/a80" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" layout="@layout/lp_gimbal_rotation_plan" />
+        <include android:id="@id/a79" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ft" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/lp_record_info_bar_layout" />
+        <include android:id="@id/a81" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/ft" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" layout="@layout/lp_zoom_info_top_bar_layout" /> />
+<TextView android:gravity="center" android:id="@id/a82" android:background="@color/fs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:layout_marginBottom="@dimen/gh" android:text="@string/lp_aeaf_lock_tip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <View android:id="@id/a83" android:background="@drawable/left_to_right_wide_mask_bg" android:visibility="invisible" android:layout_width="@dimen/g2" android:layout_height="fill_parent" />
+        <include android:id="@id/a84" layout="@layout/lp_preview_quicksetting_bar" />
+        <include android:id="@id/a85" layout="@layout/lp_preview_cameracontrol_bar" />
+        <include android:id="@id/a86" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/a85" layout="@layout/lp_level1_menu_layout" />
+        <include android:id="@id/a87" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_toRightOf="@id/a86" layout="@layout/lp_level2_menu_layout" />
+        <dji.phone.bluetooth.DJILPBleStatusView android:id="@id/a88" android:padding="@dimen/ft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gv" android:src="@drawable/lp_ble_link_fail" android:scaleType="centerInside" />
+        <include android:id="@id/a89" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/g1" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" layout="@layout/lp_live_share_view" />
+        <dji.phone.customui.DJILPRotationLinearLayout android:id="@id/a8_" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginRight="@dimen/gx" android:layout_alignParentRight="true">
+            <LinearLayout android:id="@id/a8a" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/a8b" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_battery_charging" android:scaleType="center" />
+                <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJIImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/a8c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_ic_battery_lv1" android:scaleType="center" />
+                <View android:layout_width="2.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:id="@id/a8d" android:text="N/A" style="@style/camerainfobar_value" />
+                <View android:layout_width="4.0dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <ImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/a8e" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_camera_flash_off" />
+        </dji.phone.customui.DJILPRotationLinearLayout>
+        <include android:id="@id/a8f" layout="@layout/lp_ui_switch_ly" />
+        <include android:layout_width="wrap_content" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/fk" android:layout_marginBottom="@dimen/ft" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" layout="@layout/lp_track_quit_ly" />
+        <include android:id="@id/a8g" android:layout_width="@dimen/fy" android:layout_height="fill_parent" android:layout_toLeftOf="@id/a84" android:layout_centerVertical="true" layout="@layout/lp_camera_shotcuts_view" />
+        <include android:id="@id/a8h" android:layout_width="@dimen/fy" android:layout_height="fill_parent" android:layout_toLeftOf="@id/a84" android:layout_centerVertical="true" layout="@layout/lp_gimbal_shortcut_view" />
+        <TextView android:textSize="35.0dip" android:textColor="@color/om" android:gravity="center" android:id="@id/a8i" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:layout_centerVertical="true" phantom:djiTextFace="a3" />
+        <include android:id="@id/a8j" android:layout_width="@dimen/fw" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gx" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/longan_timelapse2_ly" />
+        <include android:id="@id/a8k" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentLeft="true" layout="@layout/lp_turorial_ble" />
+        <include android:id="@id/a8l" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/lp_pano_show_ly" />
+    </dji.phone.customui.DJIRotationRelativeLayout>
+    <ViewStub android:id="@id/a7o" android:layout="@layout/longan_fpv_gimbal_roll_finetune_view" android:inflatedId="@id/a7n" android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <ViewStub android:id="@id/a8n" android:layout="@layout/lp_toturial_view" android:inflatedId="@id/a8m" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/a8o" android:layout_width="@dimen/l5" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:layout_marginRight="@dimen/fj" android:layout_alignParentRight="true" layout="@layout/fpv_error_pop_view_litchi_c" />
+</dji.publics.DJIUI.DJIRelativeLayout>

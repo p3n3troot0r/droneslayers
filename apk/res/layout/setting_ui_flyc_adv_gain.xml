@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/setting_ui_flyc_adv_gain_basic" android:layout_centerVertical="true" style="@style/setting_ui_item_sub_title" />
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_pitch_desc" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/bqm" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_limit_height_range" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/bqn" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_roll_desc" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/bqo" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_limit_height_range" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/bqp" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_yaw_desc" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/bqq" android:layout_marginRight="@dimen/tv" android:text="" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/bqr" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_vertical_desc" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/bqs" android:layout_marginRight="@dimen/tv" android:text="" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/bqt" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bqu" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/setting_ui_flyc_adv_gain_atti" android:layout_centerVertical="true" style="@style/setting_ui_item_sub_title" />
+        <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+            <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_pitch_adv_desc" style="@style/setting_ui_item_title" />
+            <TextView android:id="@id/bqv" android:layout_marginRight="@dimen/tv" android:text="" style="@style/setting_ui_item_desc" />
+            <EditText android:id="@id/bqw" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+        </dji.setting.ui.widget.DividerLinearLayout>
+        <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+            <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_adv_gain_roll_adv_desc" style="@style/setting_ui_item_title" />
+            <TextView android:id="@id/bqx" android:layout_marginRight="@dimen/tv" android:text="" style="@style/setting_ui_item_desc" />
+            <EditText android:id="@id/bqy" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="number" style="@style/setting_ui_item_edittext" />
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:text="@string/setting_ui_flyc_adv_gain_desc" style="@style/setting_ui_item_desc" />
+</LinearLayout>

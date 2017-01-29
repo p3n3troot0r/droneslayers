@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/f5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="激活" />
+    <Button android:id="@id/f6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="反激活" />
+    <Button android:id="@id/f7" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="反激活相机" />
+    <Button android:id="@id/f8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="反激活ofdm" />
+    <Button android:id="@id/f9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机激活" />
+    <Button android:id="@id/f_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ofdm激活" />
+    <Button android:id="@id/fa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机sn拉取" />
+    <Button android:id="@id/fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ofdm拉取" />
+    <TextView android:id="@id/fc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机sn " />
+    <TextView android:id="@id/fd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ofdm sn " />
+    <TextView android:id="@id/fe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="相机 " />
+    <TextView android:id="@id/ff" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="ofdm " />
+</LinearLayout>

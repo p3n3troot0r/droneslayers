@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/selector_gen_radius_corner" android:paddingLeft="@dimen/n3" android:paddingTop="@dimen/l3" android:paddingRight="@dimen/n4" android:paddingBottom="@dimen/l3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/zz" android:padding="@dimen/n3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/l1" android:src="@drawable/fpv_errorpop_close_icon" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_toLeftOf="@id/zz" android:layout_centerVertical="true">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a00" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:id="@id/zw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/battery_warning_icon" android:adjustViewBounds="true" android:maxWidth="@dimen/l2" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/yn" android:textColor="@android:color/white" android:layout_gravity="center_vertical" android:id="@id/zx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n4" android:maxLines="3" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/yn" android:textColor="@android:color/white" android:id="@id/zy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="0.0dip" android:maxLines="3" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

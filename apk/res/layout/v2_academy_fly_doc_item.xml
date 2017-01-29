@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:paddingRight="@dimen/fe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/h8" android:layout_height="@dimen/h8">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c3v" android:background="@drawable/v2_doc_bg_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/c3w" android:background="@drawable/college_document_new" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/c3x" android:background="@color/an" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/c3y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_acad_download_icon" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        <dji.pilot.college.widget.DJIArcProgressBar android:id="@id/c3z" android:layout_width="@dimen/fc" android:layout_height="@dimen/fc" android:layout_centerInParent="true" phantom:progress="50" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/gb" android:gravity="center" android:id="@id/c40" android:background="@drawable/college_download_bg" android:paddingTop="@dimen/n3" android:paddingBottom="@dimen/n3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_marginRight="@dimen/n3" android:layout_marginBottom="@dimen/rk" android:text="@string/college_download" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/b" android:ellipsize="end" android:gravity="left" android:id="@id/c41" android:layout_width="@dimen/h8" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:maxLines="4" phantom:djiTextFace="a5" />
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.newfpv.view.FpvShortcutView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/abb" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:id="@id/abc" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="center" android:id="@id/abd" android:background="@drawable/shortcut_ver_hor_shot_switch" android:layout_width="@dimen/mn" android:layout_height="@dimen/mn" />
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/ot" android:gravity="center" android:layout_width="@dimen/fm" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/shortcut_ver_hor_shot_switch_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gl">
+            <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="center" android:id="@id/abe" android:background="@drawable/gimbal_for_down_switch_img" android:layout_width="@dimen/mn" android:layout_height="@dimen/mn" />
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/ot" android:gravity="center" android:layout_width="@dimen/fm" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/shortcut_gimbal_for_down_switch_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gl">
+            <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="center" android:id="@id/abf" android:background="@drawable/shotcut_sethome_plane_img" android:layout_width="@dimen/mn" android:layout_height="@dimen/mn" />
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/ot" android:gravity="center" android:layout_width="@dimen/fm" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/shortcut_set_home_uav_title" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gl">
+            <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="center" android:id="@id/abg" android:background="@drawable/shotcut_set_home_phone_img" android:layout_width="@dimen/mn" android:layout_height="@dimen/mn" />
+            <TextView android:textSize="@dimen/rl" android:textColor="@color/ot" android:gravity="center" android:layout_width="@dimen/fm" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/shortcut_set_home_phone_title" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:id="@id/abh" android:padding="@dimen/gw" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gv" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <ImageView android:layout_gravity="center" android:background="@drawable/shotcut_brightness_dark_img" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" />
+        <SeekBar android:layout_gravity="center" android:id="@id/abi" android:layout_width="@dimen/g6" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:maxHeight="@dimen/ga" android:max="100" android:progress="30" android:progressDrawable="@drawable/setting_ui_progress" android:minHeight="@dimen/ga" android:thumb="@drawable/setting_ui_progress_thumb" />
+        <ImageView android:layout_gravity="center" android:background="@drawable/shotcut_brightness_light_img" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_marginLeft="@dimen/fj" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/rl" android:textColor="@color/ot" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fj" android:text="@string/shortcut_adjust_brightness" android:layout_above="@id/abh" android:layout_centerHorizontal="true" />
+</dji.pilot.newfpv.view.FpvShortcutView>

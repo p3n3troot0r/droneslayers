@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:padding="5.0dip" android:clickable="true" style="@style/main_menu_button"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:id="@id/bk8" android:layout_width="21.599976dip" android:layout_height="21.599976dip" android:src="@drawable/rc_main_ic_home_s_editor" />
+    <dji.publics.DJIUI.DJITextView android:layout_gravity="center_vertical" android:id="@id/bk9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h7" android:text="@string/rc_main_editor" style="@style/main_menu_text" />
+</dji.publics.DJIUI.DJILinearLayout>

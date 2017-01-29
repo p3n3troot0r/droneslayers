@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:id="@id/c8d" android:background="@color/n8" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c8e" android:background="@color/n8" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c8f" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:text="@string/v2_photo_preview_bar_title" android:layout_centerInParent="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <com.ortiz.touch.TouchImageView android:id="@id/c8g" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="fitCenter" android:layout_weight="1.0" />
+    </LinearLayout>
+</dji.publics.DJIUI.DJIOriLayout>

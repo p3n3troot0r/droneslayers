@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:background="@color/n7" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/a_" android:gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/c9" android:text="@string/fly_unlimit_legal_agreement_title" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ScrollView android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/gc" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/gc" android:layout_marginBottom="@dimen/g1" android:layout_weight="1.0">
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ro" android:textColor="@color/a_" android:gravity="center|left|top" android:id="@id/h_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/fly_unlimit_legal_agreement_title" />
+            </ScrollView>
+            <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/g1">
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ro" android:textColor="@color/om" android:gravity="center" android:id="@id/ha" android:background="@drawable/fly_unlimit_legal_disagree_bg" android:clickable="true" android:layout_width="@dimen/fp" android:layout_height="@dimen/gl" android:layout_marginRight="@dimen/fj" android:text="@string/fly_unlimit_legal_agreement_disagree" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ro" android:textColor="@color/om" android:gravity="center" android:id="@id/f0" android:background="@drawable/fly_unlimit_legal_agree_bg" android:clickable="true" android:layout_width="@dimen/fp" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/fj" android:text="@string/fly_unlimit_legal_agreement_agree" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJIOriLayout>

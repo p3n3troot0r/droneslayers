@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/b_l" android:background="@color/fp" android:clickable="true" android:layout_width="fill_parent" android:layout_height="90.0dip" android:alpha="0.87">
+        <dji.publics.DJIUI.DJITextView android:textSize="20.0sp" android:textColor="@color/om" android:gravity="center|left" android:id="@id/b_g" android:paddingLeft="72.0dip" android:paddingRight="130.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/lp_tutorial_follow" android:layout_alignParentTop="true" phantom:djiTextFace="a6" />
+        <Button android:id="@id/b_j" android:background="@drawable/longan_tutorial_cancle" android:padding="@dimen/ft" android:visibility="visible" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginRight="35.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <Button android:textSize="20.0sp" android:textColor="@color/om" android:id="@id/bdo" android:background="@drawable/lp_tutorial_button_bg" android:visibility="gone" android:layout_width="@dimen/h8" android:layout_height="@dimen/gl" android:layout_marginRight="35.0dip" android:text="@string/lp_tutorial_continue" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</RelativeLayout>

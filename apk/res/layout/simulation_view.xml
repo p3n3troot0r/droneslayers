@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:background="@color/cv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:id="@id/bzc" android:text="GetStatus" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/bzd" style="@style/FpvAboutValueItemTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:id="@id/bze" android:text="SetSim" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/bzf" style="@style/FpvAboutValueItemTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:id="@id/bzg" android:text="PushParams" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/bzh" android:layout_width="wrap_content" style="@style/FpvAboutValueItemTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJILinearLayout>

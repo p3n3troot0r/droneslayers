@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.leftmenu.DJILeftBar android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/a3z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_centerVertical="true" layout="@layout/fpv_new_leftmenu_view" />
+    <include android:id="@id/a40" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_centerVertical="true" layout="@layout/fpv_leftopt_view" />
+</dji.pilot.fpv.leftmenu.DJILeftBar>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/fp"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cjp" android:background="@drawable/radius_corner_help_tip_bg" android:layout_width="@dimen/gn" android:layout_height="@dimen/fp" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/cjq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <android.support.v4.view.ViewPager android:id="@id/cjr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/g1" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g1" android:text="@string/simulator_tips_mode_warn" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:layout_width="@dimen/gw" android:layout_height="@dimen/fo" android:layout_marginTop="@dimen/gp" android:src="@drawable/v2_smlt_dlg_trian" android:layout_toRightOf="@id/cjp" />
+</RelativeLayout>

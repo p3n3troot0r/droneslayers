@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/setting_ui_flyc_gain_title" android:layout_centerVertical="true" style="@style/setting_ui_item_sub_title" />
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_gain_tilt" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/brh" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_limit_height_range" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/bri" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:text="@string/setting_ui_flyc_gain_brake" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/brj" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_limit_height_range" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/brk" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/brl" style="@style/setting_ui_item">
+        <TextView android:gravity="center_vertical" android:id="@id/bqz" android:text="@string/setting_ui_flyc_gain_yaw_endpoint" style="@style/setting_ui_item_title" />
+        <TextView android:id="@id/brm" android:layout_marginRight="@dimen/tv" android:text="@string/setting_ui_flyc_limit_height_range" style="@style/setting_ui_item_desc" />
+        <EditText android:id="@id/brn" android:text="0" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_edittext" />
+    </LinearLayout>
+</LinearLayout>

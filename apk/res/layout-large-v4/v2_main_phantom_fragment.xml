@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:layout_width="fill_parent" android:layout_height="wrap_content" phantom:djiDeviceType="a1"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/cs0" layout="@layout/v2_phantom_header_bar" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cs0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <include android:id="@id/cs1" layout="@layout/v2_phantom_content_title_noconnect" />
+                <include android:id="@id/cs2" android:visibility="gone" layout="@layout/v2_phantom_content_title_connect" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="4.5">
+                <include android:id="@id/cs3" layout="@layout/v2_phantom_content_noconnect" />
+                <include android:id="@id/cs4" android:visibility="gone" layout="@layout/v2_phantom_content_connect" />
+            </FrameLayout>
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0">
+                <include android:id="@id/cs5" layout="@layout/v2_phantom_content_bottom" />
+            </FrameLayout>
+        </LinearLayout>
+        <include layout="@layout/v2_upgrade_tip_banner_view" />
+        <include layout="@layout/v2_upgrade_p4_tip_banner_view" />
+        <include layout="@layout/v2_home_ble_banner_view" />
+    </RelativeLayout>
+</dji.publics.DJIUI.DJIOriLayout>

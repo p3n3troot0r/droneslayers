@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.mine.view.FixRatioImageView android:id="@id/cva" android:background="@drawable/v2_artwork_picture_default" android:layout_width="fill_parent" android:layout_height="fill_parent" app:width_weight="3.0" app:height_weight="2.0" />
+    <dji.pilot.publics.widget.DJIStateTextView android:id="@id/cvb" android:background="@drawable/template_downloaded_tag" android:paddingLeft="@dimen/gw" android:paddingTop="@dimen/ga" android:paddingRight="@dimen/gw" android:paddingBottom="@dimen/ga" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/v2_network_audio_downloaded" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignBottom="@id/cva">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rr" android:textColor="@color/om" android:id="@id/cvc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大自然的奇迹" android:marqueeRepeatLimit="marquee_forever" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/cvd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:text="欢快的音乐节奏配合着短镜头快切" android:layout_below="@id/cvc" android:marqueeRepeatLimit="marquee_forever" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/cve" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1:32" android:drawableLeft="@drawable/v2_template_duration_icon" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

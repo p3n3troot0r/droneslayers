@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/clr" android:layout_width="@dimen/gt" android:layout_height="@dimen/gt" android:layout_marginRight="@dimen/g1" android:src="@drawable/usercenter_clear_normal" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/h4">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/h4" android:layout_marginTop="@dimen/fj">
+                <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/cls" android:layout_width="@dimen/h2" android:layout_height="@dimen/h2" android:src="@drawable/v2_avatar_default" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/clt" android:layout_width="@dimen/fv" android:layout_height="@dimen/fo" android:layout_marginBottom="@dimen/gw" android:scaleType="centerCrop" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/clu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" />
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/clv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" />
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/clw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g8" />
+            <dji.publics.DJIUI.DJITextView android:textColor="@color/e7" android:layout_gravity="center_horizontal" android:id="@id/clx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gc" android:text="@string/v2_explore_discrip" />
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cly" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gw" android:maxWidth="@dimen/gb" />
+            <dji.publics.DJIUI.DJITextView android:textColor="@color/e7" android:layout_gravity="center_horizontal" android:id="@id/clz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/v2_explore_device" />
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/cm0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/gw" />
+            <dji.publics.DJIUI.DJITextView android:textColor="@color/e7" android:layout_gravity="center_horizontal" android:id="@id/cm1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gc" android:text="EXIF" />
+            <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:layout_gravity="center_horizontal" android:id="@id/cm2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="f2.0 1/8000" />
+            <dji.gs.views.EventView android:layout_gravity="center_horizontal" android:id="@id/cm3" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/ge" android:layout_height="@dimen/fs" />
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

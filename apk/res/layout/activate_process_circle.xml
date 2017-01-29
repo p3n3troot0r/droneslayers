@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<View android:id="@id/e7" style="@style/activate_top_schedule_radius"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

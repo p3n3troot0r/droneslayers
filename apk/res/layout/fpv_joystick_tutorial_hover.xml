@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/a8" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:background="@drawable/joystick_view_dash_line" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" android:layerType="software" />
+    <ImageView android:background="@drawable/pic_wifi_tutorial_leftstick" android:layout_width="@dimen/g5" android:layout_height="@dimen/g5" android:layout_alignParentBottom="true" />
+    <ImageView android:background="@drawable/pic_wifi_tutorial_rightstick" android:layout_width="@dimen/g5" android:layout_height="@dimen/g5" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+</RelativeLayout>

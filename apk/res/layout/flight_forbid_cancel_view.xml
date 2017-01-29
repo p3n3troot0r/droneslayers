@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzCancelView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:gravity="left" android:id="@id/t7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_margin="@dimen/gl" android:text="@string/flight_forbid_cancel_txt" android:layout_weight="1.0" style="@style/FlightForbidTv" />
+    <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:layout_gravity="center" android:id="@id/t8" android:background="@drawable/fly_unlimit_round_btn_bg" android:layout_width="@dimen/h4" android:layout_height="@dimen/hz" android:layout_marginBottom="@dimen/g1" android:text="@string/app_enter" style="@style/FlightForbidTv" />
+</dji.pilot.flyunlimit.view.NfzCancelView>

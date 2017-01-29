@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/om" android:paddingTop="@dimen/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bf1" layout="@layout/v2_account_title_bar" />
+    <dji.pilot.publics.widget.DJIEditText android:textSize="@dimen/ia" android:textColor="#ff9b9b9b" android:textColorHint="#ff9b9b9b" android:id="@id/cn6" android:background="@drawable/sign_input_bg" android:paddingLeft="11.0dip" android:layout_width="@dimen/rh" android:layout_height="@dimen/rf" android:layout_marginTop="@dimen/gh" android:hint="@string/home_account_input_emal" android:layout_below="@id/bf1" android:layout_centerHorizontal="true" android:inputType="textEmailAddress" />
+    <dji.pilot.publics.widget.DJIStateButton android:enabled="false" android:textSize="@dimen/ic" android:textColor="#ff9b9b9b" android:id="@id/cn7" android:background="@drawable/btn_sign_disable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fi" android:text="@string/home_account_forget_title" android:layout_below="@id/cn6" android:layout_centerHorizontal="true" />
+</RelativeLayout>

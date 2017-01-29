@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.flightmode.DJIFlightModeView android:orientation="vertical" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/fi" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/a0m" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a0n" android:layout_width="@dimen/fp" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/a0o" android:padding="@dimen/n4" android:layout_width="@dimen/h4" android:layout_height="@dimen/gt" android:src="@drawable/selector_flightmode_point" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/oy" android:gravity="center" android:id="@id/a0p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="@string/fpv_flight_mode_point" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a0q" android:layout_width="@dimen/fp" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/a0r" android:padding="@dimen/n3" android:layout_width="@dimen/h4" android:layout_height="@dimen/gt" android:src="@drawable/selector_flightmode_track" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/oy" android:gravity="center" android:id="@id/a0s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="@string/fpv_flight_mode_track" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a0t" android:layout_width="@dimen/fp" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/a0u" android:padding="@dimen/n3" android:layout_width="@dimen/h4" android:layout_height="@dimen/gt" android:src="@drawable/selector_flightmode_normal" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/oy" android:gravity="center" android:id="@id/a0v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="@string/fpv_flight_mode_normal" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/a0w" android:layout_width="@dimen/fp" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/a0x" android:padding="@dimen/n3" android:layout_width="@dimen/h4" android:layout_height="@dimen/gt" android:src="@drawable/selector_flightmode_smart" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/oy" android:gravity="center" android:id="@id/a0y" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="@string/fpv_flight_mode_smart" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/oe">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o7" android:textColor="@color/d9" android:id="@id/a0z" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpv_flight_mode_switching" android:layout_centerInParent="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a10" android:paddingLeft="@dimen/fr" android:paddingRight="@dimen/fr" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_fullscreen_webview_cross" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.fpv.flightmode.DJIFlightModeView>

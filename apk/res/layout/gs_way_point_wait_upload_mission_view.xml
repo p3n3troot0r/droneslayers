@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.groundStation.stage.DJIGSWayPointWaitUploadMissionView android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/aiu" android:background="@drawable/gs_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/oe" android:layout_alignParentTop="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_way_point_view_title" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/fr" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aov" android:background="@drawable/gs_click_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/gs_wait_dialog_cancel" android:layout_alignParentBottom="true" />
+    <View android:id="@id/aiy" android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_above="@id/aov" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/aiy" android:layout_below="@id/aiu">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/aow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:layout_marginBottom="@dimen/g8" android:src="@drawable/gs_way_point_upload_icon" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/fr" android:textColor="@color/es" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/g1" android:text="@string/gs_wait_dialog_title" />
+            <ProgressBar android:id="@id/aoy" android:layout_width="fill_parent" android:layout_height="@dimen/gw" android:layout_marginLeft="@dimen/gh" android:layout_marginRight="@dimen/gh" android:layout_marginBottom="@dimen/g8" android:progressDrawable="@drawable/gs_progress_bar_background" style="?android:attr/progressBarStyleHorizontal" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/fr" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aoz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gs_wait_dialog_desc" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.groundStation.stage.DJIGSWayPointWaitUploadMissionView>

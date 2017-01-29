@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cib" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:id="@id/cic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/g0" android:text="title" android:singleLine="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <RelativeLayout android:id="@id/cid" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:id="@id/cie" android:paddingLeft="@dimen/ca" android:paddingRight="@dimen/ca" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_coupon_message" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/om" android:gravity="center" android:id="@id/cif" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="@dimen/gw" android:layout_height="@dimen/gw" android:layout_marginTop="@dimen/h7" android:layout_marginRight="@dimen/yb" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <View android:id="@id/cig" android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

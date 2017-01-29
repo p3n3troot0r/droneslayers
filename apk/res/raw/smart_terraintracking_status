@@ -1,0 +1,34 @@
+{
+    "mode":"terraintracking",
+    "view":"view_terrain_tacking_start",
+    "title":"gsnew_gs_terrain_tracking_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://smartmode/exit",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://smartmode/exit"
+    },
+    "righttop":
+    {
+        "img":"gs_terrain_tracking_help_btn",
+        "jumpto":"gs://smartmode/terraintracking/help"
+    },
+    "buttons":[
+            {
+                "title":"gsnew_gs_exit_current_mode",
+                "color":"#ffffff",
+                "jumpto":"gs://smartmode/exit"
+            },
+            {
+                "title":"gsnew_gs_hide",
+                "color":"#1fa3f6",
+                "jumpto":"gs://smartmode/hide"
+            }
+    ]
+    
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:background="#77000000" android:layout_width="110.0dip" android:layout_height="fill_parent">
+        <ListView android:id="@id/aod" android:scrollbars="none" android:layout_width="110.0dip" android:layout_height="wrap_content" android:overScrollMode="never" />
+    </FrameLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:text="@string/gsnew_gs_way_point_collection_created_label" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="left" android:id="@id/aoe" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/gsnew_gs_way_point_collection_location_label" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="left" android:id="@id/aof" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/gsnew_gs_way_point_collection_distance_label" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="left" android:id="@id/aog" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:text="@string/gsnew_gs_way_point_collection_node_label" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="left" android:id="@id/aoh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="5.0dip" android:lineSpacingMultiplier="1.2" />
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip">
+            <dji.pilot.dji_groundstation.ui.views.WayPointCollectionDeleteView android:layout_gravity="bottom|center|right" android:id="@id/d6c" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/gs_waypoint_delete_collection" />
+        </FrameLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</merge>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateDjiCare android:id="@id/dg" android:layout_marginTop="0.0dip" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/at" android:gravity="center|right" android:id="@id/dh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gl" android:text="@string/v2_active_skip" android:layout_weight="0.5" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.5">
+        <TextView android:id="@id/di" android:text="@string/v2_activate_dji_care_title_keep_flying" style="@style/activate_des_title" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/dj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/activate_dji_care_img_osmo" android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <TextView android:id="@id/dk" android:text="@string/v2_active_dji_care_desc_drone" style="@style/activate_des_content" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:id="@id/dl" android:text="@string/v2_active_dji_care_desc_drone" style="@style/activate_des_content" />
+        <dji.pilot.publics.widget.DJIStateButton android:textSize="@dimen/rl" android:textColor="@android:color/white" android:id="@id/dm" android:background="@drawable/active_view_corner_button_background" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/g1" android:minHeight="0.0dip" android:text="@string/v2_active_dji_care_learn_more" />
+    </LinearLayout>
+</dji.pilot2.usercenter.activate.ActivateDjiCare>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/a14" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="90.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/om" android:id="@id/a15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:text="@string/gsnew_fpv_gensetting_beginner_toggle_desc" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        <Switch android:id="@id/a17" android:layout_marginRight="25.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/gs_setting_ui_item_switch" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/os" android:id="@id/a16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="5.0dip" android:text="@string/setting_ui_flyc_beginner_desc" android:layout_toLeftOf="@id/a17" android:layout_below="@id/a15" />
+    </RelativeLayout>
+</merge>

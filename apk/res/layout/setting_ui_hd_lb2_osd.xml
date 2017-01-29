@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:id="@id/bqz" android:text="@string/setting_ui_hd_osd_switch" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/br0" style="@style/setting_ui_item_switch" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bv2" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_height="@dimen/vg" style="@style/setting_ui_item">
+            <TextView android:text="@string/setting_ui_hd_osd_top_margin" style="@style/setting_ui_item_title" />
+            <dji.setting.ui.widget.DJINumberProgress android:id="@id/bv3" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:layout_height="@dimen/vg" style="@style/setting_ui_item">
+            <TextView android:text="@string/setting_ui_hd_osd_left_margin" style="@style/setting_ui_item_title" />
+            <dji.setting.ui.widget.DJINumberProgress android:id="@id/bv4" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:layout_height="@dimen/vg" style="@style/setting_ui_item">
+            <TextView android:text="@string/setting_ui_hd_osd_bottom_margin" style="@style/setting_ui_item_title" />
+            <dji.setting.ui.widget.DJINumberProgress android:id="@id/bv5" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+        </LinearLayout>
+        <LinearLayout android:layout_height="@dimen/vg" style="@style/setting_ui_item">
+            <TextView android:text="@string/setting_ui_hd_osd_right_margin" style="@style/setting_ui_item_title" />
+            <dji.setting.ui.widget.DJINumberProgress android:id="@id/bv6" android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

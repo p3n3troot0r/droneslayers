@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SeekBar android:layout_gravity="center_vertical" android:id="@id/ao_" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="4.0dip" android:max="100" android:progress="50" android:progressDrawable="@drawable/gs_point_of_insterest_automatic_speed_pgb" android:minHeight="4.0dip" android:thumb="@drawable/battery_thumb" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJITextView android:textSize="15.0dip" android:textColor="@color/om" android:layout_gravity="center_vertical" android:id="@id/aoa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="12M/s" />
+</merge>

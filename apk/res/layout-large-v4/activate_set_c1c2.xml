@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateSetC1C2View android:gravity="center_horizontal" android:id="@id/e8" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/v2_active_41" style="@style/activate_des_title" />
+    <TextView android:text="@string/v2_active_42" style="@style/activate_des_content" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/g1" android:layout_weight="3.0">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="@dimen/x2" android:textColor="@color/jm" android:gravity="center|left" android:id="@id/eb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_active_c1" android:layout_centerVertical="true" />
+                <Spinner android:id="@id/e9" android:background="@null" android:paddingLeft="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/eb" android:layout_centerVertical="true" />
+                <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_activivt_comfirm" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:layout_marginBottom="@dimen/gw" style="@style/activate_divider_line" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1">
+                <TextView android:textSize="@dimen/x2" android:textColor="@color/jm" android:gravity="center|left" android:id="@id/ec" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_active_c2" android:layout_centerVertical="true" />
+                <Spinner android:gravity="center_horizontal" android:id="@id/e_" android:background="@null" android:paddingLeft="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/ec" android:layout_centerVertical="true" />
+                <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_activivt_comfirm" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </RelativeLayout>
+            <View android:layout_marginBottom="@dimen/gw" style="@style/activate_divider_line" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="center_vertical" android:id="@id/ea" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/gc" android:src="@drawable/v2_active_third_control" android:layout_weight="3.0" />
+    </LinearLayout>
+</dji.pilot2.usercenter.activate.ActivateSetC1C2View>

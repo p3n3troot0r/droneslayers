@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/bqz" style="@style/setting_ui_item_title" />
+    <TextView android:id="@id/byi" android:visibility="visible" style="@style/setting_ui_txt" />
+</LinearLayout>

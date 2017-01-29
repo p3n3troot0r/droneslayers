@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/n7" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:phantom="http://schemas.android.com/apk/dji.frame.widget"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c42" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:id="@id/c43" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/college_title" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/c44" android:paddingLeft="@dimen/ca" android:paddingRight="@dimen/ca" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/mine_assistant_text" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_type_spinner_bar" />
+        <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIImageView style="@style/HorizontalGrayDivider" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:layout_gravity="center_vertical" android:id="@id/c58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/fj" android:text="@string/v2_smlt_academy_title" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c59" android:layout_width="fill_parent" android:layout_height="@dimen/fk" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/n2" android:layout_marginBottom="@dimen/fj">
+                    <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/v2_smlt_entrance" android:scaleType="centerCrop" />
+                    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:id="@id/c5_" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/v2_smlt_academy_connect_tip" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView style="@style/HorizontalGrayDivider" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/fj" android:text="@string/academy_fly_doc_title" />
+                <com.meetme.android.horizontallistview.HorizontalListView android:scrollbarStyle="insideOverlay" android:id="@id/c5a" android:scrollbars="horizontal" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/fs" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/ft" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:choiceMode="singleChoice" android:overScrollMode="ifContentScrolls" phantom:dividerWidth="0dp" />
+                <dji.publics.DJIUI.DJIImageView android:layout_marginTop="@dimen/fj" style="@style/HorizontalGrayDivider" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/fj" android:text="@string/academy_fly_tutorial_title" />
+                <com.meetme.android.horizontallistview.HorizontalListView android:id="@id/c5b" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/fg" android:layout_marginLeft="@dimen/n2" android:layout_marginTop="@dimen/ft" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:choiceMode="singleChoice" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls" phantom:dividerWidth="0dp" />
+                <dji.publics.DJIUI.DJIImageView android:layout_marginTop="@dimen/fj" style="@style/HorizontalGrayDivider" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </ScrollView>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

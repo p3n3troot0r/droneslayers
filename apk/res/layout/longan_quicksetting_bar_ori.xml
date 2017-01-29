@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="true" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.common.view.DJIStateImageViewCompat android:layout_width="@dimen/a2b" android:layout_height="@dimen/a2b" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5_" android:src="@drawable/longan_quicksetting_home" style="@style/longan_preview_quick_setting_item" />
+    <dji.device.common.view.DJIStateImageViewCompat android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5a" android:visibility="gone" android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5b" android:src="@drawable/longan_selector_camera" style="@style/longan_preview_quick_setting_item" />
+    <dji.device.common.view.DJIStateImageViewCompat android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5c" android:src="@drawable/longan_selector_gimbal" style="@style/longan_preview_quick_setting_item" />
+    <dji.device.common.view.DJIStateImageViewCompat android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5d" android:src="@drawable/longan_quicksetting_setting" style="@style/longan_preview_quick_setting_item" />
+    <dji.device.common.view.DJIStateImageViewCompat android:layout_width="@dimen/a2b" android:layout_height="@dimen/a2b" />
+</LinearLayout>

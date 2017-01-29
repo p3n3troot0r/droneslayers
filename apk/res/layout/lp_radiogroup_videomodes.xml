@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.DJIRadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6m" android:background="@drawable/lp_selector_mode_video_auto" android:checked="true" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+        <TextView android:id="@id/b6n" android:text="@string/longan_record_mode_auto" android:layout_below="@id/b6m" style="@style/LonganPhoneCameraModeTxt" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/bc4" android:background="@drawable/lp_selector_mode_video_timelapse" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+        <TextView android:textSize="@dimen/rp" android:id="@id/b6p" android:text="@string/longan_timelapse2_stationary_timelapse" android:layout_below="@id/bc4" style="@style/LonganPhoneCameraModeTxt" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/bc5" android:background="@drawable/lp_selector_mode_video_motion_timelapse" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+        <TextView android:textSize="@dimen/rp" android:id="@id/bc6" android:text="@string/longan_timelapse2_motion_timelapse" android:layout_below="@id/bc5" style="@style/LonganPhoneCameraModeTxt" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <View android:layout_gravity="center" style="@style/lp_camera_menu_layout_style" />
+    <View android:layout_gravity="center" style="@style/lp_camera_menu_layout_style" />
+</dji.device.common.view.DJIRadioGroup>

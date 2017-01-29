@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJIPreciseLandingView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ws" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpv_precise_landing_energy_bar_info" />
+    <dji.pilot.fpv.view.PreciseLandingProgressEnergyBar android:id="@id/a9x" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" />
+</dji.pilot.fpv.view.DJIPreciseLandingView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.SettingUIStageView android:layout_width="fill_parent" android:layout_height="fill_parent" setting_ui:titleText="@string/setting_ui_gimbal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/setting_ui_items_scrollview">
+        <LinearLayout style="@style/setting_ui_items_linearlayout">
+            <dji.setting.ui.gimbal.ModeView setting_ui:titleText="@string/setting_ui_gimbal_mode" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.AdvGroupView setting_ui:titleText="@string/setting_ui_gimbal_adv" setting_ui:subLayout="@layout/setting_ui_group_gimbal_adv" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.RollFineTuneView setting_ui:titleText="@string/setting_ui_gimbal_roll_fine_tune" style="@style/setting_ui_item_noPadding" />
+            <dji.setting.ui.gimbal.AutoCalibrationView setting_ui:titleText="@string/setting_ui_gimbal_auto_calibration" style="@style/setting_ui_item_noPadding" />
+        </LinearLayout>
+    </ScrollView>
+</dji.setting.ui.SettingUIStageView>

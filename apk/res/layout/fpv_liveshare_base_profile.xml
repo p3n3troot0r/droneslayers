@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:paddingBottom="@dimen/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/a5p" android:layout_width="wrap_content" android:layout_height="@dimen/uf" android:layout_marginTop="@dimen/vd" android:src="@drawable/live_logo_facebook_small" />
+    <dji.pilot.usercenter.widget.DJICircleImageView android:id="@id/a5q" android:layout_width="@dimen/gt" android:layout_height="@dimen/gt" android:layout_marginTop="@dimen/gt" android:src="@drawable/v2_avatar_default" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/wm" android:id="@id/a5r" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:layout_marginBottom="@dimen/n2" android:text="" android:layout_below="@id/a5q" android:layout_centerHorizontal="true" style="@style/liveshare_set_item_desc" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ft" android:id="@id/a5s" android:text="@string/liveshare_base_live_now" android:layout_below="@id/a5r" android:layout_centerHorizontal="true" style="@style/setting_ui_txt" />
+    <dji.publics.DJIUI.DJITextView android:textColor="@color/e4" android:id="@id/a5t" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_base_live_logout" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <Button android:textColor="@color/om" android:id="@id/a5u" android:background="@drawable/liveshare_facebook_start_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/vd" android:text="@string/liveshare_base_live_start" android:layout_above="@id/a5t" android:layout_centerHorizontal="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

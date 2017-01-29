@@ -1,0 +1,28 @@
+{
+    "mode":"terraintracking",
+    "view":"view_terrain_tacking_start",
+    "title":"gsnew_gs_terrain_tracking_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://flightmode/main",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://flightmode/main"
+    },
+    "righttop":{
+            "img":"gs_terrain_tracking_help_btn",
+            "jumpto":"gs://smartmode/terraintracking/help"
+    },
+    "buttons":[
+        {
+           "title":"gsnew_gs_terrain_tracking_stage_start",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/terraintracking/status"
+         }
+    ]
+    
+}

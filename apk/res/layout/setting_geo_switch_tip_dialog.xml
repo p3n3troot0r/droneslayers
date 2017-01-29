@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/setting_geo_dialog_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/y7">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/u_" android:textColor="@color/om" android:gravity="center" android:id="@id/bnz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ts" android:layout_marginBottom="@dimen/ts" android:text="title" />
+            <TextView android:textSize="@dimen/u4" android:textColor="@color/om" android:id="@id/bo0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ts" android:layout_marginRight="@dimen/ts" android:layout_marginBottom="@dimen/vd" android:text="this is content" android:layout_below="@id/bnz" />
+            <TextView android:textSize="@dimen/tv" android:textColor="@color/h8" android:id="@id/bo1" android:paddingBottom="@dimen/vd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ts" android:layout_marginRight="@dimen/ts" android:text="link content" android:layout_below="@id/bo0" />
+        </LinearLayout>
+    </ScrollView>
+    <RelativeLayout android:layout_width="240.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/vd" android:layout_marginBottom="@dimen/ts" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/u4" android:textColor="@color/om" android:gravity="center" android:id="@id/bo2" android:background="@drawable/setting_geo_btn_bg" android:layout_width="@dimen/vm" android:layout_height="@dimen/us" android:text="@string/setting_ui_redundancy_sensor_calc_confirm_ok" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="@dimen/u4" android:textColor="@color/om" android:gravity="center" android:id="@id/bo3" android:background="@drawable/setting_geo_btn_bg" android:layout_width="@dimen/vm" android:layout_height="@dimen/us" android:text="@string/setting_ui_redundancy_sensor_calc_confirm_cancel" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

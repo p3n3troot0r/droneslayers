@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/set_gimbal_quick_config" style="@style/set_item_subtitle" />
+    <View android:layout_width="fill_parent" style="@style/set_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" style="@style/set_item">
+        <RadioGroup android:id="@id/bc_" style="@style/set_widget_radiogroup">
+            <RadioButton android:id="@id/bca" android:background="@drawable/set_radio_left_bg" android:text="@string/set_gimbal_preconfig_slow" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bcb" android:text="@string/set_gimbal_preconfig_middle" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bcc" android:text="@string/set_gimbal_preconfig_quick" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bln" android:text="@string/set_gimbal_preconfig_customer_one" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/blo" android:background="@drawable/set_radio_right_bg" android:text="@string/set_gimbal_preconfig_customer_two" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:layout_width="fill_parent" style="@style/set_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/set_item">
+        <TextView android:text="@string/set_gimbal_advance_settings" style="@style/set_item_title" />
+        <Switch android:id="@id/blp" android:layout_marginRight="@dimen/a4h" style="@style/set_widget_switch" />
+    </LinearLayout>
+    <View style="@style/set_divider" />
+    <LinearLayout android:orientation="vertical" android:id="@id/blq" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/set_gimbal_smooth_track_setting" style="@style/set_item_subtitle" />
+        <View style="@style/set_divider" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/blr" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/set_item">
+                    <TextView android:text="@string/set_gimbal_pan" style="@style/set_item_title" />
+                    <Switch android:id="@id/bls" android:layout_marginRight="@dimen/a4h" style="@style/set_widget_switch" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" style="@style/set_item">
+                    <TextView android:text="@string/set_gimbal_tilt" style="@style/set_item_title" />
+                    <Switch android:id="@id/blt" android:layout_marginRight="@dimen/a4h" style="@style/set_widget_switch" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+                <View style="@style/set_divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/blu" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/blv" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:gravity="center|left" android:layout_width="0.0dip" android:layout_marginRight="0.0dip" android:text="@string/set_gimbal_smooth_track_adjustments" android:layout_weight="1.0" style="@style/set_item_subtitle" />
+                    <TextView android:gravity="center" android:layout_width="@dimen/a4g" android:layout_marginRight="0.0dip" android:text="@string/set_gimbal_speed" android:layout_weight="0.0" style="@style/set_item_subtitle_header" />
+                    <TextView android:gravity="center" android:layout_width="@dimen/a4g" android:layout_marginRight="0.0dip" android:text="@string/set_gimbal_deadband" android:layout_weight="0.0" style="@style/set_item_subtitle_header" />
+                    <TextView android:gravity="center" android:layout_width="@dimen/a4g" android:layout_marginRight="7.0dip" android:text="@string/set_gimbal_accel" android:layout_weight="0.0" style="@style/set_item_subtitle_header" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/blw" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:text="@string/set_gimbal_pan" style="@style/set_item_title" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/blx" android:text="0" set:dir="0" set:option="0" style="@style/set_gimbal_btn" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bly" android:text="0" set:dir="0" set:option="1" style="@style/set_gimbal_btn" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/blz" android:text="0" set:dir="0" set:option="2" style="@style/set_gimbal_btn" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bm0" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:text="@string/set_gimbal_tilt" style="@style/set_item_title" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm1" android:text="0" set:dir="1" set:option="0" style="@style/set_gimbal_btn" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm2" android:text="0" set:dir="1" set:option="1" style="@style/set_gimbal_btn" />
+                    <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm3" android:text="0" set:dir="1" set:option="2" style="@style/set_gimbal_btn" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/bm4" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:layout_width="0.0dip" android:text="@string/set_gimbal_control_stick" android:layout_weight="1.0" style="@style/set_item_subtitle" />
+                    <TextView android:textSize="11.0sp" android:layout_width="@dimen/a4g" android:layout_marginRight="0.0dip" android:text="@string/set_gimbal_smooth" android:layout_weight="0.0" style="@style/set_item_subtitle_header" />
+                    <TextView android:textSize="11.0sp" android:layout_width="@dimen/a4g" android:layout_marginRight="7.0dip" android:text="@string/set_gimbal_speed" android:layout_weight="0.0" style="@style/set_item_subtitle_header" />
+                </LinearLayout>
+                <View style="@style/set_divider" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:text="@string/set_gimbal_pan" style="@style/set_item_title" />
+                        <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm5" android:text="0" set:dir="3" set:option="3" style="@style/set_gimbal_btn" />
+                        <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm6" android:text="0" set:dir="3" set:option="0" style="@style/set_gimbal_btn" />
+                    </LinearLayout>
+                    <View style="@style/set_divider" />
+                    <LinearLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:text="@string/set_gimbal_tilt" style="@style/set_item_title" />
+                        <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm7" android:text="0" set:dir="4" set:option="3" style="@style/set_gimbal_btn" />
+                        <dji.pilot.set.view.gimbal.GimbalSelectBtnView android:id="@id/bm8" android:text="0" set:dir="4" set:option="0" style="@style/set_gimbal_btn" />
+                    </LinearLayout>
+                    <View style="@style/set_divider" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <View style="@style/set_divider" />
+    </LinearLayout>
+</LinearLayout>

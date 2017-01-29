@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ax7" android:visibility="visible" android:layout_height="wrap_content" style="@style/FpvGenRadiusItemLy">
+        <dji.pilot.fpv.view.FreqSnrView android:id="@id/ax8" android:layout_width="fill_parent" android:layout_height="@dimen/lr" android:layout_marginTop="10.0dip" android:layout_marginRight="34.0dip" android:layout_centerHorizontal="true" />
+        <dji.pilot.fpv.view.FreqSnrSdrView android:id="@id/ax9" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="@dimen/lr" android:layout_marginTop="10.0dip" android:layout_marginRight="5.0dip" android:layout_centerHorizontal="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:id="@id/ax_" android:visibility="gone" android:text="@string/fpv_hd_channel_desc_auto" android:layout_alignTop="@id/ax8" android:layout_centerHorizontal="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:baselineAligned="false" android:layout_below="@id/ax8">
+            <dji.publics.DJIUI.DJIImageView android:background="@color/df" android:layout_width="5.0dip" android:layout_height="14.0dip" android:layout_marginLeft="20.0dip" />
+            <dji.publics.DJIUI.DJITextView android:layout_marginLeft="5.0dip" android:text="@string/fpv_hd_channel_desc_stable" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:background="@color/dg" android:layout_width="5.0dip" android:layout_height="14.0dip" android:layout_marginLeft="20.0dip" />
+            <dji.publics.DJIUI.DJITextView android:layout_marginLeft="5.0dip" android:text="@string/fpv_hd_channel_desc_unstable" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIImageView android:background="@color/dd" android:layout_width="5.0dip" android:layout_height="14.0dip" android:layout_marginLeft="20.0dip" />
+            <dji.publics.DJIUI.DJITextView android:layout_marginLeft="5.0dip" android:text="@string/fpv_hd_channel_desc_current" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

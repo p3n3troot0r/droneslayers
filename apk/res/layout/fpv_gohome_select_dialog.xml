@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:src="@drawable/fpv_go_home" android:scaleType="center" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/fpv_alert_select_home_point" phantom:djiTextFace="a4" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/fo" android:layout_marginRight="@dimen/g1" android:text="@string/fpv_alert_select_home_point_msg" android:lineSpacingMultiplier="1.5" />
+    <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g8">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/a1r" android:background="@color/aj" android:layout_width="@dimen/fm" android:layout_height="@dimen/gf" android:text="@string/fpv_alert_return_to_original_home_point" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/a1s" android:background="@color/aw" android:layout_width="@dimen/fm" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/fo" android:text="@string/fpv_alert_return_to_current_position" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:background="@color/dn" android:layout_width="fill_parent" android:layout_height="0.20000005dip" android:layout_marginTop="@dimen/g8" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/a1t" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/cancel" phantom:djiTextFace="a4" />
+</dji.publics.DJIUI.DJILinearLayout>

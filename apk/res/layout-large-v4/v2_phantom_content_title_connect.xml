@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.5">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d4" android:textStyle="bold" android:textColor="@color/ly" android:gravity="center_horizontal" android:id="@id/cx0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/phantom_dji_phantom" phantom:djiTextFace="a4" />
+    </LinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/cx1" android:background="@drawable/power_by_xt" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d0" android:textColor="@color/lz" android:gravity="center|top" android:id="@id/cx2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="@string/phantom_dji_advanced" android:layout_weight="1.5" phantom:djiTextFace="a4" />
+</LinearLayout>

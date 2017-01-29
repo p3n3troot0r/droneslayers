@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/m8" android:id="@id/cy2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_profile_artwork_count" android:layout_alignParentLeft="true" />
+        <Spinner android:id="@id/cy3" android:background="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fj" android:layout_alignParentRight="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <GridView android:scrollbarSize="@dimen/fz" android:scrollbarStyle="outsideInset" android:id="@id/cy4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gw" android:horizontalSpacing="@dimen/fj" android:verticalSpacing="@dimen/fj" android:stretchMode="columnWidth" android:numColumns="2" android:scrollbarDefaultDelayBeforeFade="300" />
+        <include android:id="@id/cy5" android:visibility="gone" layout="@layout/v2_mine_profile_artwork_empty" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</LinearLayout>

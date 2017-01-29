@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/fz" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/kn" android:id="@id/cyh" android:paddingBottom="@dimen/gw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cyh">
+        <LinearLayout android:gravity="center" android:background="@color/kg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignTop="@id/cy6" android:layout_alignBottom="@id/cy6">
+            <android.support.v4.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+            <ImageView android:id="@id/cyi" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/v2_native_explore_item_placeholder" android:scaleType="centerInside" android:layout_weight="2.0" />
+            <android.support.v4.widget.Space android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" />
+        </LinearLayout>
+        <dji.pilot2.mine.view.FixRatioImageView android:id="@id/cy6" android:background="@android:color/transparent" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:width_weight="111.0" app:height_weight="90.0" />
+        <dji.pilot2.mine.view.FixRatioImageView android:id="@id/cyj" android:background="#4c000000" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:width_weight="111.0" app:height_weight="90.0" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:gravity="center" android:id="@id/cy7" android:background="@drawable/v2_artwork_duration_background" android:paddingLeft="@dimen/yb" android:paddingTop="@dimen/ga" android:paddingRight="@dimen/yb" android:paddingBottom="@dimen/ga" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/fj" android:text="0:00" android:drawableLeft="@drawable/v2_explore_item_film_icon" android:drawablePadding="@dimen/gj" android:layout_alignTop="@id/cy6" android:layout_alignRight="@id/cy6" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cyk" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_explore_item_play" android:scaleType="center" android:layout_centerInParent="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/ro" android:textColor="@color/om" android:gravity="center" android:id="@id/cuu" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_processing_video" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

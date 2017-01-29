@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/v2_network_error_dialog_background" android:padding="@dimen/g1" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_explore_network_error" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/v2_explore_network_error" />
+</LinearLayout>

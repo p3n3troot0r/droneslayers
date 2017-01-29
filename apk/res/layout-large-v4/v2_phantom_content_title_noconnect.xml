@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/d5" android:textColor="@color/jk" android:gravity="center_horizontal" android:id="@id/cx3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:layout_centerInParent="true" />
+    <Spinner android:gravity="center" android:id="@id/cx4" android:background="@color/j5" android:layout_width="@dimen/g9" android:layout_height="@dimen/gt" android:layout_below="@id/cx3" android:layout_centerInParent="true" android:dropDownWidth="@dimen/g9" />
+</RelativeLayout>

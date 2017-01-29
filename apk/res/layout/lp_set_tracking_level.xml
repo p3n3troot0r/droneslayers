@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/lp_set_tracking_level_title" style="@style/set_item_subtitle" />
+    <View android:layout_width="fill_parent" style="@style/set_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" style="@style/set_item">
+        <RadioGroup android:id="@id/bcr" style="@style/set_widget_radiogroup">
+            <RadioButton android:id="@id/bcs" android:background="@drawable/set_radio_left_bg" android:text="@string/lp_tracking_fast" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View android:layout_width="0.20000005dip" style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bct" android:text="@string/lp_tracking_middle" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+            <View android:layout_width="0.20000005dip" style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bcu" android:text="@string/lp_tracking_slow" android:layout_weight="1.0" style="@style/set_gimbal_radio" />
+        </RadioGroup>
+    </LinearLayout>
+</LinearLayout>

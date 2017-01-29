@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_flyc_beginner" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/br0" style="@style/setting_ui_item_switch" />
+    </LinearLayout>
+    <TextView android:layout_marginTop="-10.0dip" android:layout_marginBottom="@dimen/w8" android:text="@string/setting_ui_flyc_beginner_desc" style="@style/setting_ui_item_desc" />
+</LinearLayout>

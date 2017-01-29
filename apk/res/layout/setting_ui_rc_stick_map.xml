@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/bxf" android:background="@null" android:visibility="gone" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout style="@style/setting_ui_rc_stick_ly">
+                    <ImageView android:id="@id/bxg" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxh" android:text="0" style="@style/setting_ui_rc_stick_txt" />
+                    <ImageView android:id="@id/bxi" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxj" android:text="1" style="@style/setting_ui_rc_stick_txt" />
+                </LinearLayout>
+                <LinearLayout style="@style/setting_ui_rc_stick_ly">
+                    <ImageView android:id="@id/bxk" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxl" android:text="2" style="@style/setting_ui_rc_stick_txt" />
+                    <ImageView android:id="@id/bxm" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxn" android:text="3" style="@style/setting_ui_rc_stick_txt" />
+                </LinearLayout>
+                <LinearLayout style="@style/setting_ui_rc_stick_ly">
+                    <ImageView android:id="@id/bxo" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxp" android:text="4" style="@style/setting_ui_rc_stick_txt" />
+                    <ImageView android:id="@id/bxq" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxr" android:text="5" style="@style/setting_ui_rc_stick_txt" />
+                </LinearLayout>
+                <LinearLayout android:id="@id/bxs" style="@style/setting_ui_rc_stick_ly">
+                    <ImageView android:id="@id/bxt" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxu" android:text="6" style="@style/setting_ui_rc_stick_txt" />
+                    <ImageView android:id="@id/bxv" android:src="@drawable/setting_ui_rc_stick_up_normal" style="@style/setting_ui_rc_stick_img" />
+                    <TextView android:id="@id/bxw" android:text="7" style="@style/setting_ui_rc_stick_txt" />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ts">
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/u3" android:layout_height="@dimen/u2">
+                        <ImageView android:id="@id/bxx" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/bxy" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/bxz" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/by0" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:layout_width="@dimen/vg" android:layout_height="@dimen/vg" android:src="@drawable/setting_ui_rc_stick_circle" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </FrameLayout>
+                <FrameLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                    <RelativeLayout android:layout_gravity="center" android:layout_width="@dimen/u3" android:layout_height="@dimen/u2">
+                        <ImageView android:id="@id/by1" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/by2" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/by3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:id="@id/by4" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/setting_ui_rc_stick_img" />
+                        <ImageView android:layout_width="@dimen/vg" android:layout_height="@dimen/vg" android:src="@drawable/setting_ui_rc_stick_circle" android:layout_centerInParent="true" />
+                    </RelativeLayout>
+                </FrameLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="center_horizontal" android:id="@id/by5" android:visibility="gone" android:text="@string/setting_ui_rc_gimbal_speed_desc" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/setting_ui_item_btn" />
+    </RelativeLayout>
+</LinearLayout>

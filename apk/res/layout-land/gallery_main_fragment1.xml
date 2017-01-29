@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ge" layout="@layout/gallery_header" />
+    <include android:id="@id/agv" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/ge" layout="@layout/gallery_tab" />
+    <RelativeLayout android:id="@id/agw" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/ge">
+        <ImageView android:id="@id/rt" android:background="@anim/b9" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_centerInParent="true" />
+    </RelativeLayout>
+    <ExpandableListView android:id="@id/agx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/j5" android:layout_above="@id/agy" android:layout_below="@id/agv" android:overScrollMode="never" />
+    <dji.pilot.gallery.entryActivity.DJIGalleryAlbumsGridView android:id="@id/agz" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:listSelector="@color/j5" android:layout_above="@id/agy" android:layout_below="@id/agv" android:overScrollMode="never" />
+    <RelativeLayout android:id="@id/ah0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="22.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ah1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_hg_empty_title1" android:layout_centerHorizontal="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="#ff9b9b9b" android:gravity="center" android:id="@id/ah2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h7" android:text="@string/v2_hg_empty_title2" android:layout_below="@id/ah1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="17.0sp" android:gravity="center" android:id="@id/agy" android:background="#ff1fa3f6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c9" android:text="@string/share" android:layout_alignParentBottom="true" />
+    <include android:id="@id/ah3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_below="@id/agv" layout="@layout/gallery_groupitem" />
+    <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ah3" layout="@layout/gallery_indepdent_childitem" />
+    <include android:visibility="gone" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/gallery_delete_confirm" />
+    <include android:visibility="gone" android:layout_width="280.0dip" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/gallery_dialog_informations" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/ap3" android:background="@drawable/stroke_dlg_dark_bg" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dlg_titlebar_view" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/apo" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/app" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="@string/fpv_hd_assitant_reomte_controller" android:layout_centerVertical="true" phantom:djiTextFace="a5" style="@style/BatteryDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/apq" android:layout_marginRight="40.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/apr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="UAV" android:layout_centerVertical="true" phantom:djiTextFace="a5" style="@style/BatteryDescTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:id="@id/aps" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CommonSwitch" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:id="@id/apt" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="160.0dip" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/apu" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/apv" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/apw" android:layout_marginLeft="3.0dip" android:text="Name01" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/apx" android:layout_marginRight="3.0dip" android:text="Value01" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/apy" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/apz" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq0" android:layout_marginLeft="3.0dip" android:text="Name02" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq1" android:layout_marginRight="3.0dip" android:text="Value02" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aq2" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aq3" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq4" android:layout_marginLeft="3.0dip" android:text="Name03" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq5" android:layout_marginRight="3.0dip" android:text="Value03" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aq6" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aq7" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq8" android:layout_marginLeft="3.0dip" android:text="Name04" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aq9" android:layout_marginRight="3.0dip" android:text="Value04" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aq_" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqa" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqb" android:layout_marginLeft="3.0dip" android:text="Name05" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqc" android:layout_marginRight="3.0dip" android:text="Value05" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aqd" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqe" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqf" android:layout_marginLeft="3.0dip" android:text="Name06" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqg" android:layout_marginRight="3.0dip" android:text="Value06" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aqh" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqi" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqj" android:layout_marginLeft="3.0dip" android:text="Name07" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqk" android:layout_marginRight="3.0dip" android:text="Value07" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aql" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqm" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqn" android:layout_marginLeft="3.0dip" android:text="Name08" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqo" android:layout_marginRight="3.0dip" android:text="Value08" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aqp" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqq" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqr" android:layout_marginLeft="3.0dip" android:text="Name09" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqs" android:layout_marginRight="3.0dip" android:text="Value09" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aqt" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqu" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqv" android:layout_marginLeft="3.0dip" android:text="Name10" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqw" android:layout_marginRight="3.0dip" android:text="Value10" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aqx" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aqy" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aqz" android:layout_marginLeft="3.0dip" android:text="Name11" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ar0" android:layout_marginRight="3.0dip" android:text="Value11" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ar1" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ar2" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ar3" android:layout_marginLeft="3.0dip" android:text="Name12" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ar4" android:layout_marginRight="3.0dip" android:text="Value12" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ar5" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ar6" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ar7" android:layout_marginLeft="3.0dip" android:text="Name13" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ar8" android:layout_marginRight="3.0dip" android:text="Value13" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ar9" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ar_" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ara" android:layout_marginLeft="3.0dip" android:text="Name14" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arb" android:layout_marginRight="3.0dip" android:text="Value14" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/arc" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ard" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/are" android:layout_marginLeft="3.0dip" android:text="Name15" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arf" android:layout_marginRight="3.0dip" android:text="Value15" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/arg" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/arh" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ari" android:layout_marginLeft="3.0dip" android:text="Name16" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arj" android:layout_marginRight="3.0dip" android:text="Value16" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ark" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/arl" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arm" android:layout_marginLeft="3.0dip" android:text="Name17" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arn" android:layout_marginRight="3.0dip" android:text="Value17" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aro" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/arp" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arq" android:layout_marginLeft="3.0dip" android:text="Name18" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arr" android:layout_marginRight="3.0dip" android:text="Value18" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ars" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/art" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aru" android:layout_marginLeft="3.0dip" android:text="Name19" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arv" android:layout_marginRight="3.0dip" android:text="Value19" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/arw" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/arx" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ary" android:layout_marginLeft="3.0dip" android:text="Name20" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/arz" android:layout_marginRight="3.0dip" android:text="Value20" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/as0" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/as1" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/as2" android:layout_marginLeft="3.0dip" android:text="Name21" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/as3" android:layout_marginRight="3.0dip" android:text="Value21" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/as4" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/as5" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/as6" android:layout_marginLeft="3.0dip" android:text="Name22" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/as7" android:layout_marginRight="3.0dip" android:text="Value22" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/as8" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/as9" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/as_" android:layout_marginLeft="3.0dip" android:text="Name23" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asa" android:layout_marginRight="3.0dip" android:text="Value23" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asb" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/asc" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asd" android:layout_marginLeft="3.0dip" android:text="Name24" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ase" android:layout_marginRight="3.0dip" android:text="Value24" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asf" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/asg" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ash" android:layout_marginLeft="3.0dip" android:text="Name25" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asi" android:layout_marginRight="3.0dip" android:text="Value25" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asj" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ask" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asl" android:layout_marginLeft="3.0dip" android:text="Name26" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asm" android:layout_marginRight="3.0dip" android:text="Value26" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asn" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aso" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asp" android:layout_marginLeft="3.0dip" android:text="Name27" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asq" android:layout_marginRight="3.0dip" android:text="Value27" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asr" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ass" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ast" android:layout_marginLeft="3.0dip" android:text="Name28" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asu" android:layout_marginRight="3.0dip" android:text="Value28" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asv" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/asw" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asx" android:layout_marginLeft="3.0dip" android:text="Name29" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/asy" android:layout_marginRight="3.0dip" android:text="Value29" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/asz" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/at0" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at1" android:layout_marginLeft="3.0dip" android:text="Name30" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at2" android:layout_marginRight="3.0dip" android:text="Value30" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/at3" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/at4" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at5" android:layout_marginLeft="3.0dip" android:text="Name31" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at6" android:layout_marginRight="3.0dip" android:text="Value31" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/at7" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/at8" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at9" android:layout_marginLeft="3.0dip" android:text="Name32" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/at_" android:layout_marginRight="3.0dip" android:text="Value32" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+            </dji.publics.DJIUI.DJILinearLayout>
+        </ScrollView>
+        <ScrollView android:id="@id/ata" android:scrollbars="vertical" android:layout_width="0.0dip" android:layout_height="160.0dip" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atb" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/atc" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atd" android:layout_marginLeft="3.0dip" android:text="Name01" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ate" android:layout_marginRight="3.0dip" android:text="Value01" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atf" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/atg" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ath" android:layout_marginLeft="3.0dip" android:text="Name02" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/ati" android:layout_marginRight="3.0dip" android:text="Value02" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atj" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/atk" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atl" android:layout_marginLeft="3.0dip" android:text="Name03" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atm" android:layout_marginRight="3.0dip" android:text="Value03" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atn" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ato" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atp" android:layout_marginLeft="3.0dip" android:text="Name04" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atq" android:layout_marginRight="3.0dip" android:text="Value04" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atr" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/ats" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/att" android:layout_marginLeft="3.0dip" android:text="Name05" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atu" android:layout_marginRight="3.0dip" android:text="Value05" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atv" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/atw" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/atx" android:layout_marginLeft="3.0dip" android:text="Name06" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aty" android:layout_marginRight="3.0dip" android:text="Value06" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/atz" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/au0" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au1" android:layout_marginLeft="3.0dip" android:text="Name07" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au2" android:layout_marginRight="3.0dip" android:text="Value07" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/au3" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/au4" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au5" android:layout_marginLeft="3.0dip" android:text="Name08" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au6" android:layout_marginRight="3.0dip" android:text="Value08" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/au7" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/au8" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au9" android:layout_marginLeft="3.0dip" android:text="Name09" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/au_" android:layout_marginRight="3.0dip" android:text="Value09" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aua" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aub" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auc" android:layout_marginLeft="3.0dip" android:text="Name10" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aud" android:layout_marginRight="3.0dip" android:text="Value10" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aue" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/auf" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aug" android:layout_marginLeft="3.0dip" android:text="Name11" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auh" android:layout_marginRight="3.0dip" android:text="Value11" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aui" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/auj" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auk" android:layout_marginLeft="3.0dip" android:text="Name12" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aul" android:layout_marginRight="3.0dip" android:text="Value12" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aum" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aun" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auo" android:layout_marginLeft="3.0dip" android:text="Name13" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aup" android:layout_marginRight="3.0dip" android:text="Value13" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/auq" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aur" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aus" android:layout_marginLeft="3.0dip" android:text="Name14" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aut" android:layout_marginRight="3.0dip" android:text="Value14" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/auu" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/auv" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auw" android:layout_marginLeft="3.0dip" android:text="Name15" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/auy" android:layout_marginRight="3.0dip" android:text="Value15" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/auz" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/av0" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av1" android:layout_marginLeft="3.0dip" android:text="Name16" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av2" android:layout_marginRight="3.0dip" android:text="Value16" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/av3" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/av4" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av5" android:layout_marginLeft="3.0dip" android:text="Name17" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av6" android:layout_marginRight="3.0dip" android:text="Value17" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/av7" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/av8" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av9" android:layout_marginLeft="3.0dip" android:text="Name18" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/av_" android:layout_marginRight="3.0dip" android:text="Value18" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ava" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avb" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avc" android:layout_marginLeft="3.0dip" android:text="Name19" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avd" android:layout_marginRight="3.0dip" android:text="Value19" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/ave" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avf" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avg" android:layout_marginLeft="3.0dip" android:text="Name20" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avh" android:layout_marginRight="3.0dip" android:text="Value20" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/avi" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avj" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avk" android:layout_marginLeft="3.0dip" android:text="Name21" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avl" android:layout_marginRight="3.0dip" android:text="Value21" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/avm" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avn" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avo" android:layout_marginLeft="3.0dip" android:text="Name22" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avp" android:layout_marginRight="3.0dip" android:text="Value22" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/avq" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avr" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avs" android:layout_marginLeft="3.0dip" android:text="Name23" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avt" android:layout_marginRight="3.0dip" android:text="Value23" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/avu" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avv" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avw" android:layout_marginLeft="3.0dip" android:text="Name24" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/avx" android:layout_marginRight="3.0dip" android:text="Value24" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/avy" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/avz" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw0" android:layout_marginLeft="3.0dip" android:text="Name25" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw1" android:layout_marginRight="3.0dip" android:text="Value25" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aw2" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aw3" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw4" android:layout_marginLeft="3.0dip" android:text="Name26" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw5" android:layout_marginRight="3.0dip" android:text="Value26" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aw6" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/aw7" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw8" android:layout_marginLeft="3.0dip" android:text="Name27" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aw9" android:layout_marginRight="3.0dip" android:text="Value27" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/aw_" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/awa" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awb" android:layout_marginLeft="3.0dip" android:text="Name28" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awc" android:layout_marginRight="3.0dip" android:text="Value28" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/awd" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/awe" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awf" android:layout_marginLeft="3.0dip" android:text="Name29" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awg" android:layout_marginRight="3.0dip" android:text="Value29" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/awh" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/awi" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awj" android:layout_marginLeft="3.0dip" android:text="Name30" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awk" android:layout_marginRight="3.0dip" android:text="Value30" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/awl" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/awm" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awn" android:layout_marginLeft="3.0dip" android:text="Name31" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awo" android:layout_marginRight="3.0dip" android:text="Value31" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIImageView android:id="@id/awp" style="@style/FpvGenSettingDivider" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_vertical" android:id="@id/awq" style="@style/FpvGenMiddleItemLy">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/awr" android:layout_marginLeft="3.0dip" android:text="Name32" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                    <dji.publics.DJIUI.DJITextView android:id="@id/aws" android:layout_marginRight="3.0dip" android:text="Value32" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+            </dji.publics.DJIUI.DJILinearLayout>
+        </ScrollView>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

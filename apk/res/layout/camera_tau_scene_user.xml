@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.DJICameraTauSceneView android:orientation="vertical" android:background="@drawable/camera_setting_bg" android:layout_width="fill_parent" android:layout_height="@dimen/em" android:baselineAligned="false" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/qc" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/camera_tau_scene_item" />
+    <include android:id="@id/qd" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/camera_tau_scene_item" />
+    <include android:id="@id/qe" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/camera_tau_scene_item" />
+    <include android:id="@id/qf" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/camera_tau_scene_item" />
+    <include android:id="@id/qg" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" layout="@layout/camera_tau_scene_item" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:ellipsize="end" android:gravity="center" android:id="@id/qh" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/ek" android:text="@string/app_save" />
+</dji.pilot.fpv.camera.newfn.DJICameraTauSceneView>

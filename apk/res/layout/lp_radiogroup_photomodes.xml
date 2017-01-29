@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.DJIRadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:id="@id/bby" android:layout_width="wrap_content" android:layout_height="@dimen/a3e">
+        <RadioButton android:id="@id/b65" android:background="@drawable/lp_selector_handle_mode_single" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+        <TextView android:id="@id/b66" android:text="@string/longan_camera_mode_single" android:layout_below="@id/b65" style="@style/LonganPhoneCameraModeTxt" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="@dimen/a3e">
+        <RadioButton android:id="@id/b6a" android:background="@drawable/lp_selector_handle_mode_pano" android:checked="false" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+        <TextView android:id="@id/b6b" android:text="@string/longan_camera_mode_pano" android:layout_below="@id/b6a" style="@style/LonganPhoneCameraModeTxt" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:id="@id/bbz" android:layout_width="wrap_content" android:layout_height="@dimen/a3e">
+        <RadioButton android:id="@id/bc0" android:background="@drawable/lp_selector_handle_mode_longexposure_on" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@null" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/bc1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lp_camera_mode_long_exposure" android:layout_below="@id/bc0" android:layout_centerHorizontal="true" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <RelativeLayout android:visibility="invisible" style="@style/lp_camera_menu_layout_style" />
+    <RelativeLayout android:visibility="invisible" style="@style/lp_camera_menu_layout_style" />
+    <RelativeLayout android:visibility="invisible" style="@style/lp_camera_menu_layout_style" />
+</dji.device.common.view.DJIRadioGroup>

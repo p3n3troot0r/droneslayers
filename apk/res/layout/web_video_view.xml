@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:id="@id/dai" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/daj" android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/ri" android:layout_alignParentTop="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/dak" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/dal" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <WebView android:id="@id/dam" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/daj" android:overScrollMode="ifContentScrolls" />
+        <ProgressBar android:id="@id/dan" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="3.0dip" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/store_loading_progress" android:layout_below="@id/daj" style="?android:attr/progressBarStyleHorizontal" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <FrameLayout android:id="@id/dao" android:background="@color/a_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

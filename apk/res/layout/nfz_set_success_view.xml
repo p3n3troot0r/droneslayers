@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzSuccessView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gx" android:layout_centerHorizontal="true">
+        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/geo_unlock_success_icon" />
+        <dji.publics.DJIUI.DJITextView android:gravity="center_horizontal" android:autoLink="all" android:linksClickable="false" android:id="@id/bfp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/nfz_set_success_content" style="@style/GeoTitleTv" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/lz" android:id="@id/bfq" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gc" android:text="@string/flight_forbid_report_error_txt" style="@style/FlightForbidTv" />
+    </LinearLayout>
+    <View android:layout_above="@id/bfr" style="@style/GeoDlgHorDivider" />
+    <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/bfr" android:text="@string/app_enter" android:layout_alignParentBottom="true" style="@style/GeoDlgBottomBtn" />
+</dji.pilot.flyunlimit.view.NfzSuccessView>

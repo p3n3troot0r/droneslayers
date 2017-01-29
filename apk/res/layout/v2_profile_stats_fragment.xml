@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="stats" android:layout_centerInParent="true" />
+    <fragment android:name="dji.pilot2.publics.object.DJIInnerWebviewFragment" android:id="@id/cyl" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

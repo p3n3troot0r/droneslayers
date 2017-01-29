@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.DJIRadioGroup android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6f" android:background="@drawable/lp_selector_handle_mode_singlephoto_0s" android:checked="true" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:id="@id/bc2" android:background="@color/j5" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/bc3" android:background="@drawable/lp_selector_handle_mode_singlephoto_2s" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:id="@id/b6g" android:background="@color/j5" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6h" android:background="@drawable/lp_selector_handle_mode_singlephoto_5s" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6i" android:background="@drawable/lp_selector_handle_mode_singlephoto_10s" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+    <dji.phone.customui.DJILPRotationRelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/lp_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6j" android:background="@drawable/lp_selector_handle_mode_hdr" android:visibility="gone" android:button="@null" android:layout_centerInParent="true" style="@style/lp_preview_camera_menu_content_style" />
+    </dji.phone.customui.DJILPRotationRelativeLayout>
+</dji.device.common.view.DJIRadioGroup>

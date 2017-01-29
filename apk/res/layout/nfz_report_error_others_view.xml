@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzReportOthersView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/bfd" android:padding="@dimen/fo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/arrow_left_white" />
+        <View style="@style/HorizontalDivider" />
+        <dji.pilot.publics.widget.DJIEditText android:textColor="@color/om" android:id="@id/bfe" android:background="@null" android:paddingLeft="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/ft" android:hint="@string/flight_forbid_report_error_other_desc" style="@style/FlightForbidTv" />
+    </LinearLayout>
+    <View android:layout_above="@id/bff" style="@style/GeoDlgHorDivider" />
+    <dji.pilot.publics.widget.DJIStateTextView android:gravity="center" android:layout_gravity="bottom|center" android:id="@id/bff" android:text="@string/nfz_error_submit" android:layout_alignParentBottom="true" style="@style/GeoDlgBottomBtn" />
+</dji.pilot.flyunlimit.view.NfzReportOthersView>

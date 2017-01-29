@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.setting.ui.widget.DividerLinearLayout android:orientation="horizontal" style="@style/setting_ui_item_noPadding">
+        <Button android:id="@id/bt7" android:text="@string/setting_ui_vision_calibration" style="@style/setting_ui_item_btn_big" />
+    </dji.setting.ui.widget.DividerLinearLayout>
+    <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_marginTop="@dimen/ts" android:text="@string/setting_ui_flyc_adv_gain_desc" style="@style/setting_ui_item_desc" />
+</LinearLayout>

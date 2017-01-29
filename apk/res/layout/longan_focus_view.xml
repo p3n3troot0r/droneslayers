@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/b37" android:background="@drawable/longan_focus_handwheel_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/b38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g8" android:src="@drawable/longan_osmo_focus" />
+    <TextView android:textColor="@color/om" android:layout_gravity="center_horizontal" android:id="@id/b39" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/longan_follow_focus_Aperture" />
+    <TextView android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/b3_" android:layout_width="@dimen/g4" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/longan_follow_focus_notify" />
+    <View android:id="@id/b3a" android:background="@color/ov" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_marginTop="@dimen/fj" />
+    <Button android:layout_gravity="center" android:id="@id/b3b" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/app_ikonw" />
+    <View android:id="@id/b3c" android:background="@color/ov" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+    <Button android:layout_gravity="center" android:id="@id/b3d" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/focuswheel_connected_alert_donotremind_btn" />
+</LinearLayout>

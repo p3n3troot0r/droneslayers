@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.widget.LonganSleepView android:background="@color/a_" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.8"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="25.0sp" android:textColor="@color/om" android:id="@id/b7x" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/a26" android:text="@string/longan_sleep_description" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/b7y" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="132.0dip" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/b7z" android:background="@color/j5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_selector_power_option_sleep" android:scaleType="center" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/longan_sleep_power_off" android:alpha="0.69" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/b80" android:background="@color/j5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_selector_power_option_sleep" android:scaleType="center" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/longan_sleep_sleep_mode" android:alpha="0.69" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="50.0dip">
+            <ImageButton android:layout_gravity="center_horizontal" android:id="@id/b81" android:background="@color/j5" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_selector_power_option_lock" android:scaleType="center" />
+            <TextView android:textSize="16.0sp" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_marginTop="10.0dip" android:text="@string/longan_sleep_orientation_lock" android:alpha="0.69" />
+        </LinearLayout>
+    </LinearLayout>
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b82" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_margin="10.0dip" android:src="@drawable/longan_pano_cancle" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+</dji.device.widget.LonganSleepView>

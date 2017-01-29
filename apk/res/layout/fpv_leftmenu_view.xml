@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.leftmenu.DJILeftMenu android:paddingLeft="@dimen/pg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/a4p" android:layout_width="wrap_content" android:layout_height="@dimen/pr" android:layout_marginTop="@dimen/pg" android:layout_marginBottom="@dimen/pg">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4q" android:src="@drawable/leftmenu_takeoff_icon" style="@style/LeftMenuItemImgNoMargin" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/a4r" android:background="@drawable/cgh_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rp" android:text="@string/fpv_leftmenu_cl_tip" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <include android:id="@id/a4s" android:layout_width="wrap_content" android:layout_height="@dimen/pr" android:layout_marginTop="@dimen/pg" android:layout_marginBottom="@dimen/pg" android:layout_below="@id/a4p" layout="@layout/fpv_leftmenu_gimbal_view" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/a4t" android:layout_width="wrap_content" android:layout_height="@dimen/pr" android:layout_marginTop="@dimen/pg" android:layout_marginBottom="@dimen/pg" android:layout_below="@id/a4s">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4u" android:src="@drawable/leftmenu_gohome_icon" style="@style/LeftMenuItemImgNoMargin" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/a4v" android:background="@drawable/cgh_bg" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/rp" android:text="@string/fpv_leftmenu_cgh_tip" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <include android:id="@id/a4w" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/pr" android:layout_marginTop="@dimen/pg" android:layout_marginBottom="@dimen/pg" android:layout_below="@id/a4t" layout="@layout/fpv_leftmenu_homepoint_view" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4x" android:background="@drawable/fpv_circle_blue_bg" android:padding="@dimen/rj" android:visibility="gone" android:src="@drawable/mini_normal" android:layout_below="@id/a4w" style="@style/LeftMenuItemImg" />
+    <dji.publics.DJIUI.DJITextView android:id="@id/a4y" android:background="@drawable/selector_fpv_cgh" android:visibility="gone" android:text="@string/visual_stop_desc" android:layout_below="@id/a4x" style="@style/LeftMenuItemTxt" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a4z" android:background="@drawable/fpv_circle_blue_bg" android:padding="@dimen/rj" android:visibility="gone" android:src="@drawable/camera_controll_video_icon_start" android:layout_below="@id/a4y" style="@style/LeftMenuItemImg" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/a50" android:background="@drawable/fpv_leftmenu_tip_bg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/pg" android:singleLine="true" android:layout_centerHorizontal="true" />
+</dji.pilot.fpv.leftmenu.DJILeftMenu>

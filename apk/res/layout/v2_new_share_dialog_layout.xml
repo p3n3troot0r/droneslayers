@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cw7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/mx" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIRelativeLayout android:padding="@dimen/ft" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cw8" android:layout_width="@dimen/h4" android:layout_height="@dimen/gx" android:scaleType="fitCenter" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/mv" android:ellipsize="end" android:id="@id/cw9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:maxLines="1" android:layout_toRightOf="@id/cw8" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/mv" android:ellipsize="end" android:id="@id/cw_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/gw" android:maxLines="2" android:layout_toRightOf="@id/cw8" android:layout_below="@id/cw9" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <View android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/cwa" android:paddingLeft="@dimen/gw" android:paddingTop="@dimen/fj" android:paddingRight="@dimen/gw" android:paddingBottom="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+        <Button android:textColor="@color/mv" android:id="@id/cwb" android:background="@drawable/v2_share_cancel_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/v2_share_cancel" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</LinearLayout>

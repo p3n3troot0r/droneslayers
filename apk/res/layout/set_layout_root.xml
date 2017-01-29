@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <View android:layout_marginTop="@dimen/a57" style="@style/set_divider" />
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bne" android:visibility="gone" set:title="@string/set_camera" set:sub_Layout="@layout/lp_set_layout_camera" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_camera" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bnf" android:visibility="visible" set:title="@string/set_camera" set:sub_Layout="@layout/set_layout_camera" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_camera" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bng" android:visibility="visible" set:title="@string/set_gimbal" set:sub_Layout="@layout/set_layout_gimbal" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_gimbal" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bnh" android:visibility="gone" set:title="@string/set_gimbal" set:sub_Layout="@layout/lp_set_layout_gimbal" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_gimbal" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bni" set:title="@string/set_general" set:sub_Layout="@layout/set_layout_general" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_general" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.base.SetGroupView android:orientation="horizontal" android:id="@id/bnj" android:visibility="gone" set:title="@string/set_general" set:sub_Layout="@layout/lp_set_layout_general" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_general" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.base.SetGroupView>
+    <dji.pilot.set.view.LiveSetectPlatformView android:orientation="horizontal" android:id="@id/bnk" android:visibility="gone" set:title="@string/lp_live_enter" set:sub_Layout="@layout/lp_live_layout_enter" style="@style/set_item">
+        <ImageView android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_livestream" android:scaleType="center" />
+        <include layout="@layout/set_item_group" />
+    </dji.pilot.set.view.LiveSetectPlatformView>
+</LinearLayout>

@@ -1,0 +1,251 @@
+{
+    "version": 1,
+    "products": [
+        {
+            "productId": 2,
+            "groups": [
+                {
+                    "groupName": "SkyWifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+					"pushDevice": 7
+                    
+                },
+                {
+                    "groupName": "GroundWifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["2700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.1",
+                    "ftpUsername": "root",
+					"pushDevice": 27
+                },
+                {
+                    "groupName": "Camera",
+                    "weight": 40,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100","0101","0305","0306","0400","0900","1100","1101","1200","1201","1202","1203"],
+                    "extraStartFile": "P3C_APP_START",
+                    "ftpDstFileName": "P3C_FW_V99.99.9999.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+					"pushDevice": 1
+                },
+                {
+                    "groupName": "RC",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 1,
+                    "devices": ["1400"]
+                    
+                }
+            ]
+        },{
+            "productId": 12,
+            "groups": [
+                {
+                    "groupName": "SkyWifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+					"pushDevice": 7
+                    
+                },
+                {
+                    "groupName": "GroundWifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["2700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.1",
+                    "ftpUsername": "root",
+					"pushDevice": 27
+                },
+                {
+                    "groupName": "Camera",
+                    "weight": 40,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100","0101","0305","0306","0400","0900","1100","1101","1700","1701","1200","1201","1202","1203"],
+                    "extraStartFile": "P3XW_APP_START",
+                    "ftpDstFileName": "P3XW_FW_V99.99.9999.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+					"pushDevice": 1
+                },
+                {
+                    "groupName": "RC",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 1,
+                    "devices": ["1400"]
+                }
+            ]
+        },
+                {
+            "productId": 5,
+            "groups": [
+                {
+                    "groupName": "remotewifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+					"pushDevice": 7
+                },
+               	{
+                    "groupName": "Camera",
+                    "weight": 80,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100", "0101", "0400", "0900"],
+                    "extraStartFile": "OSMO_APP_START",
+                    "ftpDstFileName": "OSMO_FW_V99.99.99.99.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+					"pushDevice": 1
+                }
+            ]
+        },
+        {
+            "productId": 18,
+            "groups": [
+                {
+                    "groupName": "remotewifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+                    "pushDevice": 7
+                },
+                {
+                    "groupName": "Camera",
+                    "weight": 80,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100", "0101", "0104", "0400", "0900"],
+                    "extraStartFile": "OSMO_FC550_APP_START",
+                    "ftpDstFileName": "OSMO_FC550_FW_V99.99.99.99.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+                    "pushDevice": 1
+                }
+            ]
+        },{
+            "productId": 19,
+            "groups": [
+                {
+                    "groupName": "remotewifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+                    "pushDevice": 7
+                },
+                {
+                    "groupName": "Camera",
+                    "weight": 80,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100", "0101", "0104", "0106", "0400", "0900"],
+                    "extraStartFile": "OSMO_FC550R_APP_START",
+                    "ftpDstFileName": "OSMO_FC550R_FW_V99.99.99.99.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+                    "pushDevice": 1
+                }
+            ]
+        },{
+            "productId": 20,
+            "groups": [
+                {
+                    "groupName": "remotewifi",
+                    "weight": 20,
+                    "isCameraGroup": false,
+                    "isSingleFile": true,
+                    "upgradeMode": 0,
+                    "devices": ["0700"],
+                    "ftpDstFileName": "HG310.bin",
+                    "ftpPwd": "Big~9China",
+                    "ftpUrl": "192.168.1.2",
+                    "ftpUsername": "root",
+                    "pushDevice": 7
+                },
+                {
+                    "groupName": "Camera",
+                    "weight": 80,
+                    "isCameraGroup": true,
+                    "isSingleFile": false,
+                    "upgradeMode": 0,
+                    "devices": ["0100", "0101", "0104", "0400", "0401", "0402", "0403", "0900"],
+                    "extraStartFile": "OSMO_FC350Z_APP_START",
+                    "ftpDstFileName": "OSMO_FC350Z_FW_V99.99.99.99.bin",
+                    "ftpPwd": "",
+                    "ftpUrl": "192.168.1.3",
+                    "ftpUsername": "",
+                    "pushDevice": 1
+                }
+            ]
+        },{
+            "productId": 22,
+            "groups": [
+                {
+                    "groupName": "hg300",
+                    "weight": 100,
+                    "isCameraGroup": false,
+                    "isSingleFile": false,
+                    "upgradeMode": 2,
+                    "devices": ["0700", "0400", "0900","0401", "0402", "0403"]
+                }
+            ]
+        }
+    ]
+}

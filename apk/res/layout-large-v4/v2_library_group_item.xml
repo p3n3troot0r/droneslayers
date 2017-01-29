@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:paddingLeft="1.0dip" android:paddingBottom="@dimen/n3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bgo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+    <include android:id="@id/bgp" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+    <include android:id="@id/bgq" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+    <include android:id="@id/bgr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+    <include android:id="@id/bgs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+    <include android:id="@id/bgt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" android:layout_weight="1.0" layout="@layout/v2_library_item" />
+</dji.publics.DJIUI.DJILinearLayout>

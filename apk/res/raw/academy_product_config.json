@@ -1,0 +1,221 @@
+{
+  "version": 2,
+  "academy_products": [
+    {
+      "value": 13,
+      "mSeries": "Mavic",
+      "mVersion": 0,
+      "mSubVersion": "Pro",
+      "learn_more_short": "mavic-pro",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/mavic-pro?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/mavic-pro?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 21,
+      "mSeries": "Mavic",
+      "mVersion": 0,
+      "mSubVersion": "",
+      "learn_more_short": "mavic",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 15,
+      "mSeries": "INSPIRE",
+      "mVersion": 1,
+      "mSubVersion": "RAW",
+      "learn_more_short": "inspire-1-raw",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/inspire-1-raw?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/inspire-1-raw?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 9,
+      "mSeries": "INSPIRE",
+      "mVersion": 1,
+      "mSubVersion": "PRO",
+      "learn_more_short": "inspire-1-pro",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/inspire-1-pro?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/inspire-1-pro?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 1,
+      "mSeries": "INSPIRE",
+      "mVersion": 1,
+      "mSubVersion": "",
+      "learn_more_short": "inspire-1",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/inspire-1-v2?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/inspire-1-v2?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 24,
+      "mSeries": "PHANTOM",
+      "mVersion": 4,
+      "mSubVersion": "",
+      "learn_more_short": "Pomato",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom-4?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom-4?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 7,
+      "mSeries": "PHANTOM",
+      "mVersion": 4,
+      "mSubVersion": "",
+      "learn_more_short": "p4",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom-4?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom-4?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 4,
+      "mSeries": "PHANTOM",
+      "mVersion": 3,
+      "mSubVersion": "PROFESSIONAL",
+      "learn_more_short": "p3x",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom-3-professional?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom-3-professional?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 3,
+      "mSeries": "PHANTOM",
+      "mVersion": 3,
+      "mSubVersion": "ADVANCED",
+      "learn_more_short": "p3s",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom-3-advanced?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom-3-advanced?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 2,
+      "mSeries": "PHANTOM",
+      "mVersion": 3,
+      "mSubVersion": "STANDARD",
+      "learn_more_short": "p3c",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom-3-standard?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom-3-standard?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 6,
+      "mSeries": "MATRICE",
+      "mVersion": 100,
+      "mSubVersion": "",
+      "learn_more_short": "m100",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/matrice-100?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/matrice-100?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 11,
+      "mSeries": "MATRICE",
+      "mVersion": 600,
+      "mSubVersion": "",
+      "learn_more_short": "m600",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/matrice-600?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/matrice-600?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 27,
+      "mSeries": "MATRICE",
+      "mVersion": 600,
+      "mSubVersion": "PRO",
+      "learn_more_short": "m600 pro",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/matrice-600-pro?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/matrice-600-pro?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 20,
+      "mSeries": "OSMO",
+      "mVersion": 0,
+      "mSubVersion": "+",
+      "learn_more_short": "osmo+",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/osmo-plus?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/osmo-plus?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 19,
+      "mSeries": "OSMO",
+      "mVersion": 0,
+      "mSubVersion": "RAW",
+      "learn_more_short": "osmo raw",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/osmo-raw?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/osmo-raw?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 18,
+      "mSeries": "OSMO",
+      "mVersion": 0,
+      "mSubVersion": "PRO",
+      "learn_more_short": "osmo pro",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/osmo-pro?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/osmo-pro?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 5,
+      "mSeries": "OSMO",
+      "mVersion": 0,
+      "mSubVersion": "",
+      "learn_more_short": "osmo",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/osmo?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/osmo?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 22,
+      "mSeries": "OSMO",
+      "mVersion": 0,
+      "mSubVersion": "Mobile",
+      "learn_more_short": "osmo mobile",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/osmo-mobile?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/osmo-mobile?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 8,
+      "mSeries": "DJI LIGHTBRIDGE",
+      "mVersion": 2,
+      "mSubVersion": "",
+      "learn_more_short": "lb2",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/dji-lightbridge-2?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/dji-lightbridge-2?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 14,
+      "mSeries": "ZENMUSE",
+      "mVersion": 0,
+      "mSubVersion": "XT",
+      "learn_more_short": "xt",
+      "learn_more_link": "http://www.dji.com/%1$sproduct/zenmuse-xt",
+      "learn_more_link_never_connected": "http://www.dji.com/%1$sproduct/zenmuse-xt"
+    },
+    {
+      "value": 12,
+      "mSeries": "PHANTOM",
+      "mVersion": 3,
+      "mSubVersion": "4K",
+      "learn_more_short": "p34k",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 10,
+      "mSeries": "A3",
+      "mVersion": 0,
+      "mSubVersion": "",
+      "learn_more_short": "A3",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/a3?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/a3?dji_from=dji-pilot-app"
+    },
+    {
+      "value": 23,
+      "mSeries": "ZENMUSE",
+      "mVersion": 0,
+      "mSubVersion": "Z3",
+      "learn_more_short": "zenmuse-z3",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/zenmuse-z3?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/zenmuse-z3?dji_from=dji-pilot-app"
+    },{
+      "value": 25,
+      "mSeries": "N3",
+      "mVersion": 0,
+      "mSubVersion": "",
+      "learn_more_short": "N3",
+      "learn_more_link": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app",
+      "learn_more_link_never_connected": "http://%1$s.dji.com/%2$sproduct/phantom3-4k?dji_from=dji-pilot-app"
+}
+  ]
+
+}

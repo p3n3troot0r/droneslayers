@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout style="@style/CameraFnLy"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/lu" android:text="@string/tau_isotherm_upper" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+    <dji.pilot.publics.widget.DJIEditText android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/lv" android:background="@drawable/selector_edittext_bg" android:padding="@dimen/n4" android:layout_width="@dimen/f_" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:inputType="numberSigned" android:imeOptions="actionDone" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/iz" android:id="@id/lw" android:layout_marginRight="@dimen/n3" android:text="@string/tau_isotherm_unit_percentage" android:layout_toLeftOf="@id/lv" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.LonganToturialView android:id="@id/b_9" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/b__" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page1_welcome_land" />
+    <include android:id="@id/b_a" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page1_welcome_port" />
+    <include android:id="@id/b_b" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page2_3_land" />
+    <include android:id="@id/b_c" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page2_3_port" />
+    <include android:id="@id/b_d" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page4_land" />
+    <include android:id="@id/b_e" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/longan_tutorial_page4_port" />
+</dji.device.common.view.LonganToturialView>

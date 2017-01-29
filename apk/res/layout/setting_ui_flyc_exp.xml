@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/br5" style="@style/setting_ui_item">
+        <TextView android:id="@id/bqz" android:text="@string/setting_ui_flyc_mode" style="@style/setting_ui_item_title" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/br6" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/br7" android:checked="true" android:button="@null" android:text="@string/setting_ui_flyc_mode_normal" android:singleLine="false" style="@style/setting_ui_item_btn" />
+            <RadioButton android:id="@id/br8" android:layout_marginLeft="25.0dip" android:button="@null" android:text="@string/setting_ui_flyc_mode_sport" android:singleLine="false" style="@style/setting_ui_item_btn" />
+            <RadioButton android:id="@id/br9" android:layout_marginLeft="25.0dip" android:checked="true" android:button="@null" android:text="@string/setting_ui_flyc_mode_gentle" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/wn" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_up" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/br_" android:layout_width="@dimen/w1" android:layout_height="@dimen/w1" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/wn" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_down" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/bra" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/wn" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_turnright" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/brb" android:layout_width="@dimen/w1" android:layout_height="@dimen/w1" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/wn" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_turnleft" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/brc" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center" android:orientation="vertical" android:id="@id/brd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="0.0dip" android:layout_weight="1.0">
+                <TextView android:textSize="@dimen/wn" android:layout_marginTop="10.0dip" android:text="@string/setting_ui_flyc_exp_forwardright" style="@style/setting_ui_exp_title" />
+                <dji.setting.ui.widget.DJITouchCurveView android:id="@id/bre" android:layout_width="@dimen/w1" android:layout_height="@dimen/w1" android:layout_margin="10.0dip" android:layout_centerHorizontal="true" />
+                <TextView android:textSize="@dimen/wn" android:layout_marginBottom="10.0dip" android:text="@string/setting_ui_flyc_exp_backwardleft" style="@style/setting_ui_exp_title" />
+                <EditText android:id="@id/brf" android:text="0.10" android:inputType="numberDecimal" style="@style/setting_ui_item_edittext" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:id="@id/brg" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="@string/setting_ui_flyc_exp_description" android:singleLine="false" style="@style/setting_ui_item_sub_title" />
+    </LinearLayout>
+</LinearLayout>

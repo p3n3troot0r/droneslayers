@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:padding="@dimen/rp" android:layout_height="wrap_content" android:baselineAligned="false" style="@style/CameraFnLy"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/le" android:text="@string/tau_target_emissivity" style="@style/GenCenterWrapTxt" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:paddingTop="@dimen/rn" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/iz" android:id="@id/lf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/tau_target_emissivity" android:maxLines="2" android:singleLine="false" android:layout_weight="1.0" />
+        <dji.pilot.publics.widget.DJIEditText android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/lg" android:background="@drawable/selector_edittext_bg" android:padding="@dimen/n4" android:layout_width="@dimen/f_" android:layout_height="wrap_content" android:singleLine="true" android:inputType="numberDecimal" android:imeOptions="actionDone" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gx"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/cl2" android:layout_width="@dimen/gq" android:layout_height="@dimen/gq" android:layout_marginLeft="5.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:src="@drawable/v2_avatar_default" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_toRightOf="@id/cl2" android:layout_centerVertical="true">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_gravity="center_vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="8.0">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <dji.publics.DJIUI.DJITextView android:id="@id/cl3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="title" android:singleLine="true" />
+                <dji.publics.DJIUI.DJITextView android:textColor="@color/a_" android:id="@id/cl4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="msg" android:singleLine="true" android:layout_toRightOf="@id/cl3" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/kn" android:id="@id/cl5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="subtitle" android:layout_below="@id/cl3" android:layout_alignLeft="@id/cl3" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center|right" android:id="@id/cl6" android:layout_width="@dimen/gq" android:layout_height="@dimen/gq" android:layout_marginRight="5.0dip" android:src="@color/om" android:scaleType="centerCrop" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</RelativeLayout>

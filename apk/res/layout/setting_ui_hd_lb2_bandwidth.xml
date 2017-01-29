@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:text="@string/setting_ui_hd_bandwidth_desc" android:layout_weight="0.0" style="@style/setting_ui_item_title" />
+    <SeekBar android:id="@id/bv0" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="10" android:progress="10" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/setting_ui_widget_seekbar" />
+    <TextView android:id="@id/bv1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:layout_weight="0.0" style="@style/setting_ui_common_title_txt" />
+</LinearLayout>

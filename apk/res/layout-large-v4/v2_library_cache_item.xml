@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cpv" android:paddingLeft="@dimen/gw" android:layout_width="@dimen/h8" android:layout_height="@dimen/h8">
+        <dji.pilot.usercenter.widget.DJIShareProgressBar android:id="@id/cpw" android:duplicateParentState="true" android:layout_width="@dimen/h8" android:layout_height="fill_parent" android:src="@drawable/v2_photo_defalut" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/cpz" android:visibility="gone" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:src="@drawable/usercenter_cloud_icon" android:scaleType="fitStart" android:layout_alignRight="@id/cpv" android:layout_alignParentTop="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/cpx" android:paddingLeft="@dimen/n4" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignRight="@id/cpz" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textStyle="italic" android:gravity="bottom|center|right" android:id="@id/cpy" android:layout_width="fill_parent" phantom:djiTextFace="a5" style="@style/GenTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/cq0" android:visibility="gone" android:layout_width="@dimen/gc" android:layout_height="@dimen/ft" android:layout_marginLeft="@dimen/gw" android:src="@drawable/v2_lib_new_icon" android:scaleType="centerCrop" android:layout_alignLeft="@id/cpv" android:layout_alignParentTop="true" android:contentDescription="@string/app_name" />
+</dji.publics.DJIUI.DJIRelativeLayout>

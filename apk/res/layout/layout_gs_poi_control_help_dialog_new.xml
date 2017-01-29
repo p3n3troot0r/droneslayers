@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/gsnew_point_of_insterest_how_to_control" />
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="15.0dip" android:layout_marginBottom="10.0dip" android:text="@string/gsnew_gs_point_of_insterest_control_desc" android:lineSpacingMultiplier="1.5" />
+    <include android:id="@id/ay7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="1.0" layout="@layout/gs_poi_control_left_and_right_new" />
+    <View android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ay8" android:background="@drawable/gs_content_dialog_btn_bkg_new" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/gsnew_visual_beginner_noshow" android:layout_weight="1.0" />
+        <View android:id="@id/ay9" android:background="@color/eo" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ay_" android:background="@drawable/gs_content_dialog_btn_bkg_new" android:clickable="true" android:layout_width="fill_parent" android:layout_height="40.0dip" android:text="@string/gsnew_gs_way_point_add_point_small_help_ok" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

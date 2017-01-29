@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.DJIRadioGroup android:orientation="vertical" android:background="@color/j5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/longan_preview_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6f" android:background="@drawable/longan_selector_handle_mode_singlephoto_0s" android:button="@null" android:layout_centerInParent="true" style="@style/longan_preview_camera_menu_content_style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:id="@id/b6g" android:background="@color/j5" style="@style/longan_preview_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6h" android:background="@drawable/longan_selector_handle_mode_singlephoto_5s" android:button="@null" android:layout_centerInParent="true" style="@style/longan_preview_camera_menu_content_style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/longan_preview_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6i" android:background="@drawable/longan_selector_handle_mode_singlephoto_10s" android:button="@null" android:layout_centerInParent="true" style="@style/longan_preview_camera_menu_content_style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/longan_preview_camera_menu_layout_style">
+        <RadioButton android:id="@id/b6j" android:background="@drawable/longan_selector_handle_mode_hdr" android:button="@null" android:layout_centerInParent="true" style="@style/longan_preview_camera_menu_content_style" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@color/j5" style="@style/longan_preview_camera_menu_layout_style" />
+    <RelativeLayout android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</dji.device.common.view.DJIRadioGroup>

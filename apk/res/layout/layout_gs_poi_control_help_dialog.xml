@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/eb" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/fj" android:text="@string/gs_point_of_insterest_view_title" />
+    <include android:id="@id/ay7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" layout="@layout/gs_poi_control_left_and_right" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g8" android:layout_marginBottom="@dimen/fj" android:text="@string/gs_point_of_insterest_control_desc" />
+    <dji.publics.DJIUI.DJILinearLayout android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/os" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ay8" android:background="@drawable/gs_click_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:text="@string/visual_beginner_noshow" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJILinearLayout android:id="@id/ay9" android:background="@color/eo" android:layout_width="@dimen/fz" android:layout_height="fill_parent" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ay_" android:background="@drawable/gs_click_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:text="@string/fpv_limit_confirm" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/c6z" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/c_" android:layout_marginRight="@dimen/c_" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:id="@id/c8s" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ca" android:layout_marginRight="@dimen/ca" android:text="@string/v2_explore_search_button_text" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIEditText android:id="@id/c8t" android:background="@drawable/v2_explore_search_input_text_background" android:padding="@dimen/ga" android:layout_width="fill_parent" android:layout_height="@dimen/gc" android:singleLine="true" android:layout_toLeftOf="@id/c8s" android:layout_toRightOf="@id/c6z" android:layout_centerVertical="true" android:imeOptions="actionSearch" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:background="@color/om" android:paddingTop="@dimen/h7" android:paddingBottom="@dimen/gj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <dji.pilot2.widget.DJINewStateTextView android:textSize="@dimen/rl" android:textColor="@drawable/v2_explore_tab_text_background" android:gravity="center" android:id="@id/c8u" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_search_tab_photo" android:onClick="onClickHandler" />
+                <View android:id="@id/c8v" android:background="@drawable/v2_explore_search_line" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/gj" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gr" android:layout_marginRight="@dimen/gj" android:layout_below="@id/c8u" android:layout_alignLeft="@id/c8u" android:layout_alignRight="@id/c8u" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <dji.pilot2.widget.DJINewStateTextView android:textSize="@dimen/rl" android:textColor="@drawable/v2_explore_tab_text_background" android:gravity="center" android:id="@id/c8w" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_search_tab_video" android:onClick="onClickHandler" />
+                <View android:id="@id/c8x" android:background="@drawable/v2_explore_search_line" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/gj" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gr" android:layout_marginRight="@dimen/gj" android:layout_below="@id/c8w" android:layout_alignLeft="@id/c8w" android:layout_alignRight="@id/c8w" />
+            </RelativeLayout>
+            <RelativeLayout android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <dji.pilot2.widget.DJINewStateTextView android:textSize="@dimen/rl" android:textColor="@drawable/v2_explore_tab_text_background" android:gravity="center" android:id="@id/c8y" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_search_tab_user" android:onClick="onClickHandler" />
+                <View android:id="@id/c8z" android:background="@drawable/v2_explore_search_line" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="@dimen/gj" android:layout_marginLeft="@dimen/gj" android:layout_marginTop="@dimen/gr" android:layout_marginRight="@dimen/gj" android:layout_below="@id/c8y" android:layout_alignLeft="@id/c8y" android:layout_alignRight="@id/c8y" />
+            </RelativeLayout>
+        </LinearLayout>
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/c90" android:background="@color/ky" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="always" />
+            <TextView android:id="@id/c91" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:layout_centerHorizontal="true" />
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

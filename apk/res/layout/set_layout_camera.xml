@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:text="@string/set_camera_module_title_video" style="@style/set_item_subtitle" />
+            <View style="@style/set_divider" />
+            <dji.pilot.set.view.VideoFormatSetterView style="@style/set_item" />
+            <dji.pilot.set.view.VideoTypeSetterView style="@style/set_item" />
+            <dji.pilot.set.view.VideoCaptionSetterView style="@style/set_item" />
+            <TextView android:text="@string/set_camera_module_title_photo" style="@style/set_item_subtitle" />
+            <View style="@style/set_divider" />
+            <dji.pilot.set.view.ImageSizeSetterView style="@style/set_item" />
+            <dji.pilot.set.view.ImageFormatSetterView android:visibility="gone" style="@style/set_item" />
+            <dji.pilot.set.view.TimelapseFormatSetterView style="@style/set_item" />
+            <TextView android:text="@string/set_camera_module_title_general" style="@style/set_item_subtitle" />
+            <View style="@style/set_divider" />
+            <dji.pilot.set.view.CameraColorView android:visibility="gone" style="@style/set_item" />
+            <dji.pilot.set.view.GridSetterView android:visibility="gone" style="@style/set_item" />
+            <dji.pilot.set.view.HistogramSetterView android:visibility="gone" style="@style/set_item" />
+            <dji.pilot.set.view.AntiBlinkSetterView style="@style/set_item" />
+            <dji.pilot.set.view.FileIndexModeView style="@style/set_item" />
+            <dji.pilot.set.view.RestCameraSettingView style="@style/set_item" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

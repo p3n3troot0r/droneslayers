@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/selector_fn_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:id="@id/km" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_width="fill_parent" android:layout_height="@dimen/i3">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/kn" android:padding="@dimen/n3" android:layout_width="@dimen/i3" android:layout_height="@dimen/i3" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:ellipsize="end" android:gravity="center|left" android:id="@id/ko" android:paddingLeft="@dimen/rp" android:layout_width="0.0dip" android:layout_height="@dimen/i3" android:maxLines="2" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/kp" android:padding="@dimen/n3" android:duplicateParentState="false" android:layout_width="@dimen/i3" android:layout_height="@dimen/i3" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

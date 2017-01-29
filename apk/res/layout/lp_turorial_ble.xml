@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ag" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/bdf" android:layout_width="@dimen/g0" android:layout_height="@dimen/fw">
+        <ImageView android:id="@id/bdg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:src="@drawable/lp_cam_setting_sharpe" />
+        <LinearLayout android:orientation="vertical" android:id="@id/bbe" android:background="@drawable/lp_round_rectangle" android:layout_width="@dimen/g0" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="@dimen/ro" android:textColor="@color/a_" android:gravity="center_vertical" android:id="@id/bbf" android:layout_width="@dimen/g0" android:layout_height="@dimen/gz" android:layout_marginLeft="@dimen/sb" android:layout_marginTop="@dimen/ft" android:text="@string/lp_tutorial_blue_connected" />
+            <View android:background="@color/ad" android:layout_width="@dimen/g0" android:layout_height="@dimen/fz" android:layout_marginTop="@dimen/ft" android:alpha="0.5" />
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+                <Button android:textSize="16.0sp" android:textColor="@color/ax" android:gravity="center" android:id="@id/bdh" android:background="@null" android:layout_width="@dimen/fi" android:layout_height="fill_parent" android:text="@string/lp_tutorial_cancel" android:layout_weight="1.0" />
+                <View android:background="@color/ad" android:layout_width="1.0dip" android:layout_height="fill_parent" android:alpha="0.5" />
+                <Button android:textSize="16.0sp" android:textColor="@color/ax" android:gravity="center" android:id="@id/bdi" android:background="@null" android:layout_width="@dimen/fi" android:layout_height="fill_parent" android:text="@string/lp_tutorial_start" android:layout_weight="1.0" />
+            </LinearLayout>
+        </LinearLayout>
+        <ImageView android:id="@id/bdj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="@dimen/xz" android:src="@drawable/lp_inverted_setting_sharpe" />
+    </RelativeLayout>
+</RelativeLayout>

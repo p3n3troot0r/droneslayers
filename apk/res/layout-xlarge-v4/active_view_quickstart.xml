@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/fg" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/fh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="145.0dip" android:layout_centerHorizontal="true">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/qm" android:textStyle="bold" android:textColor="@color/mg" android:gravity="center" android:id="@id/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_title" android:drawableLeft="@drawable/v2_quickstart_safeflag" android:drawablePadding="15.0dip" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ql" android:textColor="@color/mk" android:gravity="center_horizontal" android:layout_width="@dimen/si" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:text="@string/quick_attention" android:layout_below="@id/fh" android:layout_centerHorizontal="true" />
+        <Button android:textColor="@color/om" android:id="@id/fj" android:background="@drawable/v2_main_quickstart_button_selector" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fn" android:text="@string/quick_begin_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+        <Button android:textColor="@color/mg" android:id="@id/fk" android:background="@color/om" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:paddingBottom="@dimen/fi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_skip_button" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/fl" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/fm" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="10.0dip" android:layout_marginBottom="30.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <View android:id="@id/fn" android:background="@drawable/v2_circle" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fo" android:background="@drawable/v2_circle" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fp" android:background="@drawable/v2_circle" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fq" android:background="@drawable/v2_circle" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:visibility="gone" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fr" android:background="@drawable/v2_circle" android:visibility="gone" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:visibility="gone" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fs" android:background="@drawable/v2_circle" android:visibility="gone" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:visibility="gone" android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/ft" android:background="@drawable/v2_circle" android:visibility="gone" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+        <View android:layout_width="@dimen/cr" android:layout_height="@dimen/cr" />
+        <View android:id="@id/fu" android:background="@drawable/v2_circle" android:layout_width="@dimen/db" android:layout_height="@dimen/db" />
+    </LinearLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

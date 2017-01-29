@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cwr" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.widget.DJIPhantomScrollView android:id="@id/cws" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_weight="3.0">
+        <LinearLayout android:orientation="horizontal" android:id="@id/cwt" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </dji.pilot2.widget.DJIPhantomScrollView>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.2">
+        <dji.publics.widget.djiviewpager.IndicatorBar android:id="@id/cwu" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </LinearLayout>
+</LinearLayout>

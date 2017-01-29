@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/account_dialog_bg" android:layout_width="@dimen/rc" android:layout_height="@dimen/rb" android:layout_centerInParent="true" android:showDividers="middle">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/r_" android:gravity="center" android:id="@id/bq" android:paddingLeft="@dimen/r9" android:paddingRight="@dimen/r9" android:layout_width="fill_parent" android:layout_height="@dimen/r8" android:text="@string/account_email_not_found" android:allowUndo="true" />
+        <dji.publics.DJIUI.DJIImageView android:background="#ff979797" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="#ff979797" android:showDividers="middle">
+            <dji.pilot.publics.widget.DJIStateButton android:textSize="@dimen/r7" android:textColor="#ff4a90e2" android:gravity="center" android:id="@id/br" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/account_sign_up_now" android:layout_weight="1.0" />
+            <dji.publics.DJIUI.DJIImageView android:background="#ff979797" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+            <dji.pilot.publics.widget.DJIStateButton android:textSize="@dimen/r7" android:textColor="#ff4a90e2" android:gravity="center" android:id="@id/bs" android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/account_dialog_dismiss" android:layout_weight="1.0" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</RelativeLayout>

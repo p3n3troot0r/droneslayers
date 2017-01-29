@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:background="@color/d_" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/zw" android:layout_width="@dimen/y4" android:layout_height="@dimen/y4" android:src="@drawable/osd_error_tips_notify_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:paddingRight="@dimen/gw" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:baselineAligned="false" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:layout_gravity="center_vertical" android:id="@id/zx" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/n4" android:maxLines="3" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/zy" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gw" android:maxLines="3" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/zz" android:visibility="gone" android:layout_width="@dimen/y4" android:layout_height="@dimen/y4" android:src="@drawable/fpv_errorpop_close_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+</dji.publics.DJIUI.DJILinearLayout>

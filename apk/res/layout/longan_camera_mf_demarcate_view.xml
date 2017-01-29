@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.focus.DJIMFDemarcateViewLongan android:orientation="vertical" android:background="@drawable/longan_camera_setting_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/jk" android:background="@color/j5" android:padding="@dimen/rj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_mf_demarcate" />
+    <dji.device.common.view.DJIScrollTextView android:scrollbarSize="2.0dip" android:scrollbarThumbVertical="@drawable/anim_grid_thumb" android:scrollbarTrackVertical="@color/db" android:scrollbarAlwaysDrawVerticalTrack="false" android:scrollbarStyle="insideOverlay" android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/jl" android:paddingLeft="@dimen/rj" android:paddingTop="@dimen/n3" android:paddingRight="@dimen/rj" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:maxHeight="@dimen/ml" android:text="@string/camera_mf_demarcate_tip" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/n4" android:scrollbarFadeDuration="2000" android:scrollbarDefaultDelayBeforeFade="0" />
+    <View style="@style/HorizontalDivider" />
+    <dji.device.common.view.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/jm" android:padding="@dimen/n3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_demarcate_start" />
+    <View style="@style/HorizontalDivider" />
+    <dji.device.common.view.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/jn" android:padding="@dimen/n3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/camera_demarcate_later" />
+</dji.device.camera.view.focus.DJIMFDemarcateViewLongan>

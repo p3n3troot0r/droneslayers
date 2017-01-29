@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cje" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cjf" android:background="@drawable/v2_cut_tag_select2" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/cjg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="10.0dip" android:minHeight="10.0dip" android:text="@string/v2_cut_moment_default_length" android:layout_centerInParent="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.DJILPFirmwareVersionDetailView android:orientation="vertical" android:clickable="true" style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_gimbal" style="@style/set_item_title" />
+                <TextView android:id="@id/bci" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/bluetooth_version" style="@style/set_item_title" />
+                <TextView android:id="@id/bcj" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bck" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/handset_version" style="@style/set_item_title" />
+                <TextView android:id="@id/bcl" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/pitch_motor_driver_version" style="@style/set_item_title" />
+                <TextView android:id="@id/bcm" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bcn" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/roll_motor_driver_version" style="@style/set_item_title" />
+                <TextView android:id="@id/bco" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bcp" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/yaw_motor_driver_version" style="@style/set_item_title" />
+                <TextView android:id="@id/bcq" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.pilot.set.view.DJILPFirmwareVersionDetailView>

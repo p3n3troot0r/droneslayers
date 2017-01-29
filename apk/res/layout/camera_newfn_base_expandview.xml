@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.DJICameraBaseExpandView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.fpv.camera.newfn.PinnedHeaderExpandableListView android:id="@id/k9" android:scrollbars="vertical" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:listSelector="@null" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:childDivider="@color/b4" android:divider="@color/b4" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:layout_weight="1.0" android:overScrollMode="ifContentScrolls" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/k_" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:ellipsize="end" android:gravity="center|left" android:id="@id/ka" android:background="@color/oq" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="SD CARD" android:singleLine="true" />
+        <include android:layout_width="fill_parent" android:layout_height="@dimen/i3" layout="@layout/camera_newfn_base_expandview_group" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.camera.newfn.DJICameraBaseExpandView>

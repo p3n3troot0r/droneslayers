@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:visibility="gone" android:layout_width="@dimen/g8" android:layout_height="@dimen/ft" android:layout_marginLeft="@dimen/fj" android:layout_marginTop="@dimen/gr" android:src="@drawable/rc_main_dji_logo" />
+    <dji.pilot.home.rc.view.MainMenuRightView android:id="@id/bk4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="27.0dip" android:layout_marginBottom="40.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <dji.pilot.home.rc.view.MainMenuTopView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" />
+    <dji.pilot.home.rc.view.MainConnectionStateView android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_width="240.0dip" android:layout_height="45.0dip" android:layout_marginBottom="20.0dip" android:layout_above="@id/bk4" android:layout_alignParentRight="true" layout="@layout/djipad_upgrade_tip_banner_view" />
+</dji.publics.DJIUI.DJIRelativeLayout>

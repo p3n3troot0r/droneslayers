@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ag" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/b_f" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="32.0sp" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center" android:id="@id/b_g" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="@string/longan_tutorial_welcome" phantom:djiTextFace="a6" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/om" android:gravity="center" android:layout_width="480.0dip" android:layout_height="60.0dip" android:text="@string/longan_tutorial_welcome_description" phantom:djiTextFace="a6" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/b_h" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:layout_below="@id/b_f" android:layout_centerHorizontal="true">
+        <Button android:textColor="@color/om" android:id="@id/b_i" android:background="@drawable/longan_tutorial_btn_bg" android:layout_width="110.0dip" android:layout_height="40.0dip" android:text="@string/longan_tutorial_ready_btn_text" android:layout_centerInParent="true" android:alpha="0.89" />
+        <Button android:textColor="@color/om" android:id="@id/b_j" android:background="@color/j5" android:layout_width="110.0dip" android:layout_height="40.0dip" android:layout_marginTop="10.0dip" android:text="@string/longan_tutorial_next_btn_text" android:layout_centerHorizontal="true" android:alpha="0.89" />
+    </LinearLayout>
+</RelativeLayout>

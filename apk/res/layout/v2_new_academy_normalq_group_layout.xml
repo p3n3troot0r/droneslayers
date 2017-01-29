@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="14.0sp" android:textColor="#ff4a4a4a" android:ellipsize="end" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/cvv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/h7" android:layout_marginBottom="@dimen/h7" android:text="test" android:singleLine="true" android:layout_weight="1.0" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cvx" android:visibility="visible" android:layout_width="@dimen/fx" android:layout_height="fill_parent" android:layout_marginRight="@dimen/fx" android:src="@drawable/newacademy_normalq_group" android:scaleType="center" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </LinearLayout>
+    <View android:id="@id/cvw" android:background="#ffd8d8d8" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_marginTop="@dimen/fz" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.upgrade.DJIPADUpgradeTipBannerView android:id="@id/sb" android:background="@drawable/shape_background_green" android:visibility="gone" android:layout_width="240.0dip" android:layout_height="45.0dip" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:id="@id/sc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rc_main_ic_home_s_upgrade" android:layout_alignParentRight="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/om" android:layout_gravity="center_vertical" android:id="@id/sd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:text="@string/rc_main_update" android:layout_toLeftOf="@id/sc" />
+        <dji.publics.DJIUI.DJITextView android:textSize="13.0sp" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot2.upgrade.DJIPADUpgradeTipBannerView>

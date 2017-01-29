@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v2_academy_header" />
+    <ScrollView android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/a_" android:autoLink="web" android:id="@id/cn1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/fj" android:layout_centerInParent="true" android:lineSpacingMultiplier="1.5" />
+    </ScrollView>
+</LinearLayout>

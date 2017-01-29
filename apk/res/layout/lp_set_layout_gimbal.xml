@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot.set.view.DJILPGimbalPreConfigView style="@style/set_item" />
+        <TextView android:text="@string/set_gimbal_roll_tune" style="@style/set_item_subtitle" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.GimbalHorizonTuneView style="@style/set_item" />
+        <dji.pilot.set.view.GimbalAutoCalibrationView style="@style/set_item" />
+        <TextView android:text="@string/set_general" style="@style/set_item_subtitle" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.StickControlSetterView android:visibility="visible" style="@style/set_item" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.DJILPPanReverseSetterView android:visibility="gone" style="@style/set_item" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.DJILPGimbalTiltReverseSetterView android:visibility="gone" style="@style/set_item" />
+        <dji.pilot.set.view.ResetGimbalSettingView style="@style/set_item" />
+    </LinearLayout>
+</ScrollView>

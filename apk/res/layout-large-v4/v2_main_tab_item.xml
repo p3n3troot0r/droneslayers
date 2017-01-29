@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:paddingTop="@dimen/gr" android:paddingBottom="@dimen/gr" android:layout_width="wrap_content" android:layout_height="@dimen/o"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="@dimen/gc" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <ImageView android:id="@id/cs6" android:focusable="false" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <ImageView android:id="@id/cs7" android:background="@drawable/v2_main_tab_library_anintion" android:focusable="false" android:visibility="gone" android:layout_width="@dimen/fr" android:layout_height="@dimen/fr" android:scaleType="centerCrop" android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        <TextView android:textSize="@dimen/h7" android:textColor="@color/om" android:gravity="center" android:id="@id/cs8" android:background="@drawable/v2_tab_redpoint_view" android:visibility="gone" android:layout_width="@dimen/gw" android:layout_height="@dimen/gw" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/rq" android:textColor="@drawable/v2_main_tab_textview_selector" android:id="@id/cs9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.FirmwareVersionDetailView android:orientation="vertical" android:clickable="true" style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_camera" style="@style/set_item_title" />
+                <TextView android:id="@id/bmv" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmw" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_fpga" style="@style/set_item_title" />
+                <TextView android:id="@id/bmx" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmy" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_camera01" style="@style/set_item_title" />
+                <TextView android:id="@id/bmz" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bn0" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_camera04" style="@style/set_item_title" />
+                <TextView android:id="@id/bn1" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_gimbal" style="@style/set_item_title" />
+                <TextView android:id="@id/bci" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bn2" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_gimbal01" style="@style/set_item_title" />
+                <TextView android:id="@id/bn3" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bn4" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_gimbal02" style="@style/set_item_title" />
+                <TextView android:id="@id/bn5" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bn6" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_gimbal03" style="@style/set_item_title" />
+                <TextView android:id="@id/bn7" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bn8" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_368" style="@style/set_item_title" />
+                <TextView android:id="@id/bn9" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_1765" style="@style/set_item_title" />
+                <TextView android:id="@id/bn_" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/set_about_wifi" style="@style/set_item_title" />
+                <TextView android:id="@id/bna" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.pilot.set.view.FirmwareVersionDetailView>

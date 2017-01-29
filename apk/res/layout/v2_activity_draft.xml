@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/hm" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c8b" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_draft_title" android:layout_centerInParent="true" />
+                <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <ListView android:id="@id/c8c" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/j5" android:overScrollMode="never" />
+            </RelativeLayout>
+        </LinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJIOriLayout>

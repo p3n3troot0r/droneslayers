@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="2.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/gsnew_gs_way_point_status_to_end_distance" />
+        <dji.pilot.dji_groundstation.ui.views.WayPointToLastPointDistanceView android:textSize="21.0dip" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center" android:id="@id/aop" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="13.0dip" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="15.0dip" android:text="@string/gsnew_gs_way_point_status_desc" android:layout_weight="3.0" android:lineSpacingMultiplier="1.3" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:layout_gravity="left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_way_point_status_speed" />
+            <dji.pilot.dji_groundstation.ui.views.WayPointSpeedControlView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </FrameLayout>
+    <dji.pilot.dji_groundstation.ui.views.WayPointPauseView android:textSize="12.0dip" android:textColor="@color/p9" android:gravity="center" android:layout_gravity="center" android:background="@drawable/gs_poi_pause_btn_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/gsnew_gs_pause" />
+</dji.publics.DJIUI.DJILinearLayout>

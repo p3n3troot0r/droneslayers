@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:paddingLeft="8.0dip" android:paddingTop="5.0dip" android:paddingRight="8.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="50.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/agi" android:layout_width="fill_parent" android:layout_height="25.0dip">
+        <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/agj" android:layout_width="wrap_content" android:layout_height="fill_parent" />
+        <dji.publics.DJIUI.DJITextView android:textSize="15.0sp" android:textColor="#ff1fa3f6" android:gravity="center" android:id="@id/agk" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_hg_select" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/agl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/agi">
+        <dji.publics.DJIUI.DJITextView android:textSize="11.0sp" android:textColor="@color/om" android:id="@id/agm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <dji.publics.DJIUI.DJITextView android:textSize="11.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/agn" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+    </RelativeLayout>
+</RelativeLayout>

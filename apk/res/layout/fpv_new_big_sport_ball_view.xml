@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.sport.DJISportAttitudeView android:layout_width="@dimen/ir" android:layout_height="@dimen/ir"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/a8t" android:background="@drawable/new_sport_attitude_tip_bg" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:background="@drawable/big_sport_ball_new_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+    <ViewAnimator android:id="@id/a8u" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:animateFirstView="false">
+        <dji.pilot.publics.widget.DJIClipView android:id="@id/a8v" android:layout_width="fill_parent" android:layout_height="fill_parent" app:isUseSrcSize="false" app:shape="w" app:src="@drawable/new_sport_attitude_new_low" />
+        <dji.pilot.publics.widget.DJIClipView android:id="@id/a8w" android:layout_width="fill_parent" android:layout_height="fill_parent" app:isUseSrcSize="false" app:shape="w" app:src="@drawable/new_sport_attitude_new_fast" />
+    </ViewAnimator>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_centerInParent="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textStyle="bold" android:id="@id/a8x" style="@style/GenCenterWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rn" android:textStyle="bold" android:id="@id/a8y" android:layout_marginTop="@dimen/it" android:text="@string/unit_rpm" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.sport.DJISportAttitudeView>

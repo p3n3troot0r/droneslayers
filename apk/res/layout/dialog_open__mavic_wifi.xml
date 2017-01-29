@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="@dimen/ge" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/wq" android:textStyle="bold" android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/v2_phantom_fragment_scan_wifi_not_found" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ts" android:src="@drawable/scan_wifi_swith_location" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJITextView android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/v2_phantom_fragment_scan_wifi_not_found_hint" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@android:color/black" android:gravity="center" android:layout_gravity="center" android:id="@id/rs" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/ok" />
+</LinearLayout>

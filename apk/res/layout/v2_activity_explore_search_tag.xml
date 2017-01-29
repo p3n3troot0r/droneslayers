@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c6y" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c6z" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:ellipsize="end" android:gravity="center" android:id="@id/c70" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="tag" android:maxLines="1" android:layout_centerInParent="true" />
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot2.mine.view.RefreshableView android:orientation="vertical" android:id="@id/c8q" android:background="@color/k9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/c92" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/j5" android:overScrollMode="never" />
+        </dji.pilot2.mine.view.RefreshableView>
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+    </RelativeLayout>
+</LinearLayout>

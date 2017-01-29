@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.SettingUIStageView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" setting_ui:titleText="@string/setting_ui_gimbal"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/setting_ui_items_scrollview">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <dji.setting.ui.gimbal.ModeView setting_ui:titleText="@string/setting_ui_gimbal_mode" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.AdvGroupView setting_ui:titleText="@string/setting_ui_gimbal_adv" setting_ui:subLayout="@layout/setting_ui_group_gimbal_adv" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.BatteryView setting_ui:titleText="@string/setting_ui_ronin_battery" style="@style/setting_ui_item" />
+            <include layout="@layout/setting_ui_gimbal_ronin_motor_params" />
+            <dji.setting.ui.gimbal.ronin.RollFineTuneView setting_ui:titleText="@string/setting_ui_gimbal_roll_fine_tune" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.AutoCalibrationView setting_ui:titleText="@string/setting_ui_gimbal_auto_calibration" style="@style/setting_ui_item_noPadding" />
+            <dji.setting.ui.widget.ItemViewGroup setting_ui:titleText="@string/setting_ui_ronin_follow_setting" setting_ui:subLayout="@layout/setting_ui_group_gimbal_ronin_follow" setting_ui:showDivider="true" style="@style/setting_ui_item" />
+            <dji.setting.ui.widget.ItemViewGroup setting_ui:titleText="@string/setting_ui_ronin_remote_controller_setting" setting_ui:subLayout="@layout/setting_ui_group_gimbal_ronin_controller" setting_ui:showDivider="true" style="@style/setting_ui_item" />
+            <dji.setting.ui.widget.ItemViewGroup setting_ui:titleText="@string/setting_ui_ronin_yaw_pitch_limit" setting_ui:subLayout="@layout/setting_ui_group_gimbal_ronin_yaw_pitch_limit" setting_ui:showDivider="true" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.EnableCamaraUpdown setting_ui:titleText="@string/setting_ui_ronin_enable_camera_updown_setting" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.ShutdownMotor setting_ui:titleText="@string/setting_ui_ronin_shutdown_motor" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.CalsSystem setting_ui:titleText="@string/setting_ui_ronin_calc_system" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.BalanceTest setting_ui:titleText="@string/setting_ui_ronin_balance_test" style="@style/setting_ui_item" />
+            <dji.setting.ui.gimbal.ronin.ResetSettings setting_ui:titleText="@string/setting_ui_ronin_default_setting" style="@style/setting_ui_item" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </ScrollView>
+</dji.setting.ui.SettingUIStageView>

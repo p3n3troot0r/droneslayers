@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SurfaceView android:id="@id/coe" android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/cof" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="@dimen/gt" android:layout_height="@dimen/gt" android:src="@drawable/v2_btn_playback" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/no_value" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/cog" android:background="@drawable/ve_play_time_bg" android:paddingLeft="@dimen/gw" android:paddingRight="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/gw" android:singleLine="true" android:layout_alignTop="@id/coe" android:layout_alignRight="@id/coe" />
+</RelativeLayout>

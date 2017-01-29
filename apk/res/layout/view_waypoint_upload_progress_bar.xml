@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ProgressBar android:id="@id/aoy" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginBottom="25.0dip" android:progressDrawable="@drawable/gs_progress_bar_background" style="?android:attr/progressBarStyleHorizontal" />
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0dip" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/aoz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gsnew_gs_wait_dialog_desc" />
+</merge>

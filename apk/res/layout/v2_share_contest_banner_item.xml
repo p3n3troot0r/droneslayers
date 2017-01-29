@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ckj" android:background="@color/kg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/czg" android:padding="@dimen/fj" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_share_contest_banner_item_learn_more" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/czh" android:background="@drawable/v2_share_contest_share_item_submit_selector" android:paddingLeft="@dimen/g1" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/g1" android:paddingBottom="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="30.0dip" android:layout_alignBottom="@id/ckj" android:layout_centerHorizontal="true">
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/czi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_share_contest_banner_item_submit" />
+    </RelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ckk" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fj" android:src="@drawable/v2_explore_banner_new" android:layout_alignRight="@id/ckj" android:layout_alignBottom="@id/ckj" />
+</RelativeLayout>

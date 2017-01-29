@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cso" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/csp" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/mine_contact_dji" android:layout_centerInParent="true" />
+            <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/cso" android:overScrollMode="never">
+            <dji.publics.DJIUI.DJIRelativeLayout android:paddingTop="@dimen/gl" android:paddingBottom="@dimen/gl" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.pilot2.mine.view.FixRatioImageView android:id="@id/csq" android:layout_width="wrap_content" android:layout_height="0.0dip" android:src="@drawable/v2_contact_dji_logo" android:layout_centerHorizontal="true" app:width_weight="2.0" app:height_weight="1.0" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/l0" android:gravity="center" android:id="@id/csr" android:paddingLeft="@dimen/g1" android:paddingRight="@dimen/g1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/mine_contact_dji_detail" android:layout_below="@id/csq" />
+                <dji.pilot2.mine.view.MineFlowLayout android:id="@id/css" android:background="@drawable/v2_profile_contact_item_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:layout_below="@id/csr">
+                    <dji.pilot2.mine.view.MineContactButton android:id="@id/cst" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onClickHandler" />
+                    <dji.pilot2.mine.view.MineContactButton android:id="@id/csu" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onClickHandler" />
+                    <dji.pilot2.mine.view.MineContactButton android:id="@id/csv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:onClick="onClickHandler" />
+                </dji.pilot2.mine.view.MineFlowLayout>
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </ScrollView>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

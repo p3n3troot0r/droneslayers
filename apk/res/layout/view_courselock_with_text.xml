@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.dji_groundstation.ui.views.CourseLockView android:id="@id/d69" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_follow_me_wise_degree" />
+        <dji.publics.DJIUI.DJITextView android:textSize="18.0dip" android:textColor="@color/h_" android:gravity="left" android:layout_gravity="center_horizontal" android:id="@id/d6_" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</merge>

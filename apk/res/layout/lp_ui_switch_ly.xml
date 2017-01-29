@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.widget.DJILPUISwitcher android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/h2" android:layout_marginBottom="@dimen/ft" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/bdp" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/lp_ic_normal" android:scaleType="center" />
+</dji.phone.widget.DJILPUISwitcher>

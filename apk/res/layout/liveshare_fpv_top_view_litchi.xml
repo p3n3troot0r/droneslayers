@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.liveshare.LiveShareFpvTopView android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:id="@id/azc" android:background="@drawable/liveshare_streaming_lost" android:layout_width="@dimen/ux" android:layout_height="@dimen/ux" android:layout_marginLeft="@dimen/h1" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/liveshare_live_topbar_connect" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/aze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/vd" android:layout_marginRight="@dimen/gw" android:text="00:00" android:layout_below="@id/azd" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_live_topbar_fps" android:layout_toRightOf="@id/azd" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:text="0.0" android:layout_toRightOf="@id/azf" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/azh" android:layout_width="@dimen/vh" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:src="@drawable/longan_record_recorder" android:layout_toRightOf="@id/aze" android:layout_alignBottom="@id/aze" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/azi" android:layout_width="@dimen/u1" android:layout_marginLeft="@dimen/n4" android:baselineAlignBottom="true" android:layout_toRightOf="@id/azh" android:layout_below="@id/azf" android:layout_alignBaseline="@id/aze" android:layout_centerVertical="true" style="@style/FpvSignalLevelImg" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.liveshare.LiveShareFpvTopView>

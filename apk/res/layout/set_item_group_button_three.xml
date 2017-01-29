@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center_vertical" android:id="@id/q6" android:text="test" style="@style/set_item_title" />
+        <RadioGroup android:id="@id/bm9" android:layout_marginRight="@dimen/a4p" style="@style/set_widget_radiogroup">
+            <RadioButton android:id="@id/bm_" android:background="@drawable/set_radio_left_bg" android:layout_width="@dimen/a4j" android:text="test" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bmb" android:layout_width="@dimen/a4j" android:text="test" style="@style/set_gimbal_radio" />
+            <View style="@style/set_h_divider" />
+            <RadioButton android:id="@id/bma" android:background="@drawable/set_radio_right_bg" android:layout_width="@dimen/a4j" android:text="test" style="@style/set_gimbal_radio" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:id="@id/q9" android:layout_below="@id/q6" style="@style/set_divider" />
+</LinearLayout>

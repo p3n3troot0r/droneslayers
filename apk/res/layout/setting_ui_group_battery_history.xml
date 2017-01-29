@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/setting_ui_items_linearlayout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.battery.HistoryBatteryView android:layout_height="fill_parent" setting_ui:showDivider="false" style="@style/setting_ui_item" />
+</LinearLayout>

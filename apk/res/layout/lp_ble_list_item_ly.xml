@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gq"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center_vertical" android:id="@id/b_x" android:layout_height="@dimen/gq" android:layout_marginLeft="@dimen/ft" android:text="@string/lp_ble_device_list_name_txt" style="@style/GenCenterWrapTxt" />
+    <Button android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/b_y" android:background="@drawable/lp_selector_ble_btn" android:layout_width="@dimen/gx" android:layout_height="@dimen/g8" android:layout_marginRight="@dimen/ft" android:text="@string/lp_ble_device_connect_txt" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <dji.phone.widget.DJILPWorkingTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:ellipsize="middle" android:gravity="center_vertical" android:id="@id/b_z" android:visibility="gone" android:layout_width="@dimen/h3" android:layout_height="@dimen/g8" android:text="@string/lp_ble_device_connecting" android:singleLine="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

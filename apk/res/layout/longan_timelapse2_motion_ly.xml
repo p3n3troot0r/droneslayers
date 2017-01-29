@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/h7" android:paddingRight="@dimen/h7" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/b8l" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/gj" android:animateLayoutChanges="true">
+            <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:id="@id/b8m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:animateLayoutChanges="true" />
+            <RelativeLayout android:layout_gravity="center_horizontal" android:id="@id/b8n" android:background="@color/ax" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/fi" android:alpha="0.8">
+                <ImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timelapse_motion_add_tl" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+                <ImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timelapse_motion_add_tr" android:scaleType="center" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+                <ImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timelapse_motion_add_bl" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" />
+                <ImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timelapse_motion_add_br" android:scaleType="center" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+                <ImageView android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/timelapse_motion_add" android:scaleType="center" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <TextView android:textSize="@dimen/rp" android:textColor="@color/os" android:gravity="center|top" android:id="@id/b8o" android:layout_width="fill_parent" android:layout_height="@dimen/gc" android:layout_marginTop="@dimen/gw" android:text="@string/longan_timelapse2_motion_tip" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

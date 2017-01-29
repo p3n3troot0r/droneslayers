@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.setting.DJICameraSettingModeView android:orientation="horizontal" android:background="@drawable/camera_mode_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/jo" android:src="@drawable/selector_camera_mode_auto" android:scaleType="center" android:adjustViewBounds="true" style="@style/CameraModeBase" />
+    <dji.pilot.publics.widget.DJIStateTextView android:id="@id/jp" android:layout_marginLeft="@dimen/n4" android:text="@string/camera_mode_a" style="@style/CameraModeTv" />
+    <dji.pilot.publics.widget.DJIStateTextView android:id="@id/jq" android:layout_marginLeft="@dimen/n4" android:text="@string/camera_mode_s" style="@style/CameraModeTv" />
+    <dji.pilot.publics.widget.DJIStateTextView android:id="@id/jr" android:layout_marginLeft="@dimen/n4" android:text="@string/camera_mode_m" style="@style/CameraModeTv" />
+    <dji.pilot.publics.widget.DJIStateTextView android:id="@id/js" android:layout_marginLeft="@dimen/n4" android:text="@string/camera_mode_c" style="@style/CameraModeTv" />
+</dji.pilot.fpv.camera.setting.DJICameraSettingModeView>

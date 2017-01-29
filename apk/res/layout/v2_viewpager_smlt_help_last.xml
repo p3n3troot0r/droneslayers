@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/fk" android:layout_centerInParent="true">
+        <ImageView android:id="@id/d59" android:background="@drawable/v2_smlt_phantom_rc_tip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fo" android:text="@string/manual_gimbal_dial" android:layout_toLeftOf="@id/d59" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/b" android:text="@string/manual_recording" android:layout_toLeftOf="@id/d59" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:gravity="right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gq" android:text="@string/manual_flight_mode_switch" android:layout_toLeftOf="@id/d59" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:id="@id/d5_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/b" android:text="@string/manual_shutter" android:layout_toRightOf="@id/d59" android:layout_alignParentBottom="true" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fr" android:text="@string/manual_playback" android:layout_toRightOf="@id/d59" android:layout_above="@id/d5_" />
+        <TextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gx" android:text="@string/manual_camera_setting_dial" android:layout_toRightOf="@id/d59" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

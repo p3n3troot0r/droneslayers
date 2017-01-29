@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/a4r" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bll" android:text="摇杆的Tit死区值越大，需要在Tit方向上改变云台方向的动作控制区域需要越大" style="@style/set_item_desc" />
+    <View android:id="@id/blm" style="@style/set_divider" />
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/d56" android:background="@drawable/v2_smlt_tip0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+    <RelativeLayout android:layout_width="@dimen/g5" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_toRightOf="@id/d56" android:layout_alignParentRight="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:id="@id/d57" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/simulator_tipstitle0" phantom:djiTextFace="a5" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:textColor="@color/a_" android:id="@id/d58" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/simulator_tips0" android:layout_below="@id/d57" />
+    </RelativeLayout>
+</RelativeLayout>

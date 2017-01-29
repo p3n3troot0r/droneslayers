@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/tt">
+        <RelativeLayout android:id="@id/bv7" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_hd_pip_left_top" android:drawableTop="@drawable/setting_ui_hd_pip_left_top" android:layout_centerInParent="true" style="@style/setting_ui_common_title_txt" />
+            <ImageView android:id="@id/bv8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_hd_pip_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View style="@style/setting_ui_divider_vertical" />
+        <RelativeLayout android:id="@id/bv9" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_hd_pip_right_top" android:drawableTop="@drawable/setting_ui_hd_pip_right_top" android:layout_centerInParent="true" style="@style/setting_ui_common_title_txt" />
+            <ImageView android:id="@id/bv_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_hd_pip_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View style="@style/setting_ui_divider_horization" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/tt">
+        <RelativeLayout android:id="@id/bva" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_hd_pip_left_bottom" android:drawableTop="@drawable/setting_ui_hd_pip_left_bottom" android:layout_centerInParent="true" style="@style/setting_ui_common_title_txt" />
+            <ImageView android:id="@id/bvb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_hd_pip_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View style="@style/setting_ui_divider_vertical" />
+        <RelativeLayout android:id="@id/bvc" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/setting_ui_hd_pip_right_bottom" android:drawableTop="@drawable/setting_ui_hd_pip_right_bottom" android:layout_centerInParent="true" style="@style/setting_ui_common_title_txt" />
+            <ImageView android:id="@id/bvd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_hd_pip_selected" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

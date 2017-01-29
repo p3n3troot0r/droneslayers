@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/aly" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="%.1fM/S" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/alz" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_ccw" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/am0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_cw" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.pilot.dji_groundstation.ui.views.GSSpeedBar android:id="@id/am1" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="4.0dip" android:layout_marginRight="4.0dip" android:layout_toLeftOf="@id/am0" android:layout_toRightOf="@id/alz" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/os" android:id="@id/am2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_point_of_insterest_automatic_fly_time_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/h_" android:id="@id/am3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="123" android:layout_toRightOf="@id/am2" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/p9" android:gravity="center" android:id="@id/am4" android:background="@drawable/gs_poi_pause_btn_bg" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gsnew_gs_pause" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</merge>

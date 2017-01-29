@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.LonganCameraShotcutsView android:orientation="vertical" android:background="@color/ab" android:layout_width="@dimen/a6e" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/a6c">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/b2r" android:background="@color/aa" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" android:alpha="0.8" />
+        <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b2s" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/longan_back_icon" android:scaleType="center" android:adjustViewBounds="true" android:layout_alignParentLeft="true" android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+    <dji.device.common.view.set.view.DJIStageViewCompat android:id="@id/b2t" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</dji.device.common.view.set.view.LonganCameraShotcutsView>

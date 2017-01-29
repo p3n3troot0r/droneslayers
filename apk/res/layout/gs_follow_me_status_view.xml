@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.groundStation.stage.DJIFollowMeStatusStageView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/aiu" android:background="@drawable/gs_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/oe" android:layout_alignParentTop="true">
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_follow_me_view_title" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/aiv" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:id="@id/aji" android:background="@drawable/gs_click_left_bottom_round_background" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_exit_current_mode" android:layout_weight="1.0" />
+        <View android:background="@color/eo" android:layout_width="@dimen/fz" android:layout_height="fill_parent" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/er" android:gravity="center" android:id="@id/ajj" android:background="@drawable/gs_click_background" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_hide" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:id="@id/aiy" android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_above="@id/aiv" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:id="@id/aiz" android:paddingLeft="@dimen/gh" android:paddingRight="@dimen/gh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/gh" android:text="@string/gs_follow_me_status_desc" android:layout_above="@id/aiy" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ajk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/aiz" android:layout_below="@id/aiu">
+        <dji.pilot.groundStation.view.DJIGSFollowMeView android:id="@id/ajl" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="@dimen/h2" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fj" android:layout_toLeftOf="@id/ajl" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/of" android:textColor="@color/os" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_follow_me_phone_gps_label" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/er" android:layout_gravity="center_horizontal" android:id="@id/ajm" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="@dimen/h2" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_toRightOf="@id/ajl" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/of" android:textColor="@color/os" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_follow_me_height_label" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/er" android:layout_gravity="center_horizontal" android:id="@id/ajn" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/of" android:textColor="@color/om" android:gravity="center" android:id="@id/ajo" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/fj" android:text="@string/gs_follow_me_status_limits_desc" android:layout_alignBottom="@id/ajk" />
+</dji.pilot.groundStation.stage.DJIFollowMeStatusStageView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/cmu" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="60.0dip">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/a_" android:id="@id/cmv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/ve_cancel" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/rk" android:textColor="@color/a_" android:id="@id/cmw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_lib_inputpic" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/a_" android:gravity="center" android:id="@id/cmx" android:visibility="gone" android:layout_width="@dimen/gl" android:layout_height="@dimen/g1" android:layout_marginRight="@dimen/gw" android:text="@string/delete" android:layout_alignParentRight="true" />
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <ExpandableListView android:id="@id/cmy" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:divider="@null" android:dividerHeight="3.0dip" android:layout_below="@id/cmu" />
+    <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center" android:id="@id/cmz" android:background="@drawable/v2_library_loading_bg" android:layout_width="@dimen/fi" android:layout_height="@dimen/gt" android:text="@string/v2_library_loading_tips" android:layout_centerInParent="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="18.0sp" android:textColor="#ffd8d8d8" android:id="@id/cn0" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explorepost_nopic" android:layout_centerInParent="true" />
+</RelativeLayout>

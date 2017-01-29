@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:text="@string/bluetooth_title" style="@style/set_item_subtitle" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.base.SetGroupView set:title="@string/device_title" set:sub_Layout="@layout/lp_set_layout_bluetooth" style="@style/set_item" />
+        <TextView android:text="@string/subtitle_other" style="@style/set_item_subtitle" />
+        <View style="@style/set_divider" />
+        <dji.pilot.set.view.ResetFreshGuideSetterView style="@style/set_item" />
+        <dji.pilot.set.view.base.SetGroupView set:title="@string/fpv_gensetting_about" set:sub_Layout="@layout/lp_set_layout_about" style="@style/set_item" />
+    </LinearLayout>
+</ScrollView>

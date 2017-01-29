@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/ap3" android:background="@drawable/stroke_dlg_dark_bg" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="20.0dip">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:id="@id/c0a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="test" phantom:djiTextFace="a4" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c0b" android:paddingTop="@dimen/rp" android:paddingBottom="@dimen/n3" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/iy" android:baselineAligned="false">
+        <Button android:textSize="@dimen/rl" android:textColor="@android:color/black" android:gravity="center" android:id="@id/c0c" android:background="@drawable/selector_dlg_btn" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/rp" android:layout_marginRight="@dimen/rp" android:text="@string/app_cancel" android:layout_weight="1.0" />
+        <Button android:textSize="@dimen/rl" android:textColor="@android:color/black" android:gravity="center" android:id="@id/c0d" android:background="@drawable/selector_dlg_btn" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/rp" android:layout_marginRight="@dimen/rp" android:text="@string/app_enter" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

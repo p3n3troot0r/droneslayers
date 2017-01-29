@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:id="@id/bjx" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="dji.pilot2.main.fragment.DJILibraryFragment" android:id="@id/bjy" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/bjz" android:layout_width="fill_parent" android:layout_height="@dimen/o" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/bk0" android:background="@color/na" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/bk1" android:background="@drawable/v2_media_preview_save_icon" android:padding="@dimen/fj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_margin="@dimen/fj" />
+            <dji.publics.DJIUI.DJIImageView android:gravity="center" android:id="@id/bk2" android:padding="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:src="@drawable/v2_media_preview_delete_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/kr" android:gravity="center" android:id="@id/bk3" android:background="@drawable/v2_video_preview_bt_dark" android:layout_width="@dimen/t_" android:layout_height="@dimen/t9" android:text="Make Film" android:layout_centerInParent="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

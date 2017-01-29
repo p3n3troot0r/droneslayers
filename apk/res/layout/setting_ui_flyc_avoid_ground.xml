@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/ts" android:minHeight="0.0dip" style="@style/setting_ui_item_noPadding">
+        <TextView android:id="@id/bqz" android:text="@string/setting_ui_flyc_avoid_ground" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/br0" style="@style/setting_ui_item_switch" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_marginTop="@dimen/ts" android:minHeight="0.0dip" style="@style/setting_ui_item_noPadding">
+        <ImageView android:background="@drawable/setting_ui_flyc_avoidground_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_marginLeft="@dimen/ts" android:text="@string/setting_ui_flyc_avoid_ground_desc" style="@style/setting_ui_txt_small_gray" />
+    </LinearLayout>
+</LinearLayout>

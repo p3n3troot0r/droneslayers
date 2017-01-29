@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.setting.ui.widget.JoyStickDashedSquare android:id="@id/bwf" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginLeft="@dimen/uf" android:layout_alignParentLeft="true" />
+            <dji.setting.ui.widget.JoyStickDashedSquare android:id="@id/bwg" android:layout_width="150.0dip" android:layout_height="150.0dip" android:layout_marginRight="@dimen/uf" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u1">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/vj" android:layout_marginLeft="@dimen/us" android:layout_marginRight="@dimen/us">
+            <ImageView android:id="@id/bwh" android:layout_width="@dimen/we" android:layout_height="@dimen/we" android:src="@drawable/setting_ui_rc_calibration_wheel_down" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.setting.ui.widget.DJICalProgressBar android:id="@id/tj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ts" android:layout_marginRight="@dimen/ts" android:layout_weight="1.0" />
+            <ImageView android:id="@id/bwi" android:layout_width="@dimen/we" android:layout_height="@dimen/we" android:src="@drawable/setting_ui_rc_calibration_wheel_up" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        </LinearLayout>
+    </LinearLayout>
+    <dji.publics.DJIUI.DJITextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_ui_rc_finish_tip" />
+    <TextView android:id="@id/bwj" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/us" style="@style/setting_ui_common_txt" />
+    <View style="@style/setting_ui_divider_horization" />
+    <Button android:textColor="@color/pi" android:id="@id/bwk" android:text="@string/setting_ui_rc_cal" style="@style/setting_ui_item_btn_big" />
+    <View android:layout_marginBottom="@dimen/us" style="@style/setting_ui_divider_horization" />
+</LinearLayout>

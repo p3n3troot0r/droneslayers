@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:screenOrientation="portrait" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/hb" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_centerVertical="true">
+        <Button android:layout_gravity="center|top" android:id="@id/hc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="switchMode" />
+        <Button android:layout_gravity="center|top" android:id="@id/hd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="switchCamera" />
+        <Button android:layout_gravity="bottom|center|left" android:id="@id/he" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="OFF" style="?android:attr/buttonStyleSmall" />
+        <Button android:layout_gravity="center|left|top" android:id="@id/hf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="HDR" />
+        <Button android:layout_gravity="center|left" android:id="@id/hg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="WB" />
+        <Button android:layout_gravity="center|right|top" android:id="@id/hh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="scene" />
+    </LinearLayout>
+    <Button android:layout_gravity="bottom|center" android:orientation="vertical" android:id="@id/hi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="photo" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    <Button android:orientation="vertical" android:id="@id/hj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="exposure" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <Spinner android:id="@id/hk" android:visibility="gone" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+</RelativeLayout>

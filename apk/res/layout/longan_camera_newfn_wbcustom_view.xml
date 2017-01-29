@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.LonganShotcutsWBView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false" android:divider="@drawable/camera_other_divider" android:showDividers="end|middle" android:dividerPadding="0.0dip">
+        <include android:id="@id/b1s" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b1t" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b1u" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b1v" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b1w" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b1x" layout="@layout/longan_shotcuts_itemlist_view" />
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/b1y" android:background="@color/an" android:layout_width="fill_parent" android:layout_height="@dimen/a2j">
+            <antistatic.spinnerwheel.WheelHorizontalView android:id="@id/b1z" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/a37" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" android:layout_centerInParent="true" phantom:visibleItems="3" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.device.common.view.set.view.LonganShotcutsWBView>

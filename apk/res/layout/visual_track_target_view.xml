@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.view.DJITrackTargetView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/d_s" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <dji.pilot.publics.widget.DJIStateLinearLayout android:gravity="center" android:id="@id/d_t" android:background="@drawable/visual_track_camera_tracking" android:duplicateParentState="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d_u" android:background="@drawable/visual_fly_direction_circleg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/visual_track_center" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        </dji.pilot.publics.widget.DJIStateLinearLayout>
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:gravity="center" android:id="@id/d_v" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n4" android:text="@string/visual_tap_to_go" android:shadowColor="@color/a_" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d_w" android:background="@drawable/visual_track_person" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d_x" android:background="@drawable/visual_track_detour" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rr" android:textColor="@color/om" android:gravity="center" android:id="@id/d_y" android:background="@drawable/visual_go_bg" android:padding="@dimen/n4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visual_ok" android:shadowColor="@color/a_" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" />
+</dji.pilot.visual.view.DJITrackTargetView>

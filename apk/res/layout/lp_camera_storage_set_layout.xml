@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.DJILPCameraStorageSetDetailView android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:id="@id/ba0" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RadioButton android:textColor="@android:color/white" android:id="@id/ba1" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:text="@string/lp_phone_camera_storage_external" android:drawableRight="@android:drawable/btn_radio" />
+        <View style="@style/set_divider" />
+        <RadioButton android:textColor="@android:color/white" android:id="@id/ba2" android:background="@android:color/transparent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:button="@null" android:text="@string/lp_phone_camera_storage_internal" android:drawableRight="@android:drawable/btn_radio" />
+        <View style="@style/set_divider" />
+    </RadioGroup>
+</dji.pilot.set.view.DJILPCameraStorageSetDetailView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateBeginnerModeView android:id="@id/cm" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/activate_beginner_mode" style="@style/activate_des_title" />
+    <TextView android:text="@string/v2_active_62" style="@style/activate_des_content" />
+    <RelativeLayout android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gq" android:layout_marginBottom="@dimen/gr">
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/cn" android:layout_height="wrap_content" android:checked="true" android:layout_alignParentRight="true" style="@style/CommonSwitch" />
+        <TextView android:textSize="@dimen/x1" android:textColor="@color/p" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/activate_beginner_mode" android:layout_toLeftOf="@id/cn" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/activate_divider_line" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/co" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:layout_marginTop="@dimen/g1" android:layout_marginRight="30.0dip" android:src="@drawable/activate_flight_range_beginner_mode" />
+</dji.pilot2.usercenter.activate.ActivateBeginnerModeView>

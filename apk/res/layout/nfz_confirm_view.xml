@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzConfirmView android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/lc" android:layout_height="@dimen/lb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:id="@id/bes" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/g8" android:layout_marginBottom="@dimen/ft" android:text="@string/nfz_confirm_content_txt" style="@style/GeoTitleTv" />
+    <View android:layout_marginLeft="@dimen/g8" android:layout_marginRight="@dimen/g8" android:layout_below="@id/bes" style="@style/HorizontalDivider" />
+    <CheckBox android:id="@id/bet" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/g1" android:checked="false" android:text="@string/nfz_confirm_cb1_txt" android:layout_below="@id/bes" style="@style/GeoCheckboxSt" />
+    <CheckBox android:id="@id/beu" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g1" android:checked="false" android:text="@string/nfz_confirm_cb2_txt" android:layout_below="@id/bet" style="@style/GeoCheckboxSt" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/ov" android:id="@id/bev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/ft" android:layout_marginBottom="@dimen/fj" android:text="@string/nfz_confirm_tip_txt" android:layout_below="@id/beu" style="@style/FlightForbidTv" />
+    <View android:layout_above="@id/bew" style="@style/GeoDlgHorDivider" />
+    <LinearLayout android:gravity="center_vertical" android:id="@id/bew" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/GeoDlgBottomBtns">
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/bex" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_cancel" android:layout_weight="1.0" android:layout_alignParentLeft="true" style="@style/FlightForbidTv" />
+        <View android:id="@id/bey" android:layout_width="1.0dip" style="@style/FpvGenSettingDividerVertical" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/bez" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_main_exit_help_ok" android:layout_weight="1.0" android:layout_alignParentRight="true" style="@style/FlightForbidTv" />
+    </LinearLayout>
+</dji.pilot.flyunlimit.view.NfzConfirmView>

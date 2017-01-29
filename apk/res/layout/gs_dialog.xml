@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/aj6" android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.fpv.view.DJIStageView android:id="@id/aj7" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:animateFirstView="true" />
+</dji.publics.DJIUI.DJILinearLayout>

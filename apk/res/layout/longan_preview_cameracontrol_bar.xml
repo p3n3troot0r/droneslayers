@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.common.DJICameraControlViewLongan android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:longan="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <RelativeLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.device.common.view.DJICameraSwitchView android:id="@id/b53" android:clickable="true" style="@style/longan_preview_camera_control_item" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b54" android:src="@drawable/longan_selector_handle_mode_singlephoto_0s" style="@style/longan_preview_camera_control_item" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <include android:id="@id/b55" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/longan_shutter_button" />
+        <TextView android:textSize="10.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/b56" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/a1d" android:text="5:00" android:layout_below="@id/b55" android:layout_alignLeft="@id/b55" android:layout_alignRight="@id/b55" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b57" android:src="@drawable/longan_selector_parms" style="@style/longan_preview_camera_control_item" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_gravity="center" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b58" android:src="@drawable/longan_preview" style="@style/longan_preview_camera_control_item" />
+    </RelativeLayout>
+    <RelativeLayout android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+</dji.device.camera.view.common.DJICameraControlViewLongan>

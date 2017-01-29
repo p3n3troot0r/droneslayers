@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/ci" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    <ImageView android:background="@drawable/v2_plantom_ji_icon" android:layout_width="@dimen/d9" android:layout_height="@dimen/d9" android:layout_marginLeft="@dimen/ct" android:scaleType="centerInside" android:layout_centerInParent="true" />
+</RelativeLayout>

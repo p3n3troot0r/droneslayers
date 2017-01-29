@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:drawable="@drawable/activate_have_chosen_terms_of_use" />
+    <item android:state_checked="false" android:drawable="@drawable/acitvate_no_chofpve_terms_of_use" />
+</selector>

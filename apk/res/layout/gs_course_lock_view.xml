@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.groundStation.stage.DJICourseLockStageView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/aiu" android:background="@drawable/gs_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/oe" android:layout_alignParentTop="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/aj2" android:background="@drawable/gs_click_left_top_round_background" android:paddingLeft="@dimen/fj" android:paddingTop="@dimen/fj" android:paddingRight="@dimen/fj" android:paddingBottom="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/gs_left_arrow_icon" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/gs_course_lock_view_title" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:id="@id/aj3" android:background="@drawable/gs_click_left_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:text="@string/gs_apply" android:layout_alignParentBottom="true" />
+    <View android:id="@id/aiy" android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="7.0dip" android:layout_above="@id/aj3" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:id="@id/aj4" android:paddingLeft="@dimen/gh" android:paddingRight="@dimen/gh" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="35.0dip" android:text="@string/gs_course_lock_desc" android:layout_above="@id/aiy" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/aj4" android:layout_below="@id/aiu">
+        <dji.pilot.groundStation.view.DJIGSCourseLockView android:id="@id/aj5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.groundStation.stage.DJICourseLockStageView>

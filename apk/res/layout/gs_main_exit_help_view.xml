@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.groundStation.stage.DJIMainExitHelpView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/eb" android:gravity="center_horizontal" android:paddingLeft="@dimen/g1" android:paddingTop="@dimen/g1" android:paddingRight="@dimen/g1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gs_exit_message" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ake" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerInside" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:id="@id/akf" android:background="@drawable/gs_click_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:text="@string/gs_main_exit_help_ok" />
+</dji.pilot.groundStation.stage.DJIMainExitHelpView>

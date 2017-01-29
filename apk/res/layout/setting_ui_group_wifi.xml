@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.SettingUIStageView android:layout_width="fill_parent" android:layout_height="fill_parent" setting_ui:titleText="@string/setting_ui_wifi_title"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/setting_ui_items_scrollview">
+        <LinearLayout style="@style/setting_ui_items_linearlayout">
+            <dji.setting.ui.wifi.WifiSettingView setting_ui:showDivider="false" style="@style/setting_ui_item" />
+            <dji.setting.ui.wifi.AutoSelectChannelView setting_ui:titleText="@string/setting_ui_wifi_auto_select_channel" style="@style/setting_ui_item_noPadding" />
+            <dji.setting.ui.wifi.WifiCodeRateSelectView setting_ui:titleText="@string/setting_ui_wifi_code_rate_text" style="@style/setting_ui_item" />
+            <dji.setting.ui.wifi.JoystickMaxValView setting_ui:titleText="@string/setting_ui_wifi_joystick_max_text" style="@style/setting_ui_item" />
+        </LinearLayout>
+    </ScrollView>
+</dji.setting.ui.SettingUIStageView>

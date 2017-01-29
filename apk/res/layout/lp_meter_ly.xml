@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.widget.DJILPMeterView android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.widget.VerticalSeekBar android:id="@id/bb9" android:visibility="invisible" android:layout_width="@dimen/gc" android:layout_height="@dimen/fi" android:maxWidth="1000.0dip" android:maxHeight="1000.0dip" android:progressDrawable="@drawable/lp_meter_bg" android:thumb="@drawable/lp_ic_meter_thumb" android:thumbOffset="3.0dip" android:layout_centerVertical="true" />
+    <ImageView android:id="@id/bb_" android:paddingTop="@dimen/g1" android:paddingBottom="@dimen/g1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:src="@drawable/lp_ic_meter_small" android:scaleType="centerInside" android:layout_toRightOf="@id/bb9" android:layout_centerVertical="true" android:scaleX="0.9" android:scaleY="0.9" />
+    <dji.device.widget.VerticalSeekBar android:id="@id/bba" android:layout_width="@dimen/gc" android:layout_height="@dimen/fi" android:layout_marginLeft="@dimen/gw" android:maxWidth="1000.0dip" android:maxHeight="1000.0dip" android:progressDrawable="@drawable/lp_meter_bg" android:thumb="@drawable/lp_ic_meter_thumb" android:thumbOffset="3.0dip" android:layout_toRightOf="@id/bb_" android:layout_centerVertical="true" />
+</dji.phone.widget.DJILPMeterView>

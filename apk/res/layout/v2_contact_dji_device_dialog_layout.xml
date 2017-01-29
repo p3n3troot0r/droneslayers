@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chx" android:background="@color/j5" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fj"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/v2_contact_menu_background" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/jw" android:gravity="center" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_contact_dji_select" />
+        <View android:background="@color/an" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/jv" android:gravity="center" android:id="@id/chy" android:background="@drawable/v2_contact_menu_background" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_contact_dji_select_phantom3" android:onClick="onClickHandler" />
+        <View android:background="@color/an" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/jv" android:gravity="center" android:id="@id/chz" android:background="@drawable/v2_contact_menu_background" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_contact_dji_select_inspire1" android:onClick="onClickHandler" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:background="@drawable/v2_contact_menu_background" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/jv" android:gravity="center" android:id="@id/ci0" android:paddingTop="@dimen/fj" android:paddingBottom="@dimen/fj" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/mine_contact_dji_cancel" android:onClick="onClickHandler" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</LinearLayout>

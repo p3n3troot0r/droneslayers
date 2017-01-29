@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bqz" android:text="@string/setting_ui_general_units" style="@style/setting_ui_item_title" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/br6" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <RadioButton android:id="@id/br7" android:checked="true" android:button="@null" android:text="@string/setting_ui_general_unit_imperial" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        <RadioButton android:id="@id/btv" android:layout_marginLeft="25.0dip" android:checked="true" android:button="@null" android:text="@string/setting_ui_general_unit_metric_km" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        <RadioButton android:id="@id/br8" android:layout_marginLeft="25.0dip" android:button="@null" android:text="@string/setting_ui_general_unit_metric" android:singleLine="false" style="@style/setting_ui_item_btn" />
+    </RadioGroup>
+</LinearLayout>

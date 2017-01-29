@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/th" android:layout_width="@dimen/me" android:shadowColor="@color/ak" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_centerHorizontal="true" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/ti" android:layout_width="@dimen/me" android:shadowColor="@color/ak" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_centerVertical="true" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+    <dji.pilot.fpv.view.DJIStickCirclePgbView android:id="@id/tj" android:layout_width="@dimen/hu" android:layout_height="@dimen/hu" android:layout_margin="@dimen/n4" android:layout_toRightOf="@id/ti" android:layout_below="@id/th" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/tk" android:layout_width="@dimen/me" android:shadowColor="@color/ak" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_toRightOf="@id/tj" android:layout_centerVertical="true" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:id="@id/tl" android:layout_width="@dimen/me" android:shadowColor="@color/ak" android:shadowDx="2.0" android:shadowDy="2.0" android:shadowRadius="2.0" android:layout_below="@id/tj" android:layout_centerHorizontal="true" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+</dji.publics.DJIUI.DJIRelativeLayout>

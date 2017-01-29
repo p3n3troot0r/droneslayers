@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dy" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="2.0" />
+    <ImageView android:id="@id/dz" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:src="@drawable/v2_p3a_icon" android:scaleType="centerInside" android:layout_weight="14.0" />
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/dp" android:background="@drawable/v2_active_success" android:layout_width="60.0dip" android:layout_height="0.0dip" android:layout_weight="3.0" />
+    <TextView android:textSize="20.0dip" android:textStyle="bold" android:textColor="@color/g" android:gravity="center_horizontal" android:id="@id/dr" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:text="激活成功" android:layout_weight="2.0" />
+    <TextView android:textSize="14.0dip" android:gravity="center" android:id="@id/e0" android:layout_width="fill_parent" android:layout_height="0.0dip" android:text="连接飞机的网络以便开始飞行" android:layout_weight="2.0" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/active_view_circle" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="30.0dip" android:layout_marginRight="30.0dip" android:layout_weight="12.0">
+        <dji.pilot2.widget.DJIActiveViewButton android:gravity="center" android:id="@id/e1" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" phantom:buttontext="WIFI" phantom:buttonimage="@drawable/login_next" phantom:buttonenable="true" />
+        <View android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <dji.pilot2.widget.DJIActiveViewButton android:gravity="center" android:id="@id/e2" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" phantom:buttontext="WIFI" phantom:buttonimage="@drawable/login_next" phantom:buttonenable="false" />
+        <View android:background="#ff4a4a4a" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <dji.pilot2.widget.DJIActiveViewButton android:gravity="center" android:id="@id/e3" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" phantom:buttontext="WIFI" phantom:buttonimage="@drawable/login_next" phantom:buttonenable="false" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.controview.DJILPCameraRecordBottomBar android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/b6s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.device.common.view.LonganBLN android:layout_gravity="center_vertical" android:id="@id/b6t" android:paddingTop="@dimen/fz" android:visibility="invisible" android:layout_width="@dimen/fj" android:layout_height="@dimen/fj" />
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b6u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gr" />
+        <View android:id="@id/bc7" android:background="@color/oq" android:visibility="gone" android:layout_width="0.30000007dip" android:layout_height="wrap_content" android:layout_marginLeft="4.0dip" />
+        <include android:layout_gravity="center_vertical" android:layout_width="45.0dip" android:layout_height="@dimen/fx" android:layout_marginLeft="@dimen/yb" layout="@layout/lp_record_voice_ly" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/bc8" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:layout_gravity="center_vertical" android:id="@id/bc9" android:layout_width="wrap_content" android:layout_height="wrap_content" phantom:djiTextFace="a5" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.phone.controview.DJILPCameraRecordBottomBar>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:visibility="gone" android:text="@string/setting_ui_rc_status_desc" style="@style/setting_ui_item_sub_title" />
+    <TextView android:id="@id/bwv" android:visibility="gone" android:text="@string/setting_ui_rc_status" style="@style/setting_ui_item_title" />
+    <RelativeLayout android:visibility="gone" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_rc_status" android:layout_centerVertical="true" style="@style/setting_ui_item_desc" />
+        <Switch android:id="@id/bww" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_switch" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/bwx" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_rc_set_function" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/buz" android:text="close" style="@style/setting_ui_item_spinner_btn" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/bwy" android:focusable="true" android:focusableInTouchMode="true" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:id="@id/bwz" style="@style/setting_ui_item">
+            <TextView android:id="@id/bx0" android:layout_marginRight="@dimen/ts" android:text="@string/setting_ui_rc_rcname" android:layout_centerVertical="true" style="@style/setting_ui_item_desc" />
+            <EditText android:id="@id/bx1" android:inputType="text" style="@style/setting_ui_item_edittext" />
+            <View android:layout_width="0.0dip" android:layout_height="1.0dip" android:layout_weight="1.0" />
+            <TextView android:id="@id/bx2" android:layout_marginRight="@dimen/ts" android:text="@string/setting_ui_rc_connect_pwd" style="@style/setting_ui_item_desc" />
+            <EditText android:id="@id/bx3" android:maxLength="4" android:inputType="number" style="@style/setting_ui_item_edittext" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bx4" style="@style/setting_ui_item">
+            <Button android:id="@id/bx5" android:text="@string/setting_ui_rc_getperm" style="@style/setting_ui_item_btn_big" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/bx6" style="@style/setting_ui_item">
+            <TextView android:id="@id/bqz" android:text="@string/setting_ui_rc_searching" style="@style/setting_ui_item_title" />
+            <Switch android:id="@id/bx7" style="@style/setting_ui_item_switch" />
+        </LinearLayout>
+        <TextView android:id="@id/bx8" android:text="@string/setting_ui_rc_slave_rclist" style="@style/setting_ui_item_title" />
+        <ListView android:id="@id/bx9" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="20.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="#33ffffff" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:minHeight="?android:listPreferredItemHeight" />
+    </LinearLayout>
+</LinearLayout>

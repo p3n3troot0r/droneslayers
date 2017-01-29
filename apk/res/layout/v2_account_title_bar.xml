@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/ci" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:id="@id/c1" android:paddingRight="@dimen/fj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="center" android:text="@string/home_account_signup" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+    <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:ellipsize="end" android:gravity="center" android:id="@id/c4d" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/g6" android:text="@string/v2_login_title_txt" android:singleLine="true" android:layout_centerInParent="true" />
+</RelativeLayout>

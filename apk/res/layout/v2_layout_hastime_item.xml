@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cpl" android:visibility="invisible" android:layout_width="@dimen/gf" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/fj" android:src="@drawable/v2_audio_playing_icon" android:scaleType="centerInside" android:layout_centerVertical="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/gw" android:layout_toRightOf="@id/cpl" android:layout_centerVertical="true">
+        <TextView android:textSize="@dimen/ft" android:textColor="@color/js" android:id="@id/cpm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="name" android:singleLine="true" />
+        <TextView android:textSize="@dimen/fj" android:textColor="@color/js" android:id="@id/cpn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="singer" />
+    </LinearLayout>
+    <TextView android:textColor="@color/js" android:id="@id/cpo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gw" android:text="--:--" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+</RelativeLayout>

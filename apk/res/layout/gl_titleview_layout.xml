@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/aif" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/aig" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw">
+            <TextView android:textSize="@dimen/ro" android:textColor="@color/om" android:id="@id/aej" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Eddie" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:id="@id/aih" android:background="@drawable/v2_follow_gl_buttonbg" android:paddingLeft="@dimen/ft" android:paddingTop="@dimen/gr" android:paddingRight="@dimen/ft" android:paddingBottom="@dimen/gr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gw" android:text="@string/v2_explore_follow" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/aii" android:background="@color/a_" android:paddingLeft="@dimen/fj" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/fj" android:paddingBottom="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginRight="@dimen/ft" android:text="" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1">
+        <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/aij" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/ft" android:src="@drawable/v2_avatar_default" android:scaleType="centerCrop" android:layout_alignParentRight="true" />
+        <TextView android:textSize="@dimen/rk" android:textColor="@color/ig" android:id="@id/aik" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_toLeftOf="@id/aij" android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <TextView android:textSize="@dimen/rl" android:textColor="@color/ig" android:id="@id/bv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/ft" android:lineSpacingExtra="@dimen/gr" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ail" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/gw" android:layout_centerInParent="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:layout_width="@dimen/fj" android:layout_height="@dimen/fj" android:src="@drawable/gl_position_selector" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/ih" android:gravity="center" android:layout_gravity="center" android:id="@id/aim" android:layout_width="wrap_content" android:layout_height="@dimen/g1" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot2.nativeexplore.view.GLExploreList android:id="@id/ain" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:divider="@null" />
+</LinearLayout>

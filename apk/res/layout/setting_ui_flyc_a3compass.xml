@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="@dimen/vp" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_compass_vector" android:layout_weight="1.0" style="@style/setting_ui_txt" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq1" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bq2" android:layout_width="@dimen/vp" android:text="@string/setting_ui_redundancy_sensor_compass1_label" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bq3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq4" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bq5" android:layout_width="@dimen/vp" android:text="@string/setting_ui_redundancy_sensor_compass2_label" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bq6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bq8" android:layout_width="@dimen/vp" android:text="@string/setting_ui_redundancy_sensor_compass3_label" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bq9" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" style="@style/setting_ui_item">
+        <Button android:id="@id/bq_" android:text="@string/setting_ui_redundancy_sensor_compass_calc" style="@style/setting_ui_item_btn_big" />
+    </LinearLayout>
+</LinearLayout>

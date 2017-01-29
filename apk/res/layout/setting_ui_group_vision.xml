@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.SettingUIStageView android:layout_width="fill_parent" android:layout_height="fill_parent" setting_ui:titleText="@string/setting_ui_vision"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <ScrollView style="@style/setting_ui_items_scrollview">
+        <LinearLayout android:layout_height="wrap_content" style="@style/setting_ui_items_linearlayout">
+            <TextView android:text="@string/setting_ui_vision_forward_title" style="@style/setting_ui_item_sub_title" />
+            <dji.setting.ui.vision.VisionFrontAssView style="@style/setting_ui_item_bottom" />
+            <TextView android:text="@string/setting_ui_vision_down_title" style="@style/setting_ui_item_sub_title" />
+            <dji.setting.ui.vision.VisionDownVPSView style="@style/setting_ui_item_bottom" />
+            <dji.setting.ui.vision.VisionFlatCheckView style="@style/setting_ui_item_bottom" />
+            <dji.setting.ui.vision.PreciseLandingSwitchView style="@style/setting_ui_item_bottom" />
+            <dji.setting.ui.vision.VisionAvoidViewGroup android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+                <dji.setting.ui.vision.VisionReboundView style="@style/setting_ui_item_bottom" />
+                <TextView android:text="@string/setting_ui_vision_tapfly_title" style="@style/setting_ui_item_sub_title" />
+                <dji.setting.ui.vision.VisionTapFlyParallelView style="@style/setting_ui_item_bottom" />
+                <TextView android:text="@string/setting_ui_vision_track_title" style="@style/setting_ui_item_sub_title" />
+                <dji.setting.ui.vision.VisionTrackBackwardView style="@style/setting_ui_item_bottom" />
+                <dji.setting.ui.vision.VisionTrackAssView style="@style/setting_ui_item_bottom" />
+                <dji.setting.ui.vision.VisionTrackIntelligentView style="@style/setting_ui_item_bottom" />
+            </dji.setting.ui.vision.VisionAvoidViewGroup>
+        </LinearLayout>
+    </ScrollView>
+</dji.setting.ui.SettingUIStageView>

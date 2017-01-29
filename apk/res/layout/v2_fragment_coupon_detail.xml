@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/c7h" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/cnt" layout="@layout/v2_coupon_header" />
+    <ScrollView android:id="@id/cnu" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/u" android:layout_below="@id/cnt">
+        <include layout="@layout/v2_coupon_mailpic" />
+    </ScrollView>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/s" android:layout_marginTop="@dimen/u" android:layout_marginRight="@dimen/t" android:layout_below="@id/cnt" android:layout_alignBottom="@id/cnu">
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/cnt" layout="@layout/v2_coupon_loading" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/cnv" android:background="@color/om" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/v2_net_error" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.set.view.LonganFallowFocusView android:background="@color/j5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:padding="@dimen/ft" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/a2o" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/a2o">
+            <RadioGroup android:orientation="horizontal" android:id="@id/b75" android:background="@drawable/set_radiogroup_bg" android:layout_width="fill_parent" android:layout_height="@dimen/a2s" android:layout_centerHorizontal="true" style="@style/set_widget_radiogroup">
+                <RadioButton android:id="@id/b76" android:background="@drawable/set_radio_left_bg" android:text="@string/shotcuts_follow_focus_normal" style="@style/shotcuts_style_radio" />
+                <View style="@style/set_h_divider" />
+                <RadioButton android:id="@id/b77" android:text="@string/shotcuts_follow_focus_reverse" style="@style/shotcuts_style_radio" />
+            </RadioGroup>
+        </RelativeLayout>
+        <include android:id="@id/b78" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b79" layout="@layout/longan_shotcuts_itemlist_view" />
+        <include android:id="@id/b7_" layout="@layout/longan_shotcuts_itemlist_view" />
+    </LinearLayout>
+</dji.device.common.view.set.view.LonganFallowFocusView>

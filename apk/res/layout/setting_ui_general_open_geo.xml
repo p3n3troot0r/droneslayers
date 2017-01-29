@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" style="@style/setting_ui_item">
+        <TextView android:id="@id/bsy" android:text="@string/general_open_geo" style="@style/setting_ui_item_title" />
+        <Switch android:id="@id/br0" style="@style/setting_ui_item_switch" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/w8">
+        <ImageView android:background="@drawable/setting_genneral_geo_desc_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:layout_marginLeft="@dimen/w8" android:text="@string/general_open_geo_desc" style="@style/setting_ui_item_desc" />
+    </LinearLayout>
+</LinearLayout>

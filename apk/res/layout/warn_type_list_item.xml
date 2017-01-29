@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/n3" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pilot="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:ellipsize="end" android:id="@id/da9" android:layout_height="@dimen/i3" android:maxWidth="@dimen/fi" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/da_" android:background="@drawable/arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/ez" android:ellipsize="end" android:id="@id/daa" android:layout_height="@dimen/i3" android:layout_marginRight="@dimen/n2" android:maxWidth="@dimen/fp" android:layout_toLeftOf="@id/li" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/GenCenterWrapTxt" />
+</dji.publics.DJIUI.DJIRelativeLayout>

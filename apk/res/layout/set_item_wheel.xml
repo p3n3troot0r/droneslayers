@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:id="@id/q6" android:text="Tit死区超长" style="@style/set_item_title" />
+        <Button android:id="@id/bmc" android:layout_marginRight="@dimen/a5_" android:text="-" style="@style/set_widget_adjust_btn" />
+        <TextView android:gravity="center" android:id="@id/b7d" android:text="0" style="@style/set_item_value" />
+        <Button android:id="@id/bmd" android:layout_marginLeft="@dimen/a59" android:layout_marginRight="@dimen/a58" android:text="+" style="@style/set_widget_adjust_btn" />
+    </LinearLayout>
+    <View android:id="@id/q9" android:layout_below="@id/q6" style="@style/set_divider" />
+</LinearLayout>

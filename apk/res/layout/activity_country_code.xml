@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#64000000" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/v2_countrycode_activity_corner_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="40.0dip" android:layout_centerInParent="true"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="24.0sp" android:textColor="#ff10a0ff" android:id="@id/g8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="20.0dip" android:text="@string/v2_country_code_dialog_title" />
+        <View android:background="#ff10a0ff" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <TextView android:textSize="20.0sp" android:textColor="#ff000000" android:id="@id/g9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="14.0dip" android:text="@string/v2_country_code_fail_tip_wm220" />
+        <View android:background="#ffc0c0c0" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:gravity="center" android:id="@id/g_" android:padding="14.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="确定 " />
+    </LinearLayout>
+</RelativeLayout>

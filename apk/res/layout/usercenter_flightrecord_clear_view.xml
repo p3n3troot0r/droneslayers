@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/usercenter_stroke_dlg_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_marginRight="@dimen/gc" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/fy" android:gravity="center" android:id="@id/c29" android:padding="@dimen/n3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:text="@string/flight_record_clear_exceptfavorite" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/an" android:layout_width="fill_parent" android:layout_height="1.0px" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/gj" android:gravity="center" android:id="@id/c2_" android:padding="@dimen/n3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:text="@string/flight_record_clear_all" />
+    <dji.publics.DJIUI.DJIImageView android:background="@color/an" android:layout_width="fill_parent" android:layout_height="1.0px" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/a_" android:gravity="center" android:id="@id/c2a" android:padding="@dimen/n3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:text="@string/app_cancel" />
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.mine.view.FixRatioImageView android:id="@id/agr" android:layout_width="fill_parent" android:layout_height="0.0dip" android:scaleType="centerCrop" app:width_weight="1.0" app:height_weight="1.0" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ags" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="10.0dip" android:scaleType="centerInside" android:layout_alignBottom="@id/agr" />
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="#ffaeaeae" android:gravity="center" android:id="@id/agt" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginRight="8.0dip" android:layout_marginBottom="10.0dip" android:layout_alignBottom="@id/agr" android:layout_alignParentRight="true" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/agu" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginLeft="8.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/hg_select" android:scaleType="centerCrop" android:layout_alignBottom="@id/agr" android:layout_alignParentRight="true" />
+</RelativeLayout>

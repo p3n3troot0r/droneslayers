@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_marginTop="@dimen/vd" android:text="@string/setting_ui_wifi_channel_index_title" style="@style/setting_ui_item_title" />
+    <com.meetme.android.horizontallistview.HorizontalListView android:id="@id/bz1" android:scrollbars="none" android:fadingEdge="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/v4" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:choiceMode="singleChoice" android:fadeScrollbars="false" android:overScrollMode="ifContentScrolls" phantom:dividerWidth="0.0dip" />
+</LinearLayout>

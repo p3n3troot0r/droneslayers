@@ -1,0 +1,29 @@
+{
+    "mode":"waypoint",
+    "view":"view_waypoint_status",
+    "title":"gsnew_gs_way_point_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://smartmode/waypoint/exit",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://smartmode/waypoint/exit"
+    },
+    "buttons":[
+        {
+            "title":"gsnew_gs_exit_current_mode",
+            "color":"#ffffff",
+            "jumpto":"gs://smartmode/waypoint/exit"
+        },
+        {
+            "title":"gsnew_gs_hide",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/waypoint/hide"
+        }
+    ]
+    
+}

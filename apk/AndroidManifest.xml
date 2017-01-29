@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="dji.pilot" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_USER_DICTIONARY"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL"/>
+    <uses-permission android:name="android.permission.MEDIA_CONTENT_CONTROL"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BATTERY_STATS"/>
+    <uses-feature android:name="android.hardware.camera" android:required="true"/>
+    <uses-feature android:name="android.hardware.bluetooth" android:required="false"/>
+    <uses-feature android:name="android.hardware.location" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.gps" android:required="false"/>
+    <uses-feature android:name="android.hardware.location.network" android:required="false"/>
+    <uses-feature android:name="android.hardware.usb.host" android:required="false"/>
+    <uses-feature android:name="android.hardware.usb.accessory" android:required="true"/>
+    <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+    <uses-feature android:name="android.hardware.telephony" android:required="false"/>
+    <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:xlargeScreens="true"/>
+    <receiver android:name="dji.phone.receivers.PhoneCallReceiver">
+        <intent-filter>
+            <action android:name="android.intent.action.PHONE_STATE"/>
+            <action android:name="android.intent.action.NEW_OUTGOING_CALL"/>
+        </intent-filter>
+    </receiver>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.MANAGE_DOCUMENTS"/>
+    <application android:allowBackup="true" android:hardwareAccelerated="true" android:icon="@drawable/appicon" android:label="@string/app_name" android:largeHeap="true" android:name="dji.pilot.publics.objects.DJIApplication" android:supportsRtl="true" android:theme="@style/g">
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/c"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyC4gLGF6VUn4x6o00k86oyGKPBGZQ7xIC8"/>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="df67b489f112aa8333984e370058bc47"/>
+        <meta-data android:name="com.here.android.maps.appid" android:value="GrrEtrtD4AZO9GmcYWAm"/>
+        <meta-data android:name="com.here.android.maps.apptoken" android:value="AEku02Y22FcowAR4_WqtKQ"/>
+        <meta-data android:name="com.here.android.maps.license.key" android:value="kjxQyhUwKxUdXUiow36N6AAxIPcDoLRulgo1z16fDK+FunhrhNgyyfQo46adX2E2XepMGuYPajCGExcxA5wlO69iw3wzQe46xTjjzQLHQQU4B+NipxSx2TBWkL5VpYpeWoCpuXEejRY5KP6EprO6a7NAYfxyjeYiZX/HA/XwUkpHa8FdSsOOad06nrCyhupgt3f8SldZZRGYxEPkLZ8EXoXtc1dMdB1IcJgPMx2sjv7If8oicnAppx48rsu6VrLlUfidAZlzttEDjORbuV1zmknEQF8X46Fzvqq7CH9Z3kem89+E36DPras2bgeVTLOysPwI7Yr9ayOHBDpZxcOL9rolA0ZbqDdCnRCbEQWAE28Bp+9+9gFIDvrowjnwJEQ+mDTpA/qcqtfAs+jVdEfhnYwKmVl/1xrk+vbt+Sj2nxhXb656s6Huuq3oYxo90bpf4YM1BD6ixcta+eGtsTJzvxVNBx8yPnISqUbRooGmciEPE+zFoLrZ707skLklgEPshYg4NKUNAvd5flhKOntufROPAZ5Dcs9SLg24w897dEWTE1mZ4ojAvwFvNDsiOB2MqVHXmw6YLaoxlOLCi2s4zGRFEe7fYibidL1O7qbkXqe7Mzsh3Ys5q1H3Yozg7cZQsGMX4L0Bwci1hlUeWweucrP/kw2LWhFHdp7uvtBWy00="/>
+        <service android:label="DJIHereMapService" android:name="com.here.android.mpa.service.MapService" android:process="dji.Here.Map.Service.v2" android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.here.android.mpa.service.MapService.dji.pilot"/>
+            </intent-filter>
+        </service>
+        <uses-library android:name="com.android.future.usb.accessory"/>
+        <service android:name="dji.pilot.publics.objects.DJIGlobalService" android:stopWithTask="true"/>
+        <service android:name="dji.pilot2.flymonitor.service.FlyMonitorService" android:stopWithTask="true"/>
+        <service android:name="dji.pilot.flightrecord.DJIRecordService" android:stopWithTask="true"/>
+        <service android:name="dji.pilot.battery.service.BatteryCheckService" android:stopWithTask="true"/>
+        <service android:name="dji.pilot.flyforbid.FlyforbidUpdateService" android:stopWithTask="true"/>
+        <receiver android:label="NetworkConnection" android:name="dji.pilot.publics.objects.DJINetWorkReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="dji.pilot2.publics.receiver.NetworkStatShutdownReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_SHUTDOWN"/>
+                <category android:name="android.intent.category.HOME"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.tencent.android.tpush.XGPushReceiver" android:process=":xg_service_v2">
+            <intent-filter android:priority="0x7FFFFFFF">
+                <action android:name="com.tencent.android.tpush.action.SDK"/>
+                <action android:name="com.tencent.android.tpush.action.INTERNAL_PUSH_MESSAGE"/>
+                <action android:name="android.intent.action.USER_PRESENT"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <action android:name="android.bluetooth.adapter.action.STATE_CHANGED"/>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:exported="true" android:name="com.tencent.android.tpush.XGPushActivity">
+            <intent-filter>
+                <action android:name="android.intent.action"/>
+            </intent-filter>
+        </activity>
+        <service android:exported="true" android:name="com.tencent.android.tpush.service.XGPushService" android:persistent="false" android:process=":xg_service_v2" android:stopWithTask="true"/>
+        <service android:exported="true" android:name="com.tencent.android.tpush.rpc.XGRemoteService">
+            <intent-filter>
+                <action android:name="dji.pilot.PUSH_ACTION"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="dji.pilot2.publics.receiver.DJIXGReceiver">
+            <intent-filter>
+                <action android:name="com.tencent.android.tpush.action.PUSH_MESSAGE"/>
+                <action android:name="com.tencent.android.tpush.action.FEEDBACK"/>
+            </intent-filter>
+        </receiver>
+        <meta-data android:name="XG_V2_ACCESS_ID" android:value="2100148121"/>
+        <meta-data android:name="XG_V2_ACCESS_KEY" android:value="A78VD72FK4KY"/>
+        <meta-data android:name="com.alibaba.app.appkey" android:value="23331166"/>
+        <meta-data android:name="com.alibaba.app.appsecret" android:value="e2a2c549c126d3294b7a91a013829c40"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.main.activity.DJIQuickStartActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.explore.activity.DJIMediaDisplayActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.main.activity.DJISplashActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.main.activity.DJILauncherActivity" android:screenOrientation="sensorPortrait" android:theme="@style/a">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.main.activity.DJIAoaActivity">
+            <intent-filter>
+                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"/>
+            </intent-filter>
+            <meta-data android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" android:resource="@xml/a"/>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.main.activity.DJIHubActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.home.rc.activity.DJIRcSkypixelActivity" android:screenOrientation="sensorLandscape" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.home.rc.activity.DJIRcLibraryActivity" android:screenOrientation="sensorLandscape" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.home.rc.activity.DJIRcSettingActivity" android:screenOrientation="sensorLandscape" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.activity.DJIPreviewActivity" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.activity.DJIPreviewActivityLitchi" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.activity.DJIPreviewActivityKumquat" android:screenOrientation="sensorLandscape" android:theme="@style/g" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.activity.DJIPreviewActivityTomato" android:screenOrientation="sensorLandscape" android:theme="@style/g" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.activity.DJIPreviewActivityGrape" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleInstance" android:name="dji.pilot2.simulator.DJISimulatorActivity" android:screenOrientation="sensorLandscape" android:windowSoftInputMode="adjustPan"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.pilot.welcome.activity.DJIActiveActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.fpv.activity.DJIPBAlbumActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.playback.litchi.DJIPlayBackActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.playback.litchi.DJIPlayBackPhotoPreviewActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.playback.litchi.DJIPlayBackVideoPreviewActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot2.usercenter.activity.DJIFlightRecordPlayerActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.store.DJIStoreActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:name="dji.pilot.usercenter.activity.DJIWebVideoActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.usercenter.activity.DJIModifyNameActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.usercenter.activity.DJISelectRegionActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.usercenter.activity.DJIModifyMobileActivity" android:screenOrientation="sensorPortrait"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.usercenter.activity.DJISetPasswordActivity" android:screenOrientation="sensorPortrait"/>
+        <receiver android:name="dji.pilot.usercenter.receiver.DJIMediaReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.MEDIA_REMOVED"/>
+                <action android:name="android.intent.action.MEDIA_UNMOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_CHECKING"/>
+                <action android:name="android.intent.action.MEDIA_BAD_REMOVAL"/>
+                <action android:name="android.intent.action.MEDIA_EJECT"/>
+                <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+                <action android:name="android.intent.action.MEDIA_SHARED"/>
+                <data android:scheme="file"/>
+            </intent-filter>
+        </receiver>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.simulation.DJISimulationActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.cutmoment.DJICutMomentActivity" android:theme="@style/j">
+            <intent-filter>
+                <action android:name="android.intent.action.EDIT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.nativeaudio.DJINativeAudioActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTop" android:name="dji.pilot2.nativeaudio.DJINativeSecondListActivity" android:theme="@style/d9"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTop" android:name="dji.pilot2.mine.activity.PrivacyActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTop" android:name="dji.pilot2.nativeaudio.DJIAudioPlayActivity" android:theme="@style/d9"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeaudio.NetworkAudioPreviewActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.GuideListActivity" android:theme="@style/j"/>
+        <activity android:name="dji.pilot2.scan.android.CaptureActivity" android:screenOrientation="portrait" android:theme="@style/j"/>
+        <provider android:authorities="com.facebook.app.FacebookContentProvider1383125992006153" android:exported="true" android:name="com.facebook.FacebookContentProvider"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:label="@string/app_name" android:name="com.facebook.FacebookActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="\ 1383125992006153"/>
+        <meta-data android:name="com.facebook.sdk.ApplicationName" android:value="@string/app_name"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot2.explore.activity.DJIExploreDetailActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.CustomModeActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.LiveshareActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.BasicModeActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.SelectModeQuestionActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.SelectModeNextQuestionActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.liveshare.Youtube.CustomModeQuestionActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot.liveshare.Youtube.youtubeLiveActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation" android:label="DJI GO" android:launchMode="singleTask" android:name="dji.pilot.liveshare.DJILiveShareActivity" android:screenOrientation="sensorLandscape" android:theme="@style/fy" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.nativeexplore.activity.PublishArtworkActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.nativeexplore.explorepost.ExplorePostSelectActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.DJIAcademyActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJIAcademyWebViewActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyFlightActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyVideoActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyInstructionActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyNormalQActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJIFlightBookActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJIFaqAnswerActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.academy.activity.DJINewAcademyFeedback" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.nativeexplore.activity.GLExporeActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:label="@string/app_name" android:name="dji.pilot2.nativeexplore.activity.GLMapActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.account.sign.DJIAccountSignActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.account.forget.DJIAccountForgetActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.account.forget.DJIForgetSuccessActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.account.profile.DJIEditProfileActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.usercenter.activity.DJIActiveTermsActivity" android:screenOrientation="sensorPortrait" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.media.activity.DJIVideoPreveiwActivity" android:theme="@style/g"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.media.activity.DJIMomentPreveiwActivity" android:theme="@style/g"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.media.activity.DJIPhotoPreveiwActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.media.activity.DJIPhotoEditorActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.main.activity.DJIMainFragmentActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.usercenter.activity.DJIFlightRecordActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.usercenter.activity.DJIFlightRecordShareActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.multimoment.activity.DJIMultiMomentEditActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.multimoment.activity.DJIMultiMomentFineActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.multimoment.activity.DJIMultiMomentAddActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.share.activity.DJIAddTagsActivity" android:theme="@style/j"/>
+        <activity android:configChanges="orientation|screenSize" android:name="dji.pilot2.share.activity.DJIShareActivity" android:theme="@style/j" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:hardwareAccelerated="false" android:name="dji.pilot2.share.activity.DJIShareLaterActivity" android:theme="@style/j" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.mine.activity.SettingsActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.CleanCacheActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.UnlockNFZActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.UnlockNFZDetailActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.mine.activity.ContactDjiActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:name="dji.pilot2.mine.activity.WebActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.mine.activity.WebLanscapeActivity" android:screenOrientation="sensorLandscape" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.mine.activity.DraftActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.media.activity.DraftPhotoPreviewActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.ProfileTestActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.MedalActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.MedalIntroduceActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.whatsnew.acitivty.WhatsNewActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.whatsnew.acitivty.WhatsNewAnotherActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.mine.activity.RepairWebviewActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.mine.activity.NetworkStatActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.phantom.activity.DJIPhantomLearnActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.DJI360WebViewActivity" android:screenOrientation="sensor" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.explore.activity.DJISupportShareWebviewActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.explore.activity.DJIExploreCommentActivity" android:theme="@style/j" android:windowSoftInputMode="stateHidden"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.SearchTagActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.ExploreSearchActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="dji.pilot2.nativeexplore.activity.ArtworkDetailActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTop" android:name="dji.pilot2.explore.fragment.DJINotificationExploreFragment" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.ExploreLikesActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.nativeexplore.activity.FullScreenLandscapeWebActivity" android:screenOrientation="sensorLandscape"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.playback.entryActivity.DJIPlaybackMainActivity" android:screenOrientation="sensor" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard" android:name="dji.playback.previewActivity.DJIPlaybackPreviewActivity" android:screenOrientation="sensor" android:theme="@style/bi"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.main.activity.DJIHowToConnectActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.upgrade.P3cUpgradeActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.upgrade.P4UpgradeActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:name="dji.pilot2.upgrade.MoreReleaseNoteActivity"/>
+        <activity android:name="dji.pilot.publics.control.p3cupgrade.UpgradeTestActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.upgrade.ble.BleDevicesActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:launchMode="singleTask" android:name="dji.pilot2.upgrade.rollback.DJIRollBackActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.upgrade.rollback.P3CFactoryActivity" android:screenOrientation="sensorLandscape" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.upgrade.rollback.OSMOFactoryActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.upgrade.rollback.P3XWFactoryActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot2.favourite.activity.MyCollectionActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:name="com.mob.tools.MobUIShell" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar" android:windowSoftInputMode="adjustResize|stateHidden">
+            <intent-filter>
+                <data android:scheme="tencent100371282"/>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:name="dji.pilot.wxapi.WXEntryActivity" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.main.activity.DJILegalAgreement" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.coupon.couponmain.DJICouponMainActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.coupon.message.DJICouponMessageActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard|keyboardHidden|screenSize" android:name="dji.pilot2.coupon.coupondetail.DJICouponDetailActivity" android:theme="@style/j"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.app.H5PayActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboardHidden|navigation|orientation" android:exported="false" android:name="com.alipay.sdk.auth.AuthActivity" android:screenOrientation="behind"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.home.rc.activity.DJIRcMineMoreSettingActivity" android:theme="@style/i"/>
+        <activity android:name="dji.pilot.countrycode.activity.CountryCodeActivity" android:theme="@android:style/Theme.Translucent"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.gallery.entryActivity.DJIGalleryMainActivity" android:screenOrientation="landscape" android:theme="@style/j"/>
+        <activity android:configChanges="keyboard" android:name="dji.pilot.gallery.previewActivity.DJIGalleryPreviewActivity" android:screenOrientation="landscape" android:theme="@style/bi"/>
+        <activity android:configChanges="keyboard" android:label="@string/app_name" android:name="dji.pilot.gallery.previewActivity.DJIGalleryVideoActivity" android:screenOrientation="landscape" android:theme="@style/g"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.pilot.gallery.entryActivity.DJIGalleryAlbumContentActivity" android:screenOrientation="landscape" android:theme="@style/j"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:exported="false" android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser" android:windowSoftInputMode="adjustResize"/>
+        <activity android:configChanges="keyboardHidden|orientation" android:name="dji.pilot.popup.activity.PopupHtmlActivity"/>
+        <activity android:name="dji.pilot2.mine.activity.LanguageSettingActivity" android:theme="@style/i"/>
+        <activity android:configChanges="keyboard" android:label="@string/app_name" android:name="dji.playback.previewActivity.DJIPlaybackVideoActivity" android:screenOrientation="sensor" android:theme="@style/g"/>
+        <activity android:configChanges="keyboard" android:label="@string/app_name" android:name="dji.pilot2.main.activity.DJIChangeAppActivity" android:screenOrientation="sensor" android:theme="@style/g"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.device.activity.DJIPreviewActivityLongan" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.phone.preview.DJILPPreviewActivity" android:screenOrientation="landscape" android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.fpv.dji.device.activity.OsmoActiveActivity" android:screenOrientation="sensor"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:label="@string/app_name" android:launchMode="singleTask" android:name="dji.pilot.set.longan.SetActivity" android:screenOrientation="sensor"/>
+        <activity android:name="dji.pilot.view.MainActivity"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:keepScreenOn="true" android:launchMode="singleTask" android:name="dji.pilot.storage.DJILPStorageGrantedActivity" android:screenOrientation="landscape"/>
+        <activity android:label="@string/app_name" android:name="dji.setting.ui.MainActivity" android:screenOrientation="sensorLandscape" android:theme="@android:style/Theme.NoTitleBar" android:windowSoftInputMode="stateHidden"/>
+        <service android:exported="false" android:name="dji.dbox.upgrade.p4.statemachine.DJIUpgradeP4Service" android:stopWithTask="true"/>
+        <service android:name="com.amap.api.location.APSService" android:stopWithTask="true"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenSize" android:name="dji.publics.jiobject.djicrashactivity"/>
+    </application>
+</manifest>

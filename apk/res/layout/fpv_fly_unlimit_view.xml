@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJIFlyUnlimitView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout style="@style/FpvGenTopItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fly_unlimit_hardware_num_label" android:layout_alignParentLeft="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/a1a" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/FpvGenSettingDivider" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a1b" style="@style/FpvGenMiddleItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fly_unlimit_switch_label" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.pilot.publics.widget.DJISwitch android:id="@id/a1c" android:layout_alignParentRight="true" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/CommonSwitch" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/FpvGenSettingDivider" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a1d" style="@style/FpvGenBottomItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fly_unlimit_fresh_list_label" android:layout_centerInParent="true" style="@style/FpvGenSettingDescTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <ListView android:id="@id/a1e" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/g1" android:overScrollMode="never" />
+</dji.pilot.fpv.view.DJIFlyUnlimitView>

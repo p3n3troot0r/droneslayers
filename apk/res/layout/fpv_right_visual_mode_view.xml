@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.rightbar.DJIVisualModeView android:orientation="horizontal" android:background="@color/ak" android:layout_width="wrap_content" android:layout_height="@dimen/gc" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/aaq" android:background="@drawable/fpv_view_bg" android:padding="@dimen/gr" android:layout_width="@dimen/gp" android:layout_height="fill_parent" android:src="@drawable/gs_menu_pointing_icon" android:scaleType="centerInside" android:adjustViewBounds="true" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/aar" android:background="@drawable/fpv_view_bg" android:padding="@dimen/gr" android:layout_width="@dimen/gp" android:layout_height="fill_parent" android:src="@drawable/gs_menu_tracking_icon" android:scaleType="centerInside" android:adjustViewBounds="true" />
+</dji.pilot.visual.rightbar.DJIVisualModeView>

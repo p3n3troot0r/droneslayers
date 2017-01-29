@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJICheckUpgradeView android:padding="@dimen/n2" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/wv" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:textColor="@color/bn" android:gravity="center" android:id="@id/ww" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/checklist_rc_upgrade" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rj" android:textColor="@color/bn" android:gravity="center" android:id="@id/wx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:text="@string/checklist_rc_upgrade" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIListView android:id="@id/wy" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="@dimen/n3" android:layout_above="@id/wv" />
+</dji.pilot.fpv.view.DJICheckUpgradeView>

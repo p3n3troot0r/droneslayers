@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rw" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <dji.pilot2.widget.DJIFirstTipCover android:id="@id/rx" android:layout_width="fill_parent" android:layout_height="fill_parent" app:v2_radius="14.0dip" app:v2_ringEraserLeft="0.0dip" app:v2_ringEraserTop="0.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="right" android:orientation="vertical" android:id="@id/ry" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="0.0dip" android:layout_marginTop="0.0dip">
+        <RelativeLayout android:background="@drawable/v2_first_tip_background" android:layout_width="@dimen/ar" android:layout_height="wrap_content">
+            <RelativeLayout android:padding="@dimen/as" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/au" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/av" android:textColor="@color/i" android:gravity="left" android:id="@id/s0" android:paddingTop="@dimen/au" android:paddingBottom="@dimen/au" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/as" android:maxWidth="@dimen/ar" android:text="@string/ve_beginners_guide_moment_intelligent" android:singleLine="false" />
+                <ImageView android:id="@id/s1" android:background="@color/ga" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_marginTop="@dimen/at" android:layout_marginRight="@dimen/as" android:layout_marginBottom="@dimen/at" android:layout_below="@id/s0" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/av" android:textColor="@color/h" android:gravity="left" android:id="@id/s2" android:paddingTop="@dimen/au" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="@dimen/as" android:text="@string/ve_beginners_guide_done" android:layout_below="@id/s1" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/s5" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:src="@drawable/v2_first_tip_arrow_downward" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</RelativeLayout>

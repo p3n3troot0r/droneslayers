@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/radius_corner_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/top_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="@dimen/iw">
+        <dji.publics.DJIUI.DJITextView android:id="@id/a07" android:text="@string/fpv_fault_inject_title" android:layout_weight="1.0" android:layout_centerInParent="true" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/a08" android:background="@drawable/light_normal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/a07" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a09" android:padding="@dimen/rp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fpv_playback_deletecancel_btn" android:scaleType="fitXY" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot.publics.widget.DJITitleScrollView android:scrollbars="none" android:fadingEdgeLength="0.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:visibility="visible" style="@style/FpvGenTopItemLy">
+                <dji.publics.DJIUI.DJITextView android:text="@string/fpv_fault_inject_switch_label" android:layout_weight="1.0" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJISwitch android:id="@id/a0_" android:layout_alignParentRight="true" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/CommonSwitch" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenTopItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_device_type" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.CustomerSpinner android:id="@id/a0a" android:layout_width="@dimen/h4" android:layout_height="@dimen/rt" android:layout_marginLeft="@dimen/n2" style="@style/CustomSpinnerStyle" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/FpvGenSettingDivider" />
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenBottomItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_system_id" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0b" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:layout_marginLeft="@dimen/n2" android:text="@string/fpv_fault_inject_device_id" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0c" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenTopItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_inject_method" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.CustomerSpinner android:id="@id/a0d" android:layout_width="@dimen/h4" android:layout_height="@dimen/rt" android:layout_marginLeft="@dimen/n2" style="@style/CustomSpinnerStyle" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/FpvGenSettingDivider" />
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenMiddleItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_start_time" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0e" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:layout_marginLeft="@dimen/n2" android:text="@string/fpv_fault_inject_total_time" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0f" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJIImageView android:visibility="visible" style="@style/FpvGenSettingDivider" />
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenBottomItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_interval_time" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0g" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:layout_marginLeft="@dimen/n2" android:text="@string/fpv_fault_inject_repeat_times" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0h" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="visible" style="@style/FpvGenTopItemLy">
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:text="@string/fpv_fault_inject_fault_type" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0i" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+                <dji.publics.DJIUI.DJITextView android:layout_width="@dimen/gx" android:layout_marginLeft="@dimen/n2" android:text="@string/fpv_fault_inject_fault_level" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.pilot.publics.widget.DJIEditText android:id="@id/a0j" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:inputType="text" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJIRelativeLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/fj">
+                <dji.publics.DJIUI.DJITextView android:id="@id/a0k" android:layout_width="wrap_content" android:layout_centerVertical="true" style="@style/FpvGenSettingDescTxt" />
+                <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center" android:id="@id/a0l" android:background="@drawable/gs_btn_click_background" android:layout_width="@dimen/gx" android:layout_height="@dimen/gc" android:text="@string/fpv_fault_inject_ok" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.pilot.publics.widget.DJITitleScrollView>
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v2_academy_header" />
+    <LinearLayout android:orientation="vertical" android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="horizontal" android:background="@color/om" android:paddingLeft="@dimen/bp" android:paddingRight="@dimen/bq" android:layout_width="fill_parent" android:layout_height="@dimen/a8b">
+            <RelativeLayout android:id="@id/c5r" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="#ff727272" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_flight_novice_cheats" android:drawableTop="@drawable/newacademy_novice_cheat" android:drawablePadding="@dimen/ga" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:background="#ffe6e6e6" android:layout_width="@dimen/ga" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fo" android:layout_marginBottom="@dimen/fo" />
+            <RelativeLayout android:id="@id/c5s" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="#ff727272" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_hot_tips" android:drawableTop="@drawable/newacademy_hottip" android:drawablePadding="@dimen/ga" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:background="#ffe6e6e6" android:layout_width="@dimen/ga" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fo" android:layout_marginBottom="@dimen/fo" />
+            <RelativeLayout android:id="@id/c5t" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textColor="#ff727272" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_faq" android:drawableTop="@drawable/newacademy_faq" android:drawablePadding="@dimen/ga" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+        <RelativeLayout android:id="@id/c5u" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/br" android:layout_marginLeft="@dimen/bp" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/bq">
+            <EditText android:textSize="12.0sp" android:textColorHint="#ffd7d7d7" android:id="@id/c5v" android:background="@drawable/v2_new_academy_flight_search_bg" android:paddingLeft="@dimen/fj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/ft" android:layout_marginBottom="@dimen/fj" android:hint="@string/v2_academy_flight_search_hint" android:singleLine="true" android:selectAllOnFocus="true" android:drawableLeft="@drawable/newacademy_flight_search" android:drawablePadding="@dimen/gw" android:inputType="text" />
+        </RelativeLayout>
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:paddingLeft="@dimen/g1" android:layout_width="fill_parent" android:layout_height="@dimen/by">
+            <TextView android:textSize="12.0sp" android:textColor="#ff4a4a4a" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_hotfaq" />
+            <TextView android:textSize="8.0sp" android:textColor="@color/om" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:background="@color/gj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="HOT" />
+        </LinearLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ProgressBar android:id="@id/c5w" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <ListView android:id="@id/c5x" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="#00000000" />
+            <include android:visibility="gone" layout="@layout/v2_new_academy_empty_lv" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

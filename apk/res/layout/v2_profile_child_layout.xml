@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/yb" android:paddingRight="@dimen/yb" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/l7" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:layout_gravity="center" android:id="@id/cy9" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Space android:id="@id/cy_" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" />
+            <include android:id="@id/cya" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/v2_profile_list_child_fragment" />
+            <include android:id="@id/cyb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/v2_profile_list_child_fragment" />
+            <include android:id="@id/cyc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/v2_profile_list_child_fragment" />
+            <Space android:id="@id/cyd" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.25" />
+        </LinearLayout>
+        <View android:id="@id/cye" android:background="@color/l7" android:layout_width="fill_parent" android:layout_height="@dimen/fj" />
+    </LinearLayout>
+    <View android:id="@id/cyf" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gw" />
+</LinearLayout>

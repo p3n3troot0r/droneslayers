@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="#ff333333" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/bl_" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true">"
+<include layout="@layout/set_activity_head_bar" />
+        </FrameLayout>
+        <View style="@style/set_divider" />
+        <FrameLayout android:id="@id/bla" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true">
+            <include layout="@layout/set_layout_root" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

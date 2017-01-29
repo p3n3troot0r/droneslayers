@@ -1,0 +1,2719 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="a">
+        <item>@string/fpv_camera_antiblink_auto</item>
+        <item>@string/fpv_camera_antiblink_60</item>
+        <item>@string/fpv_camera_antiblink_50</item>
+    </string-array>
+    <string-array name="b">
+        <item>@string/fpv_camera_antiblink_60</item>
+        <item>@string/fpv_camera_antiblink_50</item>
+    </string-array>
+    <string-array name="c">
+        <item>@string/fpv_camera_antiblink_60</item>
+        <item>@string/fpv_camera_antiblink_50</item>
+    </string-array>
+    <string-array name="d">
+        <item>@string/fpv_camera_antiblink_auto</item>
+        <item>@string/fpv_camera_antiblink_60</item>
+        <item>@string/fpv_camera_antiblink_50</item>
+    </string-array>
+    <integer-array name="e">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="f">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="g">
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="h">
+        <item>auto</item>
+        <item>60hz</item>
+        <item>50hz</item>
+    </string-array>
+    <string-array name="i">
+        <item>1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>2</item>
+        <item>2.2</item>
+        <item>2.5</item>
+        <item>2.8</item>
+        <item>3.2</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.6</item>
+        <item>6.3</item>
+        <item>7.1</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>28</item>
+        <item>32</item>
+        <item>37</item>
+        <item>41</item>
+        <item>45</item>
+        <item>52</item>
+        <item>58</item>
+        <item>64</item>
+    </string-array>
+    <string-array name="j">
+        <item>1.6</item>
+        <item>2.0</item>
+        <item>2.4</item>
+        <item>2.8</item>
+        <item>3.4</item>
+        <item>4.0</item>
+        <item>4.8</item>
+        <item>5.6</item>
+        <item>6.8</item>
+        <item>8.0</item>
+        <item>9.6</item>
+        <item>11</item>
+        <item>14</item>
+    </string-array>
+    <integer-array name="k">
+        <item>100</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>170</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>250</item>
+        <item>280</item>
+        <item>320</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>560</item>
+        <item>630</item>
+        <item>710</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1300</item>
+        <item>1400</item>
+        <item>1600</item>
+        <item>1800</item>
+        <item>2000</item>
+        <item>2200</item>
+        <item>2500</item>
+        <item>2800</item>
+        <item>3200</item>
+        <item>3700</item>
+        <item>4100</item>
+        <item>4500</item>
+        <item>5200</item>
+        <item>5800</item>
+        <item>6400</item>
+    </integer-array>
+    <integer-array name="l">
+        <item>160</item>
+        <item>200</item>
+        <item>240</item>
+        <item>280</item>
+        <item>340</item>
+        <item>400</item>
+        <item>480</item>
+        <item>560</item>
+        <item>680</item>
+        <item>800</item>
+        <item>960</item>
+        <item>1100</item>
+        <item>1400</item>
+    </integer-array>
+    <string-array name="m">
+        <item>3 s</item>
+        <item>5 s</item>
+        <item>7 s</item>
+        <item>10 s</item>
+        <item>20 s</item>
+        <item>30 s</item>
+        <item>60 s</item>
+    </string-array>
+    <string-array name="n">
+        <item>单张拍摄</item>
+        <item>三连拍</item>
+        <item>五连拍</item>
+        <item>七连拍</item>
+        <item>AEB 三连拍</item>
+        <item>AEB 五连拍</item>
+        <item>定时拍摄</item>
+    </string-array>
+    <string-array name="o">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <string-array name="p">
+        <item>@string/fpv_camera_filter_neutral</item>
+        <item>@string/fpv_camera_filter_film</item>
+        <item>@string/fpv_camera_filter_none</item>
+        <item>@string/fpv_camera_filter_art</item>
+        <item>@string/fpv_camera_filter_blackwhite</item>
+        <item>@string/fpv_camera_filter_colorful</item>
+        <item>@string/fpv_camera_filter_m31</item>
+        <item>@string/fpv_camera_filter_kdx</item>
+        <item>@string/fpv_camera_filter_prismo</item>
+        <item>@string/fpv_camera_filter_jugo</item>
+        <item>@string/fpv_camera_filter_visionx</item>
+    </string-array>
+    <string-array name="q">
+        <item>@string/fpv_camera_filter_none</item>
+        <item>@string/fpv_camera_filter_jugo</item>
+        <item>@string/fpv_camera_filter_inverse</item>
+        <item>@string/fpv_camera_filter_blackwhite</item>
+        <item>@string/fpv_camera_filter_solarize</item>
+        <item>@string/fpv_camera_filter_postrize</item>
+        <item>@string/fpv_camera_filter_whiteboard</item>
+        <item>@string/fpv_camera_filter_blackboard</item>
+        <item>@string/fpv_camera_filter_aqua</item>
+    </string-array>
+    <string-array name="r">
+        <item>@string/fpv_camera_filter_none</item>
+        <item>@string/fpv_camera_filter_inverse</item>
+        <item>@string/fpv_camera_filter_blackwhite</item>
+    </string-array>
+    <integer-array name="s">
+        <item>23</item>
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>19</item>
+        <item>22</item>
+    </integer-array>
+    <integer-array name="t">
+        <item>0</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+    </integer-array>
+    <integer-array name="u">
+        <item>0</item>
+        <item>3</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="v">
+        <item>@string/fpv_camera_filter_neutral</item>
+        <item>@string/fpv_camera_filter_film</item>
+        <item>@string/fpv_camera_filter_none</item>
+        <item>@string/fpv_camera_filter_art</item>
+        <item>@string/fpv_camera_filter_blackwhite</item>
+        <item>@string/fpv_camera_filter_colorful</item>
+        <item>@string/fpv_camera_filter_m31</item>
+        <item>@string/fpv_camera_filter_kdx</item>
+        <item>@string/fpv_camera_filter_prismo</item>
+        <item>@string/fpv_camera_filter_jugo</item>
+    </string-array>
+    <string-array name="w">
+        <item>@string/fpv_camera_filter_neutral</item>
+        <item>@string/fpv_camera_filter_film</item>
+        <item>@string/fpv_camera_filter_none</item>
+        <item>@string/fpv_camera_filter_art</item>
+        <item>@string/fpv_camera_filter_blackwhite</item>
+        <item>@string/fpv_camera_filter_colorful</item>
+        <item>@string/fpv_camera_filter_m31</item>
+        <item>@string/fpv_camera_filter_kdx</item>
+        <item>@string/fpv_camera_filter_prismo</item>
+        <item>@string/fpv_camera_filter_jugo</item>
+        <item>@string/fpv_camera_filter_portrait</item>
+    </string-array>
+    <integer-array name="x">
+        <item>23</item>
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>19</item>
+    </integer-array>
+    <integer-array name="y">
+        <item>23</item>
+        <item>6</item>
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>19</item>
+        <item>7</item>
+    </integer-array>
+    <string-array name="z">
+        <item>无</item>
+        <item>鲜艳</item>
+        <item>艺术</item>
+        <item>影片</item>
+        <item>怀旧</item>
+        <item>黑白</item>
+        <item>反色</item>
+    </string-array>
+    <string-array name="a0">
+        <item>-3.0</item>
+        <item>-2.7</item>
+        <item>-2.3</item>
+        <item>-2.0</item>
+        <item>-1.7</item>
+        <item>-1.3</item>
+        <item>-1.0</item>
+        <item>-0.7</item>
+        <item>-0.3</item>
+        <item>0</item>
+        <item>+0.3</item>
+        <item>+0.7</item>
+        <item>+1.0</item>
+        <item>+1.3</item>
+        <item>+1.7</item>
+        <item>+2.0</item>
+        <item>+2.3</item>
+        <item>+2.7</item>
+        <item>+3.0</item>
+    </string-array>
+    <integer-array name="a1">
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+    </integer-array>
+    <string-array name="a2">
+        <item>自动曝光</item>
+        <item>手动曝光</item>
+        <item>快门优先曝光</item>
+        <item>光圈优先曝光</item>
+    </string-array>
+    <string-array name="a3">
+        <item>3.0</item>
+        <item>2.7</item>
+        <item>2.3</item>
+        <item>2.0</item>
+        <item>1.7</item>
+        <item>1.3</item>
+        <item>1.0</item>
+        <item>0.7</item>
+        <item>0.3</item>
+        <item>0</item>
+        <item>-0.3</item>
+        <item>-0.7</item>
+        <item>-1.0</item>
+        <item>-1.3</item>
+        <item>-1.7</item>
+        <item>-2.0</item>
+        <item>-2.3</item>
+        <item>-2.7</item>
+        <item>-3.0</item>
+    </string-array>
+    <string-array name="a4">
+        <item>@string/fpv_gensetting_fileindex_reset</item>
+        <item>@string/fpv_gensetting_fileindex_coutinuous</item>
+    </string-array>
+    <integer-array name="a5">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="a6">
+        <item>@string/fpv_gensetting_fileindex_reset</item>
+        <item>@string/fpv_gensetting_fileindex_coutinuous</item>
+    </string-array>
+    <integer-array name="a7">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="a8">
+        <item>@string/fpv_gensetting_none</item>
+        <item>@string/fpv_gensetting_grid_lines</item>
+        <item>@string/fpv_gensetting_diagonals</item>
+        <item>@string/fpv_gensetting_center</item>
+    </string-array>
+    <integer-array name="a9">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="a_">
+        <item>RAW</item>
+        <item>JPEG</item>
+        <item>JPEG+RAW</item>
+    </string-array>
+    <string-array name="aa">
+        <item>最佳</item>
+        <item>较佳</item>
+        <item>一般</item>
+    </string-array>
+    <string-array name="ab">
+        <item>大 4:3</item>
+        <item>中 4:3</item>
+        <item>小 4:3</item>
+        <item>大 16:9</item>
+        <item>中 16:9</item>
+        <item>小 16:9</item>
+    </string-array>
+    <string-array name="ac">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+        <item>6400</item>
+        <item>12800</item>
+        <item>25600</item>
+    </string-array>
+    <integer-array name="ad">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </integer-array>
+    <string-array name="ae">
+        <item>auto</item>
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+    </string-array>
+    <string-array name="af">
+        <item>中央重点测光</item>
+        <item>平均测光</item>
+        <item>点测光</item>
+    </string-array>
+    <string-array name="ag">
+        <item>@string/fpv_camera_pictureformat_raw</item>
+        <item>@string/fpv_camera_pictureformat_jpeg</item>
+        <item>@string/fpv_camera_pictureformat_jpegraw</item>
+    </string-array>
+    <string-array name="ah">
+        <item>@string/fpv_camera_pictureformat_jpeg</item>
+    </string-array>
+    <string-array name="ai">
+        <item>@string/fpv_camera_pictureformat_raw</item>
+        <item>@string/fpv_camera_pictureformat_jpeg</item>
+        <item>@string/fpv_camera_pictureformat_jr</item>
+        <item>@string/fpv_camera_pictureformat_tiff</item>
+        <item>@string/fpv_camera_pictureformat_tiff</item>
+        <item>@string/tau_imgformat_tiff_low14_simple</item>
+        <item>@string/tau_imgformat_tiff_high14_simple</item>
+        <item>@string/tau_imgformat_rjpeg_simple</item>
+        <item>@string/tau_imgformat_rjpeg_low_simple</item>
+        <item>@string/tau_imgformat_rjpeg_high_simple</item>
+    </string-array>
+    <string-array name="aj">
+        <item>@string/fpv_camera_pictureformat_jpeg</item>
+    </string-array>
+    <string-array name="ak">
+        <item>@string/fpv_camera_pictureformat_raw</item>
+        <item>@string/fpv_camera_pictureformat_jpeg</item>
+        <item>@string/fpv_camera_pictureformat_jpegraw</item>
+    </string-array>
+    <integer-array name="al">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <integer-array name="am">
+        <item>1</item>
+    </integer-array>
+    <integer-array name="an">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </integer-array>
+    <string-array name="ao">
+        <item>@string/fpv_camera_picturesize_43</item>
+        <item>@string/fpv_camera_picturesize_169</item>
+    </string-array>
+    <string-array name="ap">
+        <item>4:3</item>
+        <item>16:9</item>
+    </string-array>
+    <integer-array name="aq">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="ar">
+        <item>@string/fpv_camera_picturestyle_standard</item>
+        <item>@string/fpv_camera_picturestyle_scenery</item>
+        <item>@string/fpv_camera_picturestyle_soft</item>
+        <item>@string/fpv_camera_picturestyle_manual</item>
+    </string-array>
+    <string-array name="as">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <string-array name="at">
+        <item>自动</item>
+        <item>肖像</item>
+        <item>风景</item>
+        <item>海滩</item>
+        <item>傍晚</item>
+        <item>夜景</item>
+        <item>水面</item>
+    </string-array>
+    <string-array name="au">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <string-array name="av">
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/25</item>
+    </string-array>
+    <string-array name="aw">
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/25</item>
+    </string-array>
+    <string-array name="ax">
+        <item>1/1000</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+    </string-array>
+    <string-array name="ay">
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+    </string-array>
+    <string-array name="az">
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+    </string-array>
+    <string-array name="b0">
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+    </string-array>
+    <string-array name="b1">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>30°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>60°</item>
+        <item>72°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>144°</item>
+        <item>172.8°</item>
+        <item>216°</item>
+        <item>270°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b2">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>30°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>60°</item>
+        <item>75°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>150°</item>
+        <item>180°</item>
+        <item>216°</item>
+        <item>324°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b3">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>72°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>144°</item>
+        <item>180°</item>
+        <item>216°</item>
+        <item>270°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b4">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>30°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>60°</item>
+        <item>72°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>144°</item>
+        <item>172.8°</item>
+        <item>216°</item>
+        <item>270°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b5">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>30°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>60°</item>
+        <item>75°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>150°</item>
+        <item>180°</item>
+        <item>216°</item>
+        <item>324°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b6">
+        <item>11.25°</item>
+        <item>15°</item>
+        <item>22.5°</item>
+        <item>30°</item>
+        <item>37.5°</item>
+        <item>45°</item>
+        <item>60°</item>
+        <item>90°</item>
+        <item>108°</item>
+        <item>144°</item>
+        <item>180°</item>
+        <item>216°</item>
+        <item>270°</item>
+        <item>360°</item>
+    </string-array>
+    <string-array name="b7">
+        <item>8000</item>
+        <item>6400</item>
+        <item>5000</item>
+        <item>4000</item>
+        <item>3200</item>
+        <item>2500</item>
+        <item>2000</item>
+        <item>1600</item>
+        <item>1250</item>
+        <item>1000</item>
+        <item>800</item>
+        <item>640</item>
+        <item>500</item>
+        <item>400</item>
+        <item>320</item>
+        <item>240</item>
+        <item>200</item>
+        <item>160</item>
+        <item>120</item>
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>12.5</item>
+        <item>10</item>
+        <item>8</item>
+        <item>6.25</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2.5</item>
+        <item>2</item>
+        <item>1.67</item>
+        <item>1.25</item>
+        <item>"1''"</item>
+        <item>"1.3''"</item>
+        <item>"1.6''"</item>
+        <item>"2''"</item>
+        <item>"2.5''"</item>
+        <item>"3''"</item>
+        <item>"3.2''"</item>
+        <item>"4''"</item>
+        <item>"5''"</item>
+        <item>"6''"</item>
+        <item>"7''"</item>
+        <item>"8''"</item>
+    </string-array>
+    <string-array name="b8">
+        <item>6000</item>
+        <item>4000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>750</item>
+        <item>500</item>
+        <item>350</item>
+        <item>250</item>
+        <item>180</item>
+        <item>125</item>
+        <item>100</item>
+        <item>90</item>
+        <item>60</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="b9">
+        <item>8000</item>
+        <item>6400</item>
+        <item>5000</item>
+        <item>4000</item>
+        <item>3200</item>
+        <item>2500</item>
+        <item>2000</item>
+        <item>1600</item>
+        <item>1250</item>
+        <item>1000</item>
+        <item>800</item>
+        <item>640</item>
+        <item>500</item>
+        <item>400</item>
+        <item>320</item>
+        <item>240</item>
+        <item>200</item>
+        <item>180</item>
+        <item>160</item>
+        <item>120</item>
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>12.5</item>
+        <item>10</item>
+        <item>8</item>
+        <item>6.25</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2.5</item>
+        <item>2</item>
+        <item>1.67</item>
+        <item>1.25</item>
+        <item>"1''"</item>
+        <item>"1.3''"</item>
+        <item>"1.6''"</item>
+        <item>"2''"</item>
+        <item>"2.5''"</item>
+        <item>"3''"</item>
+        <item>"3.2''"</item>
+        <item>"4''"</item>
+        <item>"5''"</item>
+        <item>"6''"</item>
+        <item>"7''"</item>
+        <item>"8''"</item>
+    </string-array>
+    <string-array name="b_">
+        <item>1/8000</item>
+        <item>1/6400</item>
+        <item>1/5000</item>
+        <item>1/4000</item>
+        <item>1/3200</item>
+        <item>1/2500</item>
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/25</item>
+        <item>1/20</item>
+        <item>1/15</item>
+        <item>1/12.5</item>
+        <item>1/10</item>
+        <item>1/8</item>
+        <item>1/6.25</item>
+        <item>1/5</item>
+        <item>1/4</item>
+        <item>1/3</item>
+        <item>1/2.5</item>
+        <item>1/2</item>
+        <item>1/1.67</item>
+        <item>1/1.25</item>
+        <item>1</item>
+        <item>1.3</item>
+        <item>1.6</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="ba">
+        <item>1/6000</item>
+        <item>1/4000</item>
+        <item>1/3000</item>
+        <item>1/2000</item>
+        <item>1/1500</item>
+        <item>1/1000</item>
+        <item>1/750</item>
+        <item>1/500</item>
+        <item>1/350</item>
+        <item>1/250</item>
+        <item>1/180</item>
+        <item>1/125</item>
+        <item>1/100</item>
+        <item>1/90</item>
+        <item>1/60</item>
+        <item>1/30</item>
+    </string-array>
+    <string-array name="bb">
+        <item>1/8000</item>
+        <item>1/6400</item>
+        <item>1/5000</item>
+        <item>1/4000</item>
+        <item>1/3200</item>
+        <item>1/2500</item>
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/180</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/25</item>
+        <item>1/20</item>
+        <item>1/15</item>
+        <item>1/12.5</item>
+        <item>1/10</item>
+        <item>1/8</item>
+        <item>1/6.25</item>
+        <item>1/5</item>
+        <item>1/4</item>
+        <item>1/3</item>
+        <item>1/2.5</item>
+        <item>1/2</item>
+        <item>1/1.67</item>
+        <item>1/1.25</item>
+        <item>1</item>
+        <item>1.3</item>
+        <item>1.6</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="bc">
+        <item>手动</item>
+    </string-array>
+    <string-array name="bd">
+        <item>"8''"</item>
+        <item>"7''"</item>
+        <item>"6''"</item>
+        <item>"5''"</item>
+        <item>"4''"</item>
+        <item>"3.2''"</item>
+        <item>"3''"</item>
+        <item>"2.5''"</item>
+        <item>"2''"</item>
+        <item>"1.6''"</item>
+        <item>"1.3''"</item>
+        <item>"1''"</item>
+        <item>1/1.25</item>
+        <item>1/1.67</item>
+        <item>½</item>
+        <item>1/2.5</item>
+        <item>⅓</item>
+        <item>¼</item>
+        <item>1/5</item>
+        <item>1/6.25</item>
+        <item>1/8</item>
+        <item>1/10</item>
+        <item>1/12.5</item>
+        <item>1/15</item>
+        <item>1/20</item>
+        <item>1/25</item>
+        <item>1/30</item>
+        <item>1/40</item>
+        <item>1/50</item>
+        <item>1/60</item>
+        <item>1/80</item>
+        <item>1/100</item>
+        <item>1/120</item>
+        <item>1/160</item>
+        <item>1/200</item>
+        <item>1/240</item>
+        <item>1/320</item>
+        <item>1/400</item>
+        <item>1/500</item>
+        <item>1/640</item>
+        <item>1/800</item>
+        <item>1/1000</item>
+        <item>1/1250</item>
+        <item>1/1600</item>
+        <item>1/2000</item>
+        <item>1/2500</item>
+        <item>1/3200</item>
+        <item>1/4000</item>
+        <item>1/5000</item>
+        <item>1/6400</item>
+        <item>1/8000</item>
+    </string-array>
+    <string-array name="be">
+        <item>@string/fpv_camera_picturestyle_standard</item>
+        <item>@string/fpv_camera_picturestyle_scenery</item>
+        <item>@string/fpv_camera_picturestyle_soft</item>
+        <item>@string/fpv_camera_picturestyle_manual</item>
+    </string-array>
+    <string-array name="bf">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="bg">
+        <item>@string/fpv_camera_timelapseformat_video</item>
+        <item>@string/fpv_camera_timelapseformat_picture_video</item>
+    </string-array>
+    <integer-array name="bh">
+        <item>0</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="bi">
+        <item>+3</item>
+        <item>+2</item>
+        <item>+1</item>
+        <item>0</item>
+        <item>-1</item>
+        <item>-2</item>
+        <item>-3</item>
+    </string-array>
+    <array name="bj">
+        <item>@array/o</item>
+        <item>@array/ae</item>
+        <item>@array/c6</item>
+        <item>@array/bc</item>
+        <item>@array/n</item>
+        <item>@array/z</item>
+        <item>@array/af</item>
+        <item>@array/a3</item>
+        <item>@array/a_</item>
+        <item>@array/h</item>
+        <item>@array/ab</item>
+        <item>@array/aa</item>
+        <item>@array/bp</item>
+        <item>@array/bz</item>
+        <item>@array/bq</item>
+        <item>@array/au</item>
+        <item>@array/as</item>
+        <item>@array/bi</item>
+    </array>
+    <string-array name="bk">
+        <item>@string/fpv_camera_videoformat_mov</item>
+        <item>@string/fpv_camera_videoformat_mp4</item>
+    </string-array>
+    <string-array name="bl">
+        <item>@string/fpv_camera_videoformat_mp4</item>
+    </string-array>
+    <string-array name="bm">
+        <item>@string/fpv_camera_videoformat_mov</item>
+        <item>@string/fpv_camera_videoformat_mp4</item>
+    </string-array>
+    <integer-array name="bn">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <integer-array name="bo">
+        <item>1</item>
+    </integer-array>
+    <string-array name="bp">
+        <item>4096x2160 25P</item>
+        <item>4096x2160 24P</item>
+        <item>3840x2160 30P</item>
+        <item>3840x2160 25P</item>
+        <item>3840x2160 24P</item>
+        <item>1920x1080 60P</item>
+        <item>1920x1080 50P</item>
+        <item>1920x1080 48P</item>
+        <item>1920x1080 30P</item>
+        <item>1920x1080 25P</item>
+        <item>1920x1080 24P</item>
+        <item>1280x720 60P</item>
+        <item>1280x720 50P</item>
+        <item>1280x720 48P</item>
+        <item>1280x720 30P</item>
+        <item>1280x720 25P</item>
+        <item>1280x720 24P</item>
+    </string-array>
+    <string-array name="bq">
+        <item>最佳</item>
+        <item>较佳</item>
+        <item>一般</item>
+    </string-array>
+    <string-array name="br">
+        <item>2.7K 60</item>
+        <item>2.7K 50</item>
+        <item>2.7K 48</item>
+        <item>2.7K 30</item>
+        <item>2.7K 25</item>
+        <item>2.7K 24</item>
+        <item>2.7K 60</item>
+        <item>2.7K 50</item>
+        <item>2.7K 48</item>
+        <item>2.7K 30</item>
+        <item>2.7K 25</item>
+        <item>2.7K 24</item>
+        <item>4.6K 25</item>
+        <item>4.6K 24</item>
+        <item>4.6K 60</item>
+        <item>4.6K 48</item>
+        <item>4.6K 30</item>
+        <item>4.6K 25</item>
+        <item>4.6K 24</item>
+        <item>4K 60</item>
+        <item>4K 50</item>
+        <item>4K 48</item>
+        <item>4K 30</item>
+        <item>4K 25</item>
+        <item>4K 24</item>
+        <item>4K 60</item>
+        <item>4K 50</item>
+        <item>4K 48</item>
+        <item>4K 30</item>
+        <item>4K 25</item>
+        <item>4K 24</item>
+        <item>1080P 180</item>
+        <item>1080P 96</item>
+        <item>1080P 120</item>
+        <item>1080P 60</item>
+        <item>1080P 50</item>
+        <item>1080P 48</item>
+        <item>1080P 30</item>
+        <item>1080P 25</item>
+        <item>1080P 24</item>
+        <item>720P 180</item>
+        <item>720P 96</item>
+        <item>720P 120</item>
+        <item>720P 60</item>
+        <item>720P 50</item>
+        <item>720P 48</item>
+        <item>720P 30</item>
+        <item>720P 25</item>
+        <item>720P 24</item>
+        <item>PAL</item>
+        <item>PAL</item>
+        <item>NTSC</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="bs">
+        <item>4.6K 24</item>
+        <item>4.6K 24</item>
+        <item>4.6K 30</item>
+        <item>4K 24</item>
+        <item>4K 24</item>
+        <item>4K 30</item>
+        <item>2.7K 24</item>
+        <item>2.7K 30</item>
+        <item>1080P 24</item>
+        <item>1080P 30</item>
+        <item>1080P 48</item>
+        <item>1080P 60</item>
+        <item>1080P 120</item>
+        <item>1080P 96</item>
+        <item>720P 24</item>
+        <item>720P 30</item>
+        <item>720P 48</item>
+        <item>720P 60</item>
+        <item>720P 120</item>
+        <item>720P 180</item>
+        <item>NTSC</item>
+        <item>NTSC</item>
+    </string-array>
+    <string-array name="bt">
+        <item>4096x2160 24P</item>
+        <item>3840x2160 30P</item>
+        <item>3840x2160 24P</item>
+        <item>1920x1080 60P</item>
+        <item>1920x1080 48P</item>
+        <item>1920x1080 30P</item>
+        <item>1920x1080 24P</item>
+        <item>1280x720 60P</item>
+        <item>1280x720 48P</item>
+        <item>1280x720 30P</item>
+        <item>1280x720 24P</item>
+    </string-array>
+    <integer-array name="bu">
+        <item>281</item>
+        <item>271</item>
+        <item>273</item>
+        <item>221</item>
+        <item>161</item>
+        <item>163</item>
+        <item>241</item>
+        <item>243</item>
+        <item>101</item>
+        <item>103</item>
+        <item>104</item>
+        <item>106</item>
+        <item>107</item>
+        <item>111</item>
+        <item>41</item>
+        <item>43</item>
+        <item>44</item>
+        <item>46</item>
+        <item>47</item>
+        <item>52</item>
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="bv">
+        <item>4.6K 24</item>
+        <item>4.6K 25</item>
+        <item>4.6K 24</item>
+        <item>4.6K 25</item>
+        <item>4K 24</item>
+        <item>4K 25</item>
+        <item>4K 24</item>
+        <item>4K 25</item>
+        <item>2.7K 24</item>
+        <item>2.7K 25</item>
+        <item>1080P 24</item>
+        <item>1080P 25</item>
+        <item>1080P 48</item>
+        <item>1080P 50</item>
+        <item>1080P 120</item>
+        <item>1080P 96</item>
+        <item>720P 24</item>
+        <item>720P 25</item>
+        <item>720P 48</item>
+        <item>720P 50</item>
+        <item>720P 120</item>
+        <item>720P 180</item>
+        <item>PAL</item>
+        <item>PAL</item>
+    </string-array>
+    <string-array name="bw">
+        <item>4096x2160 25P</item>
+        <item>4096x2160 24P</item>
+        <item>3840x2160 25P</item>
+        <item>3840x2160 24P</item>
+        <item>2704x1520 30P</item>
+        <item>2704x1520 25P</item>
+        <item>2704x1520 24P</item>
+        <item>1920x1080 50P</item>
+        <item>1920x1080 48P</item>
+        <item>1920x1080 25P</item>
+        <item>1920x1080 24P</item>
+        <item>1280x720 50P</item>
+        <item>1280x720 48P</item>
+        <item>1280x720 25P</item>
+        <item>1280x720 24P</item>
+    </string-array>
+    <integer-array name="bx">
+        <item>281</item>
+        <item>282</item>
+        <item>271</item>
+        <item>272</item>
+        <item>221</item>
+        <item>222</item>
+        <item>161</item>
+        <item>162</item>
+        <item>241</item>
+        <item>242</item>
+        <item>101</item>
+        <item>102</item>
+        <item>104</item>
+        <item>105</item>
+        <item>107</item>
+        <item>111</item>
+        <item>41</item>
+        <item>42</item>
+        <item>44</item>
+        <item>45</item>
+        <item>47</item>
+        <item>52</item>
+        <item>262</item>
+        <item>265</item>
+    </integer-array>
+    <integer-array name="by">
+        <item>3106</item>
+        <item>3105</item>
+        <item>3104</item>
+        <item>3103</item>
+        <item>3102</item>
+        <item>3101</item>
+        <item>2406</item>
+        <item>2405</item>
+        <item>2404</item>
+        <item>2403</item>
+        <item>2402</item>
+        <item>2401</item>
+        <item>2802</item>
+        <item>2801</item>
+        <item>2706</item>
+        <item>2704</item>
+        <item>2703</item>
+        <item>2702</item>
+        <item>2701</item>
+        <item>2206</item>
+        <item>2205</item>
+        <item>2204</item>
+        <item>2203</item>
+        <item>2202</item>
+        <item>2201</item>
+        <item>1606</item>
+        <item>1605</item>
+        <item>1604</item>
+        <item>1603</item>
+        <item>1602</item>
+        <item>1601</item>
+        <item>1012</item>
+        <item>1011</item>
+        <item>1007</item>
+        <item>1006</item>
+        <item>1005</item>
+        <item>1004</item>
+        <item>1003</item>
+        <item>1002</item>
+        <item>1001</item>
+        <item>412</item>
+        <item>411</item>
+        <item>407</item>
+        <item>406</item>
+        <item>405</item>
+        <item>404</item>
+        <item>403</item>
+        <item>402</item>
+        <item>401</item>
+        <item>2602</item>
+        <item>2605</item>
+        <item>3</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="bz">
+        <item>MOV</item>
+        <item>MP4</item>
+    </string-array>
+    <string-array name="c0">
+        <item>@string/fpv_gensetting_videotyle_pal</item>
+        <item>@string/fpv_gensetting_videotyle_ntsc</item>
+    </string-array>
+    <integer-array name="c1">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="c2">
+        <item>@string/fpv_camera_wb_auto</item>
+        <item>@string/fpv_camera_wb_outdoor</item>
+        <item>@string/fpv_camera_wb_indoor</item>
+        <item>@string/fpv_camera_wb_tungsten</item>
+        <item>@string/fpv_camera_wb_neon</item>
+        <item>@string/fpv_camera_wb_warmneon</item>
+        <item>@string/fpv_camera_wb_dusk</item>
+        <item>@string/fpv_camera_wb_shadow</item>
+        <item>@string/fpv_camera_wb_custom</item>
+    </string-array>
+    <string-array name="c3">
+        <item>@string/fpv_camera_wb_auto</item>
+        <item>@string/fpv_camera_wb_outdoor</item>
+        <item>@string/fpv_camera_wb_indoor</item>
+        <item>@string/fpv_camera_wb_water</item>
+        <item>@string/fpv_camera_wb_tungsten</item>
+        <item>@string/fpv_camera_wb_neon</item>
+        <item>@string/fpv_camera_wb_custom</item>
+    </string-array>
+    <array name="c4">
+        <item>@drawable/longan_selector_wb_auto</item>
+        <item>@drawable/longan_selector_wb_outdoor</item>
+        <item>@drawable/longan_selector_wb_indoor</item>
+        <item>@drawable/longan_selector_wb_water</item>
+        <item>@drawable/longan_selector_wb_tungsten</item>
+        <item>@drawable/longan_selector_wb_neon</item>
+    </array>
+    <integer-array name="c5">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="c6">
+        <item>自动</item>
+        <item>晴天</item>
+        <item>阴天</item>
+        <item>白炽灯</item>
+        <item>荧光灯</item>
+    </string-array>
+    <string-array name="c7">
+        <item>@string/check_gimbal_gyroscope</item>
+        <item>@string/check_gimbal_pitch</item>
+        <item>@string/check_gimbal_roll</item>
+        <item>@string/check_gimbal_yaw</item>
+        <item>@string/check_gimbal_mc_conn</item>
+        <item>@string/check_mc_gyroscope</item>
+        <item>@string/check_mc_accelerate</item>
+        <item>@string/check_mc_compass</item>
+        <item>@string/check_mc_barometer</item>
+        <item>@string/check_mc_gps</item>
+        <item>@string/check_mc_sd_card</item>
+        <item>@string/check_mc_imu_advance_cali</item>
+        <item>@string/check_mc_imu_hori_cali</item>
+        <item>@string/check_mc_version_error</item>
+        <item>@string/check_mc_imu_direction</item>
+        <item>@string/check_mc_imu_init_error</item>
+        <item>@string/check_mc_press_init_error</item>
+        <item>@string/check_mc_acc_error</item>
+        <item>@string/check_mc_gyroscope_error</item>
+        <item>@string/check_mc_press_error</item>
+        <item>@string/check_mc_atti_error</item>
+        <item>@string/check_mc_imu_error</item>
+        <item>@string/check_mc_record_error</item>
+        <item>@string/check_rc_fpga</item>
+        <item>@string/check_rc_transmitter</item>
+        <item>@string/check_rc_battery</item>
+        <item>@string/check_rc_gps</item>
+        <item>@string/check_rc_encryption</item>
+        <item>@string/check_rc_stick</item>
+        <item>@string/check_rc_power</item>
+        <item>@string/check_rc_timeout</item>
+        <item>@string/check_battery_discharge_current</item>
+        <item>@string/check_battery_over_temperature</item>
+        <item>@string/check_battery_low_temperature</item>
+        <item>@string/check_center_battery_connection</item>
+        <item>@string/check_center_gps_connection</item>
+        <item>@string/check_center_mc_connection</item>
+        <item>@string/check_camera_upgrade</item>
+        <item>@string/check_camera_sensor</item>
+        <item>@string/check_camera_over_heat</item>
+        <item>@string/check_dm368_encryption</item>
+        <item>@string/check_dm368_68013</item>
+        <item>@string/check_battery_charge_not_full</item>
+        <item>@string/check_mc_imu_cali_unfinished</item>
+        <item>@string/check_rc_reset</item>
+        <item>@string/check_battery_broken</item>
+        <item>@string/check_battery_cycle</item>
+        <item>@string/DJIIMUInitFailReason_GyroDead</item>
+        <item>@string/check_rc_high_temperature</item>
+        <item>@string/check_1860_reason</item>
+        <item>@string/check_2100_foresight_left</item>
+        <item>@string/check_2100_foresight_right</item>
+        <item>@string/check_2100_downsight_left</item>
+        <item>@string/check_2100_downsight_right</item>
+        <item>@string/check_2100_behindsight_left</item>
+        <item>@string/check_2100_behindsight_right</item>
+        <item>@string/check_2100_downsight_demark</item>
+        <item>@string/check_2100_foresight_demark</item>
+        <item>@string/check_2100_behindsight_demark</item>
+        <item>@string/check_2100_inner</item>
+        <item>@string/check_2100_vision</item>
+        <item>@string/check_2100_vision2</item>
+        <item>@string/check_2100_propeller_cover</item>
+        <item>@string/check_2100_need_cali_by_pc</item>
+        <item>@string/check_2100_need_cali</item>
+        <item>@string/check_hdtv_remote_rf_not_calibrate</item>
+        <item>@string/check_hdtv_ground_rf_not_calibrate</item>
+        <item>@string/check_hdtv_channel_not_encrypt</item>
+        <item>@string/check_list_gimbal_startup_block_detail</item>
+        <item>@string/check_list_gimbal_wait_restart_detail</item>
+        <item>@string/check_gimbal_vibration_detail</item>
+        <item>@string/check_sensor_leftsight_abnormal</item>
+        <item>@string/check_sensor_rightsight_abnormal</item>
+    </string-array>
+    <string-array name="c8">
+        <item>@string/check_gimbal_gyroscope_solution</item>
+        <item>@string/check_gimbal_pitch_solution</item>
+        <item>@string/check_gimbal_roll_solution</item>
+        <item>@string/check_gimbal_yaw_solution</item>
+        <item>@string/check_gimbal_mc_conn_solution</item>
+        <item>@string/check_mc_gyroscope_solution</item>
+        <item>@string/check_mc_accelerate_solution</item>
+        <item>@string/check_mc_compass_solution</item>
+        <item>@string/check_mc_barometer_solution</item>
+        <item>@string/check_mc_gps_solution</item>
+        <item>@string/check_mc_sd_card_solution</item>
+        <item>@string/check_mc_imu_advance_cali_solution</item>
+        <item>@string/check_mc_imu_hori_cali_solution</item>
+        <item>@string/check_mc_version_error_solution</item>
+        <item>@string/check_mc_imu_direction_solution</item>
+        <item>@string/check_mc_imu_init_error_solution</item>
+        <item>@string/check_mc_press_init_error_solution</item>
+        <item>@string/check_mc_acc_error_solution</item>
+        <item>@string/check_mc_gyroscope_error_solution</item>
+        <item>@string/check_mc_press_error_solution</item>
+        <item>@string/check_mc_atti_error_solution</item>
+        <item>@string/check_mc_imu_error_solution</item>
+        <item>@string/check_mc_record_error_solution</item>
+        <item>@string/check_rc_fpga_solution</item>
+        <item>@string/check_rc_transmitter_solution</item>
+        <item>@string/check_rc_battery_solution</item>
+        <item>@string/check_rc_gps_solution</item>
+        <item>@string/check_rc_encryption_solution</item>
+        <item>@string/check_rc_stick_solution</item>
+        <item>@string/check_rc_power_solution</item>
+        <item>@string/check_rc_timeout_solution</item>
+        <item>@string/check_battery_discharge_current_solution</item>
+        <item>@string/check_battery_over_temperature_solution</item>
+        <item>@string/check_battery_low_temperature_solution</item>
+        <item>@string/check_center_battery_connection_solution</item>
+        <item>@string/check_center_gps_connection_solution</item>
+        <item>@string/check_center_mc_connection_solution</item>
+        <item>@string/check_camera_upgrade_solution</item>
+        <item>@string/check_camera_sensor_solution</item>
+        <item>@string/check_camera_over_heat_solution</item>
+        <item>@string/check_dm368_encryption_solution</item>
+        <item>@string/check_dm368_68013_solution</item>
+        <item>@string/check_battery_charge_not_full_solution</item>
+        <item>@string/check_mc_imu_cali_unfinished_solution</item>
+        <item>@string/check_rc_reset_solution</item>
+        <item>@string/check_battery_broken_solution</item>
+        <item>@string/check_battery_cycle_solution</item>
+        <item>@string/check_battery_imuinit</item>
+        <item>@string/check_rc_high_temperature_solution</item>
+        <item>@string/check_1860_restart_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_demark_solution</item>
+        <item>@string/check_2100_demark_solution</item>
+        <item>@string/check_2100_demark_solution</item>
+        <item>@string/check_2100_restart_solution</item>
+        <item>@string/check_2100_restart_solution</item>
+        <item>@string/check_2100_return_solution</item>
+        <item>@string/check_2100_propeller_cover_solution</item>
+        <item></item>
+        <item></item>
+        <item>@string/check_hdtv_remote_rf_not_calibrate_solution</item>
+        <item>@string/check_hdtv_ground_rf_not_calibrate_solution</item>
+        <item>@string/check_hdtv_channel_not_encrypt_solution</item>
+        <item>@string/check_list_gimbal_startup_block_solution</item>
+        <item>@string/check_list_gimbal_wait_restart_solution</item>
+        <item>@string/check_gimbal_vibration_solution</item>
+        <item>@string/check_sensor_leftsight_abnormal_solution</item>
+        <item>@string/check_sensor_rightsight_abnormal_solution</item>
+    </string-array>
+    <integer-array name="c9">
+        <item>15</item>
+        <item>24</item>
+        <item>25</item>
+        <item>30</item>
+        <item>48</item>
+        <item>50</item>
+        <item>60</item>
+        <item>120</item>
+        <item>240</item>
+        <item>480</item>
+    </integer-array>
+    <string-array name="c_">
+        <item>480</item>
+        <item>480</item>
+        <item>640</item>
+        <item>640</item>
+        <item>720</item>
+        <item>720</item>
+        <item>960</item>
+        <item>960</item>
+        <item>960</item>
+        <item>960</item>
+        <item>1080</item>
+        <item>1080</item>
+        <item>1440</item>
+        <item>1440</item>
+        <item>1920</item>
+        <item>1920</item>
+        <item>2160</item>
+        <item>2160</item>
+        <item>2880</item>
+        <item>2880</item>
+        <item>2048</item>
+        <item>2048</item>
+        <item>2160</item>
+        <item>2160</item>
+        <item>1520</item>
+        <item>1520</item>
+        <item>1520</item>
+        <item>1520</item>
+        <item>1520</item>
+        <item>1520</item>
+    </string-array>
+    <string-array name="ca">
+        <item>@string/fpv_fault_device_1</item>
+        <item>@string/fpv_fault_device_2</item>
+        <item>@string/fpv_fault_device_3</item>
+        <item>@string/fpv_fault_device_4</item>
+        <item>@string/fpv_fault_device_5</item>
+        <item>@string/fpv_fault_device_6</item>
+        <item>@string/fpv_fault_device_7</item>
+        <item>@string/fpv_fault_device_8</item>
+        <item>@string/fpv_fault_device_9</item>
+        <item>@string/fpv_fault_device_10</item>
+        <item>@string/fpv_fault_device_11</item>
+        <item>@string/fpv_fault_device_12</item>
+        <item>@string/fpv_fault_device_13</item>
+        <item>@string/fpv_fault_device_14</item>
+        <item>@string/fpv_fault_device_15</item>
+        <item>@string/fpv_fault_device_16</item>
+        <item>@string/fpv_fault_device_17</item>
+        <item>@string/fpv_fault_device_18</item>
+        <item>@string/fpv_fault_device_19</item>
+        <item>@string/fpv_fault_device_20</item>
+    </string-array>
+    <string-array name="cb">
+        <item>@string/fpv_fault_method_1</item>
+        <item>@string/fpv_fault_method_2</item>
+        <item>@string/fpv_fault_method_3</item>
+        <item>@string/fpv_fault_method_4</item>
+    </string-array>
+    <string-array name="cc">
+        <item>@string/fpv_pilot_type_0</item>
+        <item>@string/fpv_pilot_type_1</item>
+        <item>@string/fpv_pilot_type_2</item>
+        <item>@string/fpv_pilot_type_3</item>
+        <item>@string/fpv_pilot_type_4</item>
+        <item>@string/fpv_pilot_type_5</item>
+        <item>@string/fpv_pilot_type_6</item>
+        <item>@string/fpv_pilot_type_7</item>
+        <item>@string/fpv_pilot_type_8</item>
+        <item>@string/fpv_pilot_type_9</item>
+    </string-array>
+    <string-array name="cd">
+        <item>@string/fpv_redundancy_sensor_compass_stat_0</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_1</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_2</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_3</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_4</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_8</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_9</item>
+    </string-array>
+    <string-array name="ce">
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_0</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_1</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_3</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_4</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_empty</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_7</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_8</item>
+        <item>@string/fpv_redundancy_sensor_compass_stat_action_9</item>
+    </string-array>
+    <string-array name="cf">
+        <item>@string/fpv_redundancy_sensor_imu_stat_0</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_1</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_2</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_3</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_4</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_5</item>
+        <item>@string/fpv_redundancy_sensor_imu_stat_6</item>
+    </string-array>
+    <string-array name="cg">
+        <item>@string/gen_recovery_all</item>
+        <item>@string/gen_recovery_camera</item>
+        <item>@string/gen_recovery_gimbal</item>
+    </string-array>
+    <integer-array name="ch">
+        <item>0</item>
+        <item>1</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="ci">
+        <item>@string/app_off_lower</item>
+        <item>@string/fpv_gensetting_grid_lines</item>
+        <item>@string/fpv_gensetting_diagonals</item>
+    </string-array>
+    <string-array name="cj">
+        <item>@string/fpv_gensetting_videotyle_pal</item>
+        <item>@string/fpv_gensetting_videotyle_ntsc</item>
+    </string-array>
+    <integer-array name="ck">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="cl">
+        <item>@string/fpv_errorpop_gimbal_fpv_mode</item>
+        <item>@string/fpv_errorpop_gimbal_yawfollow_mode</item>
+    </string-array>
+    <string-array name="cm">
+        <item>@string/ioc_mode_orientation_lock</item>
+        <item>@string/ioc_mode_home_lock</item>
+        <item>@string/ioc_mode_point_interest_lock</item>
+        <item>@string/ioc_mode_limit_lock</item>
+    </string-array>
+    <string-array name="cn">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+    <string-array name="co">
+        <item>1</item>
+        <item>1.2</item>
+        <item>1.3</item>
+        <item>1.4</item>
+        <item>1.7</item>
+        <item>1.8</item>
+        <item>2</item>
+        <item>2.2</item>
+        <item>2.5</item>
+        <item>2.8</item>
+        <item>3.2</item>
+        <item>3.5</item>
+        <item>4</item>
+        <item>4.5</item>
+        <item>5</item>
+        <item>5.6</item>
+        <item>6.3</item>
+        <item>7.1</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>13</item>
+        <item>14</item>
+        <item>16</item>
+        <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>25</item>
+        <item>28</item>
+        <item>32</item>
+        <item>37</item>
+        <item>41</item>
+        <item>45</item>
+        <item>52</item>
+        <item>58</item>
+        <item>64</item>
+    </string-array>
+    <integer-array name="cp">
+        <item>100</item>
+        <item>120</item>
+        <item>130</item>
+        <item>140</item>
+        <item>170</item>
+        <item>180</item>
+        <item>200</item>
+        <item>220</item>
+        <item>250</item>
+        <item>280</item>
+        <item>320</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+        <item>560</item>
+        <item>630</item>
+        <item>710</item>
+        <item>800</item>
+        <item>900</item>
+        <item>1000</item>
+        <item>1100</item>
+        <item>1300</item>
+        <item>1400</item>
+        <item>1600</item>
+        <item>1800</item>
+        <item>2000</item>
+        <item>2200</item>
+        <item>2500</item>
+        <item>2800</item>
+        <item>3200</item>
+        <item>3700</item>
+        <item>4100</item>
+        <item>4500</item>
+        <item>5200</item>
+        <item>5800</item>
+        <item>6400</item>
+    </integer-array>
+    <string-array name="cq">
+        <item>100</item>
+        <item>200</item>
+        <item>400</item>
+        <item>800</item>
+        <item>1600</item>
+        <item>3200</item>
+        <item>6400</item>
+        <item>12800</item>
+        <item>25600</item>
+    </string-array>
+    <integer-array name="cr">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+    </integer-array>
+    <string-array name="cs">
+        <item>8000</item>
+        <item>6400</item>
+        <item>5000</item>
+        <item>4000</item>
+        <item>3200</item>
+        <item>2500</item>
+        <item>2000</item>
+        <item>1600</item>
+        <item>1250</item>
+        <item>1000</item>
+        <item>800</item>
+        <item>640</item>
+        <item>500</item>
+        <item>400</item>
+        <item>320</item>
+        <item>240</item>
+        <item>200</item>
+        <item>160</item>
+        <item>120</item>
+        <item>100</item>
+        <item>80</item>
+        <item>60</item>
+        <item>50</item>
+        <item>40</item>
+        <item>30</item>
+        <item>25</item>
+        <item>20</item>
+        <item>15</item>
+        <item>12.5</item>
+        <item>10</item>
+        <item>8</item>
+        <item>6.25</item>
+        <item>5</item>
+        <item>4</item>
+        <item>3</item>
+        <item>2.5</item>
+        <item>2</item>
+        <item>1.67</item>
+        <item>1.25</item>
+        <item>"1''"</item>
+        <item>"1.3''"</item>
+        <item>"1.6''"</item>
+        <item>"2''"</item>
+        <item>"2.5''"</item>
+        <item>"3''"</item>
+        <item>"3.2''"</item>
+        <item>"4''"</item>
+        <item>"5''"</item>
+        <item>"6''"</item>
+        <item>"7''"</item>
+        <item>"8''"</item>
+        <item>"9''"</item>
+        <item>"10''"</item>
+        <item>"15''"</item>
+        <item>"20''"</item>
+        <item>"25''"</item>
+        <item>"30''"</item>
+    </string-array>
+    <string-array name="ct">
+        <item>1/8000</item>
+        <item>1/6400</item>
+        <item>1/5000</item>
+        <item>1/4000</item>
+        <item>1/3200</item>
+        <item>1/2500</item>
+        <item>1/2000</item>
+        <item>1/1600</item>
+        <item>1/1250</item>
+        <item>1/1000</item>
+        <item>1/800</item>
+        <item>1/640</item>
+        <item>1/500</item>
+        <item>1/400</item>
+        <item>1/320</item>
+        <item>1/240</item>
+        <item>1/200</item>
+        <item>1/160</item>
+        <item>1/120</item>
+        <item>1/100</item>
+        <item>1/80</item>
+        <item>1/60</item>
+        <item>1/50</item>
+        <item>1/40</item>
+        <item>1/30</item>
+        <item>1/25</item>
+        <item>1/20</item>
+        <item>1/15</item>
+        <item>1/12.5</item>
+        <item>1/10</item>
+        <item>1/8</item>
+        <item>1/6.25</item>
+        <item>1/5</item>
+        <item>1/4</item>
+        <item>1/3</item>
+        <item>1/2.5</item>
+        <item>1/2</item>
+        <item>1/1.67</item>
+        <item>1/1.25</item>
+        <item>1</item>
+        <item>1.3</item>
+        <item>1.6</item>
+        <item>2</item>
+        <item>2.5</item>
+        <item>3</item>
+        <item>3.2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="cu">
+        <item>2000k</item>
+        <item>2100k</item>
+        <item>2200k</item>
+        <item>2300k</item>
+        <item>2400k</item>
+        <item>2500k</item>
+        <item>2600k</item>
+        <item>2700k</item>
+        <item>2800k</item>
+        <item>2900k</item>
+        <item>3000k</item>
+        <item>3100k</item>
+        <item>3200k</item>
+        <item>3300k</item>
+        <item>3400k</item>
+        <item>3500k</item>
+        <item>3600k</item>
+        <item>3700k</item>
+        <item>3800k</item>
+        <item>3900k</item>
+        <item>4000k</item>
+        <item>4100k</item>
+        <item>4200k</item>
+        <item>4300k</item>
+        <item>4400k</item>
+        <item>4500k</item>
+        <item>4600k</item>
+        <item>4700k</item>
+        <item>4800k</item>
+        <item>4900k</item>
+        <item>5000k</item>
+        <item>5100k</item>
+        <item>5200k</item>
+        <item>5300k</item>
+        <item>5400k</item>
+        <item>5500k</item>
+        <item>5600k</item>
+        <item>5700k</item>
+        <item>5800k</item>
+        <item>5900k</item>
+        <item>6000k</item>
+        <item>6100k</item>
+        <item>6200k</item>
+        <item>6300k</item>
+        <item>6400k</item>
+        <item>6500k</item>
+        <item>6600k</item>
+        <item>6700k</item>
+        <item>6800k</item>
+        <item>6900k</item>
+        <item>7000k</item>
+        <item>7100k</item>
+        <item>7200k</item>
+        <item>7300k</item>
+        <item>7400k</item>
+        <item>7500k</item>
+        <item>7600k</item>
+        <item>7700k</item>
+        <item>7800k</item>
+        <item>7900k</item>
+        <item>8000k</item>
+        <item>8100k</item>
+        <item>8200k</item>
+        <item>8300k</item>
+        <item>8400k</item>
+        <item>8500k</item>
+        <item>8600k</item>
+        <item>8700k</item>
+        <item>8800k</item>
+        <item>8900k</item>
+        <item>9000k</item>
+        <item>9100k</item>
+        <item>9200k</item>
+        <item>9300k</item>
+        <item>9400k</item>
+        <item>9500k</item>
+        <item>9600k</item>
+        <item>9700k</item>
+        <item>9800k</item>
+        <item>9900k</item>
+        <item>10000k</item>
+    </string-array>
+    <integer-array name="cv">
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+        <item>46</item>
+        <item>47</item>
+        <item>48</item>
+        <item>49</item>
+        <item>50</item>
+        <item>51</item>
+        <item>52</item>
+        <item>53</item>
+        <item>54</item>
+        <item>55</item>
+        <item>56</item>
+        <item>57</item>
+        <item>58</item>
+        <item>59</item>
+        <item>60</item>
+        <item>61</item>
+        <item>62</item>
+        <item>63</item>
+        <item>64</item>
+        <item>65</item>
+        <item>66</item>
+        <item>67</item>
+        <item>68</item>
+        <item>69</item>
+        <item>70</item>
+        <item>71</item>
+        <item>72</item>
+        <item>73</item>
+        <item>74</item>
+        <item>75</item>
+        <item>76</item>
+        <item>77</item>
+        <item>78</item>
+        <item>79</item>
+        <item>80</item>
+        <item>81</item>
+        <item>82</item>
+        <item>83</item>
+        <item>84</item>
+        <item>85</item>
+        <item>86</item>
+        <item>87</item>
+        <item>88</item>
+        <item>89</item>
+        <item>90</item>
+        <item>91</item>
+        <item>92</item>
+        <item>93</item>
+        <item>94</item>
+        <item>95</item>
+        <item>96</item>
+        <item>97</item>
+        <item>98</item>
+        <item>99</item>
+        <item>100</item>
+    </integer-array>
+    <string-array name="cw">
+        <item>@string/longan_fpv_camera_wb_auto</item>
+        <item>@string/longan_fpv_camera_wb_outdoor</item>
+        <item>@string/longan_fpv_camera_wb_indoor</item>
+        <item>@string/longan_fpv_camera_wb_tungsten</item>
+        <item>@string/longan_fpv_camera_wb_neon</item>
+        <item>@string/longan_fpv_camera_wb_custom</item>
+    </string-array>
+    <integer-array name="cx">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="cy">
+        <item>@string/filter_none</item>
+        <item>@string/filter_art</item>
+        <item>@string/filter_remini</item>
+        <item>@string/filter_inverse</item>
+        <item>@string/filter_blackwhite</item>
+        <item>@string/filter_fresh</item>
+        <item>@string/filter_movie</item>
+        <item>@string/filter_punk</item>
+        <item>@string/filter_fashion</item>
+        <item>@string/filter_wedding</item>
+        <item>@string/filter_aperture</item>
+    </string-array>
+    <integer-array name="cz">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+    <string-array name="d0">
+        <item>@string/longan_gimbal_profile_walk</item>
+        <item>@string/app_unknown</item>
+        <item>@string/longan_gimbal_profile_sport</item>
+        <item>@string/longan_gimbal_profile_interview</item>
+    </string-array>
+    <array name="d1">
+        <item>@drawable/gimbal_profile_walk</item>
+        <item>-1</item>
+        <item>@drawable/gimbal_profile_sport</item>
+        <item>@drawable/gimbal_profile_interview</item>
+    </array>
+    <string-array name="d2">
+        <item>@string/longan_timelapse_continus</item>
+        <item>1min</item>
+        <item>2min</item>
+        <item>3min</item>
+        <item>4min</item>
+        <item>5min</item>
+        <item>6min</item>
+        <item>7min</item>
+        <item>8min</item>
+        <item>9min</item>
+        <item>10min</item>
+        <item>20min</item>
+        <item>30min</item>
+        <item>40min</item>
+        <item>50min</item>
+        <item>1hr</item>
+        <item>2hr</item>
+    </string-array>
+    <integer-array name="d3">
+        <item>0</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+        <item>360</item>
+        <item>420</item>
+        <item>480</item>
+        <item>540</item>
+        <item>600</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2400</item>
+        <item>3000</item>
+        <item>3600</item>
+        <item>7200</item>
+    </integer-array>
+    <string-array name="d4">
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+        <item>4s</item>
+        <item>5s</item>
+        <item>6s</item>
+        <item>7s</item>
+        <item>8s</item>
+        <item>9s</item>
+        <item>10s</item>
+        <item>20s</item>
+        <item>30s</item>
+        <item>45s</item>
+        <item>60s</item>
+    </string-array>
+    <integer-array name="d5">
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>450</item>
+        <item>600</item>
+        <item>600</item>
+    </integer-array>
+    <string-array name="d6">
+        <item>@string/longan_fpv_camera_wb_auto</item>
+        <item>@string/longan_fpv_camera_wb_outdoor</item>
+        <item>@string/longan_fpv_camera_wb_indoor</item>
+        <item>@string/longan_fpv_camera_wb_tungsten</item>
+        <item>@string/longan_fpv_camera_wb_neon</item>
+    </string-array>
+    <integer-array name="d7">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>4</item>
+        <item>5</item>
+    </integer-array>
+    <string-array name="d8">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </string-array>
+    <integer-array name="d9">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>240</item>
+        <item>300</item>
+    </integer-array>
+    <string-array name="d_">
+        <item>0.5</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+    </string-array>
+    <integer-array name="da">
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>70</item>
+        <item>80</item>
+        <item>90</item>
+        <item>100</item>
+        <item>200</item>
+        <item>300</item>
+        <item>450</item>
+        <item>600</item>
+    </integer-array>
+    <string-array name="db">
+        <item>@string/v2_active_camera_inspire_1</item>
+        <item>@string/v2_active_camera_inspire_2</item>
+        <item>@string/v2_active_camera_inspire_3</item>
+        <item>@string/v2_active_camera_inspire_4</item>
+        <item>@string/v2_active_camera_inspire_5</item>
+        <item>@string/v2_active_camera_inspire_6</item>
+        <item>@string/v2_active_camera_inspire_7</item>
+        <item>@string/v2_active_camera_inspire_8</item>
+    </string-array>
+    <string-array name="dc">
+        <item>@string/v2_active_camera_p3_1</item>
+        <item>@string/v2_active_camera_p3_2</item>
+        <item>@string/v2_active_camera_p3_3</item>
+        <item>@string/v2_active_camera_p3_4</item>
+        <item>@string/v2_active_camera_p3_5</item>
+        <item>@string/v2_active_camera_p3_6</item>
+        <item>@string/v2_active_camera_p3_7</item>
+    </string-array>
+    <string-array name="dd">
+        <item>@string/nfz_fly_zone_airports_recreational_private</item>
+        <item>@string/nfz_fly_zone_class_b</item>
+        <item>@string/nfz_fly_zone_class_c</item>
+        <item>@string/nfz_fly_zone_class_d</item>
+        <item>@string/nfz_fly_zone_class_e0</item>
+        <item>@string/nfz_fly_zone_heliports</item>
+        <item>@string/nfz_fly_zone_power_plants</item>
+        <item>@string/nfz_fly_zone_stadiums</item>
+        <item>@string/nfz_fly_zone_unpaved_airports</item>
+    </string-array>
+    <integer-array name="de">
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>23</item>
+        <item>26</item>
+        <item>31</item>
+    </integer-array>
+    <string-array name="df">
+        <item>@string/nfz_fly_zone_airport</item>
+        <item>@string/nfz_fly_zone_warning</item>
+        <item>@string/nfz_fly_zone_military</item>
+        <item>@string/nfz_fly_zone_airports_commercial</item>
+        <item>@string/nfz_fly_zone_airports_commercial_private</item>
+        <item>@string/nfz_fly_zone_airports_recreational</item>
+        <item>@string/nfz_fly_zone_airports_recreational_private</item>
+        <item>@string/nfz_fly_zone_class_b</item>
+        <item>@string/nfz_fly_zone_class_c</item>
+        <item>@string/nfz_fly_zone_class_d</item>
+        <item>@string/nfz_fly_zone_class_e0</item>
+        <item>@string/nfz_fly_zone_heliports</item>
+        <item>@string/nfz_fly_zone_national_parks</item>
+        <item>@string/nfz_fly_zone_noaa</item>
+        <item>@string/nfz_fly_zone_parcels</item>
+        <item>@string/nfz_fly_zone_power_plants</item>
+        <item>@string/nfz_fly_zone_prisons</item>
+        <item>@string/nfz_fly_zone_schools</item>
+        <item>@string/nfz_fly_zone_stadiums</item>
+        <item>@string/nfz_fly_zone_sua_prhobited</item>
+        <item>@string/nfz_fly_zone_sua_restricted</item>
+        <item>@string/nfz_fly_zone_tfrs</item>
+        <item>@string/nfz_fly_zone_nuclear_power_plant</item>
+        <item>@string/nfz_fly_zone_unpaved_airports</item>
+    </string-array>
+    <integer-array name="dg">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+    </integer-array>
+    <string-array name="dh">
+        <item>@string/lp_camera_flash_off</item>
+        <item>@string/lp_camera_flash_on</item>
+        <item>@string/lp_camera_flash_auto</item>
+        <item>@string/lp_camera_flash_torch</item>
+    </string-array>
+    <integer-array name="di">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </integer-array>
+    <string-array name="dj">
+        <item>4K</item>
+        <item>1080P</item>
+        <item>720P</item>
+        <item>480P</item>
+    </string-array>
+    <string-array name="dk">
+        <item>@string/phone_camera_wb_auto</item>
+        <item>@string/phone_camera_wb_incandescent</item>
+        <item>@string/phone_camera_wb_fluorescent</item>
+        <item>@string/phone_camera_wb_daylight</item>
+        <item>@string/phone_camera_wb_cloudy</item>
+        <item>@string/phone_camera_wb_shade</item>
+        <item>@string/phone_camera_wb_twilight</item>
+    </string-array>
+    <array name="dl">
+        <item>@drawable/longan_selector_wb_auto</item>
+        <item>@drawable/longan_selector_wb_tungsten</item>
+        <item>@drawable/longan_selector_wb_neon</item>
+        <item>@drawable/longan_selector_wb_outdoor</item>
+        <item>@drawable/longan_selector_wb_indoor</item>
+        <item>@drawable/lp_selector_wb_shadow</item>
+        <item>@drawable/lp_selector_wb_twilight</item>
+    </array>
+    <integer-array name="dm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <string-array name="dn">
+        <item>0°/s</item>
+        <item>1°/s</item>
+        <item>2°/s</item>
+        <item>5°/s</item>
+        <item>10°/s</item>
+        <item>20°/s</item>
+        <item>30°/s</item>
+    </string-array>
+    <string-array name="do">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>5</item>
+        <item>10</item>
+        <item>20</item>
+        <item>30</item>
+    </string-array>
+    <string-array name="dp">
+        <item>@string/rc_master_1</item>
+        <item>@string/rc_master_2</item>
+        <item>@string/rc_master_3</item>
+        <item>@string/rc_master_4</item>
+    </string-array>
+    <string-array name="dq">
+        <item>@string/rc_slave_1</item>
+        <item>@string/rc_slave_2</item>
+    </string-array>
+    <string-array name="dr">
+        <item>@string/service_northamerica</item>
+        <item>@string/service_europe</item>
+        <item>@string/service_china</item>
+    </string-array>
+    <string-array name="ds">
+        <item>@string/service_northamerica_phone</item>
+        <item>@string/service_europe_phone</item>
+        <item>@string/service_china_phone</item>
+    </string-array>
+    <string-array name="dt">
+        <item>@string/service_northamerica_time</item>
+        <item>@string/service_europe_time</item>
+        <item>@string/service_china_time_new</item>
+    </string-array>
+    <string-array name="du">
+        <item>@string/setting_ui_ronin_balance_test_result_pitch_default</item>
+        <item>@string/setting_ui_ronin_balance_test_result_pitch_very_well</item>
+        <item>@string/setting_ui_ronin_balance_test_result_pitch_well</item>
+        <item>@string/setting_ui_ronin_balance_test_result_pitch_bad</item>
+    </string-array>
+    <string-array name="dv">
+        <item>@string/setting_ui_ronin_balance_test_result_roll_default</item>
+        <item>@string/setting_ui_ronin_balance_test_result_roll_very_well</item>
+        <item>@string/setting_ui_ronin_balance_test_result_roll_well</item>
+        <item>@string/setting_ui_ronin_balance_test_result_roll_bad</item>
+    </string-array>
+    <string-array name="dw">
+        <item>@string/setting_ui_ronin_camera_types_red</item>
+        <item>@string/setting_ui_ronin_camera_types_m_camera</item>
+        <item>@string/setting_ui_ronin_camera_types_mirrorles_camera</item>
+        <item>@string/setting_ui_ronin_camera_types_custom_1</item>
+        <item>@string/setting_ui_ronin_camera_types_custom_2</item>
+        <item>@string/setting_ui_ronin_camera_types_custom_3</item>
+    </string-array>
+    <string-array name="dx">
+        <item>NTSC</item>
+        <item>PAL</item>
+    </string-array>
+    <string-array name="dy">
+        <item>@string/fpv_gensetting_videotyle_ntsc</item>
+        <item>@string/fpv_gensetting_videotyle_pal</item>
+    </string-array>
+    <integer-array name="dz">
+        <item>3</item>
+        <item>2602</item>
+    </integer-array>
+    <string-array name="e0">
+        <item>NTSC</item>
+        <item>PAL</item>
+    </string-array>
+    <string-array name="e1">
+        <item>@string/fpv_gensetting_videotyle_ntsc</item>
+        <item>@string/fpv_gensetting_videotyle_pal</item>
+    </string-array>
+    <integer-array name="e2">
+        <item>3</item>
+        <item>2602</item>
+    </integer-array>
+    <string-array name="e3">
+        <item>@string/tau_ffc_auto</item>
+        <item>@string/tau_ffc_manual</item>
+    </string-array>
+    <integer-array name="e4">
+        <item>1</item>
+        <item>0</item>
+    </integer-array>
+    <string-array name="e5">
+        <item>@string/tau_gainmode_auto</item>
+        <item>@string/tau_gainmode_low</item>
+        <item>@string/tau_gainmode_high</item>
+    </string-array>
+    <integer-array name="e6">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="e7">
+        <item>@string/tau_imgformat_jpeg</item>
+        <item>@string/tau_imgformat_tiff14</item>
+    </string-array>
+    <string-array name="e8">
+        <item>@string/tau_imgformat_jpeg</item>
+        <item>@string/tau_imgformat_tiff14</item>
+        <item>@string/tau_imgformat_tiff_low14</item>
+        <item>@string/tau_imgformat_tiff_high14</item>
+    </string-array>
+    <integer-array name="e9">
+        <item>1</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </integer-array>
+    <integer-array name="e_">
+        <item>1</item>
+        <item>4</item>
+    </integer-array>
+    <string-array name="ea">
+        <item>@string/tau_isotherm_unit_percentage</item>
+        <item>@string/tau_isotherm_unit_temperature</item>
+    </string-array>
+    <integer-array name="eb">
+        <item>0</item>
+        <item>1</item>
+    </integer-array>
+    <string-array name="ec">
+        <item>@string/tau_palette_whitehot</item>
+        <item>@string/tau_palette_blackhot</item>
+        <item>@string/tau_palette_fusion</item>
+        <item>@string/tau_palette_rainbow</item>
+        <item>@string/tau_palette_ironbow</item>
+        <item>@string/tau_palette_icefire</item>
+        <item>@string/tau_palette_sepia</item>
+        <item>@string/tau_palette_globow</item>
+        <item>@string/tau_palette_ironbow2</item>
+        <item>@string/tau_palette_color1</item>
+        <item>@string/tau_palette_color2</item>
+        <item>@string/tau_palette_rain</item>
+        <item>@string/tau_palette_redhot</item>
+        <item>@string/tau_palette_greenhot</item>
+    </string-array>
+    <string-array name="ed">
+        <item>@string/tau_palette_whitehot_iso</item>
+        <item>@string/tau_palette_blackhot_iso</item>
+        <item>@string/tau_palette_fusion_iso</item>
+        <item>@string/tau_palette_rainbow_iso</item>
+        <item>@string/tau_palette_ironbow_iso</item>
+        <item>@string/tau_palette_icefire_iso</item>
+        <item>@string/tau_palette_sepia_iso</item>
+        <item>@string/tau_palette_globow_iso</item>
+        <item>@string/tau_palette_ironbow2_iso</item>
+        <item>@string/tau_palette_color1_iso</item>
+        <item>@string/tau_palette_color2_iso</item>
+        <item>@string/tau_palette_rain_iso</item>
+        <item>@string/tau_palette_redhot_iso</item>
+        <item>@string/tau_palette_greenhot_iso</item>
+    </string-array>
+    <integer-array name="ee">
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+    </integer-array>
+    <string-array name="ef">
+        <item>@string/tau_roi_full</item>
+        <item>@string/tau_roi_skyex_33</item>
+        <item>@string/tau_roi_skyex_50</item>
+    </string-array>
+    <string-array name="eg">
+        <item>@string/tau_roi_full</item>
+        <item>33%</item>
+        <item>50%</item>
+    </string-array>
+    <integer-array name="eh">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
+    <string-array name="ei">
+        <item>@string/tau_scene_linear</item>
+        <item>@string/tau_scene_default</item>
+        <item>@string/tau_scene_seasky</item>
+        <item>@string/tau_scene_outdoor</item>
+        <item>@string/tau_scene_indoor</item>
+        <item>@string/tau_scene_manual</item>
+        <item>@string/tau_scene_user1</item>
+        <item>@string/tau_scene_user2</item>
+        <item>@string/tau_scene_user3</item>
+    </string-array>
+    <integer-array name="ej">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </integer-array>
+    <string-array name="ek">
+        <item>@string/tau_temperature_fahrenheit</item>
+        <item>@string/tau_temperature_celsius</item>
+        <item>@string/tau_temperature_kelvin</item>
+    </string-array>
+    <string-array name="el">
+        <item>@string/mine_profile_artwork_filter_all</item>
+        <item>@string/mine_profile_artwork_filter_video</item>
+        <item>@string/mine_profile_artwork_filter_photo</item>
+    </string-array>
+    <string-array name="em">
+        <item>@string/v2_video_filters_0</item>
+        <item>@string/v2_video_filters_1</item>
+        <item>@string/v2_video_filters_2</item>
+        <item>@string/v2_video_filters_3</item>
+        <item>@string/v2_video_filters_4</item>
+        <item>@string/v2_video_filters_5</item>
+        <item>@string/v2_video_filters_6</item>
+        <item>@string/v2_video_filters_7</item>
+        <item>@string/v2_video_filters_8</item>
+        <item>@string/v2_video_filters_9</item>
+        <item>@string/v2_video_filters_10</item>
+    </string-array>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="30.0dip" android:layout_height="30.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/a38" android:textColor="@color/a_" android:gravity="center" android:id="@id/b_p" android:layout_width="30.0dip" android:layout_height="30.0dip" android:lines="1" phantom:djiTextFace="a5" />
+</FrameLayout>

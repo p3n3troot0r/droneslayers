@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <dji.setting.ui.hd.BandHdView android:id="@id/bui" android:visibility="gone" setting_ui:titleText="@string/setting_ui_hd_sdr_freq_type_desc" style="@style/setting_ui_item" />
+    <LinearLayout android:id="@id/buj" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_hd_channel_desc" style="@style/setting_ui_item_title" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/buk" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <RadioButton android:id="@id/bul" android:checked="true" android:button="@null" android:text="@string/setting_ui_hd_channel_auto" android:singleLine="false" style="@style/setting_ui_item_btn" />
+            <RadioButton android:id="@id/bum" android:layout_marginLeft="25.0dip" android:button="@null" android:text="@string/setting_ui_hd_channel_custom" android:singleLine="false" style="@style/setting_ui_item_btn" />
+        </RadioGroup>
+    </LinearLayout>
+    <View android:background="@color/hy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <dji.setting.ui.hd.WorkingFreqView android:id="@id/bun" setting_ui:titleText="@string/setting_ui_hd_work_freq_desc" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.sdr.ChannelModeView android:id="@id/buo" android:visibility="gone" setting_ui:titleText="@string/setting_ui_hd_channel_desc" setting_ui:showDivider="false" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.sdr.SdrViewStatusBtn android:id="@id/bup" setting_ui:titleText="@string/setting_ui_hd_view_sdr_btn" style="@style/setting_ui_item_noPadding" />
+    <include android:id="@id/buq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/sdr_freq_view" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ax7" android:visibility="visible" android:layout_height="wrap_content" style="@style/setting_ui_item">
+        <dji.setting.ui.rc.FreqSnrView android:id="@id/ax8" android:layout_width="fill_parent" android:layout_height="@dimen/u8" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/wn" android:id="@id/ax_" android:visibility="gone" android:text="@string/setting_ui_hd_channel_desc_auto" android:layout_alignTop="@id/ax8" android:layout_centerHorizontal="true" style="@style/setting_ui_item_title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/uf">
+            <ImageView android:background="@color/hr" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="45.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_stable" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+            <ImageView android:background="@color/hs" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_unstable" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+            <ImageView android:background="@color/hp" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_current" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+        </LinearLayout>
+    </LinearLayout>
+    <dji.setting.ui.hd.SdrBandWidthSpinner android:id="@id/bur" setting_ui:titleText="@string/setting_ui_hd_bandwidth_desc" style="@style/setting_ui_item" />
+    <dji.setting.ui.hd.HDSwitch android:id="@id/bus" style="@style/setting_ui_item" />
+    <View android:background="@color/hy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <LinearLayout android:id="@id/ax5" android:visibility="visible" style="@style/setting_ui_item">
+        <TextView android:text="@string/setting_ui_hd_channel_desc" android:layout_centerVertical="true" style="@style/setting_ui_item_title" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/ax6" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_spinner_btn" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/but" android:visibility="visible" style="@style/setting_ui_item">
+        <TextView android:id="@id/buu" android:layout_width="wrap_content" android:text="@string/setting_ui_hd_quality_desc" android:layout_weight="0.0" style="@style/setting_ui_item_title" />
+        <SeekBar android:id="@id/buv" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="3" android:progress="1" android:layout_weight="1.0" android:layout_centerVertical="true" style="@style/setting_ui_widget_seekbar" />
+        <ProgressBar android:id="@id/buw" android:paddingLeft="@dimen/wa" android:paddingRight="@dimen/wa" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:max="100" android:progress="10" android:layout_weight="1.0" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+        <TextView android:id="@id/bux" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10" android:layout_weight="0.0" style="@style/setting_ui_common_title_txt" />
+    </LinearLayout>
+    <View android:background="@color/hy" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    <dji.setting.ui.hd.SweepRangeView android:id="@id/buy" android:visibility="gone" setting_ui:titleText="@string/setting_ui_hd_sweeprange_desc" style="@style/setting_ui_item" />
+</LinearLayout>

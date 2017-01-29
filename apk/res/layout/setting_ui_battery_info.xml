@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_marginBottom="@dimen/vi" android:text="@string/setting_ui_battery_current_volume" style="@style/setting_ui_txt_small_gray" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/bpa" android:text="16.1" style="@style/setting_ui_txt" />
+            <TextView android:id="@id/bpb" android:text="@string/setting_ui_battery_volume_unit" style="@style/setting_ui_txt_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_marginBottom="@dimen/vi" android:text="@string/setting_ui_battery_full_volume" style="@style/setting_ui_txt_small_gray" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/bpc" android:text="16.1" style="@style/setting_ui_txt" />
+            <TextView android:id="@id/bpd" android:text="@string/setting_ui_battery_volume_unit" style="@style/setting_ui_txt_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:layout_marginBottom="@dimen/vi" android:text="@string/setting_ui_battery_charge_times" style="@style/setting_ui_txt_small_gray" />
+        <TextView android:id="@id/bpe" android:text="16.1" style="@style/setting_ui_txt" />
+    </LinearLayout>
+</LinearLayout>

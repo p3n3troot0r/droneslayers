@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/ai" android:layout_width="@dimen/ge" android:layout_height="@dimen/g7"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/a6g" android:background="@color/op" android:layout_width="@dimen/us" android:layout_height="@dimen/us" android:src="@drawable/setting_ui_root_close" android:layout_alignParentRight="true" />
+    <FrameLayout android:id="@id/a6h" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

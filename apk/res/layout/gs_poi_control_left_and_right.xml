@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/aiy" android:background="@color/eo" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/fj" android:layout_toLeftOf="@id/aiy" android:layout_alignParentLeft="true" android:layout_centerVertical="true" layout="@layout/gs_remote_control_left_view" />
+    <include android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fj" android:layout_marginTop="@dimen/fj" android:layout_toRightOf="@id/aiy" android:layout_alignParentRight="true" android:layout_centerVertical="true" layout="@layout/gs_remote_control_right_view" />
+</dji.publics.DJIUI.DJIRelativeLayout>

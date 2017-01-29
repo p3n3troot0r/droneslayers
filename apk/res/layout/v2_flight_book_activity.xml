@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v2_academy_header" />
+    <RelativeLayout android:background="@color/lq" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/k4" android:id="@id/c69" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_new_academy_empty_tip" android:layout_centerInParent="true" />
+        <ListView android:id="@id/cn3" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+        <RelativeLayout android:id="@id/c6b" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJIImageView android:background="@anim/b9" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

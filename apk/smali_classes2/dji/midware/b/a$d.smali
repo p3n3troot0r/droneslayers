@@ -1,0 +1,21 @@
+.class public interface abstract Ldji/midware/b/a$d;
+.super Ljava/lang/Object;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Ldji/midware/b/a;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "d"
+.end annotation
+
+
+# virtual methods
+.method public abstract a(Landroid/bluetooth/BluetoothGatt;II)V
+.end method
+
+.method public abstract a(Landroid/bluetooth/BluetoothGatt;Landroid/bluetooth/BluetoothGattCharacteristic;)V
+.end method

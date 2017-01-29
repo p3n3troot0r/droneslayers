@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.WarningLevelSelectView android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pilot="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/dab" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="@dimen/i7">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/dac" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dlg_arrow_left" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:id="@id/dad" android:layout_centerInParent="true" pilot:djiTextFace="a4" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center|left" android:id="@id/dae" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:layout_width="fill_parent" android:layout_height="@dimen/i3" android:text="@string/nfz_fly_zone_warn" />
+    <ImageView android:background="@color/b4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center|left" android:id="@id/daf" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:layout_width="fill_parent" android:layout_height="@dimen/i3" android:text="@string/nfz_fly_zone_warn_show" />
+    <ImageView android:background="@color/b4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center|left" android:id="@id/dag" android:background="@drawable/selector_fn_item" android:paddingLeft="@dimen/rp" android:layout_width="fill_parent" android:layout_height="@dimen/i3" android:text="@string/nfz_fly_zone_warn_ignore" />
+    <ImageView android:background="@color/b4" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" />
+</dji.pilot.flyunlimit.view.WarningLevelSelectView>

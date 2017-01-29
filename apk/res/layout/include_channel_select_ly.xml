@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ax5" android:visibility="visible" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="@string/fpv_hd_channel_desc" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <dji.pilot.publics.widget.CustomerSpinner android:id="@id/ax6" android:layout_width="@dimen/mo" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/CustomSpinnerStyle" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

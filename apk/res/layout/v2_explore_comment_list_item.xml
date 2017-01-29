@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJILinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/ckw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:scaleType="centerCrop" android:minWidth="@dimen/gt" android:minHeight="@dimen/gt" />
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_marginTop="@dimen/fj" android:layout_weight="1.0">
+                <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/rl" android:textStyle="bold" android:id="@id/ckx" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+                    <TextView android:textSize="@dimen/rq" android:id="@id/cky" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <TextView android:textSize="@dimen/rq" android:textColor="@color/k6" android:id="@id/ckz" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <RelativeLayout android:background="@color/k5" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/cl0" android:background="@color/gj" android:visibility="gone" android:clickable="true" android:layout_width="@dimen/fm" android:layout_height="fill_parent">
+        <TextView android:textSize="@dimen/rq" android:textStyle="bold" android:textColor="@color/om" android:gravity="center" android:id="@id/cl1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/delete" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</dji.publics.DJIUI.DJILinearLayout>

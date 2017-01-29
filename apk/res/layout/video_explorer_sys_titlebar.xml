@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/ve_head_bg" android:layout_width="fill_parent" android:layout_height="@dimen/gl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/d5v" android:background="@drawable/fpv_view_bg" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/cancel" android:onClick="onClickHandler" />
+    <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/d5w" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/video_select" android:layout_centerHorizontal="true" />
+    <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/d5x" android:background="@drawable/fpv_view_bg" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/confirm" android:layout_alignParentRight="true" android:onClick="onClickHandler" />
+</RelativeLayout>

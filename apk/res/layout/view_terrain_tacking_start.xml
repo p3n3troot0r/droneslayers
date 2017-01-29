@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center" android:id="@id/anf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/gs_terrain_tracking_illustrate" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="13.0dip" android:textColor="@color/om" android:gravity="left" android:id="@id/ane" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" android:text="@string/gsnew_gs_terrain_tracking_stage_desc" android:layout_weight="1.0" android:layout_above="@id/aiy" android:lineSpacingMultiplier="1.2" />
+</dji.publics.DJIUI.DJILinearLayout>

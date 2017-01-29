@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.VersionView android:orientation="vertical" android:clickable="true" style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <TextView android:text="@string/longan_version" style="@style/set_item_subtitle" />
+    <View style="@style/set_divider" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:gravity="center_vertical" android:text="@string/longan_version_app_title" style="@style/set_item_title" />
+        <TextView android:id="@id/bcd" android:paddingRight="15.0dip" android:text="1.0" style="@style/set_item_value" />
+    </LinearLayout>
+    <View android:id="@id/q9" style="@style/set_divider" />
+    <dji.pilot.set.view.FirmwareVersionGroupView set:title="@string/longan_version_firmware_title" set:sub_Layout="@layout/set_layout_firmware_info" style="@style/set_item" />
+    <TextView android:text="@string/subtitle_battery" style="@style/set_item_subtitle" />
+    <View style="@style/set_divider" />
+    <dji.pilot.set.view.base.SetGroupView set:title="@string/set_about_batery_info_title" set:sub_Layout="@layout/set_layout_battery_info" style="@style/set_item" />
+</dji.pilot.set.view.VersionView>

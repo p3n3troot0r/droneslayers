@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <include android:id="@id/bpo" layout="@layout/setting_ui_battery_volume_part_ly" />
+        <include android:id="@id/bpp" layout="@layout/setting_ui_battery_volume_part_ly" />
+        <include android:id="@id/bpq" layout="@layout/setting_ui_battery_volume_part_ly" />
+        <include android:id="@id/bpr" layout="@layout/setting_ui_battery_volume_part_ly" />
+        <include android:id="@id/bps" layout="@layout/setting_ui_battery_volume_part_ly" />
+        <include android:id="@id/bpt" layout="@layout/setting_ui_battery_volume_part_ly" />
+    </LinearLayout>
+    <View style="@style/setting_ui_divider_vertical" />
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/u4" android:layout_width="@dimen/vk" android:layout_height="wrap_content">
+        <TextView android:layout_marginBottom="@dimen/vi" android:text="@string/setting_ui_battery_voltage_desc" style="@style/setting_ui_txt_small_gray" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/u_" android:textColor="@color/h5" android:id="@id/bpf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16.1" />
+            <TextView android:textSize="@dimen/u_" android:textColor="@color/h5" android:id="@id/bpu" android:text=" v" style="@style/setting_ui_txt_gray" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/ty" android:layout_width="@dimen/vn" android:layout_height="wrap_content">
+        <TextView android:layout_marginBottom="@dimen/vi" android:text="@string/setting_ui_battery_temperature" style="@style/setting_ui_txt_small_gray" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/u_" android:textColor="@color/i1" android:id="@id/bpg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="35.6" />
+            <TextView android:textSize="@dimen/u_" android:textColor="@color/i2" android:id="@id/bpv" android:text=" ℃" style="@style/setting_ui_txt_gray" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.LonganTestView android:layout_width="fill_parent" android:layout_height="fill_parent" android:rowCount="3" android:columnCount="4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textColor="@color/om" android:id="@id/b89" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_column="0" android:text="Inside+" android:layout_row="0" />
+    <Button android:textColor="@color/om" android:id="@id/b8_" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_column="1" android:text="Inside-" android:layout_row="0" />
+    <Button android:textColor="@color/om" android:id="@id/b8a" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_column="2" android:layout_row="0" />
+    <Button android:textColor="@color/om" android:id="@id/b8b" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:layout_column="0" android:text="Outside+" android:layout_row="1" />
+    <Button android:textColor="@color/om" android:id="@id/b8c" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:layout_column="1" android:text="Outside-" android:layout_row="1" />
+    <Button android:textColor="@color/om" android:id="@id/b8d" android:background="@drawable/camera_radius_bg" android:layout_width="60.0dip" android:layout_height="40.0dip" android:layout_marginTop="3.0dip" android:layout_column="2" android:layout_row="1" />
+</dji.device.common.view.LonganTestView>

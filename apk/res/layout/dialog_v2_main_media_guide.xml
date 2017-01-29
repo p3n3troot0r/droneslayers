@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:layout_gravity="right" android:id="@id/ru" android:padding="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/fj" android:src="@drawable/v2_media_guide_close" />
+    <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:src="@drawable/v2_media_guide_image" />
+    <TextView android:textColor="@color/k2" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:text="@string/v2_dialog_media_guide_text" />
+    <View android:background="@color/k1" android:layout_width="fill_parent" android:layout_height="@dimen/ga" android:layout_marginTop="@dimen/ft" />
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/k0" android:gravity="center" android:id="@id/rv" android:padding="@dimen/fo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_dialog_media_guide_button_text" />
+</LinearLayout>

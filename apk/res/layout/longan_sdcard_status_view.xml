@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.widget.DJILWarningView android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/om" android:id="@id/acl" android:visibility="gone" android:clickable="false" style="@style/LonganStatusTipTxt" />
+    </LinearLayout>
+    <TextView android:textColor="@color/pa" android:id="@id/b73" android:visibility="gone" android:layout_marginTop="@dimen/ga" style="@style/LonganStatusTipTxt" />
+    <TextView android:textColor="@color/pa" android:id="@id/b74" android:visibility="gone" android:layout_marginTop="@dimen/ga" style="@style/LonganStatusTipTxt" />
+</dji.device.widget.DJILWarningView>

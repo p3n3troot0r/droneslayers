@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/mg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/quick_pageone_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/aed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="55.0dip" android:layout_marginTop="62.0dip">
+        <TextView android:textSize="@dimen/a42" android:textColor="@color/om" android:gravity="center" android:id="@id/aee" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_fragment_one_weather" android:drawableTop="@drawable/quick_pageone_sun" />
+        <TextView android:textSize="@dimen/a42" android:textColor="@color/om" android:gravity="center" android:id="@id/aef" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/quick_fragment_one_altitude" android:drawableTop="@drawable/quick_pageone_shan" android:layout_below="@id/aee" android:layout_alignLeft="@id/aee" />
+        <TextView android:textSize="@dimen/a42" android:textColor="@color/om" android:gravity="center" android:id="@id/aeg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:layout_marginTop="20.0dip" android:text="@string/quick_fragment_one_transmatter" android:drawableTop="@drawable/quick_pageone_ta" android:layout_toRightOf="@id/aef" android:layout_below="@id/aee" />
+        <TextView android:textSize="@dimen/a42" android:textColor="@color/om" android:gravity="center" android:id="@id/aeh" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="40.0dip" android:text="@string/quick_fragment_one_place" android:drawableTop="@drawable/quick_pageone_shu" android:layout_toRightOf="@id/aee" android:layout_alignRight="@id/aeg" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/aei" android:paddingTop="25.0dip" android:layout_width="@dimen/si" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gh" android:layout_alignTop="@id/aed" android:layout_alignParentRight="true">
+        <TextView android:textSize="@dimen/qm" android:textStyle="bold" android:textColor="@color/om" android:id="@id/aej" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/quick_fragment_one_title" />
+        <TextView android:textSize="@dimen/ql" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="@string/quick_fragment_one_content" android:layout_below="@id/aej" android:layout_alignLeft="@id/aej" android:layout_alignRight="@id/aej" />
+    </RelativeLayout>
+</RelativeLayout>

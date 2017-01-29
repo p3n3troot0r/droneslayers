@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.newfpv.topbar.widget.DJIFpvTipView android:id="@id/ac5" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/ac6" android:background="@drawable/fpv_topbar_tips_bg_green" android:layout_width="wrap_content" android:layout_height="fill_parent" android:scaleType="fitXY" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIMarqueeTextViewV2 android:textSize="@dimen/rl" android:textColor="@color/om" android:ellipsize="marquee" android:layout_gravity="center_vertical" android:id="@id/ac7" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:text="可正常飞行（GPS）" android:scrollHorizontally="true" android:singleLine="true" />
+</dji.pilot.newfpv.topbar.widget.DJIFpvTipView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_checked="true" android:state_selected="false">
+        <bitmap android:gravity="center" android:src="@drawable/longan_handle_mode_burst_7_on" />
+    </item>
+    <item android:state_checked="false" android:state_selected="true">
+        <bitmap android:gravity="center" android:src="@drawable/longan_handle_mode_burst_7_on" />
+    </item>
+    <item android:state_checked="false" android:state_selected="false">
+        <bitmap android:gravity="center" android:src="@drawable/longan_handle_mode_burst_7_off" />
+    </item>
+</selector>

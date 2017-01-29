@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gu" android:src="@drawable/v2_whatsnew_text" android:scaleType="centerInside" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/i_" android:layout_width="@dimen/gb" android:layout_height="@dimen/g0" android:layout_marginTop="@dimen/g1" android:scaleType="centerCrop" />
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1">
+            <TextView android:textColor="@color/om" android:gravity="center" android:id="@id/ia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gx" android:text="@string/v2_whatnew_detail2" android:drawableLeft="@drawable/v2_whatsnew_step2" android:drawablePadding="@dimen/fj" android:layout_centerHorizontal="true" />
+            <TextView android:textColor="@color/om" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/v2_whatnew_detail1" android:drawableLeft="@drawable/v2_whatsnew_step1" android:drawablePadding="@dimen/fj" android:layout_alignLeft="@id/ia" />
+        </RelativeLayout>
+        <TextView android:textColor="@color/a_" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ib" android:background="@drawable/v2_whatsnew_experience_button_bg" android:layout_width="@dimen/fs" android:layout_height="@dimen/gc" android:layout_marginTop="@dimen/gu" android:text="@string/v2_whatnew_join" />
+        <TextView android:textColor="@color/aw" android:layout_gravity="center_horizontal" android:id="@id/ic" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/v2_whatnew_skip" android:drawableRight="@drawable/v2_whatsnew_detail" android:drawablePadding="@dimen/fj" />
+    </LinearLayout>
+</ScrollView>

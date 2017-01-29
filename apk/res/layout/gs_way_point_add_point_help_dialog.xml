@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/eb" android:gravity="center" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/gs_way_point_add_point_small_help_title" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/g1" android:layout_marginRight="@dimen/g1" android:text="@string/gs_way_point_add_point_small_help_desc" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJILinearLayout android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="@dimen/fz" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/o_" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ans" android:background="@drawable/gs_click_bottom_round_background" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gl" android:text="@string/gs_way_point_add_point_small_help_ok" />
+</dji.publics.DJIUI.DJILinearLayout>

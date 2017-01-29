@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="a" parent="@style/f">
+        <item name="android:windowBackground">@drawable/launcher_splash</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+    <style name="b" parent="@style/f">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

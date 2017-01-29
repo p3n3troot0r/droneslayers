@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/c2b" android:background="@drawable/selector_my_flight_item_bg" android:layout_width="fill_parent" android:layout_height="@dimen/ho" android:baselineAligned="false">
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/hn" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/c2c" android:background="@drawable/my_flight_newflightrecord" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/c2d" android:background="@drawable/flightrecord_new_bg" android:visibility="gone" android:layout_width="@dimen/n3" android:layout_height="@dimen/n3" android:layout_marginLeft="@dimen/n2" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/c2e" android:paddingLeft="@dimen/n2" android:paddingRight="@dimen/n2" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/my_flight_starup" android:scaleType="center" android:adjustViewBounds="true" android:layout_centerInParent="true" android:contentDescription="@string/app_name" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJITextView android:gravity="center" android:id="@id/c2f" android:singleLine="false" phantom:djiTextFace="a6" style="@style/FlightItemWeightTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2g" phantom:djiTextFace="a6" style="@style/FlightItemWeightTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2h" android:layout_width="@dimen/hq" phantom:djiTextFace="a6" style="@style/FlightItemWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2i" android:layout_width="@dimen/hw" phantom:djiTextFace="a6" style="@style/FlightItemWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2j" android:layout_width="@dimen/hp" phantom:djiTextFace="a6" style="@style/FlightItemWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2k" android:layout_width="@dimen/hl" phantom:djiTextFace="a6" style="@style/FlightItemWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/c2l" android:layout_width="@dimen/hy" phantom:djiTextFace="a6" style="@style/FlightItemWrapTxt" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/hs" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/c2m" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/c2n" style="@style/FlightItemImg" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/c2o" style="@style/FlightItemImg" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/c2p" style="@style/FlightItemImg" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/c2q" style="@style/FlightItemImg" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJIImageView android:id="@id/c2r" android:background="@drawable/my_flight_cloud_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c2s" android:background="@drawable/myflight_del_bg" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:duplicateParentState="false" android:layout_width="@dimen/hm" android:layout_height="@dimen/ho" android:layout_marginLeft="@dimen/n3" android:src="@drawable/fpv_playback_delete" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+</dji.publics.DJIUI.DJILinearLayout>

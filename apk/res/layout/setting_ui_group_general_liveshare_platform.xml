@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.setting.ui.general.LivePlatformView android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/btr" android:layout_width="@dimen/vm" android:layout_height="@dimen/um" android:layout_marginTop="@dimen/ts" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/wm" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bts" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/vd" />
+</dji.setting.ui.general.LivePlatformView>

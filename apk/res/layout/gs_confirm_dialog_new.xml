@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/e9" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/aio" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" android:src="@drawable/gs_warning_icon" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/eb" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="20.0dip" />
+    <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/aiq" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="30.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="30.0dip" android:layout_marginBottom="30.0dip" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJILinearLayout android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="4.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/air" android:background="@drawable/gs_content_dialog_btn_bkg_new" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJILinearLayout android:id="@id/ais" android:background="@color/eo" android:layout_width="1.0dip" android:layout_height="40.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/ait" android:background="@drawable/gs_content_dialog_btn_bkg_new" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

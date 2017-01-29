@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/ag" android:layout_width="@dimen/g9" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/bbe" android:visibility="visible" android:layout_width="@dimen/g9" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/ro" android:gravity="center" android:id="@id/bbf" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/lp_gimbla_adjust_holder" />
+        <ImageView android:layout_gravity="center" android:id="@id/bbg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:src="@drawable/lp_popup_hold_phone" android:scaleType="center" />
+        <View android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/h7" android:layout_marginTop="@dimen/gw" android:alpha="0.1" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <Button android:textColor="@color/ax" android:gravity="center" android:id="@id/bbh" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_cancel" android:layout_weight="1.0" />
+            <Button android:textColor="@color/ax" android:gravity="center" android:id="@id/bbi" android:background="@null" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/app_enter" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

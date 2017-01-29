@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gs_bg" android:layout_width="@dimen/zs" android:layout_height="@dimen/yw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ajg" android:background="@drawable/gs_selector_btn_top" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:src="@drawable/gs_icon_pause" android:scaleType="center" />
+    <ImageView android:background="@drawable/gs_line_right" android:layout_width="fill_parent" android:layout_height="@dimen/zl" />
+    <ImageView android:id="@id/aja" android:background="@drawable/gs_selector_btn_mid" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:src="@drawable/gs_icon_gohome" android:scaleType="center" />
+    <ImageView android:background="@drawable/gs_line_right" android:layout_width="fill_parent" android:layout_height="@dimen/zl" />
+    <ImageView android:id="@id/ajh" android:background="@drawable/gs_selector_btn_mid" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:src="@drawable/gs_icon_cancel" android:scaleType="center" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/bqz" android:text="Title" style="@style/setting_ui_item_title" />
+    <dji.setting.ui.widget.DJINumberProgress android:layout_width="@dimen/w_" android:layout_height="fill_parent" />
+</LinearLayout>

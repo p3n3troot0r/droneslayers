@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/vg"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/tv" android:id="@id/bsv" android:layout_width="@dimen/v6" android:text="0.01" android:layout_centerVertical="true" style="@style/setting_ui_txt" />
+    <ProgressBar android:id="@id/bsw" android:layout_width="fill_parent" android:layout_height="@dimen/vi" android:layout_marginLeft="@dimen/v_" android:max="100" android:progress="20" android:progressDrawable="@drawable/setting_ui_status_pgb_green" android:layout_centerVertical="true" style="?android:attr/progressBarStyleHorizontal" />
+    <TextView android:id="@id/bsx" android:visibility="gone" android:layout_marginLeft="@dimen/v_" android:text="imu is error" android:layout_alignParentBottom="true" style="@style/setting_ui_txt" />
+</RelativeLayout>

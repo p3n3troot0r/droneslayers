@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateSetNameView android:id="@id/e4" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/e5" android:text="@string/v2_activate_name_your_aircraft" style="@style/activate_des_title" />
+    <EditText android:textSize="@dimen/wx" android:textColor="#ff9b9b9b" android:gravity="center|left" android:id="@id/e6" android:background="@null" android:layout_marginBottom="@dimen/gw" android:hint="@string/v2_activate_input_aircraft_name" android:singleLine="true" android:drawableLeft="@drawable/activate_choose_aircraft_name_edit" style="@style/activate_des_content_pad" />
+    <View android:layout_gravity="center_horizontal" android:background="@color/o" android:layout_width="@dimen/x0" android:layout_height="@dimen/fz" />
+</dji.pilot2.usercenter.activate.ActivateSetNameView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/gs_bg" android:layout_width="@dimen/zs" android:layout_height="@dimen/yw"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/aj_" android:background="@drawable/gs_selector_btn_top" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:src="@drawable/gs_icon_delete" android:scaleType="center" />
+    <ImageView android:background="@drawable/gs_line_right" android:layout_width="fill_parent" android:layout_height="@dimen/zl" />
+    <ImageView android:id="@id/aja" android:background="@drawable/gs_selector_btn_mid" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:src="@drawable/gs_icon_gohome" android:scaleType="center" />
+    <ImageView android:background="@drawable/gs_line_right" android:layout_width="fill_parent" android:layout_height="@dimen/zl" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/zu" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center" android:id="@id/ajb" android:background="@drawable/gs_selector_btn_mid" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/zr" android:text="@string/gs_txt_done" />
+</LinearLayout>

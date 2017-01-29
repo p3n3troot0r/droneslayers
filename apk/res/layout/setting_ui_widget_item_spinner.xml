@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bqz" android:text="Title" style="@style/setting_ui_item_title" />
+    <dji.setting.ui.widget.DJISpinnerButton android:id="@id/buz" android:text="usa" style="@style/setting_ui_item_spinner_btn" />
+</LinearLayout>

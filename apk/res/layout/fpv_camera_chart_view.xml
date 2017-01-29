@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.view.DJICameraChartView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJILineChartView android:id="@id/uk" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ul" android:background="@drawable/fpv_camera_close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+</dji.pilot.fpv.view.DJICameraChartView>

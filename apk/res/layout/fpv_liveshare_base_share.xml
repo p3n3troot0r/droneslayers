@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a64" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/g1">
+        <dji.pilot.usercenter.widget.DJICircleImageView android:id="@id/a65" android:layout_width="@dimen/v4" android:layout_height="@dimen/v4" android:layout_margin="@dimen/ue" />
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:ellipsize="end" android:layout_gravity="center_vertical" android:id="@id/a66" android:layout_width="@dimen/ui" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/vd" android:maxLines="1" android:singleLine="true" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a67" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/g1" android:layout_alignParentBottom="true">
+        <Button android:textColor="@color/om" android:id="@id/a68" android:background="@drawable/liveshare_facebook_start_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:text="@string/liveshare_base_live_start" android:layout_centerInParent="true" />
+        <ProgressBar android:id="@id/a69" android:visibility="gone" android:layout_width="@dimen/us" android:layout_height="@dimen/us" android:layout_marginLeft="@dimen/gc" android:layout_centerVertical="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a6_" android:layout_width="wrap_content" android:layout_height="@dimen/us" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/tv" android:layout_above="@id/a67" android:layout_alignParentRight="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/a6a" android:layout_width="@dimen/um" android:layout_height="@dimen/um" android:src="@drawable/liveshare_ic_all" />
+        <dji.publics.DJIUI.DJITextView android:id="@id/a6b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ts" android:text="@string/liveshare_base_share_type_public_title" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/a6c" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/tv" android:layout_above="@id/a67" android:layout_alignParentLeft="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ty" android:id="@id/a6d" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/tv" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/a6e" android:layout_width="wrap_content" android:layout_height="@dimen/us" android:src="@drawable/ic_fblive_location_nor" android:scaleType="centerInside" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.pilot.publics.widget.DJIEditText android:textSize="@dimen/rr" android:textColor="@color/om" android:gravity="start" android:layout_gravity="center_horizontal" android:id="@id/a6f" android:background="@null" android:padding="@dimen/ue" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:hint="@string/liveshare_base_description_hint" android:maxLength="65" android:layout_above="@id/a6_" android:layout_below="@id/a64" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:id="@id/i4" android:background="@color/nb" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c6y" android:background="@color/nb" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/clj" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c98" android:paddingLeft="@dimen/gw" android:paddingRight="@dimen/c_" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_webview_close_btn_black_new" android:scaleType="centerInside" android:layout_toRightOf="@id/clj" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:ellipsize="end" android:gravity="center" android:id="@id/clk" android:layout_width="@dimen/cf" android:layout_height="wrap_content" android:text="..." android:maxLines="1" android:layout_centerInParent="true" style="@style/v2_new_text_attr" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cll" android:paddingLeft="@dimen/ca" android:paddingRight="@dimen/ca" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explorer_share" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@drawable/v2_explore_tab_text_background" android:ellipsize="end" android:gravity="center" android:id="@id/crl" android:paddingLeft="@dimen/ca" android:paddingRight="@dimen/ca" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxWidth="@dimen/fm" android:text="@string/v2_dds_detail_btn_txt" android:maxLines="1" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <View android:background="@color/lv" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <View android:id="@id/crm" android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_below="@id/c6y" />
+    <WebView android:id="@id/crn" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/crm" android:overScrollMode="ifContentScrolls" />
+    <ProgressBar android:id="@id/cro" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/store_loading_progress" android:layout_below="@id/crm" style="?android:attr/progressBarStyleHorizontal" />
+    <FrameLayout android:id="@id/cnq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/cnr" android:background="@drawable/preview_header_graident_bg" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/cns" android:padding="8.0dip" android:layout_width="@dimen/gl" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_arrow_back_white" android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/crm" layout="@layout/v2_webview_errorly_roundpgb" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/hm" android:background="@color/om" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:layout_marginTop="@dimen/fj">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/crq" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/fj" android:src="@drawable/v2_nativeexplore_back" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/ih" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_mine_More" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <ScrollView android:background="@color/ky" android:fitsSystemWindows="@bool/a" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/hm" android:overScrollMode="ifContentScrolls">
+        <LinearLayout android:orientation="vertical" android:id="@id/crr" android:paddingBottom="@dimen/a7z" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include layout="@layout/v2_mine_user_menu_fragment" />
+            <include layout="@layout/v2_mine_middle_tab" />
+            <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+            <LinearLayout android:orientation="vertical" android:id="@id/crs" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.pilot2.mine.view.MineButton android:id="@id/crt" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:layout_marginTop="@dimen/fj" />
+                <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/cru" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/bor" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/bos" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/crv" android:background="@color/om" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/crw" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <View android:id="@id/crx" android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+                <dji.pilot2.mine.view.MineButton android:id="@id/bot" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" />
+                <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+            </LinearLayout>
+            <dji.pilot2.mine.view.MineButton android:id="@id/cry" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:layout_marginTop="@dimen/fj" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/crz" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ft" android:layout_below="@id/hm">
+        <dji.pilot2.mine.view.MineButton android:id="@id/ho" android:layout_width="fill_parent" android:layout_height="@dimen/gt" />
+        <View android:id="@id/hq" android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <dji.pilot2.mine.view.MineButton android:id="@id/hp" android:layout_width="fill_parent" android:layout_height="@dimen/gt" />
+        <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <dji.pilot2.mine.view.MineButton android:id="@id/hr" android:layout_width="fill_parent" android:layout_height="@dimen/gt" />
+        <View android:background="@color/la" android:layout_width="fill_parent" android:layout_height="2.0px" />
+        <dji.pilot2.mine.view.MineButton android:id="@id/hs" android:layout_width="fill_parent" android:layout_height="@dimen/gt" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.view.DJIRedTipView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d_1" android:layout_width="fill_parent" android:layout_height="0.0dip">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_2" android:background="@color/gk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_3" android:background="@drawable/visual_pitch_up" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_4" android:background="@drawable/dash_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d_5" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_6" android:background="@color/gk" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_7" android:background="@drawable/visual_pitch_down" android:layout_width="wrap_content" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_8" android:background="@drawable/dash_horizontal" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:layout_alignParentTop="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.visual.view.DJIRedTipView>

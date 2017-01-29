@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="48.0dip" android:layout_height="fill_parent">
+        <dji.setting.ui.tab.TabFlyc android:id="@id/bo8" android:src="@drawable/setting_ui_root_btn_flyc" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabVision android:id="@id/bo9" android:src="@drawable/setting_ui_root_btn_vision" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabGuidance android:id="@id/bo_" android:src="@drawable/setting_ui_root_btn_vision" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabRc android:id="@id/boa" android:src="@drawable/setting_ui_root_btn_rc" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabHd android:id="@id/bob" android:src="@drawable/setting_ui_root_btn_hd" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabWifi android:id="@id/boc" android:src="@drawable/setting_ui_root_btn_wifi" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabJoystick android:id="@id/bod" android:src="@drawable/setting_ui_root_btn_joystick" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabBattery android:id="@id/boe" android:src="@drawable/setting_ui_root_btn_battery" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabBatteryM600 android:id="@id/bof" android:src="@drawable/setting_ui_root_btn_battery" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabBatteryInspire2 android:id="@id/bog" android:src="@drawable/setting_ui_root_btn_battery" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabBatteryNonSmart android:id="@id/boh" android:src="@drawable/setting_ui_root_btn_battery" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabGimbal android:id="@id/boi" android:src="@drawable/setting_ui_root_btn_gimbal" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabGimbalRonin android:id="@id/boj" android:src="@drawable/setting_ui_root_btn_gimbal" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabGeneral android:id="@id/bok" android:src="@drawable/setting_ui_root_btn_other" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabInnerToolsEditor android:id="@id/bol" android:src="@drawable/setting_ui_root_btn_editor" style="@style/setting_ui_root_tab_btn" />
+        <dji.setting.ui.tab.TabInnerToolsViewer android:id="@id/bom" android:src="@drawable/setting_ui_root_btn_viewer" style="@style/setting_ui_root_tab_btn" />
+    </LinearLayout>
+    <View android:background="#77979797" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <LinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/vg">
+            <ImageButton android:id="@id/bon" android:background="@drawable/setting_ui_common_bg" android:layout_width="@dimen/vg" android:layout_height="fill_parent" android:src="@drawable/setting_ui_root_back" android:layout_alignParentLeft="true" />
+            <TextView android:textSize="@dimen/wm" android:textColor="@android:color/white" android:gravity="center" android:id="@id/boo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="title" />
+            <ImageButton android:id="@id/bop" android:background="@drawable/setting_ui_common_bg" android:layout_width="@dimen/vg" android:layout_height="fill_parent" android:src="@drawable/setting_ui_root_close" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <FrameLayout android:id="@id/i4" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</LinearLayout>

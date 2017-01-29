@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="#aa000000" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:id="@id/cpe" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="vertical" android:id="@id/b_s" android:layout_width="fill_parent" android:layout_height="@dimen/g9">
+        <RelativeLayout android:background="@color/ot" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <TextView android:textColor="@color/if" android:gravity="center|left" android:layout_gravity="center" android:id="@id/cpf" android:layout_width="@dimen/fi" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft" android:text="@string/v2_home_ble_ignore" android:layout_alignParentLeft="true" style="@style/GenCenterWrapTxt" />
+            <TextView android:textColor="@color/a_" android:layout_gravity="center" android:layout_width="wrap_content" android:text="@string/lp_ble_name" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/b_t" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/ble_cancle" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <LinearLayout android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <TextView android:textColor="@color/e4" android:layout_gravity="center_vertical" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:text="@string/lp_ble_device_list_txt" style="@style/GenCenterWrapTxt" />
+            <View android:layout_width="@dimen/fz" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/b_u" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/lp_refresh" android:scaleType="center" />
+        </LinearLayout>
+        <View android:background="@color/ez" android:layout_height="0.20000005dip" android:alpha="0.2" style="@style/hor_line" />
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/a_" android:id="@id/cpg" android:background="@color/om" android:paddingLeft="@dimen/ft" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/ft" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/v2_home_ble_empty_tip" />
+        <ListView android:id="@id/b_w" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent" android:cacheColorHint="@color/j5" android:divider="@color/b4" android:dividerHeight="1.0px" />
+    </LinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View style="@style/setting_circle" />
+    <TextView android:textSize="@dimen/wn" android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/bw7" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/setting_ui_imu_prepare_desc2" android:lineSpacingExtra="@dimen/vi" />
+</LinearLayout>

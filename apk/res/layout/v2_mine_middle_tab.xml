@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/h4"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/csw" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+        <ImageView android:id="@id/csx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_store_new" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <ImageView android:id="@id/csy" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_marginTop="@dimen/fj" android:src="@drawable/v2_mine_store_icon" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/ft" android:textColor="@color/ih" android:gravity="center" android:id="@id/csz" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:layout_marginTop="@dimen/fj" android:text="@string/v2_mine_store_dji" android:layout_below="@id/csy" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+    <View android:background="@color/la" android:layout_width="2.0px" android:layout_height="fill_parent" />
+    <RelativeLayout android:id="@id/ct0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <ImageView android:id="@id/ct1" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_marginTop="@dimen/fj" android:src="@drawable/v2_mine_for_icon" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/ft" android:textColor="@color/ih" android:gravity="center" android:id="@id/ct2" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:layout_marginTop="@dimen/fj" android:text="@string/mine_dji_bbs" android:layout_below="@id/ct1" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</LinearLayout>

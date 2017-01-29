@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:background="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ga" android:background="@color/fb" android:layout_width="fill_parent" android:layout_height="@dimen/pw" android:layout_alignParentTop="true">
+        <Button android:textSize="@dimen/do" android:textStyle="bold" android:textColor="@color/f0" android:id="@id/az0" android:background="@color/fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:text="@string/liveshare_title_bar_btn_cancel" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <ImageView android:id="@id/az1" android:background="@drawable/livestream_question_icon_pressed" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_toRightOf="@id/az0" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/do" android:textStyle="bold" android:textColor="@color/a_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_title_bar_text" android:layout_centerInParent="true" />
+        <Button android:textSize="@dimen/do" android:textStyle="bold" android:textColor="@color/f0" android:id="@id/az2" android:background="@color/fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/fj" android:text="@string/liveshare_customstart_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <dji.publics.DJIUI.DJIImageView android:background="@color/i" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/az3" android:background="@color/f6" android:layout_width="fill_parent" android:layout_height="@dimen/gz" android:layout_below="@id/ga">
+        <ImageView android:background="@drawable/liveshare_youtube_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <ScrollView android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_below="@id/az3">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1">
+            <TextView android:layout_gravity="center|left" android:background="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/liveshare_custommode_stream_name_label" />
+            <EditText android:layout_gravity="center|left" android:id="@id/az4" android:background="@drawable/live_edittext_bg" android:layout_width="@dimen/ge" android:layout_height="wrap_content" />
+            <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/az5" android:background="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_titletag" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <EditText android:layout_gravity="center|left" android:id="@id/az6" android:background="@drawable/live_edittext_bg" android:layout_width="@dimen/ge" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_url" android:hint="@string/liveshare_custommode_url_hint" />
+            <RelativeLayout android:layout_width="wrap_content" android:layout_height="@dimen/gq">
+                <Button android:textColor="@color/om" android:id="@id/az7" android:background="@drawable/live_blue_btn_bg" android:layout_width="wrap_content" android:layout_height="@dimen/gc" android:text="@string/liveshare_customstart_start_btn_title" android:layout_alignParentRight="false" android:layout_centerVertical="true" />
+                <ImageView android:id="@id/az8" android:background="@anim/b9" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj">
+                <TextView android:layout_gravity="center_horizontal" android:background="@color/om" android:layout_width="@dimen/g2" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_rtmp_status_label" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/az9" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj">
+                <TextView android:layout_gravity="center_horizontal" android:background="@color/om" android:layout_width="@dimen/g2" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_video_fps_label" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/az_" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj">
+                <TextView android:layout_gravity="center_horizontal" android:background="@color/om" android:layout_width="@dimen/g2" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_video_bitrate_label" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/aza" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj">
+                <TextView android:layout_gravity="center_horizontal" android:background="@color/om" android:layout_width="@dimen/g2" android:layout_height="wrap_content" android:text="@string/liveshare_custommode_audio_bitrate_label" />
+                <TextView android:layout_gravity="center_horizontal" android:id="@id/azb" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.publics.DJIUI.DJIRelativeLayout>

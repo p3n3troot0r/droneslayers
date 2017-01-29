@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.widget.popview.DJIErrorPopViewCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false" phantom:productType_c="ar"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/a01" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/fpv_error_pop_item_c" />
+    <include android:id="@id/a02" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" layout="@layout/fpv_error_pop_item_c" />
+    <include android:id="@id/a03" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" layout="@layout/fpv_error_pop_item_c" />
+    <include android:id="@id/a04" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" layout="@layout/fpv_error_pop_item_c" />
+    <include android:id="@id/a05" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" layout="@layout/fpv_error_pop_item_c" />
+    <include android:id="@id/a06" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" layout="@layout/fpv_error_pop_item_c" />
+</dji.device.widget.popview.DJIErrorPopViewCompat>

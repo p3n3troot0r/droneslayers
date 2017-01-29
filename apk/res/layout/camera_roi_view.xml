@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.roi.DJIRoiView android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/p8" android:background="@drawable/center_roi_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textStyle="italic" android:textColor="@color/om" android:id="@id/p9" android:layout_marginBottom="@dimen/n4" android:layout_below="@id/p8" android:layout_centerHorizontal="true" style="@style/GenCenterWrapTxt" />
+</dji.pilot.fpv.camera.roi.DJIRoiView>

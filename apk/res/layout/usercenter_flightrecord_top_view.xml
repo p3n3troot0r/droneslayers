@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:padding="@dimen/rp" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/c2t" android:layout_width="@dimen/hu" android:layout_height="@dimen/hu" android:baselineAligned="false" android:layout_centerVertical="true">
+        <dji.pilot.usercenter.widget.DJIRoundImageView android:id="@id/c2u" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/pilot_icon" android:scaleType="centerCrop" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.pilot.publics.widget.DJIMarqueeTextView android:textSize="@dimen/rp" android:textColor="@color/a_" android:gravity="center" android:id="@id/c2v" android:background="@drawable/flight_item_bottom_bg" android:paddingLeft="@dimen/nu" android:paddingRight="@dimen/nu" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/flight_record_na" android:scrollHorizontally="true" android:singleLine="true" android:layout_alignParentBottom="true" phantom:djiTextFace="a6" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/c2w" android:layout_width="fill_parent" android:layout_height="@dimen/hu" android:layout_marginLeft="@dimen/n2">
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/ov" android:id="@id/c2x" android:text="@string/flight_record_total_distance" android:shadowColor="@color/ds" android:shadowDy="3.0" android:shadowRadius="3.0" style="@style/GenCenterWrapTxt" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/c2y" android:text="@string/flight_record_na" android:shadowColor="@color/ds" android:shadowDy="3.0" android:shadowRadius="3.0" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/ov" android:id="@id/c2z" android:text="@string/flight_record_flight_times" android:shadowColor="@color/ds" android:shadowDy="3.0" android:shadowRadius="3.0" style="@style/GenCenterWrapTxt" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/c30" android:text="@string/flight_record_na" android:shadowColor="@color/ds" android:shadowDy="3.0" android:shadowRadius="3.0" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/ov" android:id="@id/c31" android:text="@string/flight_record_total_time" android:shadowColor="@color/ds" android:shadowDy="1.0" android:shadowRadius="3.0" style="@style/GenCenterWrapTxt" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/c32" android:text="@string/flight_record_na" android:shadowColor="@color/ds" android:shadowDy="3.0" android:shadowRadius="3.0" phantom:djiTextFace="a6" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

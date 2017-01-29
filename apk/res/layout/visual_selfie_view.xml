@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.stage.DJIVisualSelfieView android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/wq" android:textColor="@color/o2" android:gravity="center" android:id="@id/d_i" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/gs_hide" android:layout_alignParentBottom="true" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/awy" android:background="@color/dc" android:layout_width="fill_parent" android:layout_height="@dimen/v3" android:layout_above="@id/d_i" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fj" android:layout_marginRight="@dimen/fj" android:layout_above="@id/awy">
+        <dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/gs_title_bar_background" android:layout_width="fill_parent" android:layout_height="@dimen/oe">
+            <dji.publics.DJIUI.DJITextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fpv_flight_mode_gesture" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d_j" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/visual_gps_signal_information" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/gv" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJITextView android:layout_gravity="center" android:id="@id/d_k" android:text="@string/visual_track_gps" style="@style/GenCenterWrapTxt" />
+            <dji.pilot.publics.widget.DJISwitch android:layout_gravity="right" android:id="@id/d_l" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_weight="1.0" style="@style/setting_ui_item_switch" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJIImageView android:background="@color/dc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        <dji.publics.DJIUI.DJITextView android:layout_marginTop="@dimen/fo" android:layout_marginBottom="8.0dip" android:text="@string/visual_track_gps_signal" style="@style/GenCenterWrapTxt" />
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJIImageView android:layout_gravity="center" android:id="@id/d_m" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/visual_gps_signal_good" android:layout_weight="7.0" />
+            <dji.publics.DJIUI.DJITextView android:gravity="right" android:id="@id/d_n" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/visual_track_gps_signal_good" android:layout_weight="3.0" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d_o" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/rp" android:text="@string/visual_track_gps_desc" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.visual.stage.DJIVisualSelfieView>

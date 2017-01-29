@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:background="@drawable/v2_medal_item_background" android:padding="@dimen/g1" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/b1" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/csa" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_centerVertical="true">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/csb" android:layout_width="@dimen/fi" android:layout_height="@dimen/fi" android:scaleType="center" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:id="@id/csc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:layout_toRightOf="@id/csa" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:id="@id/csd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:id="@id/cse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</RelativeLayout>

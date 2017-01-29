@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/cw0" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bz" android:layout_marginTop="@dimen/c1" android:layout_weight="1.0" layout="@layout/v2_new_academy_video_cview_child" />
+        <include android:id="@id/cw1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/bz" android:layout_marginTop="@dimen/c1" android:layout_marginRight="@dimen/c0" android:layout_weight="1.0" layout="@layout/v2_new_academy_video_cview_child" />
+    </LinearLayout>
+</RelativeLayout>

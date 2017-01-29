@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.camera.newfn.DJICameraMenuView android:orientation="vertical" android:layout_width="@dimen/i9" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:pilot="http://schemas.android.com/apk/res-auto">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/gg">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/j7" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/j8" android:padding="@dimen/n4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_camera_exposure" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/j9" android:padding="@dimen/n4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_camera_photo" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/j_" android:padding="@dimen/n4" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_camera_video" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ja" android:padding="@dimen/n4" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/selector_camera_other" android:scaleType="center" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJIImageView android:id="@id/jb" android:background="@color/d9" android:layout_width="@dimen/i6" android:layout_height="2.0dip" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/jc" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/jd" android:paddingLeft="@dimen/rp" android:paddingRight="@dimen/rp" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/dlg_arrow_left" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:id="@id/je" android:layout_centerInParent="true" pilot:djiTextFace="a4" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <ViewAnimator android:id="@id/jf" android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateFirstView="true">
+        <dji.pilot.fpv.view.DJIStageView android:id="@id/jg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateFirstView="true" />
+        <dji.pilot.fpv.view.DJIStageView android:id="@id/jh" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateFirstView="true" />
+        <dji.pilot.fpv.view.DJIStageView android:id="@id/ji" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateFirstView="true" />
+        <dji.pilot.fpv.view.DJIStageView android:id="@id/jj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateFirstView="true" />
+    </ViewAnimator>
+</dji.pilot.fpv.camera.newfn.DJICameraMenuView>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/ah" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cc_" android:background="@color/n8" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cca" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:id="@id/ccb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_network_audio_download_title" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ccc" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:id="@id/cd7" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <dji.pilot2.nativeaudio.view.AudioPreviewSurfaceView android:id="@id/ccd" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true" android:onClick="onClickHandler" />
+            <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cce" android:background="@color/ai" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/c9" android:layout_alignParentTop="true">
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccf" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccg" android:visibility="invisible" android:layout_width="@dimen/gx" android:layout_height="@dimen/gx" android:src="@drawable/v2_btn_playback" android:layout_centerInParent="true" android:onClick="onClickHandler" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/cch" android:background="@anim/b9" android:visibility="gone" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/cci" android:background="@color/ai" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gc" android:layout_alignParentBottom="true">
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccj" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/fj" android:src="@drawable/v2_template_play_triangle" android:onClick="onClickHandler" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/cck" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:text="0:00" />
+                <dji.pilot2.nativeaudio.view.BufferSeekProgressBar android:id="@id/ccl" android:layout_width="0.0dip" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" android:layout_weight="1.0" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/ccm" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:text="0:00" />
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccn" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginRight="@dimen/fj" android:src="@drawable/v2_normal_screen" android:onClick="onClickHandler" />
+            </LinearLayout>
+        </RelativeLayout>
+        <View android:id="@id/cd8" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/cco" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <LinearLayout android:orientation="horizontal" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ccp" android:layout_width="0.0dip" android:layout_height="@dimen/g8" android:layout_weight="2.0">
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccq" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/fj" android:src="@drawable/v2_template_play_triangle" android:onClick="onClickHandler" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/ccr" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:text="0:00" />
+                <dji.pilot2.nativeaudio.view.BufferSeekProgressBar android:id="@id/ccs" android:layout_width="0.0dip" android:layout_height="@dimen/g1" android:layout_marginLeft="@dimen/gw" android:layout_marginRight="@dimen/gw" android:layout_weight="1.0" />
+                <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/cct" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:text="0:00" />
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ccu" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_marginRight="@dimen/fj" android:src="@drawable/v2_full_screen" android:onClick="onClickHandler" />
+            </LinearLayout>
+            <View android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <View android:background="@color/lp" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:padding="@dimen/gw" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rr" android:textColor="@color/om" android:id="@id/ccv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="大自然的奇迹" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/ccw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ga" android:text="欢快的音乐节奏配合着短镜头快切" android:layout_below="@id/ccv" android:layout_centerHorizontal="true" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/ccx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1:00" android:drawableLeft="@drawable/v2_template_duration_icon" android:layout_alignBaseline="@id/ccv" android:layout_alignParentRight="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <View android:background="@color/lp" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                    <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/cd1" android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:scaleType="centerCrop" android:layerType="software" />
+                    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rq" android:textColor="@color/om" android:id="@id/cd2" android:padding="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DJI GO" />
+                </LinearLayout>
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <View android:id="@id/ccy" android:background="@color/lp" android:layout_width="1.0px" android:layout_height="@dimen/gl" />
+            <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ccz" android:padding="@dimen/fj" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/cd0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="（此音乐建议适用于海边、运动人文风光景色类镜头）" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </LinearLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/cd3" android:layout_width="fill_parent" android:layout_height="@dimen/g8" android:layout_alignParentBottom="true">
+            <ProgressBar android:id="@id/cd4" android:layout_width="fill_parent" android:layout_height="fill_parent" android:max="100" android:indeterminate="false" android:progressDrawable="@drawable/v2_upload_progress_bar" style="@android:style/Widget.ProgressBar.Horizontal" />
+            <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <dji.pilot.publics.widget.DJIStateTextView android:id="@id/cd5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_network_audio_download" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cd6" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g1" android:src="@drawable/v2_upload_cancel_cross" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </LinearLayout>
+</LinearLayout>

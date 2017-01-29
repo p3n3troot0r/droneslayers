@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.upgrade.P4UpgradeTipBannerView android:orientation="vertical" android:background="#ffff0000" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="55.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/cpc" android:background="#fffd633f" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/v2_upgrade_notify_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/om" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:text="@string/v2_upgrade_tip_version" android:singleLine="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/om" android:id="@id/d1e" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="" android:singleLine="true" android:layout_weight="0.0" />
+        </LinearLayout>
+        <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_upgrade_tip_new_upgrade_now" android:layout_weight="0.0" />
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/v2_upgrade_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/d1f" android:background="@color/j9" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:layout_gravity="center_vertical" android:background="@drawable/v2_upgrade_notify_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" />
+        <dji.publics.DJIUI.DJITextView android:textSize="16.0sp" android:textColor="@color/om" android:gravity="center_vertical" android:id="@id/d1g" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginRight="20.0dip" android:text="@string/v2_upgrade_tip_downloading" android:singleLine="true" />
+    </LinearLayout>
+</dji.pilot2.upgrade.P4UpgradeTipBannerView>

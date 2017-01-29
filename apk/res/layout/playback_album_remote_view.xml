@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.playback.litchi.DJIPlayBackRemoteView android:background="#ff1a1a1a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <ExpandableListView android:id="@id/bgy" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:childDivider="@android:color/transparent" android:divider="@android:color/transparent" android:dividerHeight="0.0dip" android:choiceMode="singleChoice" android:overScrollMode="ifContentScrolls" />
+    <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center" android:orientation="vertical" android:id="@id/bgz" android:background="@drawable/radius_corner_dark_bg" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="false">
+        <ProgressBar android:layout_gravity="center_horizontal" android:id="@id/bh0" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/mediumCustomProgressBar" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/bh1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/longan_playback_retry" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/bh2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/usercenter_cloudalbum_loading" android:maxLines="5" phantom:djiTextFace="a4" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.playback.litchi.DJIPlayBackRemoteView>

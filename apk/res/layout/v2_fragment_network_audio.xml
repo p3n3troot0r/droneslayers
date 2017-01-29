@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/ah" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <GridView android:id="@id/cod" android:layout_width="fill_parent" android:layout_height="fill_parent" android:horizontalSpacing="1.0dip" android:verticalSpacing="1.0dip" android:numColumns="1" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+</RelativeLayout>

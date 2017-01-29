@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:background="@drawable/v2_profile_problem_dialog_background" android:layout_width="wrap_content" android:layout_height="wrap_content" android:scaleX="-1.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="left" android:layout_width="@dimen/fs" android:layout_height="0.0dip" android:text="@string/mine_profile_level_problem_text" android:layout_weight="1.0" android:scaleX="-1.0" />
+</LinearLayout>

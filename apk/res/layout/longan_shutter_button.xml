@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.common.LonganShutterButton android:gravity="center_vertical" android:id="@id/b7s" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7t" android:background="@drawable/longan_shutter_photo" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7u" android:background="@drawable/longan_selector_shutter_video" android:visibility="invisible" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7v" android:background="@drawable/longan_shutter_outer" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b7w" android:background="@drawable/longan_camera_controll_saving_bg" android:visibility="invisible" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@id/b7t" android:layout_centerInParent="true" />
+</dji.device.camera.view.common.LonganShutterButton>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.longan.SetViewHeadBar android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="@dimen/a4q">
+        <TextView android:textSize="@dimen/a5i" android:textColor="#ff00d8ff" android:id="@id/blb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/longan_set_back" android:drawableLeft="@drawable/set_arrow" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+        <TextView android:textSize="@dimen/a5i" android:textColor="@android:color/white" android:id="@id/blc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/app_setting" android:layout_centerInParent="true" />
+        <TextView android:textSize="@dimen/a5i" android:textColor="#ff00d8ff" android:id="@id/bld" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:text="@string/longan_set_done" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</dji.pilot.set.longan.SetViewHeadBar>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIOriLayout android:id="@id/c7j" android:background="@color/n8" android:layout_width="fill_parent" android:layout_height="fill_parent" phantom:djiDeviceType="a2"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot2.cutmoment.DJIMovingSurfaceView android:id="@id/c7k" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:orientation="vertical" android:id="@id/c7l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <RelativeLayout android:id="@id/c7m" android:background="@color/n8" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+                <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c7n" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" />
+                <TextView android:textSize="@dimen/rk" android:textStyle="normal" android:textColor="@color/om" android:gravity="center" android:id="@id/c7o" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_cutmoment_titletxt" android:layout_centerHorizontal="true" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textStyle="normal" android:textColor="@color/gj" android:gravity="center" android:id="@id/c7p" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/delete" android:layout_alignParentRight="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/c7q" android:layout_width="fill_parent" android:layout_height="@dimen/a7t">
+                <TextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/c7r" android:background="@drawable/ve_play_time_bg" android:paddingLeft="@dimen/gw" android:paddingRight="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/gw" android:singleLine="true" android:layout_alignParentRight="true" />
+                <ImageView android:id="@id/c7s" android:background="@android:color/transparent" android:visibility="invisible" android:layout_width="@dimen/gt" android:layout_height="@dimen/gt" android:src="@drawable/v2_btn_playback" android:layout_centerHorizontal="true" android:layout_centerVertical="true" android:contentDescription="@string/no_value" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/c7t" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/a7q" android:layout_alignParentBottom="true">
+                <dji.pilot2.cutmoment.DJICutTagBar android:id="@id/c7u" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="@dimen/a7r" android:layout_marginTop="@dimen/a7s" />
+                <ImageView android:id="@id/c7v" android:background="@drawable/v2_cutmoment_yellow_rect" android:layout_width="0.0dip" android:layout_height="@dimen/a7r" android:layout_marginTop="@dimen/a7s" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c7w" android:layout_width="wrap_content" android:layout_height="fill_parent">
+                    <dji.publics.DJIUI.DJITextView android:id="@id/c7x" android:background="@color/gj" android:layout_width="@dimen/fz" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+                    <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_red_line_arrows_down" />
+                    <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_red_line_arrows_up" android:layout_alignParentBottom="true" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/c7y" android:background="@drawable/v2_cutmoment_background_gradient" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <dji.publics.DJIUI.DJIImageButton android:id="@id/c7z" android:background="@drawable/v2_video_cut_cut_btn_selector" android:focusable="true" android:layout_width="@dimen/ch" android:layout_height="@dimen/cg" android:layout_centerInParent="true" />
+                    <dji.publics.DJIUI.DJIImageButton android:id="@id/c80" android:background="@drawable/v2_video_cut_comfirm_selector" android:focusable="true" android:visibility="invisible" android:layout_width="@dimen/ch" android:layout_height="@dimen/cg" android:layout_centerInParent="true" />
+                    <dji.publics.DJIUI.DJIImageButton android:id="@id/c81" android:background="@drawable/v2_video_cut_delete_tag_selector" android:focusable="true" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gx" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:id="@id/c82" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:layout_below="@id/c80" android:layout_centerHorizontal="true">
+                        <dji.publics.DJIUI.DJIImageButton android:id="@id/c83" android:background="@null" android:padding="@dimen/gw" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:src="@drawable/v2_cutmoment_convert_hd_selector" android:scaleType="fitCenter" />
+                        <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_cutmoment_convert_hd" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:layout_alignParentBottom="true">
+                    <Button android:textSize="@dimen/rk" android:textStyle="normal" android:textColor="@color/a_" android:gravity="center" android:id="@id/c84" android:background="@drawable/v2_cutmoment_save_btn" android:paddingLeft="@dimen/a_" android:paddingRight="@dimen/a_" android:layout_width="fill_parent" android:layout_height="@dimen/gt" android:text="@string/confirm" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+                    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c85" android:background="@color/jx" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentRight="true" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/c86" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/c9">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/c87" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/jy" android:layout_width="fill_parent" android:layout_height="@dimen/h8" />
+                <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.publics.DJIUI.DJIImageView android:layout_width="fill_parent" android:layout_height="@dimen/a7t" android:src="@drawable/v2_moving_surface_white_rect" />
+                    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rr" android:textStyle="bold" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16 : 9" android:layout_centerInParent="true" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/jy" android:layout_width="fill_parent" android:layout_height="@dimen/h8" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/c88" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/fm" />
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/jy" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                        <dji.publics.DJIUI.DJIImageView android:layout_width="@dimen/a7w" android:layout_height="@dimen/a7v" android:src="@drawable/v2_moving_surface_white_rect" />
+                        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rr" android:textStyle="bold" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="16 : 9" android:layout_centerInParent="true" />
+                    </dji.publics.DJIUI.DJIRelativeLayout>
+                    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/jy" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                </dji.publics.DJIUI.DJILinearLayout>
+                <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/fm" />
+            </dji.publics.DJIUI.DJILinearLayout>
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_horizontal" android:id="@id/c89" android:background="@color/ln" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:id="@id/c8_" android:background="@drawable/v2_cutmoment_save_background" android:layout_width="@dimen/a8" android:layout_height="@dimen/a7" android:layout_marginTop="@dimen/fw">
+                <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/rt" android:background="@anim/b9" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" />
+                    <dji.publics.DJIUI.DJILinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw">
+                        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ve_create_moments_save_moments" />
+                        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:id="@id/c8a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="0%" />
+                    </dji.publics.DJIUI.DJILinearLayout>
+                </dji.publics.DJIUI.DJILinearLayout>
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </RelativeLayout>
+</dji.publics.DJIUI.DJIOriLayout>

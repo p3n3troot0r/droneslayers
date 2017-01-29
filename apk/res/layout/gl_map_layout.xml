@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_marginBottom="@dimen/ga" android:src="@drawable/gl_back_selector" android:scaleType="centerInside" android:layout_centerVertical="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:id="@id/ai_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_nativeexplore_gl_title" android:layout_centerInParent="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:id="@id/aia" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/gw" android:text="@string/v2_map_select" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.gs.views.EventView android:layout_gravity="center_horizontal" android:id="@id/aib" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <Button android:textSize="@dimen/ft" android:gravity="center" android:id="@id/aic" android:background="@drawable/gl_mapbutton_selector" android:layout_width="wrap_content" android:layout_height="@dimen/g8" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gw" android:text="@string/v2_map_st" android:layout_alignParentRight="true" /> 　
+<Button android:textSize="@dimen/ft" android:gravity="center" android:id="@id/aid" android:background="@drawable/gl_mapbutton_selector" android:layout_width="wrap_content" android:layout_height="@dimen/g8" android:layout_marginTop="@dimen/gw" android:text="@string/v2_map_nr" android:layout_toLeftOf="@id/aic" />
+        <View android:background="@color/e7" android:layout_width="1.0dip" android:layout_height="@dimen/g8" android:layout_marginTop="@dimen/gw" android:layout_toLeftOf="@id/aic" />
+        <include layout="@layout/v2_library_menu" />
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@color/n7" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_top_bar_webview" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/v2_type_spinner_bar" />
+    <dji.publics.DJIUI.DJIImageView style="@style/HorizontalGrayDivider" />
+    <FrameLayout android:id="@id/ck" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</dji.publics.DJIUI.DJILinearLayout>

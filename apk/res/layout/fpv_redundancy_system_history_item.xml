@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJIImageView android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aaj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/fpv_redundancy_system__status_green" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aak" android:paddingRight="@dimen/fj" android:clickable="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="false" android:layout_weight="1.0" android:layout_toRightOf="@id/aaj" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/aal" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJIImageView android:visibility="visible" android:layout_margin="0.0dip" style="@style/FpvGenSettingDivider" />
+</dji.publics.DJIUI.DJILinearLayout>

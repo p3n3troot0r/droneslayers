@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.controview.DJILPCameraControView android:orientation="vertical" android:background="@drawable/left_to_right_mask_bg" android:clickable="true" android:layout_width="@dimen/gz" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_width="fill_parent" android:layout_height="@dimen/fj" android:alpha="0.0" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.phone.controview.DJILPCameraModuleSwitcher android:id="@id/b53" android:clickable="true" android:layout_height="@dimen/a1t" style="@style/longan_preview_camera_control_item" />
+        </RelativeLayout>
+        <View android:layout_width="@dimen/gw" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.0" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b54" android:layout_width="@dimen/gh" android:layout_height="@dimen/gh" android:src="@drawable/ic_leftbar_photo" android:layout_centerHorizontal="true" style="@style/longan_preview_camera_control_item" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/bbj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_leftbar_slider_arrow" android:layout_toRightOf="@id/b54" android:layout_centerVertical="true" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.0" />
+    </LinearLayout>
+    <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/b55" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" layout="@layout/lp_shutter_button" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <View android:layout_width="@dimen/gw" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.0" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/bbk" android:layout_height="wrap_content" android:src="@drawable/phone_camera_switch" style="@style/longan_preview_camera_control_item" />
+        </RelativeLayout>
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" android:alpha="0.0" />
+        <RelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.device.common.view.DJIStateImageViewCompat android:id="@id/bbl" android:layout_height="wrap_content" android:src="@drawable/ic_leftbar_playback" style="@style/longan_preview_camera_control_item" />
+        </RelativeLayout>
+        <View android:layout_width="@dimen/gw" android:layout_height="@dimen/fj" android:alpha="0.0" />
+    </LinearLayout>
+</dji.phone.controview.DJILPCameraControView>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateSetControlModeView android:id="@id/d1" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/activate_control_mode" style="@style/activate_des_title" />
+    <TextView android:text="@string/activate_control_mode_desc" style="@style/activate_des_content" />
+    <RadioGroup android:id="@id/d2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gc">
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/x1" android:textColor="@color/p" android:gravity="center|left" android:id="@id/d3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/activate_control_mode_box_style" android:text="@string/activate_control_mode_2" />
+        <View android:layout_marginBottom="@dimen/fj" style="@style/activate_divider_line" />
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/x1" android:textColor="@color/p" android:gravity="center|left" android:id="@id/d4" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/activate_control_mode_box_style" android:text="@string/activate_control_mode_1" />
+        <View android:layout_marginBottom="@dimen/fj" style="@style/activate_divider_line" />
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/x1" android:textColor="@color/p" android:gravity="center|left" android:id="@id/d5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/activate_control_mode_box_style" android:text="@string/activate_control_mode_3" />
+        <View style="@style/activate_divider_line" />
+    </RadioGroup>
+    <TextView android:textSize="@dimen/wx" android:textColor="@color/g" android:gravity="center_horizontal" android:id="@id/d6" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gx" android:text="@string/activate_control_mode_2_diagram" />
+    <LinearLayout android:gravity="center" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0">
+            <TextView android:id="@id/d7" android:text="@string/activate_control_mode_throttle_up" android:layout_centerHorizontal="true" style="@style/activate_control_mode_desc_style" />
+            <ImageView android:id="@id/d8" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/activate_control_mode_throttle_rudder" android:layout_below="@id/d7" android:layout_centerInParent="true" />
+            <TextView android:id="@id/d9" android:text="@string/activate_control_mode_rudder_left" android:layout_toLeftOf="@id/d8" android:layout_centerVertical="true" style="@style/activate_control_mode_desc_style" />
+            <TextView android:id="@id/d_" android:text="@string/activate_control_mode_rudder_right" android:layout_toRightOf="@id/d8" android:layout_centerVertical="true" style="@style/activate_control_mode_desc_style" />
+            <TextView android:id="@id/da" android:text="@string/activate_control_mode_throttle_down" android:layout_below="@id/d8" android:layout_centerHorizontal="true" style="@style/activate_control_mode_desc_style" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="5.0">
+            <TextView android:id="@id/db" android:text="@string/activate_control_mode_forward" android:layout_centerHorizontal="true" style="@style/activate_control_mode_desc_style" />
+            <ImageView android:id="@id/dc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/activate_control_mode_elevator_aileron" android:layout_below="@id/db" android:layout_centerInParent="true" />
+            <TextView android:id="@id/dd" android:text="@string/activate_control_mode_left" android:layout_toLeftOf="@id/dc" android:layout_centerVertical="true" style="@style/activate_control_mode_desc_style" />
+            <TextView android:id="@id/de" android:text="@string/activate_control_mode_right" android:layout_toRightOf="@id/dc" android:layout_centerVertical="true" style="@style/activate_control_mode_desc_style" />
+            <TextView android:id="@id/df" android:text="@string/activate_control_mode_backward" android:layout_below="@id/dc" android:layout_centerHorizontal="true" style="@style/activate_control_mode_desc_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</dji.pilot2.usercenter.activate.ActivateSetControlModeView>

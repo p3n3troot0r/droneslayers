@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/j5" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:longan="http://schemas.android.com/apk/res-auto">
+    <dji.device.common.view.progressbar.LonganRoundProgressBar android:id="@id/rd" android:layout_width="@dimen/a3f" android:layout_height="@dimen/a3f" longan:progress_unreached_color="@color/or" longan:progress_reached_color="@color/ax" longan:progress_reached_bar_height="2.0dip" longan:progress_unreached_bar_height="2.0dip" longan:progress_text_size="@dimen/rp" longan:progress_text_color="@color/ax" longan:longan_radius="@dimen/gw" />
+</LinearLayout>

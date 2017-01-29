@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/bqz" android:layout_height="@dimen/vg" android:text="@string/setting_ui_rc_custom_title" style="@style/setting_ui_item_title" />
+        <ImageView android:id="@id/bwp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/setting_ui_rc_custom_c1c2" android:layout_below="@id/bqz" android:layout_alignParentLeft="true" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/bwq" android:layout_width="@dimen/ua" android:text="@string/setting_ui_rc_custom_11" android:layout_below="@id/bqz" android:layout_alignParentRight="true" style="@style/setting_ui_item_spinner_btn" />
+        <dji.setting.ui.widget.DJISpinnerButton android:id="@id/bwr" android:layout_width="@dimen/ua" android:layout_marginTop="@dimen/uf" android:text="@string/setting_ui_rc_custom_11" android:layout_below="@id/bwq" android:layout_alignParentRight="true" style="@style/setting_ui_item_spinner_btn" />
+        <TextView android:layout_width="wrap_content" android:layout_height="@dimen/us" android:layout_marginRight="@dimen/vd" android:text="C1" android:layout_toLeftOf="@id/bwq" android:layout_alignBaseline="@id/bwq" style="@style/setting_ui_common_title_txt" />
+        <TextView android:layout_width="wrap_content" android:layout_height="@dimen/us" android:layout_marginRight="@dimen/vd" android:text="C2" android:layout_toLeftOf="@id/bwr" android:layout_alignBaseline="@id/bwr" style="@style/setting_ui_common_title_txt" />
+    </RelativeLayout>
+    <TextView android:layout_gravity="left" android:layout_marginTop="@dimen/uf" android:layout_marginBottom="@dimen/uf" android:text="@string/setting_ui_rc_setting_gimbal_desc" style="@style/setting_ui_item_desc" />
+</LinearLayout>

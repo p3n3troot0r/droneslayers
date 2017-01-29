@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.flyunlimit.view.NfzAlertView android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="@dimen/lc" android:layout_height="@dimen/lb"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/ro" android:textColor="@color/om" android:layout_gravity="center_horizontal" android:id="@id/t0" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/nfz_alert_note_title" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:gravity="left" android:id="@id/t1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:layout_marginRight="@dimen/g8" android:text="@string/flight_forbid_alert_txt" android:layout_weight="1.0" android:layout_below="@id/t0" style="@style/FlightForbidTv" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/fj" android:layout_marginBottom="@dimen/g1" android:layout_above="@id/t2">
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/lz" android:gravity="center" android:id="@id/t3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g1" android:text="@string/flight_forbid_yellow_zone_entrance" android:drawableLeft="@drawable/az_aq_ico" android:drawablePadding="@dimen/gw" style="@style/FlightForbidTv" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/lz" android:id="@id/t4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/g1" android:text="@string/flight_forbid_report_error_txt" android:layout_alignParentRight="true" style="@style/FlightForbidTv" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <View android:layout_above="@id/t2" style="@style/GeoDlgHorDivider" />
+    <LinearLayout android:id="@id/t2" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/GeoDlgBottomBtns">
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/t5" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_enable_mult_flight_mode_dialog_left_btn" android:layout_weight="1.0" android:layout_alignParentLeft="true" style="@style/FlightForbidTv" />
+        <View android:layout_width="1.0dip" style="@style/FpvGenSettingDividerVertical" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/oy" android:gravity="center" android:id="@id/t6" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/gs_enable_mult_flight_mode_dialog_right_btn" android:layout_weight="1.0" android:layout_alignParentRight="true" style="@style/FlightForbidTv" />
+    </LinearLayout>
+</dji.pilot.flyunlimit.view.NfzAlertView>

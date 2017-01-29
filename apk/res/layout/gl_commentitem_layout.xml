@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot2.usercenter.widget.DJIProfileRoundImageView android:id="@id/ahq" android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/ft" android:layout_marginTop="@dimen/gw" android:layout_marginBottom="@dimen/gw" android:src="@drawable/v2_avatar_default" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/ft" android:layout_toRightOf="@id/ahq">
+        <TextView android:textColor="@color/if" android:gravity="center_vertical" android:id="@id/ahr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/fs" android:singleLine="true" />
+        <TextView android:textColor="@color/ih" android:gravity="center_vertical" android:id="@id/ahs" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:singleLine="true" android:layout_toRightOf="@id/ahr" />
+        <TextView android:textColor="@color/ig" android:gravity="left" android:id="@id/aht" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gw" android:layout_below="@id/ahr" />
+    </RelativeLayout>
+</RelativeLayout>

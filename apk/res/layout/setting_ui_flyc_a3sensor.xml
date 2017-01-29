@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" style="@style/setting_ui_item"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="@dimen/y7" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_acc_label" android:layout_weight="1.0" style="@style/setting_ui_txt" />
+        <View android:layout_width="@dimen/y7" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_gryo_label" android:layout_weight="1.0" style="@style/setting_ui_txt" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:layout_width="@dimen/y7" android:layout_height="1.0dip" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_bias" android:layout_weight="1.0" style="@style/setting_ui_txt_small_gray" />
+        <View android:layout_width="@dimen/y7" android:layout_height="1.0dip" android:layout_weight="0.0" />
+        <TextView android:layout_width="0.0dip" android:text="@string/setting_ui_redundancy_sensor_imu_bias" android:layout_weight="1.0" style="@style/setting_ui_txt_small_gray" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq1" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bqa" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_acc0" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bqb" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+        <TextView android:id="@id/bqc" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_gyro0" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bqd" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq4" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bqe" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_acc1" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bqf" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+        <TextView android:id="@id/bqg" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_gyro1" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bqh" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bq7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/v9">
+        <TextView android:id="@id/bqi" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_acc2" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bqj" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+        <TextView android:id="@id/bqk" android:layout_width="@dimen/y7" android:text="@string/setting_ui_a3sensor_gyro2" android:drawableLeft="@drawable/setting_ui_flyc_circle" style="@style/setting_ui_txt" />
+        <dji.setting.ui.flyc.StatusView android:id="@id/bql" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginRight="@dimen/w8" android:layout_weight="1.0" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" style="@style/setting_ui_item">
+        <Button android:id="@id/bq_" android:text="@string/setting_ui_redundancy_sensor_imu_calc" style="@style/setting_ui_item_btn_big" />
+    </LinearLayout>
+</LinearLayout>

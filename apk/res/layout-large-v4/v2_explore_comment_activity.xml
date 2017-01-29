@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/n7" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/ckq" android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ckr" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:onClick="onClickHandler" />
+            <TextView android:textSize="@dimen/rk" android:textStyle="normal" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/v2_explore_title_text" android:layout_centerHorizontal="true" />
+            <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+                    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/k4" android:id="@id/cks" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_comment_black_background_tip_txt" android:layout_centerInParent="true" />
+                    <dji.pilot.publics.widget.DJISwipeListView android:id="@id/ckt" android:background="@android:color/transparent" android:scrollbars="none" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@android:color/transparent" android:drawSelectorOnTop="false" android:cacheColorHint="@android:color/transparent" android:divider="@color/ga" android:dividerHeight="1.0px" android:choiceMode="singleChoice" android:fastScrollEnabled="false" android:headerDividersEnabled="false" android:footerDividersEnabled="false" android:smoothScrollbar="true" android:overScrollMode="ifContentScrolls" />
+                </dji.publics.DJIUI.DJIRelativeLayout>
+                <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                    <dji.publics.DJIUI.DJIEditText android:id="@id/cku" android:layout_width="0.0dip" android:layout_height="wrap_content" android:minHeight="@dimen/gl" android:hint="@string/v2_explore_comment_hint" android:layout_weight="1.0" android:inputType="textMultiLine" android:onClick="onClickHandler" />
+                    <dji.pilot.publics.widget.DJIStateButton android:textSize="@dimen/rl" android:textStyle="bold" android:textColor="@color/om" android:layout_gravity="bottom" android:id="@id/ckv" android:background="@drawable/v2_explore_comment_post_btn_select" android:layout_width="@dimen/h4" android:layout_height="@dimen/gl" android:text="@string/v2_explore_comment_post" android:onClick="onClickHandler" />
+                </dji.publics.DJIUI.DJILinearLayout>
+            </LinearLayout>
+            <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+            <dji.publics.DJIUI.DJIImageView android:id="@id/c6b" android:background="@anim/b9" android:visibility="gone" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>

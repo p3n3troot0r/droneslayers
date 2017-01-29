@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list android:oneshot="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00000" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00001" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00002" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00003" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00004" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00005" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00006" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00007" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00008" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00009" />
+    <item android:duration="50" android:drawable="@drawable/v2_upgrade_activity_download_complete_00010" />
+</animation-list>

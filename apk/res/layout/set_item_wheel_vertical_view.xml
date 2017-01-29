@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <antistatic.spinnerwheel.WheelVerticalView android:layout_gravity="center_vertical" android:id="@id/bme" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="59.0dip">
+        <Button android:textColor="#ff00dafc" android:id="@id/bmf" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Cancel" android:layout_weight="1.0" />
+        <Button android:textColor="#ff00dafc" android:id="@id/bmg" android:background="#ffffffff" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Done" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

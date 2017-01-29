@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="wrap_content" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/aan" android:layout_width="wrap_content" android:layout_height="0.0dip" android:layout_marginTop="@dimen/n3" android:baselineAligned="false" android:layout_weight="1.0">
+        <include android:id="@id/aao" android:visibility="gone" android:layout_width="@dimen/gl" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n3" layout="@layout/camera_zoom_focus_view" />
+        <include android:id="@id/a2d" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" layout="@layout/camera_focus_ring_view" />
+        <include android:id="@id/aap" android:visibility="gone" android:layout_width="@dimen/gl" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/n3" layout="@layout/visual_point_speed_view" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="@dimen/gl" android:layout_marginTop="@dimen/rp" android:baselineAligned="false">
+        <dji.pilot.fpv.rightbar.DJIFMSettingView android:id="@id/a2c" android:background="@drawable/camera_light_radius_bg" android:visibility="gone" android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/n3" android:src="@drawable/gs_top_bar_setting_icon" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</merge>

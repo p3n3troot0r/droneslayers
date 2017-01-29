@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <android.support.v4.view.ViewPager android:id="@id/ckl" android:layout_width="fill_parent" android:layout_height="wrap_content" android:overScrollMode="never" />
+    <dji.pilot2.nativeexplore.view.IndicatorBar android:orientation="horizontal" android:id="@id/ckm" android:paddingBottom="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/ckl" android:layout_centerHorizontal="true" />
+    <HorizontalScrollView android:id="@id/ckn" android:scrollbars="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ckl" android:overScrollMode="never">
+        <LinearLayout android:orientation="horizontal" android:id="@id/cko" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gw">
+            <RelativeLayout android:id="@id/ckp" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <dji.pilot2.nativeexplore.view.RoundCImageView android:padding="@dimen/ga" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/v2_explore_guide_background" android:scaleType="centerCrop" app:cornerRadius="@dimen/gw" />
+                <TextView android:textColor="@android:color/white" android:gravity="center" android:paddingLeft="@dimen/h7" android:paddingBottom="@dimen/h7" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_guide_text" android:drawableLeft="@drawable/v2_explore_banner_pic" android:drawablePadding="@dimen/h7" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

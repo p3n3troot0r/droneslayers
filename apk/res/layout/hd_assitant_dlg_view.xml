@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/ap3" android:background="@drawable/stroke_dlg_dark_bg" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/dlg_titlebar_view" />
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ap4" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="设备" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ap5" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="70.0dip" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/ap6" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@drawable/selector_radiobutton" android:text="@string/fpv_hd_assitant_reomte_controller" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/ap7" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:button="@drawable/selector_radiobutton" android:text="UAV" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        </RadioGroup>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/ap8" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="处理器" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ap9" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="70.0dip" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/ap_" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@drawable/selector_radiobutton" android:text="CP A7" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/apa" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:button="@drawable/selector_radiobutton" android:text="1643" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/apb" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:button="@drawable/selector_radiobutton" android:text="4210" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/apc" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:button="@drawable/selector_radiobutton" android:text="AP" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        </RadioGroup>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/apd" style="@style/FpvGenRadiusItemLy">
+        <dji.publics.DJIUI.DJITextView android:text="数据类型" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ape" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="70.0dip" android:layout_centerVertical="true">
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/apf" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:checked="true" android:button="@drawable/selector_radiobutton" android:text="Int" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/apg" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:button="@drawable/selector_radiobutton" android:text="Short" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+            <dji.publics.DJIUI.DJIRadioButton android:id="@id/aph" android:paddingLeft="10.0dip" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:button="@drawable/selector_radiobutton" android:text="Byte" android:singleLine="false" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        </RadioGroup>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <dji.publics.DJIUI.DJITextView android:id="@id/api" android:layout_marginLeft="10.0dip" android:text="@string/fpv_hd_assitant_address" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <dji.pilot.publics.widget.DJIEditText android:id="@id/apj" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:maxLength="8" android:digits="0123456789abcdefABCDEF" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview2" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/a_" android:gravity="center" android:id="@id/apk" android:background="@drawable/battery_history_bg" android:paddingLeft="@dimen/n2" android:paddingRight="@dimen/n2" android:layout_width="60.0dip" android:layout_marginRight="10.0dip" android:text="@string/fpv_hd_assitant_read" android:layout_alignParentRight="true" android:layout_centerVertical="true" phantom:djiTextFace="a5" style="@style/BatteryDescTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <dji.publics.DJIUI.DJITextView android:id="@id/apl" android:layout_marginLeft="10.0dip" android:text="@string/fpv_hd_assitant_value" android:layout_centerVertical="true" phantom:djiTextFace="a4" style="@style/FpvGenSettingDescTxt" />
+        <dji.pilot.publics.widget.DJIEditText android:id="@id/apm" android:layout_width="150.0dip" android:layout_height="wrap_content" android:layout_marginLeft="80.0dip" android:digits="0123456789abcdefABCDEF" phantom:djiTextFace="a5" style="@style/FpvGenSettingEtview2" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/a_" android:gravity="center" android:id="@id/apn" android:background="@drawable/battery_history_bg" android:paddingLeft="@dimen/n2" android:paddingRight="@dimen/n2" android:layout_width="60.0dip" android:layout_marginRight="10.0dip" android:text="@string/fpv_hd_assitant_write" android:layout_alignParentRight="true" android:layout_centerVertical="true" phantom:djiTextFace="a5" style="@style/BatteryDescTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.publics.DJIUI.DJILinearLayout>

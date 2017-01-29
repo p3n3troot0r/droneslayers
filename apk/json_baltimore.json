@@ -1,0 +1,3 @@
+{"area_id":1555555,"type":0,"shape":0,"lat":39.29040000000,"lng":-76.61220000000,"radius":3000,"warning":2,"level":0,"disable":1,"updated_at":1481559814,"begin_at":0,"end_at":0,"name":"Baltimore","country":840,"city":"Baltimore","points":""}
+
+{"begin_at": 0, "area_id": 373838, "name": "Baltimore-Washington International/Thurgood Marshall Airport", "level": 2, "country": 840, "updated_at": 1462372675, "disable": 0, "end_at": 0, "shape": 0, "warning": 0, "radius": 23990, "lat": 39.173531, "lng": -76.672369, "type": 10, "city": "Baltimore", "points": ""}

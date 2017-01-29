@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="85.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/gsnew_gs_way_point_auto_fly_setting_desc" />
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:gravity="center_horizontal" android:id="@id/ao5" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/gsnew_gs_way_point_to_start_point_label" />
+        <dji.pilot.dji_groundstation.ui.views.PointToPointDistanceView android:textSize="21.0dip" android:textColor="@color/h_" android:gravity="center_horizontal" android:id="@id/ao6" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip" android:layout_weight="2.0">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/gsnew_gs_way_point_auto_fly_setting_yaw_mode_label" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <dji.pilot.dji_groundstation.ui.views.WayPointYawModeSettingView android:textSize="12.0dip" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ao7" android:background="@drawable/gs_poi_pause_btn_bg" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            </FrameLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/os" android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="@string/gsnew_gs_way_point_auto_fly_setting_finish_action_label" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <dji.pilot.dji_groundstation.ui.views.WayPointFinishActionSettingView android:textSize="12.0dip" android:textColor="@color/h_" android:gravity="center" android:layout_gravity="center_vertical" android:id="@id/ao8" android:background="@drawable/gs_poi_pause_btn_bg" android:layout_width="fill_parent" android:layout_height="25.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            </FrameLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+    <View android:background="@color/eo" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="15.0dip">
+        <dji.publics.DJIUI.DJITextView android:textSize="12.0dip" android:textColor="@color/om" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:text="@string/gsnew_gs_way_point_auto_fly_setting_speed_label" />
+        <dji.pilot.dji_groundstation.ui.views.WayPointSpeedControlView android:layout_gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJILinearLayout>

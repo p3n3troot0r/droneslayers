@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="o_">14.0dip</dimen>
+    <dimen name="of">10.0dip</dimen>
+    <dimen name="wu">16.0dip</dimen>
+</resources>

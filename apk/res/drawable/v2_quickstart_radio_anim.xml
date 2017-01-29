@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:duration="150" android:drawable="@drawable/quick_anim_item1" />
+    <item android:duration="150" android:drawable="@drawable/quick_anim_item2" />
+    <item android:duration="150" android:drawable="@drawable/quick_anim_item3" />
+    <item android:duration="150" android:drawable="@drawable/quick_anim_item4" />
+    <item android:duration="150" android:drawable="@drawable/quick_anim_item5" />
+</animation-list>

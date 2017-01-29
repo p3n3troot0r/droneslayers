@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="a">15</integer>
+    <integer name="b">8</integer>
+    <integer name="c">8115000</integer>
+    <integer name="d">150</integer>
+    <integer name="e">15</integer>
+    <integer name="f">20</integer>
+    <integer name="g">500</integer>
+    <integer name="h">50</integer>
+    <integer name="i">300</integer>
+    <integer name="j">10</integer>
+</resources>

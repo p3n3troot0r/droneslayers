@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.menu.DJIMenuSeptalLineLongan android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/b48" android:background="@color/ov" android:visibility="gone" android:layout_width="0.5dip" android:layout_height="fill_parent" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+    <View android:id="@id/b49" android:background="@color/ov" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</dji.device.camera.view.menu.DJIMenuSeptalLineLongan>

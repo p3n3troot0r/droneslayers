@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.sport.MergeSportAttitudeView android:background="@drawable/merge_sport_rmp_bg" android:layout_width="@dimen/fi" android:layout_height="@dimen/fi"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/merge_sport_ball_bg" android:contentDescription="@string/app_name" />
+    <dji.pilot.publics.widget.DJIClipView android:id="@id/a8z" android:layout_width="fill_parent" android:layout_height="fill_parent" app:initialAngle="90.0" app:isUseSrcSize="false" app:shape="w" app:src="@drawable/merge_sport_ball_color_bg" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gx" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textStyle="bold" android:id="@id/a90" android:layout_width="@dimen/h2" style="@style/GenCenterWrapTxt" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rn" android:textStyle="bold" android:id="@id/a91" android:layout_marginTop="@dimen/it" android:text="@string/unit_rpm" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.fpv.sport.MergeSportAttitudeView>

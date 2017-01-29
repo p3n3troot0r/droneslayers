@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_horizontal" android:id="@id/a5c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/y7" android:src="@drawable/liveshare_stream_finish" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rr" android:textColor="@color/om" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/a5d" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/uf" android:text="@string/liveshare_base_finish_over" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <Button android:textColor="@color/om" android:layout_gravity="center_horizontal" android:id="@id/a5e" android:background="@drawable/liveshare_facebook_start_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/g1" android:text="@string/liveshare_base_finish_confirm" android:layout_alignParentBottom="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

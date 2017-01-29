@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.joystick.DJIJoyStickView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/a34" android:background="@drawable/joystick_view_dash_line" android:visibility="gone" android:layout_width="2.0dip" android:layout_height="fill_parent" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" android:layerType="software" />
+    <dji.pilot.joystick.widget.OnScreenJoystick2 android:id="@id/a35" android:background="@drawable/joystick_right" android:layout_width="@dimen/fu" android:layout_height="@dimen/fu" android:layout_marginRight="120.0dip" android:layout_marginBottom="105.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    <dji.pilot.joystick.widget.OnScreenJoystick2 android:id="@id/a36" android:background="@drawable/joystick_left" android:layout_width="@dimen/fu" android:layout_height="@dimen/fu" />
+    <RelativeLayout android:id="@id/a37" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RadioGroup android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/a38" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="120.0dip" android:layout_marginBottom="35.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJIRadioButton android:id="@id/a39" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:button="@drawable/selector_radiobutton" android:text="A" android:singleLine="false" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJIRadioButton android:id="@id/a3_" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:button="@drawable/selector_radiobutton" android:text="P" android:singleLine="false" style="@style/FpvGenSettingDescTxt" />
+        <dji.publics.DJIUI.DJIRadioButton android:id="@id/a3a" android:paddingLeft="5.0dip" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:button="@drawable/selector_radiobutton" android:text="F" android:singleLine="false" style="@style/FpvGenSettingDescTxt" />
+    </RadioGroup>
+</dji.pilot.joystick.DJIJoyStickView>

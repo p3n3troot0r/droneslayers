@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <WebView android:id="@id/cno" android:fadingEdge="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:overScrollMode="ifContentScrolls" />
+    <ProgressBar android:id="@id/cnp" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="2.0dip" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/store_loading_progress" style="?android:attr/progressBarStyleHorizontal" />
+    <FrameLayout android:id="@id/cnq" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/cnr" android:background="@drawable/preview_header_graident_bg" android:layout_width="fill_parent" android:layout_height="@dimen/gl">
+            <dji.pilot.publics.widget.DJIStateImageView android:gravity="center" android:id="@id/cns" android:padding="8.0dip" android:layout_width="@dimen/gl" android:layout_height="fill_parent" android:layout_marginLeft="2.0dip" android:src="@drawable/ic_arrow_back_white" android:scaleType="centerCrop" />
+        </RelativeLayout>
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+</RelativeLayout>

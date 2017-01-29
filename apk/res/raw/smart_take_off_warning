@@ -1,0 +1,20 @@
+{
+    "mode":"poi",
+    "view":"view_fly_not_take_off_warining",
+    "title":"",
+    "width":250,
+    "height":270,
+    "x":0,
+    "y":0,
+    "gravity":"center",
+    "modal":1,
+    "backto":"gs://flightmode/main",
+    "buttons":[
+        {
+             "title":"gsnew_gs_main_exit_help_ok",
+             "color":"#1fa3f6",
+             "jumpto":"gs://flightmode/main"
+         }
+    ]
+    
+}

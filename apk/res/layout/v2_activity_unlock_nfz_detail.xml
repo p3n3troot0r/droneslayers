@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/n7" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@color/n7" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cgq" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/om" android:ellipsize="end" android:gravity="center" android:id="@id/cgr" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/fj" android:maxWidth="@dimen/g0" android:text="..." android:maxLines="1" android:layout_centerInParent="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/ky" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" android:layout_marginTop="@dimen/g1" />
+        <LinearLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_places_text" android:layout_weight="1.0" style="@style/v2_unlock_detail_txt_style" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/cgs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_places_text" android:layout_weight="2.0" style="@style/v2_unlock_detail_txt_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_location_text" android:layout_weight="1.0" style="@style/v2_unlock_detail_txt_style" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/cgt" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_location_text" android:layout_weight="2.0" style="@style/v2_unlock_detail_txt_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_time_text" android:layout_weight="1.0" style="@style/v2_unlock_detail_txt_style" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/cgu" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_time_text" android:layout_weight="2.0" style="@style/v2_unlock_detail_txt_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_status_text" android:layout_weight="1.0" style="@style/v2_unlock_detail_txt_style" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/cgv" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_status_text" android:layout_weight="2.0" style="@style/v2_unlock_detail_txt_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+        <LinearLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+            <dji.publics.DJIUI.DJITextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_area_type_text" android:layout_weight="1.0" style="@style/v2_unlock_detail_txt_style" />
+            <dji.publics.DJIUI.DJITextView android:id="@id/cgw" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/v2_nfz_area_type_text" android:layout_weight="2.0" style="@style/v2_unlock_detail_txt_style" />
+        </LinearLayout>
+        <ImageView android:background="@color/e7" android:layout_width="fill_parent" android:layout_height="1.0px" />
+    </LinearLayout>
+</LinearLayout>

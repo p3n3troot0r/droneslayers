@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:padding="@dimen/gw" android:layout_width="90.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/cjd" android:layout_width="@dimen/gh" android:layout_height="@dimen/gh" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+</RelativeLayout>

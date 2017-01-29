@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.RecoveryListView android:orientation="vertical" android:clickable="true" style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center_vertical" android:id="@id/bnb" android:background="@drawable/set_item_bg" android:layout_width="fill_parent" android:text="@string/set_recovery_camera" android:layout_weight="0.0" style="@style/set_item_title" />
+    <View style="@style/set_divider" />
+    <TextView android:gravity="center_vertical" android:id="@id/bnc" android:background="@drawable/set_item_bg" android:layout_width="fill_parent" android:text="@string/set_recovery_gimbal" android:layout_weight="0.0" style="@style/set_item_title" />
+    <View style="@style/set_divider" />
+    <TextView android:gravity="center_vertical" android:id="@id/bnd" android:background="@drawable/set_item_bg" android:layout_width="fill_parent" android:text="@string/set_recovery_all" android:layout_weight="0.0" style="@style/set_item_title" />
+    <View style="@style/set_divider" />
+</dji.pilot.set.view.RecoveryListView>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.rightbar.DJILPCameraQuickSettingView android:orientation="vertical" android:background="@drawable/right_to_left_mask_bg" android:clickable="true" android:layout_width="@dimen/gx" android:layout_height="fill_parent" android:layout_alignParentRight="true" android:splitMotionEvents="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/fj" android:alpha="0.0" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5_" android:src="@drawable/lp_quicksetting_home" style="@style/longan_preview_quick_setting_item" />
+    <View android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5b" android:src="@drawable/lp_selector_camera" style="@style/longan_preview_quick_setting_item" />
+    <View android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5c" android:src="@drawable/lp_selector_gimbal" style="@style/longan_preview_quick_setting_item" />
+    <View android:layout_weight="1.0" style="@style/longan_preview_quick_setting_interval" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b5d" android:src="@drawable/lp_quicksetting_setting" style="@style/longan_preview_quick_setting_item" />
+    <View android:layout_width="fill_parent" android:layout_height="@dimen/fj" android:alpha="0.0" />
+</dji.phone.rightbar.DJILPCameraQuickSettingView>

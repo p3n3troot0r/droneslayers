@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_focused="true" android:drawable="@drawable/v2_tans_small_unpress" />
+    <item android:drawable="@drawable/v2_trans_small_press" />
+</selector>

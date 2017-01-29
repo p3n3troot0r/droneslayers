@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:tag="layout/activity_language_setting_0" android:background="#ffefefef" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/gx" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/gy" android:paddingLeft="@dimen/c_" android:paddingRight="@dimen/c_" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_explore_arrow_left_back" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:onClick="onClickHandler" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rk" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_mine_multilanguage" android:layout_centerInParent="true" />
+        <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:id="@id/gz" android:padding="@dimen/gr" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:text="@string/v2_photo_editor_save" android:layout_alignParentRight="true" />
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/gx">
+        <RelativeLayout android:id="@id/h0" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/v2_mine_multilanguage_auto" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/h1" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/v2_profile_followed_black_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/h2" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/v2_mine_multilanguage_sc" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/h3" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/v2_profile_followed_black_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/h4" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/v2_mine_multilanguage_tw" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/h5" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/v2_profile_followed_black_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/h6" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/v2_mine_multilanguage_en" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/h7" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/v2_profile_followed_black_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+        <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentBottom="true" />
+        <RelativeLayout android:id="@id/h8" android:layout_width="fill_parent" android:layout_height="40.0dip">
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/lv" android:gravity="center" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="25.0dip" android:text="@string/v2_mine_multilanguage_jp" />
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/h9" android:visibility="gone" android:layout_width="15.0dip" android:layout_height="fill_parent" android:layout_marginRight="10.0dip" android:src="@drawable/v2_profile_followed_black_icon" android:scaleType="center" android:layout_alignParentRight="true" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:id="@id/co0" android:background="@color/nb" android:layout_width="fill_parent" android:layout_height="@dimen/c9">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/co1" android:padding="@dimen/fj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/c_" android:layout_marginRight="@dimen/c_" android:src="@drawable/explore_search_button" />
+        <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/co2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.pilot2.widget.DJINewStateTextView android:gravity="center" android:id="@id/co3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_tab_1_text" android:layout_centerInParent="true" style="@style/v2_new_text_attr" />
+            <View android:id="@id/co4" android:layout_width="wrap_content" android:layout_below="@id/co3" android:layout_alignLeft="@id/co3" android:layout_alignRight="@id/co3" style="@style/v2_new_topbar_explore_line_attr" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/co5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.pilot2.widget.DJINewStateTextView android:gravity="center" android:id="@id/co6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_tab_2_text" android:layout_centerInParent="true" style="@style/v2_new_text_attr" />
+            <View android:id="@id/co7" android:layout_width="wrap_content" android:layout_below="@id/co6" android:layout_alignLeft="@id/co6" android:layout_alignRight="@id/co6" style="@style/v2_new_topbar_explore_line_attr" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:gravity="center" android:layout_gravity="center" android:id="@id/co8" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <dji.pilot2.widget.DJINewStateTextView android:gravity="center" android:id="@id/co9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_tab_3_text" android:layout_centerInParent="true" style="@style/v2_new_text_attr" />
+            <View android:id="@id/co_" android:layout_width="wrap_content" android:layout_below="@id/co9" android:layout_alignLeft="@id/co9" android:layout_alignRight="@id/co9" style="@style/v2_new_topbar_explore_line_attr" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/gl" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ft">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/coa" android:padding="@dimen/fj" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_notify_bell" android:layout_centerInParent="true" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/h7" android:textColor="@color/om" android:ellipsize="end" android:gravity="center" android:id="@id/cob" android:background="@drawable/v2_red_circle_point" android:layout_width="@dimen/ft" android:layout_height="@dimen/ft" android:layout_marginTop="@dimen/h7" android:layout_marginRight="@dimen/gw" android:text="12" android:maxLines="1" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+    </LinearLayout>
+    <dji.pilot.publics.widget.DJIStateTextView android:textColor="@color/om" android:gravity="center" android:id="@id/coc" android:background="@color/kd" android:padding="@dimen/gw" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/v2_explore_host_empty_tip" />
+    <View android:background="@color/lr" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.pilot2.mine.view.RefreshableView android:orientation="vertical" android:id="@id/c8q" android:background="@color/k9" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ListView android:id="@id/c92" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@color/j5" android:overScrollMode="never" />
+        </dji.pilot2.mine.view.RefreshableView>
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/v2_webview_errorly_roundpgb" />
+    </RelativeLayout>
+</LinearLayout>

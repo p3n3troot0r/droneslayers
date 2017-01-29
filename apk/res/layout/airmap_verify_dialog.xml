@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:background="@drawable/fly_unlimit_arimap_verify_dialog_bg" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="@dimen/fj">
+        <WebView android:id="@id/id" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/ie" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/airmap_verify_close" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

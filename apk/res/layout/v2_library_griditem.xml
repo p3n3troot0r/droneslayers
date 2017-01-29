@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/cq1" android:background="#ffeaeaea" android:layout_width="@dimen/s4" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/cq2" android:layout_width="@dimen/s4" android:layout_height="wrap_content" android:src="@drawable/v2_photo_defalut" android:scaleType="centerCrop" />
+    <View android:id="@id/cps" android:background="@drawable/v2_lib_select_bg" android:visibility="gone" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/gw" />
+    <ImageView android:id="@id/cq3" android:background="@drawable/v2_library_itemselect_false" android:layout_width="@dimen/g8" android:layout_height="@dimen/g8" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" />
+    <View android:id="@id/cpu" android:layout_width="@dimen/gx" android:layout_height="@dimen/gx" />
+    <TextView android:textSize="@dimen/rp" android:textColor="@color/p7" android:id="@id/cq4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:layout_marginBottom="8.0dip" android:text="234" android:layout_alignRight="@id/cq2" android:layout_alignBottom="@id/cq2" style="@style/GenTxt" />
+</dji.publics.DJIUI.DJIRelativeLayout>

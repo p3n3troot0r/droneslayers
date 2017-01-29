@@ -1,0 +1,34 @@
+{
+    "mode":"poi",
+    "view":"view_poi_status",
+    "title":"gsnew_gs_point_of_insterest_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://smartmode/poi/exit",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "title":"",
+        "jumpto":"gs://smartmode/poi/exit"
+    },
+    "righttop":{
+        "img":"active_quest",
+        "jumpto":"gs://smartmode/poi/controlnotice/false"
+    },
+    "buttons":[
+        {
+            "title":"gsnew_gs_exit_current_mode",
+            "color":"#ffffff",
+            "jumpto":"gs://smartmode/poi/exit"
+        },
+        {
+            "title":"gsnew_gs_hide",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/poi/hide"
+        }
+
+    ]
+}

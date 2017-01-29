@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/gs_radius_corner_bg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+        <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/eb" android:gravity="center_vertical" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="@dimen/fj" android:layout_marginBottom="@dimen/gw" android:text="@string/fpv_rtk_dialog_title" android:drawableLeft="@drawable/rtk_icon" android:drawablePadding="@dimen/gw" android:layout_centerVertical="true" />
+        <Switch android:id="@id/aas" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:textOn="" android:textOff="" android:thumb="@drawable/setting_ui_cirsw_thumb" android:layout_alignParentRight="true" android:track="@drawable/setting_ui_cirsw_track" android:switchMinWidth="@dimen/vz" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:id="@id/aat" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/fj" android:layout_weight="1.0">
+        <TextView android:textSize="12.0sp" android:textColor="@color/om" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:text="@string/fpv_rtk_introduction_txt" />
+    </LinearLayout>
+    <ScrollView android:id="@id/aau" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/fj">
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fm" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fpv_rtk_dialog_antenna_m" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fpv_rtk_dialog_antenna_s" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="center" android:paddingTop="@dimen/gw" android:paddingBottom="@dimen/gw" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fpv_rtk_dialog_base_station" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" />
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/g8">
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/ov" android:gravity="center|right" android:paddingRight="@dimen/fj" android:layout_width="@dimen/fm" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_gps_num" />
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/aav" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/aaw" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/aax" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/g8">
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/ov" android:ellipsize="end" android:gravity="center|right" android:id="@id/aay" android:paddingRight="@dimen/fj" android:layout_width="@dimen/fm" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_north_num" android:maxLines="1" />
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/aaz" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab0" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab1" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fm" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="center" android:layout_gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/fpv_rtk_dialog_pilot_location" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="center" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/gw" android:text="@string/fpv_rtk_dialog_base_station_location" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" />
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/g8">
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/ov" android:gravity="center|right" android:paddingRight="@dimen/fj" android:layout_width="@dimen/fm" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_lat" />
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab2" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_m" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab3" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_s" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/g8">
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/ov" android:gravity="center|right" android:paddingRight="@dimen/fj" android:layout_width="@dimen/fm" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_lng" />
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab4" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_m" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab5" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_s" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/g8">
+                <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/ov" android:gravity="center|right" android:paddingRight="@dimen/fj" android:layout_width="@dimen/fm" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_height" />
+                <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab6" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_m" android:layout_weight="1.0" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/ab7" android:paddingLeft="@dimen/fj" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_s" android:layout_weight="1.0" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_marginTop="@dimen/gw">
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/ov" android:gravity="right" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/fpv_rtk_dialog_antenna_angle" />
+                <dji.publics.DJIUI.DJITextView android:textSize="12.0sp" android:textColor="@color/om" android:gravity="left" android:id="@id/ab8" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/fj" />
+            </dji.publics.DJIUI.DJILinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gc" android:layout_marginTop="@dimen/gw" android:layout_marginBottom="@dimen/fj">
+                <ImageView android:id="@id/ab9" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/rtk_disable_status_img" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/fpv_rtk_dialog_direction_status_text" />
+                <ImageView android:id="@id/ab_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:src="@drawable/rtk_disable_status_img" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/om" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/fpv_rtk_dialog_location_status_text" />
+            </LinearLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+    </ScrollView>
+    <dji.publics.DJIUI.DJILinearLayout android:background="@color/ov" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <dji.publics.DJIUI.DJITextView android:textSize="14.0sp" android:textColor="@color/om" android:gravity="center" android:id="@id/aba" android:background="@drawable/fpv_bottom_round_click_bg" android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/ok" />
+</dji.publics.DJIUI.DJILinearLayout>

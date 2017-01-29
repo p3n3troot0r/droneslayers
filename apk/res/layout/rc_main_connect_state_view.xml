@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/bjp" android:paddingBottom="32.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJITextView android:textSize="19.199982dip" android:id="@id/bjq" android:layout_marginLeft="28.0dip" android:text="@string/rc_main_connect_tip" android:includeFontPadding="false" style="@style/main_menu_text" />
+        <dji.publics.DJIUI.DJITextView android:textSize="36.0dip" android:layout_marginLeft="28.0dip" android:text="@string/rc_main_device_tip" android:includeFontPadding="false" style="@style/main_menu_text" />
+        <Button android:textSize="24.799988dip" android:textColor="@color/om" android:id="@id/bjr" android:background="@null" android:layout_marginLeft="32.0dip" android:layout_marginTop="28.0dip" android:text="@string/rc_main_device_enter_btn" style="@style/main_menu_text" />
+        <dji.publics.DJIUI.DJIImageView android:background="#ff1088f2" android:layout_width="240.0dip" android:layout_height="@dimen/gj" android:layout_marginTop="-4.0dip" />
+    </dji.publics.DJIUI.DJILinearLayout>
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/bjs" android:paddingBottom="32.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="28.0dip">
+            <dji.publics.DJIUI.DJITextView android:textSize="36.0dip" android:id="@id/bjt" android:baselineAlignBottom="true" android:text="Phantom4" style="@style/main_menu_text" />
+            <dji.publics.DJIUI.DJIImageView android:layout_width="40.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/rc_main_logo_pro" android:baselineAlignBottom="true" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ft">
+            <dji.publics.DJIUI.DJIImageView android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/rc_main_ic_connect_suc" />
+            <dji.publics.DJIUI.DJITextView android:layout_marginLeft="8.0dip" android:text="@string/rc_main_connect_success" style="@style/main_menu_text" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <Button android:textColor="@color/om" android:id="@id/bju" android:background="@drawable/rc_main_start_fly_bg" android:layout_width="280.0dip" android:layout_height="52.0dip" android:layout_marginTop="30.0dip" android:text="@string/rc_main_start_fly_btn" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.selfcal.DJIVisionSelfCalView android:orientation="vertical" android:id="@id/d7q" android:background="@color/o5" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="@dimen/gx">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d7r" android:text="@string/vision_selfcal_title" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/d7s" android:paddingLeft="@dimen/ft" android:paddingRight="@dimen/ft" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/v2_webview_close_btn" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <View style="@style/HorizontalDivider" />
+    <FrameLayout android:paddingLeft="@dimen/yd" android:paddingRight="@dimen/yd" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/d7t" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/d7u" android:paddingLeft="@dimen/gl" android:paddingRight="@dimen/gl" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/vision_selfcal_people" android:scaleType="centerInside" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+                <dji.pilot.publics.widget.DJISquareLayout android:id="@id/d7v" android:background="@drawable/vision_selfcal_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gl" android:layout_marginRight="@dimen/gl" android:layout_centerVertical="true" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/d7w" android:background="@drawable/vision_selfcal_front" android:layout_width="@dimen/h2" android:layout_height="@dimen/h2" android:contentDescription="@string/app_name" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d7x" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/vision_selfcal_desc_front" android:layout_weight="1.0" android:lineSpacingExtra="@dimen/h1" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/d7y" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false">
+            <dji.publics.DJIUI.DJIImageView android:id="@id/d7z" android:background="@drawable/vision_selfcal_processing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center" android:id="@id/d80" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/yd" android:layout_marginTop="@dimen/ft" android:layout_marginRight="@dimen/yd" android:text="@string/vision_selfcal_collect_completed" android:lineSpacingExtra="@dimen/ft" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d81" android:background="@drawable/white_border_bg" android:paddingLeft="@dimen/gx" android:paddingTop="@dimen/fj" android:paddingRight="@dimen/gx" android:paddingBottom="@dimen/fj" android:layout_marginTop="@dimen/ft" android:text="@string/vision_selfcal_retry" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </FrameLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:paddingLeft="@dimen/yd" android:paddingRight="@dimen/yd" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d82" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/gx">
+            <View style="@style/HorizontalDivider" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d83" android:background="@drawable/white_border_bg" android:paddingLeft="@dimen/gx" android:paddingTop="@dimen/fj" android:paddingRight="@dimen/gx" android:paddingBottom="@dimen/fj" android:text="@string/vision_selfcal_start" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJIRelativeLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/d84" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/gx" android:baselineAligned="false">
+            <ProgressBar android:id="@id/d85" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxHeight="@dimen/gr" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/vision_selfcal_now_pgb" android:minHeight="@dimen/gr" style="?android:attr/progressBarStyleHorizontal" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/d86" android:layout_marginTop="@dimen/h1" android:text="@string/vision_selfcal_title" android:layout_centerInParent="true" style="@style/GenCenterWrapTxt" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.visual.selfcal.DJIVisionSelfCalView>

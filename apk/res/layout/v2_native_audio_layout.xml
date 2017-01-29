@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:fitsSystemWindows="@bool/a" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="#ff222222" android:layout_width="fill_parent" android:layout_height="@dimen/gu">
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/cue" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/cuf" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:src="@drawable/v2_netaudio_selector" android:scaleType="centerInside" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ft" android:textColor="@drawable/v2_audio_selector" android:gravity="center" android:id="@id/cug" android:paddingLeft="@dimen/fj" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:text="@string/v2_audio_subtitle2" />
+            </LinearLayout>
+            <View android:id="@id/cuh" android:background="@drawable/v2_yellow_line" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+        <View android:background="@color/ov" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_margin="@dimen/gw" android:layout_marginTop="@dimen/gw" />
+        <RelativeLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <LinearLayout android:id="@id/cui" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+                <ImageView android:id="@id/cuj" android:layout_width="wrap_content" android:layout_height="@dimen/g1" android:src="@drawable/v2_audio_icon_selector" android:scaleType="centerInside" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ft" android:textColor="@drawable/v2_audio_selector" android:gravity="center" android:id="@id/cuk" android:paddingLeft="@dimen/fj" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_audio_subtitle1" />
+            </LinearLayout>
+            <View android:id="@id/cul" android:background="@drawable/v2_yellow_line" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+        </RelativeLayout>
+    </LinearLayout>
+    <View android:background="@color/lg" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <android.support.v4.view.ViewPager android:id="@id/cum" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.common.view.DJICameraChartViewCompat android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.device.common.view.DJILineChartViewCompat android:id="@id/um" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.device.common.view.DJIStateImageViewCompat android:id="@id/un" android:background="@drawable/fpv_camera_close_compat" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+</dji.device.common.view.DJICameraChartViewCompat>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.device.camera.view.record.DJIBottomBarLongan android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/b6q" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="@dimen/g8" android:layout_centerVertical="true" layout="@layout/longan_ssd_view" />
+    <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/b6r" android:background="@drawable/longan_preview_status_bg" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="wrap_content" android:layout_height="@dimen/g8" android:layout_marginLeft="@dimen/gw" android:layout_toRightOf="@id/b6q">
+        <dji.publics.DJIUI.DJILinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/b6s" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <dji.device.common.view.LonganBLN android:layout_gravity="center_vertical" android:id="@id/b6t" android:visibility="invisible" android:layout_width="5.0dip" android:layout_height="5.0dip" />
+            <dji.publics.DJIUI.DJITextView android:textColor="@color/om" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b6u" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ga" />
+            <View android:background="@color/oq" android:layout_width="0.30000007dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" />
+            <include android:layout_gravity="center_vertical" android:layout_width="45.0dip" android:layout_height="fill_parent" android:layout_marginLeft="4.0dip" layout="@layout/longan_record_voice_ly" />
+        </dji.publics.DJIUI.DJILinearLayout>
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="horizontal" android:id="@id/b6v" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b6w" android:layout_width="wrap_content" android:layout_height="fill_parent" phantom:djiTextFace="a5" />
+            <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:src="@drawable/arrow_timelapse" android:scaleType="center" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/om" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/b6x" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:text="" phantom:djiTextFace="a5" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.device.camera.view.record.DJIBottomBarLongan>

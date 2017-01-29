@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ax7" android:visibility="visible" android:layout_height="wrap_content" style="@style/setting_ui_item">
+        <dji.setting.ui.rc.FreqSnrSdrView android:id="@id/ax9" android:layout_width="fill_parent" android:layout_height="@dimen/u8" android:layout_centerHorizontal="true" />
+        <TextView android:textSize="@dimen/wn" android:id="@id/ax_" android:visibility="gone" android:text="@string/setting_ui_hd_channel_desc_auto" android:layout_alignTop="@id/ax9" android:layout_centerHorizontal="true" style="@style/setting_ui_item_title" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginBottom="@dimen/uf">
+            <ImageView android:background="@color/hr" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="@dimen/uf" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_stable" android:layout_centerVertical="true" style="@style/setting_ui_txt_small" />
+            <ImageView android:background="@color/hs" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_unstable" android:layout_centerVertical="true" style="@style/setting_ui_txt_small" />
+            <ImageView android:background="@color/hp" android:layout_width="@dimen/ue" android:layout_height="@dimen/vl" android:layout_marginLeft="30.0dip" />
+            <TextView android:layout_marginLeft="8.0dip" android:text="@string/setting_ui_hd_channel_desc_current" android:layout_centerVertical="true" style="@style/setting_ui_txt_small" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

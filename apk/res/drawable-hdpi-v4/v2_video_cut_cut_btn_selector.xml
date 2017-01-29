@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:Android="http://schemas.android.com/apk/res/android">
+    <item Android:state_pressed="true" Android:drawable="@drawable/v2_video_cut_cut_btn_highlight" />
+    <item Android:drawable="@drawable/v2_video_cut_cut_btn" />
+</selector>

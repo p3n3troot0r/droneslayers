@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cw7" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:id="@id/czk" android:background="@color/mx" android:paddingTop="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/td" android:layout_height="@dimen/tc">
+                <dji.publics.DJIUI.DJIImageView android:id="@id/czl" android:background="@drawable/v2_share_logo_background" android:clickable="true" android:layout_width="@dimen/tb" android:layout_height="@dimen/tb" android:layout_marginLeft="@dimen/fj" android:src="@drawable/v2_share_logo_url" android:scaleType="center" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+                <dji.publics.DJIUI.DJIImageView android:id="@id/czm" android:background="@drawable/v2_share_logo_background" android:clickable="true" android:layout_width="@dimen/tb" android:layout_height="@dimen/tb" android:layout_marginLeft="@dimen/fj" android:src="@drawable/v2_share_logo_wechat_photo_with_qr" android:scaleType="center" android:layout_toRightOf="@id/czl" android:layout_alignParentBottom="true" android:contentDescription="@string/app_name" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+            <dji.publics.DJIUI.DJIRelativeLayout android:layout_width="@dimen/td" android:layout_height="@dimen/gc" android:layout_marginBottom="@dimen/fj">
+                <dji.publics.DJIUI.DJITextView android:textColor="@color/a_" android:gravity="center" android:id="@id/czn" android:layout_width="@dimen/ta" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:text="@string/v2_share_to_wechat_url" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+                <dji.publics.DJIUI.DJITextView android:textColor="@color/a_" android:gravity="center" android:id="@id/czo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/fj" android:text="@string/v2_share_to_wechat_photo_with_qr" android:layout_toRightOf="@id/czn" android:layout_alignParentBottom="true" android:layout_centerVertical="true" />
+            </dji.publics.DJIUI.DJIRelativeLayout>
+        </dji.publics.DJIUI.DJILinearLayout>
+        <Button android:id="@id/cwb" android:background="@drawable/v2_share_cancel_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gq" android:text="@string/v2_share_cancel" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</LinearLayout>

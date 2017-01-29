@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateSetC1C2View android:id="@id/e8" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/v2_active_41" style="@style/activate_des_title" />
+    <TextView android:text="@string/v2_active_42" style="@style/activate_des_content" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/x1" android:textColor="@color/jm" android:gravity="center|left" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_active_c1" />
+        <Spinner android:gravity="center_horizontal" android:id="@id/e9" android:background="@null" android:paddingLeft="@dimen/fx" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_activivt_comfirm" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/activate_divider_line" />
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj">
+        <TextView android:textSize="@dimen/x1" android:textColor="@color/jm" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_active_c2" />
+        <Spinner android:gravity="center_horizontal" android:id="@id/e_" android:background="@null" android:paddingLeft="@dimen/fx" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <dji.publics.DJIUI.DJIImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/v2_activivt_comfirm" android:scaleType="centerInside" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <View style="@style/activate_divider_line" />
+    <ImageView android:id="@id/ea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gt" android:src="@drawable/v2_active_third_control" />
+</dji.pilot2.usercenter.activate.ActivateSetC1C2View>

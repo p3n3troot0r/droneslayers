@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot2.usercenter.activate.ActivateWifiSettingView android:id="@id/c51" style="@style/activate_llayout_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:text="@string/v2_active_wifi_setting_title" style="@style/activate_des_title" />
+    <TextView android:textSize="@dimen/wx" android:text="@string/v2_active_wifi_setting_desc" style="@style/activate_des_content" />
+    <RadioGroup android:id="@id/c52" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1">
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/x1" android:textColor="@color/p" android:gravity="center|left" android:id="@id/c53" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:button="@drawable/activate_control_mode_box_style" android:text="2.4G" />
+        <View android:id="@id/c54" android:layout_marginBottom="@dimen/fj" style="@style/activate_divider_line" />
+        <dji.publics.DJIUI.DJIRadioButton android:textSize="@dimen/x1" android:textColor="@color/p" android:gravity="center|left" android:id="@id/c55" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="false" android:button="@drawable/activate_control_mode_box_style" android:text="5G" />
+        <View android:id="@id/c56" android:layout_marginBottom="@dimen/fj" style="@style/activate_divider_line" />
+    </RadioGroup>
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/a8o" android:textColor="@color/jk" android:gravity="bottom" android:layout_gravity="center_horizontal" android:id="@id/c57" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gl" android:text="@string/v2_active_wifi_setting_detect_mobile_2dot4g" />
+</dji.pilot2.usercenter.activate.ActivateWifiSettingView>

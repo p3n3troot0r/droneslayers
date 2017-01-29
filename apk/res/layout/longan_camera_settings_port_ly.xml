@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/j5" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:splitMotionEvents="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/p_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_centerVertical="true" layout="@layout/longan_camera_mode_view_port" />
+    <RelativeLayout android:id="@id/b21" android:layout_width="@dimen/a0t" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/a0o" android:layout_toRightOf="@id/p_">
+        <dji.device.common.view.DJIStateImageViewCompat android:id="@id/b27" android:padding="@dimen/n4" android:visibility="visible" android:layout_width="@dimen/gc" android:layout_height="@dimen/gc" android:src="@drawable/camera_isoauto_normal" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" />
+        <RelativeLayout android:id="@id/b23" android:layout_width="fill_parent" android:layout_height="@dimen/a0s" android:layout_centerVertical="true">
+            <ImageView android:id="@id/b24" android:background="@drawable/longan_wheel_position_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerHorizontal="true">
+                <antistatic.spinnerwheel.WheelVerticalView android:id="@id/b25" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" phantom:visibleItems="3" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+                <dji.publics.DJIUI.DJITextView android:textSize="@dimen/a38" android:textColor="@color/fd" android:gravity="center" android:id="@id/b26" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="100" android:layout_alignRight="@id/b25" android:layout_centerVertical="true" phantom:djiTextFace="a5" />
+            </RelativeLayout>
+        </RelativeLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/b22" android:text="@string/longan_timelapse_iso_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/longan_timelapse_set_title" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/b28" android:layout_width="@dimen/a0t" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/a0o" android:layout_toRightOf="@id/b21">
+        <RelativeLayout android:id="@id/b2_" android:layout_width="fill_parent" android:layout_height="@dimen/a0s" android:layout_centerVertical="true">
+            <ImageView android:id="@id/b2a" android:background="@drawable/longan_wheel_position_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@id/b2b" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" phantom:visibleItems="3" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+        </RelativeLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/b29" android:text="@string/longan_timelapse_aperture_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/longan_timelapse_set_title" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/b2o" android:layout_width="@dimen/a0t" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/a0o" android:layout_toRightOf="@id/b28">
+        <RelativeLayout android:id="@id/b2e" android:layout_width="fill_parent" android:layout_height="@dimen/a0s" android:layout_centerVertical="true">
+            <ImageView android:id="@id/b2f" android:background="@drawable/longan_wheel_position_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@id/b2g" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" phantom:visibleItems="3" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+        </RelativeLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/b2d" android:text="@string/longan_timelapse_shutter_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/longan_timelapse_set_title" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="@dimen/a0t" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/a0o" android:layout_toRightOf="@id/b2o">
+        <RelativeLayout android:id="@id/b2j" android:layout_width="fill_parent" android:layout_height="@dimen/a0s" android:layout_centerVertical="true">
+            <ImageView android:id="@id/b2k" android:background="@drawable/longan_wheel_position_port" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            <antistatic.spinnerwheel.WheelVerticalView android:id="@id/b2l" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="0.0dip" android:layout_marginBottom="0.0dip" phantom:visibleItems="3" phantom:itemsDimmedAlpha="80" phantom:isCyclic="false" />
+        </RelativeLayout>
+        <TextView android:gravity="center_vertical" android:id="@id/b2i" android:text="@string/longan_timelapse_ev_title" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" style="@style/longan_timelapse_set_title" />
+    </RelativeLayout>
+</RelativeLayout>

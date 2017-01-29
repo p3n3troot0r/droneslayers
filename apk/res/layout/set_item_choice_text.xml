@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/a4r" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@drawable/set_item_title" android:gravity="center_vertical" android:id="@id/q6" android:text="Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区Tit死区" style="@style/set_item_title" />
+        <ImageView android:id="@id/blk" android:layout_width="@dimen/a4n" android:layout_height="@dimen/a4n" android:src="@drawable/set_item_selected_icon" android:scaleType="center" />
+    </LinearLayout>
+    <View android:id="@id/q9" style="@style/set_divider" />
+</LinearLayout>

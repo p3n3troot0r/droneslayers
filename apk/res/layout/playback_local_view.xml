@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/bhi" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/playback_album_local_view" />
+    <include android:id="@id/bhj" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="@dimen/a3i" android:layout_alignParentBottom="true" layout="@layout/playback_bottom_bar" />
+</dji.publics.DJIUI.DJIRelativeLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/b2z" android:background="@drawable/longan_motion_duraion_btn_bg" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:textSize="@dimen/a32" android:textColor="@color/om" android:id="@id/b30" android:background="@drawable/longan_motion_duraion_btn_bg" android:layout_width="@dimen/a31" android:layout_height="@dimen/a30" android:layout_centerVertical="true" />
+    <antistatic.spinnerwheel.WheelVerticalView android:id="@id/b31" android:visibility="gone" android:layout_width="@dimen/a31" android:layout_height="@dimen/a33" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/i5" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <View android:id="@id/c97" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <dji.pilot.publics.widget.DJIStateImageView android:id="@id/c98" android:layout_width="@dimen/gl" android:layout_height="@dimen/gl" android:layout_marginLeft="@dimen/g1" android:layout_marginTop="@dimen/g1" android:src="@drawable/v2_fullscreen_webview_cross" android:scaleType="centerCrop" android:onClick="onClickHandler" />
+</dji.publics.DJIUI.DJIRelativeLayout>

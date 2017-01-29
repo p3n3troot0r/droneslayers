@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/cwv" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:phantom="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/cww" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/g1" android:src="@drawable/v2_p3a_icon" android:scaleType="fitCenter" />
+    <RelativeLayout android:orientation="vertical" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="5.0">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d5" android:textStyle="bold" android:textColor="@color/ly" android:id="@id/cwx" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/cx" phantom:djiTextFace="a4" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/d0" android:textColor="@color/m1" android:id="@id/cwy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/cwx" phantom:djiTextFace="a6" />
+        <Button android:textSize="@dimen/d0" android:textColor="@drawable/v2_main_tab_textviewbutton_selector" android:gravity="center|left|top" android:id="@id/cwz" android:background="#00000000" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_learn_more" android:layout_below="@id/cwy" android:layout_alignLeft="@id/cwx" />
+    </RelativeLayout>
+</LinearLayout>

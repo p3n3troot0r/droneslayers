@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/v2_academy_header" />
+    <include layout="@layout/v2_type_spinner_bar" />
+    <dji.publics.DJIUI.DJIImageView style="@style/HorizontalGrayDivider" />
+    <RelativeLayout android:background="@color/om" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/c5z" android:background="@color/om" android:visibility="visible" android:layout_width="@dimen/c2" android:layout_height="@dimen/bs" android:layout_marginTop="@dimen/h7" android:layout_marginBottom="@dimen/h7" android:src="@drawable/logo_ins_pro" android:scaleType="centerCrop" android:layout_centerHorizontal="true" />
+        <View android:id="@id/c60" android:background="#ffe6e6e6" android:layout_width="fill_parent" android:layout_height="@dimen/fz" android:layout_below="@id/c5z" />
+        <LinearLayout android:orientation="horizontal" android:background="@color/om" android:paddingLeft="@dimen/bw" android:paddingRight="@dimen/bx" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/gt" android:layout_below="@id/c60">
+            <RelativeLayout android:id="@id/c61" android:background="@color/om" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:id="@id/c62" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_simulator_text" android:drawableTop="@drawable/newacademy_simulator" android:drawablePadding="@dimen/fj" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:layout_gravity="center" android:id="@id/c63" android:background="#ffe6e6e6" android:layout_width="@dimen/fz" android:layout_height="@dimen/gc" />
+            <RelativeLayout android:id="@id/c64" android:background="@color/om" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_video_text" android:drawableTop="@drawable/newacademy_video" android:drawablePadding="@dimen/fj" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:layout_gravity="center" android:background="#ffe6e6e6" android:layout_width="@dimen/fz" android:layout_height="@dimen/gc" />
+            <RelativeLayout android:id="@id/c65" android:background="@color/om" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:id="@id/c66" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_flight_text" android:drawableTop="@drawable/newacademy_flight" android:drawablePadding="@dimen/fj" android:layout_centerInParent="true" />
+            </RelativeLayout>
+            <View android:layout_gravity="center" android:background="#ffe6e6e6" android:layout_width="@dimen/fz" android:layout_height="@dimen/gc" />
+            <RelativeLayout android:id="@id/c67" android:background="@color/om" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+                <TextView android:textSize="12.0sp" android:textColor="#ff727272" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_academy_introduction_text" android:drawableTop="@drawable/newacademy_introduction" android:drawablePadding="@dimen/fj" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.BatteryInfoView android:orientation="vertical" android:clickable="true" style="@style/set_group_layout"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:set="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fadeScrollbars="false">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_voltage_desc" style="@style/set_item_title" />
+                <TextView android:id="@id/bmi" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_current_volume" style="@style/set_item_title" />
+                <TextView android:id="@id/bmj" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmk" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_full_volume" style="@style/set_item_title" />
+                <TextView android:id="@id/bml" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmm" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_charge_times" style="@style/set_item_title" />
+                <TextView android:id="@id/bmn" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmo" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_cell_voltage" style="@style/set_item_title" />
+                <TextView android:id="@id/bmp" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bmq" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_serial_number" style="@style/set_item_title" />
+                <TextView android:id="@id/bmr" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/bms" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_lifetime" style="@style/set_item_title" />
+                <TextView android:id="@id/bmt" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:gravity="center_vertical" android:text="@string/battery_product_date" style="@style/set_item_title" />
+                <TextView android:id="@id/bmu" android:paddingRight="15.0dip" android:text="" style="@style/set_item_value" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</dji.pilot.set.view.BatteryInfoView>

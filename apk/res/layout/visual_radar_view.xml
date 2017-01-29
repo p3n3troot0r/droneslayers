@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.view.DJIVisualRadarView android:paddingTop="@dimen/n4" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d_9" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d__" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_a" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_b" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_c" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textStyle="bold" android:textColor="@color/om" android:id="@id/d_d" android:background="@drawable/radar_distance_bg" android:paddingTop="@dimen/ga" android:paddingBottom="@dimen/ga" android:layout_width="@dimen/gl" android:layout_centerHorizontal="true" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d_e" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_f" android:background="@drawable/vision_radar_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/n3" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/d_g" android:background="@drawable/visual_radar_warn_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:adjustViewBounds="true" android:layout_centerHorizontal="true" android:contentDescription="@string/app_name" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:id="@id/d_h" android:layout_marginTop="@dimen/n4" android:maxWidth="@dimen/fw" android:text="@string/visual_radar_dected_fail_diff" android:maxLines="3" android:singleLine="false" android:shadowColor="@color/a_" android:shadowDx="3.0" android:shadowDy="3.0" android:shadowRadius="3.0" android:layout_below="@id/d_g" android:layout_centerHorizontal="true" style="@style/GenCenterWrapTxt" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+</dji.pilot.visual.view.DJIVisualRadarView>

@@ -1,0 +1,24 @@
+{
+    "mode":"poi",
+    "view":"view_poi_sethotpoint",
+    "title":"gsnew_gs_point_of_insterest_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":0,
+    "backto":"gs://flightmode/main",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://flightmode/main"
+    },
+    "buttons":[
+        {
+           "title":"gsnew_gs_point_of_insterest_height_ok",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/poi/start"
+         }
+    ]
+    
+}

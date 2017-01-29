@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.phone.live.DJILPLiveShareFpvView android:layout_gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/bb7" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azd" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="@string/lp_live_connect" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/aze" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/gw" android:text="00:00" android:layout_below="@id/azd" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azf" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lp_live_fps" android:layout_toRightOf="@id/azd" />
+        <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/om" android:id="@id/azg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:text="0.0" android:layout_toRightOf="@id/azf" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/azh" android:layout_width="@dimen/h1" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/gw" android:src="@drawable/longan_record_recorder" android:layout_toRightOf="@id/aze" android:layout_alignBottom="@id/aze" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/azi" android:layout_width="@dimen/ft" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/n4" android:src="@drawable/lp_singal_level" android:scaleType="centerInside" android:adjustViewBounds="true" android:maxWidth="@dimen/gl" android:baselineAlignBottom="true" android:layout_toRightOf="@id/azh" android:layout_below="@id/azf" android:layout_alignBaseline="@id/aze" android:layout_centerVertical="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <RelativeLayout android:id="@id/bb8" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <dji.publics.DJIUI.DJIImageView android:layout_gravity="center_vertical" android:id="@id/azc" android:background="@drawable/lp_liveshare_streaming_lost" android:layout_width="@dimen/gh" android:layout_height="@dimen/gh" android:layout_marginLeft="@dimen/h1" android:contentDescription="@string/app_name" />
+    </RelativeLayout>
+</dji.phone.live.DJILPLiveShareFpvView>

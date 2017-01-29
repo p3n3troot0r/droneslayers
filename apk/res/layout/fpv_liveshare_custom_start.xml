@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJIRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageButton android:id="@id/a6y" android:background="@drawable/setting_ui_common_bg" android:layout_width="@dimen/vg" android:layout_height="@dimen/vg" android:src="@drawable/setting_ui_root_back" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/a6z" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/gt" android:src="@drawable/liveshare_stream_finish" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/om" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/g1" android:text="@string/liveshare_custom_start_stream" android:layout_below="@id/a6z" />
+    <Button android:textColor="@color/om" android:id="@id/a70" android:background="@drawable/liveshare_facebook_start_btn" android:layout_width="fill_parent" android:layout_height="@dimen/gf" android:layout_marginLeft="@dimen/g1" android:layout_marginRight="@dimen/g1" android:layout_marginBottom="@dimen/g1" android:text="@string/liveshare_custom_start" android:layout_alignParentBottom="true" />
+</dji.publics.DJIUI.DJIRelativeLayout>

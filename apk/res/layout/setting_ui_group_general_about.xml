@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView setting_ui:titleText="@string/setting_ui_flyc" style="@style/setting_ui_items_scrollview"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:setting_ui="http://schemas.android.com/apk/res-auto">
+    <LinearLayout style="@style/setting_ui_items_linearlayout">
+        <dji.setting.ui.general.AppVersionView setting_ui:titleText="@string/setting_ui_general_app_version" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionPackageAircraftView setting_ui:titleText="@string/setting_ui_general_version" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionPackageLB2View setting_ui:titleText="@string/setting_ui_general_lb2" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionPackageCameraView setting_ui:titleText="@string/setting_ui_general_camera" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionPackageRcView setting_ui:titleText="@string/setting_ui_general_rc" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionBatteryView setting_ui:titleText="@string/setting_ui_general_battery" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionCameraView setting_ui:titleText="@string/setting_ui_general_camera" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionCenterView setting_ui:titleText="@string/setting_ui_general_center" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionDM368View setting_ui:titleText="@string/setting_ui_general_dm368" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionDM368GView setting_ui:titleText="@string/setting_ui_general_dm368g" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionFlycView setting_ui:titleText="@string/setting_ui_general_flight_controller" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionFPGAView setting_ui:titleText="@string/setting_ui_general_fpga" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionGimbalView setting_ui:titleText="@string/setting_ui_general_gimbal" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionOfdmView setting_ui:titleText="@string/setting_ui_general_lightbridge" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionOsdView setting_ui:titleText="@string/setting_ui_general_rc" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.VersionWifiView setting_ui:titleText="@string/setting_ui_general_wifi" style="@style/setting_ui_item" />
+        <dji.setting.ui.general.FlycSnView setting_ui:titleText="@string/setting_ui_general_flyc_sn" style="@style/setting_ui_item" />
+    </LinearLayout>
+</ScrollView>

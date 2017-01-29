@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.set.view.LiveSelectGroupView android:orientation="vertical" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:liveshare="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/bav" android:layout_width="0.0dip" android:layout_height="wrap_content" android:weightSum="1.0" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/baw" android:background="@drawable/live_logo_fb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bax" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="facebook" android:layout_weight="14.16" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/baz" android:background="@drawable/live_logo_youtube" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bb0" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/lp_live_option_youtube" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bb1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/bb2" android:background="@drawable/live_logo_wb" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bb3" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/lp_live_option_weibo" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/bb4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/bb5" android:background="@drawable/live_logo_custom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" />
+            <TextView android:textSize="14.0sp" android:textColor="@android:color/white" android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/bb6" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:text="@string/lp_live_option_custom" />
+        </LinearLayout>
+    </LinearLayout>
+</dji.pilot.set.view.LiveSelectGroupView>

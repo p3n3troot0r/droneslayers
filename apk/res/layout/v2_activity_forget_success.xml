@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/om" android:paddingTop="@dimen/g1" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/c93" layout="@layout/v2_forget_success_title" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c94" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ii" android:src="@drawable/forget_psw_email" android:layout_below="@id/c93" android:layout_centerHorizontal="true" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ij" android:textColor="#ff4a4a4a" android:gravity="center" android:id="@id/c95" android:layout_width="@dimen/il" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ik" android:layout_below="@id/c94" android:layout_centerHorizontal="true" />
+    <dji.pilot.publics.widget.DJIStateButton android:textSize="16.0sp" android:textColor="#ff1088f2" android:id="@id/c96" android:background="@drawable/account_forget_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ih" android:text="@string/home_account_forget_signin" android:layout_below="@id/c95" android:layout_centerHorizontal="true" />
+</RelativeLayout>

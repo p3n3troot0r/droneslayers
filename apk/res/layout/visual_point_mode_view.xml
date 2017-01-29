@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/d9p" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/visual_point_normal" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+            <dji.pilot.publics.widget.DJIStateImageView android:id="@id/d9q" android:layout_width="@dimen/h4" android:layout_height="@dimen/h4" android:src="@drawable/gs_course_lock_aircraft" android:scaleType="center" android:adjustViewBounds="true" android:contentDescription="@string/app_name" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rq" android:textColor="@color/om" android:gravity="center" android:id="@id/d9r" android:padding="@dimen/fj" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/visual_point_normal_desc" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </ScrollView>
+    <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/o_" android:textColor="@color/er" android:gravity="center" android:id="@id/d9s" android:background="@drawable/gs_click_background" android:layout_width="fill_parent" android:layout_height="@dimen/gh" android:text="@string/app_enter" />
+</dji.publics.DJIUI.DJILinearLayout>

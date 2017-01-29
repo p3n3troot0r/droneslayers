@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/d5a" android:background="@color/ky" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <dji.publics.DJIUI.DJILinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <dji.publics.DJIUI.DJIImageView android:background="@drawable/v2_explore_wifi_img" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rk" android:textColor="@color/k_" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/v2_explore_network_error" />
+            <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rl" android:textColor="@color/e7" android:layout_gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/v2_explore_no_network_detail" />
+            <dji.pilot.publics.widget.DJIStateTextView android:textSize="@dimen/ro" android:textColor="@color/kh" android:layout_gravity="center_horizontal" android:id="@id/d5b" android:background="@drawable/v2_explore_reload_btn_bg" android:paddingLeft="@dimen/ft" android:paddingTop="@dimen/gw" android:paddingRight="@dimen/ft" android:paddingBottom="@dimen/gw" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fj" android:text="@string/v2_explore_reload" />
+        </dji.publics.DJIUI.DJILinearLayout>
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d5c" android:background="@anim/b9" android:visibility="gone" android:layout_width="@dimen/g1" android:layout_height="@dimen/g1" android:layout_centerInParent="true" />
+</RelativeLayout>

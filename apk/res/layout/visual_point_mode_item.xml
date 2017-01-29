@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="@dimen/h4" android:layout_height="wrap_content" android:layout_marginTop="@dimen/h7" android:layout_marginBottom="@dimen/h7" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/d9n" android:background="@drawable/gs_course_lock_aircraft" android:duplicateParentState="true" android:layout_width="@dimen/gx" android:layout_height="@dimen/gx" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/pa" android:gravity="center" android:id="@id/d9o" android:padding="@dimen/gr" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/visual_point_reverse" />
+</dji.publics.DJIUI.DJILinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.visual.view.VisualTrackView android:id="@id/d_z" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.pilot.visual.util.VisualDrawOnScreen android:id="@id/da0" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJIImageView android:id="@id/da1" android:background="@drawable/visual_point_tag" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:contentDescription="@string/app_name" />
+    <include android:id="@id/da2" android:visibility="gone" layout="@layout/visual_track_target_view" />
+    <dji.publics.DJIUI.DJILinearLayout android:gravity="center_vertical" android:id="@id/da3" android:visibility="gone" android:layout_width="@dimen/gb" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fp" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true">
+        <dji.publics.DJIUI.DJIImageView android:id="@id/da4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_cw_big" />
+        <dji.pilot.visual.view.DJICircleSeekBar android:id="@id/da5" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/h7" android:layout_marginRight="@dimen/h7" android:layout_marginBottom="@dimen/rq" android:layout_weight="1.0" />
+        <dji.publics.DJIUI.DJIImageView android:id="@id/da6" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_track_ccw_big" />
+    </dji.publics.DJIUI.DJILinearLayout>
+</dji.pilot.visual.view.VisualTrackView>

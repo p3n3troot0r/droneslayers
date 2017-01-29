@@ -1,0 +1,24 @@
+{
+    "mode":"waypoint",
+    "view":"view_waypoint_upload_mission",
+    "title":"gsnew_gs_way_point_view_title",
+    "width":0.36,
+    "height":1,
+    "x":0,
+    "y":0,
+    "gravity":"right",
+    "modal":1,
+    "backto":"gs://smartmode/back",
+    "lefttop":{
+        "img":"gs_left_arrow_icon",
+        "jumpto":"gs://smartmode/back"
+    },
+    "buttons":[
+        {
+           "title":"gsnew_gs_return_to_home_attitude_dialog_cancle",
+            "color":"#1fa3f6",
+            "jumpto":"gs://smartmode/waypoint/canceluploadmission"
+         }
+    ]
+    
+}

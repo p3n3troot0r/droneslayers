@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.publics.DJIUI.DJILinearLayout android:orientation="vertical" android:background="@drawable/flight_info_bg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIImageView android:id="@id/c1p" android:duplicateParentState="true" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginLeft="@dimen/n2" android:layout_marginRight="@dimen/n2" android:src="@drawable/inspire_image" android:scaleType="centerInside" android:adjustViewBounds="true" android:layout_weight="1.0" android:contentDescription="@string/app_name" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/ro" android:textColor="@color/gb" android:gravity="center" android:id="@id/c1q" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    <dji.publics.DJIUI.DJITextView android:textSize="@dimen/rp" android:textColor="@color/a_" android:id="@id/c1r" android:background="@drawable/flight_item_bottom_bg" android:paddingTop="@dimen/n4" android:paddingBottom="@dimen/n4" android:layout_width="fill_parent" style="@style/GenCenterWrapTxt" />
+</dji.publics.DJIUI.DJILinearLayout>

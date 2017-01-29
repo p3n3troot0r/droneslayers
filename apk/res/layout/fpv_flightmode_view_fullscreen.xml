@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<dji.pilot.fpv.flightmode.FlightModeFullScreenView android:orientation="vertical" android:background="@color/ak" android:layout_width="fill_parent" android:layout_height="fill_parent" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <dji.publics.DJIUI.DJIRelativeLayout android:id="@id/a11" android:layout_width="fill_parent" android:layout_height="@dimen/gt">
+        <dji.pilot.publics.widget.DJIStateImageView android:id="@id/a12" android:background="@color/ov" android:paddingLeft="@dimen/fj" android:paddingRight="@dimen/fj" android:layout_width="@dimen/gq" android:layout_height="@dimen/gq" android:src="@drawable/v2_fullscreen_webview_cross" android:layout_alignParentRight="true" android:contentDescription="@string/app_name" />
+    </dji.publics.DJIUI.DJIRelativeLayout>
+    <android.support.v4.view.ViewPager android:id="@id/a13" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/a11" />
+    <RelativeLayout android:id="@id/a14" android:background="@color/a_" android:layout_width="fill_parent" android:layout_height="@dimen/h6" android:layout_alignParentBottom="true">
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/om" android:id="@id/a15" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/fj" android:text="@string/fpv_gensetting_beginner_toggle_desc" />
+        <TextView android:textSize="@dimen/rl" android:textColor="@color/ku" android:id="@id/a16" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/g8" android:layout_marginTop="@dimen/gw" android:layout_marginRight="@dimen/fm" android:text="@string/setting_ui_flyc_beginner_desc" android:layout_below="@id/a15" />
+        <Switch android:id="@id/a17" android:layout_marginRight="@dimen/g8" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/setting_ui_item_switch" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/a18" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/fj" android:layout_above="@id/a14" android:layout_centerHorizontal="true" />
+</dji.pilot.fpv.flightmode.FlightModeFullScreenView>
