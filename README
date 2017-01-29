@@ -29,12 +29,11 @@ can connect, having authenticated with the drone's wifi network using the passwo
 and WiFi configuration data.
 
 3. pwcracking
-This was an effort to brute force the root Linux password using a parallelized version of John the Ripper on the supercluster 
-maya: http://hpcf.umbc.edu/
-
-The pwcracking directory contains all sorts of wordlists we found and attempted to combine, including pinyin-based and 
-amalgamations of industry breach dumps, using clever john.conf configurations - unfortunately after ten days of running 
-in parallel on two user accounts, the password still had not been cracked and we discontinued this effort. 
+This was an effort to brute force the root Linux password using a parallelized version of John the Ripper on a 324 node 
+heterogeneous supercluster. The pwcracking directory contains all sorts of wordlists (a few were too large for github) we 
+found and attempted to combine, including pinyin-based and amalgamations of industry breach dumps, using clever john.conf 
+configurations - unfortunately after ten days of running in parallel on two user accounts, the password still had not been 
+cracked and we discontinued. 
 
 4. SDR/Wireshark
 There is a lot of traffic to eavesdrop on between the controller, the drone, and the phone running the DJIGO app. 
